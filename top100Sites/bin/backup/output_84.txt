@@ -1,0 +1,2296 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!--71248779-->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="http://static.4shared.com/js/plugins/jquery.form.js"></script>
+
+
+
+ <!--71248779-->
+    <!-- Google Website Optimizer Control Script -->
+    <script>
+    function utmx_section(){}function utmx(){}
+    (function(){var k='2797291832',d=document,l=d.location,c=d.cookie;function f(n){
+    if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.indexOf(';',i);return escape(c.substring(i+n.
+    length+1,j<0?c.length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;
+    d.write('<sc'+'ript src="'+
+    'http'+(l.protocol=='https:'?'s://ssl':'://www')+'.google-analytics.com'
+    +'/siteopt.js?v=1&utmxkey='+k+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='
+    +new Date().valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+    '" type="text/javascript" charset="utf-8"></sc'+'ript>')})();
+    </script>
+    <!-- End of Google Website Optimizer Control Script -->
+    <!-- Google Website Optimizer Tracking Script -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['gwo._setAccount', 'UA-306602-3']);
+      _gaq.push(['gwo._trackPageview', '/2797291832/test']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <!-- End of Google Website Optimizer Tracking Script -->
+<script type="text/javascript" src="/js/header.js"></script>
+<script type="text/javascript" src="/js/account/AccountFacade.js?rnd=1"></script>
+  
+  <link rel="stylesheet" type="text/css" href="/css/ui/elements.css?ver=13840">
+  <!--[if lt IE 8]>
+  <script src="/js/IE7.js"></script>
+  <![endif]-->
+
+  <!--[if IE 9]>
+  <style type="text/css">
+   a.button-orange, .submit-blue, a.submit-blue, a.submit-blue:link, a.submit-blue:visited, .submit-light, a.submit-light {filter:none !important;}
+  </style>
+  <![endif]-->
+
+  <script src="/js/modernizr.custom.js?ver=13840"></script>
+
+<link rel="stylesheet" type="text/css" href="http://static.4shared.com/css/main.css?ver=13840">
+<link rel="stylesheet" type="text/css" href="http://static.4shared.com/css/common_n.css?ver=13840">
+<link rel="stylesheet" type="text/css" href="http://static.4shared.com/css/popup_n.css?ver=13840">
+<link rel="stylesheet" type="text/css" href="http://static.4shared.com/css/header.css?ver=13840">
+
+
+
+
+
+
+    <script type="text/javascript">if (self != top) {top.location = self.location; }</script>
+    <title>4shared.com - free file sharing and storage</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Description"
+          content="Online file sharing and storage - 10 GB free web space. Easy registration. File upload progressor. Multiple file transfer. Fast download.">
+    <meta name="Keywords"
+          content="file sharing, free web space, online storage, share files, photo image music mp3 video sharing, dedicated hosting, enterprise sharing, file transfer, file hosting, internet file sharing">
+    <meta name="google-site-verification" content="TAHHq_0Z0qBcUDZV7Tcq0Qr_Rozut_akWgbrOLJnuVo"/>
+    <meta name="google-site-verification" content="1pukuwcL35yu6lXh5AspbjLpwdedmky96QY43zOq89E" />
+    <meta name="google-site-verification" content="maZ1VodhpXzvdfDpx-2KGAD03FyFGkd7b7H9HAiaYOU" />
+
+    <link rel="stylesheet" type="text/css" href="/css/indexn2.css?ver=13840">
+    <link rel="stylesheet" type="text/css" href="/css/ui/elements.css?ver=13840">
+
+
+    <!--[if lt IE 8]>
+    <script src="/js/IE7.js"></script>
+    <![endif]-->
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $(".productBox .item .pic").hover(function() {
+                var n = $(".pic").index(this) + 1;
+
+                $(".productBox .bord .a").animate({'left': (n * 200) - 115 + 'px'}, 100,
+                        function() {
+                            $(".productInfo .n").hide()
+                            $(".productInfo #n" + n).show();
+                        }
+
+                );
+
+
+            });
+
+            
+            $(".uploader .drag").hide();
+            $(".uploader .click").show();
+            
+
+            $('#fid0').change(function() {
+                anonUploadWidget.start();
+            });
+
+            /*$(".drag").drop(function(event) {
+             event.stopPropagation();
+             event.preventDefault();
+             });
+             $('.uploader').click(function() {
+             AccountFacade.popup({
+             element: $("#upbox")
+             })
+             return false
+             })*/
+
+
+        });
+
+        function stopAnonUpload() {
+            if (!confirm("Do you want to cancel upload?")) return false
+
+            anonUploadWidget.stop();
+            return true
+        }
+
+    </script>
+
+
+    <!--[if gte IE 9]>
+    <style type="text/css">
+        .searchform .filter,
+        .searchform .search {
+            filter: none;
+        }
+    </style>
+    <![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/indexn.js?ver=13840"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/login_fnc.js?ver=13840"></script>
+
+    
+</head>
+<body class="no-js index">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/rotatorRegisterClick.js?ver=13840"></script>
+
+
+<script type="text/javascript">
+    function reportClickAndGo(link, type) {
+        switch (type) {
+            case 'desktop':
+                return rotatorRegisterClick(1, true);;
+                break;
+            case 'tb':
+                return rotatorRegisterClick(1, false);;
+                break;
+            case 'sync':
+                return rotatorRegisterClick(3, true);;
+                break;
+        }
+        window.location = link;
+    }
+
+    function reportClickAndShowTbTip(type) {
+        switch (type) {
+            case 'desktop':
+                return rotatorRegisterClick(1, true);;
+                break;
+            case 'tb':
+                
+                return rotatorRegisterClick(1, false);;
+                break;
+            case 'sync':
+                return rotatorRegisterClick(3, true);;
+                break;
+        }
+    }
+</script>
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/ui/AnonUploadWidget.js?ver=13840"></script>
+<script type="text/javascript" src="http://static.4shared.com/js/account/AjaxFacade.js?ver=13840"></script>
+<!-- jwr script src="/js/ajaxHelper.js"/ -->
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/ajaxHelper.js?ver=13840"></script>
+
+<script type="text/javascript">
+    document.domain = '4shared.com';
+    function anonUploadDone(aFileId) {
+    
+    
+        top.location.href = 'http://www.4shared.com/enter.jsp?sId=zUaYJ4FkT6LDASMG&&fau=1&ausk=zUaYJ4FkT6LDASMG&au=1';
+    
+    }
+</script>
+<div id="upbox" style="display:none;">
+    <div class="upbox alignLeft">
+        <div class="upfiles f18 ffshadow">
+            <span class="ft absmid marginR5 sprite1"></span><span class="absmid"><span class="numFiles"></span></span>
+        </div>
+        <div class="upprogr">
+            <div class="percent sprite1">
+                <div class="num  ffshadow f11"><span class="percentvalue">0</span>%</div>
+            </div>
+
+            <div class="progressbar round4">
+                <div class="in_shadow round4">
+                    <div class="progress roundBL4 roundTL4">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="marginT30">
+                <div class="floatLeft marginT5">
+                    <img src="/images/blank.gif" class="sprite1 absmid"
+                         style="background-position:-75px -452px; width:14px; height:17px;"/>
+                    <span class="absmid leftTime" style="padding-top:3px;"></span>
+                </div>
+
+                <div class="floatRight">
+                    <a href="#" onclick="return stopAnonUpload();" class="submit-light round4 gaClick" data-element="2">Stop</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+<div id="container">
+<div id="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="http://static.4shared.com/js/json2.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/plugins/jquery.caps.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/plugins/jquery.openid.js"></script>
+
+<script src="http://static.4shared.com/js/purchaseStats.js?ver=13840" type="text/javascript"></script>
+<!--
+<jwr script src="/js/LAB.min.js"/>
+<jwr script src="/js/Events.js"/>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/plugins/jquery.cycle.all.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/webtoolkit.base64.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/ajaxSuggestions.js?ver=13840"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/LAB.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/upload.js?ver=13840"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/dw_event.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/dw_viewport.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/dw_writedrag.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/dw_drag.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/index.js?ver=13840"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/afs_request_done.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/play.js?ver=13840"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/dphistfav.js?ver=13840"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/cookie.js?ver=13840"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/swfobject.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/quickedit_fnc.js?ver=13840"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/adlogger_tracker.js?ver=13840"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/utils.js?ver=13840"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/plugins/jquery.uploadify.v2.1.0.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/swfupload-2.2.0.1/plugins/swfupload.cookies.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/swfupload-2.2.0.1/plugins/swfupload.queue.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/swfupload-2.2.0.1/plugins/swfupload.speed.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/swfupload-2.2.0.1/plugins/swfupload.swfobject.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/swfupload-2.2.0.1/swf_upload_helper.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/swfupload-2.2.0.1/swfupload.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/Events.js?ver=13840"></script>
+
+
+<link rel="stylesheet" type="text/css" href="/auth-popup.css">
+
+<script type="text/javascript">
+  var eventObj;
+  var paramsObj;
+
+  var authBox;
+
+  var loginBox;
+  var signUpBox;
+  var df;
+  var sd = '';
+  var su;
+  var sn = 'www.4shared.com';
+
+  function authenticate(e, params, params2){
+    params2 = params2 || {}
+    eventObj = {};
+    for (var i in e) eventObj[i] = e[i];
+
+    paramsObj = {};
+    for (var p in params) paramsObj[p] = params[p];
+
+    var sp = escape(JSON.stringify(params));
+
+    document.body.style.cursor = 'wait';
+    $('#authBoxDiv').load('/authPopup.jsp',
+        {login : '', password : '', params: sp},
+        function(){
+          $('body').css('cursor', '');
+          writeDrag.hide();
+          authBox = new WriteDrag('authBoxDiv');
+          authBox.set(eventObj, undefined, 522, 'c', 'c');
+          if (params2.title) {
+            $('#authWindowTitle', this).html(params2.title)
+          }
+          $('#authBoxDiv').show();
+          $('form.openid:eq(0)').openid();
+        }
+    );
+    return false;
+  }
+
+  function authSaveParams(params){
+    $('#authBoxDiv').hide();
+    var sp = escape(JSON.stringify(params));
+    Cookies.create('jsParams', sp, -1, '/', '.4shared.com', false);
+    if(params.returnTo){
+      Cookies.create('returnTo', params.returnTo, -1, '/', '.4shared.com', false);
+    }
+  }
+
+  function authLogin(){
+    var login = $('#loginfield').val();
+    var password = $('#passfield').val();
+    var err = '';
+
+    if(login == ''){
+      err = loginFnc.msgEmptyEmail;
+    }else if (password == ''){
+      err = loginFnc.msgEmptyPassword;
+    }
+
+    $('#authBoxDiv #signupErrorMsg').html('').hide();
+    $('#authBoxDiv #loginErrorMsg').html(err);
+    if(err){
+      $('#authBoxDiv #loginErrorMsg').show();
+      return false;
+    }else{
+      $('#authBoxDiv #loginErrorMsg').hide();
+    }
+
+    var params = {
+        login: login,
+        password: password,
+        remember: false,
+        doNotRedirect: 1,
+        successUrl: unescape(paramsObj.returnTo)
+    };
+    document.body.style.cursor = 'wait';
+    $.get('https://www.4shared.com/login?callback=?',
+      params,
+      function(data){
+        $("body").css("cursor", "auto");
+        if(data.ok){
+          authSaveParams(paramsObj);
+          loginFnc.redirect(data.redirectUrl || loginFnc.getLocation());
+        }else{
+          $('#authBoxDiv #loginErrorMsg').html(data.rejectReason).show();
+        }
+      },
+      "jsonp"
+    );
+    return false;
+  }
+
+  function authSignUp(){
+    var login = $('#signupEmailField').val();
+    var password = $('#signupPassField').val();
+    var password2 = $('#signupPassFieldRepeat').val();
+    var err = '';
+
+    if(login == ''){
+      err = loginFnc.msgEmptyEmail;
+    }else if (password == ''){
+      err = loginFnc.msgEmptyPassword;
+    }else if (password2 == ''){
+      err = loginFnc.msgEmptyPassword2;
+    }else if (password != password2){
+      err = loginFnc.msgPasswordsDontMatch;
+    }else if (!loginFnc.checkEmail(trim(login))){
+      err = loginFnc.msgIncorrectEmail + ' ' + loginFnc.msgTryAgain;
+    }
+
+    $('#authBoxDiv #loginErrorMsg').html('').hide();
+    $('#authBoxDiv #signupErrorMsg').html(err);
+    if(err){
+      $('#authBoxDiv #signupErrorMsg').show();
+      return false;
+    }else{
+      $('#authBoxDiv #signupErrorMsg').hide();
+    }
+
+    var params = {
+      login: login,
+      password: password,
+      password2: password2,
+      successUrl: unescape(paramsObj.returnTo)
+    };
+
+    $("body").css("cursor", "progress");
+    $.get('https://www.4shared.com/signup?callback=?',
+      params,
+      function(data){
+        $("body").css("cursor", "auto");
+        if(data.ok){
+          authSaveParams(paramsObj);
+          loginFnc.redirect(data.redirectUrl || loginFnc.getLocation());
+        }else{
+          $('#authBoxDiv #signupErrorMsg').html(data.error).show();
+        }
+      },
+      "jsonp"
+    );
+    return false;
+  }
+
+  function loadAndShowSignUpBox(e, dfp, sup){
+    
+
+    eventObj = {};
+    for (var i in e) eventObj[i] = e[i];
+    df = dfp != undefined ? dfp : '';
+    su = sup != undefined ? sup : '';
+    document.body.style.cursor = 'wait';
+    ensureScriptsLoaded(true);
+    return false;
+  }
+
+  function loadAndShowLoginBox(e){
+    eventObj = {};
+    for (var i in e) eventObj[i] = e[i];
+    document.body.style.cursor = 'wait';
+    ensureScriptsLoaded(false);
+    addCapsChecking();
+    return false;
+  }
+
+  function ensureScriptsLoaded(signup){
+    var $lab = $LAB;
+    if(typeof jQuery == 'undefined'){
+      $lab = $LAB
+              .script('http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js')
+              .wait();
+    }
+    if(typeof dragObj == 'undefined'){
+      $lab = $LAB
+              .script('http://static.4shared.com/js/dw_event.js?ver=13840')
+              .script('http://static.4shared.com/js/dw_viewport.js?ver=13840')
+              .script('http://static.4shared.com/js/dw_writedrag.js?ver=13840')
+              .script('http://static.4shared.com/js/dw_drag.js?ver=13840')
+              .wait();
+    }
+    if(typeof $.openid == 'undefined'){
+      $lab = $LAB
+              .script('http://static.4shared.com/js/plugins/jquery.openid.js?ver=13840')
+              .wait();
+    }
+    if(typeof loginFnc == 'undefined'){
+      $lab = $LAB
+              .script('http://static.4shared.com/js/login_fnc.js?ver=13840')
+              .wait(function(){
+                loginFnc.msgEmail = 'your e-mail';
+                loginFnc.msgOpenIdAccount = 'your OpenID account';
+                loginFnc.msgEmptyEmail = 'You did not enter your e-mail address';
+                loginFnc.msgEmptyPassword = 'You did not enter your password';
+                loginFnc.msgEmptyPassword2 = 'You did not confirm your password';
+                loginFnc.msgIncorrectEmail = 'Your e-mail address is incorrect.';
+                loginFnc.msgTryAgain = 'Please try again.';
+                if(signup)  ensureSignUpContentLoaded(); else ensureLoginContentLoaded();
+              });
+    }else{
+      if(signup)  ensureSignUpContentLoaded(); else ensureLoginContentLoaded();
+    }
+  }
+
+  function ensureLoginContentLoaded(){
+    if(typeof loginBox == 'undefined'){
+      $('#loginBoxDiv').load('/loginBox.jsp',
+          {
+            login : '',
+            password : '',
+            fpRedirParam : 'http://www.4shared.com/',
+            remember : true
+            
+
+            
+            ,sId : 'rD8s6CVZTMV93Bsf'
+            
+          },
+          function(){
+            showLoginBox();
+          }
+      );
+    }else{
+      showLoginBox();
+    }
+  }
+
+  function ensureSignUpContentLoaded(){
+    if(typeof signUpBox == 'undefined'){
+      $('#signUpBoxDiv').load('/signUpBox.jsp',
+          {
+            login : '',
+            password : '',
+            fpRedirParam : 'http://www.4shared.com/',
+            remember : true,
+            df : df,
+            sd : sd,
+            su : su
+            
+          },
+          function(){
+            showSignUpBox();
+          }
+      );
+    }else{
+      showSignUpBox();
+    }
+  }
+
+  function loadSignUpBox() {
+    $('#signUpBoxDiv').load('/signUpBox.jsp', {
+      login : '',
+      password : '',
+      fpRedirParam : 'http://www.4shared.com/',
+      remember : true,
+      
+      df : df,
+      sd : sd
+    });
+  }
+
+  function showLoginBox(){
+    if(typeof loginBox == 'undefined'){
+      loginBox = new WriteDrag('loginBoxDiv');
+      $('form.openid:eq(0)').openid();
+    }
+    writeDrag.hide();
+    loginFnc.showLoginBox(eventObj);
+
+    addCapsChecking();
+  }
+
+  function showSignUpBox(){
+    if(typeof signUpBox == 'undefined'){
+      signUpBox = new WriteDrag('signUpBoxDiv');
+    }
+    writeDrag.hide();
+    loginFnc.showSignUpBox(eventObj);
+  }
+
+  function signOut(serverURL){
+    var $lab = $LAB;
+    if(typeof jQuery == 'undefined'){
+      $lab = $LAB
+              .script('http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js')
+              .wait();
+    }
+    if(typeof loginFnc == 'undefined'){
+      $lab = $LAB
+        .script('http://static.4shared.com/js/login_fnc.js?ver=13840')
+        .wait(function(){
+          loginFnc.signOut(serverURL);
+          if(serverURL != sn){
+            loginFnc.signOut('/');
+          }
+        });
+    }else{
+      loginFnc.signOut(serverURL);
+      if(serverURL != sn){
+        loginFnc.signOut('/');
+      }
+    }
+    return false;
+  }
+
+  function redirectToAccount(){
+    var $lab = $LAB;
+    if(typeof jQuery == 'undefined'){
+      $lab = $LAB
+              .script('http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js')
+              .wait();
+    }
+    if(typeof loginFnc == 'undefined'){
+      $lab = $LAB
+        .script('http://static.4shared.com/js/login_fnc.js?ver=13840')
+        .wait(function(){
+          loginFnc.goToAccount();
+        });
+    }else{
+      loginFnc.goToAccount();
+    }
+    return false;
+  }
+
+  function addCapsChecking() {
+    if($('body input[type=password]').length == 0){
+        return;
+    }
+    $('input[type=password]').caps(function(caps) {
+      var form = $(this).parents('form:first');
+      // "this" is current element
+      (caps) ? $('.capsWarning', form).slideDown('slow') : $('.capsWarning', form).slideUp('slow');
+    });
+  }
+</script>
+
+<script type="text/javascript">
+  $(function(){
+    if(Cookies['jsParams']){
+      var p = JSON.parse(unescape(Cookies['jsParams']));
+      if(p.after){
+        if(!event){
+          var event = {length: 0};
+        }
+        eval(p.after);
+      }
+      Cookies.erase('jsParams', '/', '.4shared.com');
+    }
+  });
+</script>
+
+<script type="text/javascript">
+  $(function() {
+    if(typeof jQuery != 'undefined'){
+      addCapsChecking();
+    }
+    $('#loginfield, #passfield').keypress(function(event) {
+      if (event.which != '13') return true;
+
+      var form = $(this).parents('form:first');
+      $('input[type=submit]', form).click();
+      return false
+    })
+  })
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        if (!$('#authBoxDiv').length) {
+            $('<div>').css({visibility: 'hidden'}).attr('id', 'authBoxDiv').appendTo($(document.body));
+        }
+        if (!$('#signUpBoxDiv').length) {
+            $('<div>').css({visibility: 'hidden'}).attr('id', 'signUpBoxDiv').appendTo($(document.body));
+        }
+        if (!$('#loginBoxDiv').length) {
+            $('<div>').css({visibility: 'hidden'}).attr('id', 'loginBoxDiv').appendTo($(document.body));
+        }
+    });
+</script>
+
+
+
+
+<script type="text/javascript">
+  function Config() {
+    return this
+  }
+</script>
+
+<script type="text/javascript">
+  Config.mainSiteUrlPath = 'http://www.4shared.com/'
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/plugins/jquery.placeholder.patch.js"></script>
+
+<script type="text/javascript">
+  function iePlaceholder(form) {
+    if (Modernizr.input.placeholder) return
+    $('input[placeholder]', form).placeholder()
+  }
+
+  $(window).bind("load", function() {
+      addCapsChecking()
+
+      
+
+      AjaxSuggestion.init($('#searchQuery'));
+
+  });
+
+  function iNHSelectLanguage() {
+    window.langPopup = AccountFacade.popup({
+      element: $("#langdiv"),
+      title: "Select language"
+    });
+    return false
+  }
+
+  var newLang = 'www';
+
+  function iapHiddenFrameOnload() {
+    if (window.langSelectorChangeCalled) {
+      location.reload();
+    }
+  }
+
+  function doHeaderSearch(suggest) {
+    if(AjaxSuggestion.popupShown() && AjaxSuggestion.selected >= 0 && !suggest) {
+      doHeaderSearchSuggest($('#sugg'+AjaxSuggestion.selected).html());
+      return false;
+    }
+    var searchType = $('#active_filter>i').attr('class');
+    var searchTerm = $('#searchQuery').val();
+    if(searchTerm == 'Search files') {
+      searchTerm = "";
+    }
+    var href = '';
+    if (!!searchTerm) {
+      href = sprefix + slinks[searchType][1] + '/' + encodeURIComponent($.trim(searchTerm.replace(/\\/g, '').replace(/\//g, '')));
+    } else {
+      href = sprefix + slinks[searchType][0];
+    }
+    document.location.href = href+(suggest?"?suggested":"");
+    return false;
+  }
+
+  function doHeaderSearchSuggest(suggest) {
+    $('#searchQuery').val(suggest);
+    doHeaderSearch(true);
+    return false;
+  }
+  
+  var slinks = {
+    file: ['/q/CAAD/1', '/q/CCAD/1'],
+    video: ['/q/CAQD/1/video', '/q/CCQD/1/video'],
+    music: ['/q/CAQD/1/music', '/q/CCQD/1/music'],
+    photo: ['/q/CAQD/1/photo', '/q/CCQD/1/photo'],
+    games: ['/q/CAQD/1/game', '/q/CCQD/1/game'],
+    book: ['/q/CAQD/1/books_office', '/q/CCQD/1/books_office']
+  };
+
+  var sprefix = 'http://search.4shared.com';
+  var mainSite = 'http://www.4shared.com/';
+
+  function selectLang(lang) {
+    langPopup.hide();
+    newLang = lang;
+    window.langSelectorChangeCalled = true;
+    document.getElementById('iapHiddenFrame').src = "http://www.4shared.com/main/translate/setLang.jsp?silent=true&lang=" + lang;
+  }
+
+  function feedback() {
+    var windowname="Feedback";
+    var url="/feedback.jsp";
+    OpenWindow = window.open(url,windowname,'toolbar=no,scrollbars=yes,resizable=yes,width=500,height=460,left=50,top=50');
+    OpenWindow.focus();
+  }
+
+  function reportAbuse2() {
+    try {
+      reportAbuse();
+    }
+    catch (e) {
+      var windowname="abuse";
+      var url="/abuse.jsp?abuseType=1&link=" + " ";
+      OpenWindow = window.open(url,windowname,'toolbar=no,scrollbars=yes,resizable=yes,width=550,height=650,left=50,top=50');
+      OpenWindow.focus();
+    }
+  }
+
+  document.write('<iframe width="0" height="0" id="iapHiddenFrame" name="iapHiddenFrame" style="display:none;" onload="iapHiddenFrameOnload()" ><' + '/iframe>');
+</script>
+
+<div id="langdiv" style="display: none;">
+  
+
+
+
+
+
+
+
+<div class="langdiv lucida">
+
+          <div class="column floatLeft paddingL30 marginL20" style="margin:0px; padding:0px;"><a href="javascript:void(selectLang('en'));" class="lang-en gaClick" data-element="h18-en">English</a><a href="javascript:void(selectLang('pt-BR'));" class="lang-pt-BR gaClick" data-element="h18-pt-BR">Português (Brasil)</a><a href="javascript:void(selectLang('es'));" class="lang-es gaClick" data-element="h18-es">Español</a><a href="javascript:void(selectLang('ar'));" class="lang-ar gaClick" data-element="h18-ar">العربية</a><a href="javascript:void(selectLang('fr'));" class="lang-fr gaClick" data-element="h18-fr">Français</a><a href="javascript:void(selectLang('pl'));" class="lang-pl gaClick" data-element="h18-pl">Polski</a></div><div class="column floatLeft paddingL30 marginL20" ><a href="javascript:void(selectLang('fa'));" class="lang-fa gaClick" data-element="h18-fa">پارسی</a><a href="javascript:void(selectLang('tr'));" class="lang-tr gaClick" data-element="h18-tr">Türkçe</a><a href="javascript:void(selectLang('in'));" class="lang-in gaClick" data-element="h18-in">Bahasa Indonesia</a><a href="javascript:void(selectLang('th'));" class="lang-th gaClick" data-element="h18-th">ไทย</a><a href="javascript:void(selectLang('de'));" class="lang-de gaClick" data-element="h18-de">Deutsch</a><a href="javascript:void(selectLang('it'));" class="lang-it gaClick" data-element="h18-it">Italiano</a></div><div class="column floatLeft paddingL30 marginL20" ><a href="javascript:void(selectLang('zh'));" class="lang-zh gaClick" data-element="h18-zh">中文</a><a href="javascript:void(selectLang('ja'));" class="lang-ja gaClick" data-element="h18-ja">日本語</a><a href="javascript:void(selectLang('ko'));" class="lang-ko gaClick" data-element="h18-ko">한국어</a><a href="javascript:void(selectLang('vi'));" class="lang-vi gaClick" data-element="h18-vi">Tiếng Việt</a><a href="javascript:void(selectLang('ms'));" class="lang-ms gaClick" data-element="h18-ms">Bahasa Melayu</a><a href="javascript:void(selectLang('ru'));" class="lang-ru gaClick" data-element="h18-ru">Русский</a></div>
+
+</div>
+
+</div>
+
+<div id="writeDragMain" style="display: none;">
+  <div id="wdMain" class="dragDiv">
+    <div class="dragDivHandle">
+      <table cellpadding="1" cellspacing="0" width="100%">
+        <tr>
+          <td>&nbsp;<span class="dragDivTitle"></span></td>
+          <td>
+            <a href="#" class="floatRight close">
+              <img style="vertical-align: middle;" class="xBox" src="http://static.4shared.com/images/icons/16x16/close.gif" width="16" height="16" alt="X" border="0" title="Close box">
+            </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="dragDivContent">
+    </div>
+  </div>
+</div>
+
+<!--script type="text/javascript" src="/js/header.js?ver=13840"></script-->
+
+<script type="text/javascript" src="/js/AjaxSuggestion.js?ver=13840"></script>
+<script type="text/javascript" src="/js/webtoolkit.base64.js?ver=13840"></script>
+
+<div class="mainHeader nullHeader">
+  <div class="centered">
+
+    <div class="floatLeft logo gaClick" data-element="h1"><a href="http://www.4shared.com/"><img src="/images/spacer.gif" alt="Free file sharing" /></a></div>
+    <div class="floatLeft slog paddingL5 min">
+        <h2>Free file sharing</h2>
+    </div>
+    <div class="floatLeft paddingL5 min" style="height:45px"><img src="/images/newUi/hLogo-arrow.png"
+                                                                  alt="Free file sharing"/></div>
+
+    <div class="floatLeft paddingL20 searchbox">
+      <div class="searchform round4">
+        <div class="floatLeft filter roundTL4 roundBL4">
+
+          <a href="#" id="active_filter" class="active_filter roundTL4 gaClick" data-element="h2"><i class="file"><span
+              class="sprite1"></span></i></a>
+
+          <div class="cclick_container cfilter f13">
+            <a href="#" class="file gaClick" data-element="h3" title="Files" style="border-top:0px aqua none">Files</a>
+            <a href="#" class="photo gaClick" data-element="h4" title="Photo">Photo</a>
+            <a href="#" class="music gaClick" data-element="h5" title="Music">Music</a>
+            <a href="#" class="book gaClick" data-element="h6" title="Books">Books</a>
+            <a href="#" class="video gaClick" data-element="h7" title="Video">Video</a>
+            <a href="#" class="games gaClick" data-element="h8" title="Games">Games</a>
+          </div>
+        </div>
+        <div class="floatLeft search roundTR4 roundBR4 paddingL10 gaClick" data-element="h2.1">
+          <div class="suggest f13 lucida roundBR4" style="display: none;">
+            <div class="ii roundBR4">
+              <ul>
+
+              </ul>
+              <span id="cl">[x] Close</span>
+            </div>
+          </div>
+          <form action="" class="floatLeft" id="search" onsubmit="return doHeaderSearch();">
+            <input type="text" id="searchQuery" placeholder="Search files"/>
+          </form>
+
+
+          <a href="#" onclick="return doHeaderSearch();" class="floatRight proceed paddingR10 sprite1 gaClick" data-element="h9"></a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="floatRight controls lucida">
+
+
+      
+      <div class="sign item absmid">
+        <div class="textlink gaClick" data-element="h23" onclick="return false;"><i>Sign Up</i></div> <!-- wtf? -->
+
+        <div class="click_container csign in-tab roundBL4 roundBR4 roundTL4">
+          <div class="i roundBL4 roundBR4 roundTL4">
+            <div class="wr">
+            <form class="loginform" action="https://www.4shared.com/index.jsp"
+                  method="post" id="signup_head"
+                  onsubmit="return loginFnc.doSignUp('','https://www.4shared.com/', null, false);">
+
+              <div class="input-light-small round4 marginT5">
+                <input type="text" id="regloginfield" name="username" placeholder="Login"/>
+              </div>
+
+              <div class="input-light-small round4 marginT5">
+                <input type="password" id="regpassfield" name="password" placeholder="Password"/>
+              </div>
+
+              <div class="input-light-small round4 marginT5">
+                <input type="password" id="regpassfield2" name="password2" placeholder="Confirm Password"/>
+              </div>
+
+
+               <div id="signUpErrorPwd" style="display:none;">
+                <div id="signUpErrorPwdRsn" class="small red paddingT5 alignRight nowrap"></div>
+              </div>
+                <div id="signUpErrorPwd2" style="display:none;" >
+                <div id="signUpErrorPwd2Rsn" class="small red paddingT5 alignRight nowrap"></div>
+              </div>
+                 <div id="signUpErrorLogin" style="display:none;" >
+                <div id="signUpErrorLoginRsn" class="small red paddingT5 alignRight nowrap"></div>
+              </div>
+
+              <div class="capsWarning small red" style="display: none; padding: 3px 0px 0 0 ; text-align:right">Caps Lock is on</div>
+              <div class="alignRight paddingT5 paddingB5">
+                <input type="submit" value="Sign Up" class="button-orange round5 f15 gaClick" data-element="h24"/>
+                
+                   
+                   
+              </div>
+              <div class="clear"></div>
+            </form>
+
+            <script type="text/javascript">
+              if (!$.browser.msie) {
+                $('#regpassfield2').keyup(function(event) {
+                  if (event.keyCode == '13') {
+                    return loginFnc.doSignUp('','http://www.4shared.com/', null, false, null, true);
+                  }
+                });
+              }
+            </script>
+
+            <div class="clear"></div>
+              </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="hdivider sign absmid"><span></span></div>
+
+      
+
+         
+      <div class="inline login item absmid">
+
+        <div class="llink textlink sprite1 gaClick" data-element="h10" onclick="return false;"><i>Login</i></div>
+
+        <div class="click_container clogin in-tab roundBL4 roundBR4 roundTL4">
+
+          <div class="i roundBL4 roundBR4 roundTL4 nowrap">
+           <div class="wr">
+            <form class="loginform" action="https://www.4shared.com/index.jsp"
+                  method="post" id="login_form" onsubmit="return doLogin()">
+              <div class="f11 paddingT10 alert" id="iloginRejectReason" style="display:none;">
+                &nbsp;</div>
+
+              <div class="input-light-small round4 marginT5 ">
+                  <input type="text" id="iloginfield" name="login" placeholder="Login"/>
+              </div>
+              <div class="input-light-small round4 marginT5">
+                  <input type="password" id="ipassfield" name="password" placeholder="Password"/>
+              </div>
+                <div class="capsWarning small red" style="display: none; padding: 3px 0px 0 0 ; text-align:right">Caps Lock is on</div>
+
+
+              <table class="lsd-cont" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="f11 paddingT5 paddingR10">
+                            <a href="/remindPassword.jsp" class="f11"
+                               style="color:#676767;">Forgot password?</a>
+                        </td>
+                        <td><input type="submit" value="Login" class="submit-light round4 marginT5 floatRight gaClick" data-element="h11"/></td>
+                    </tr>
+                </table>
+
+
+              <div class="clear"></div>
+            </form>
+
+            <div class="clear"></div>
+
+            <div class="socialLogin">
+              <div class="ii lucida">
+                <div class="socialButtons f13">
+                  <div class="floatLeft ffshadow">Login with:</div>
+                  <div class="floatRight">
+                    <a href="http://www.4shared.com/servlet/signin/twitter"
+                       class="tw floatLeft sprite1 gaClick" data-element="h12"></a>
+                    <a href="http://www.4shared.com/servlet/signin/facebook"
+                       class="fb floatLeft sprite1 gaClick" data-element="h13"></a>
+                    <a href="http://www.4shared.com/servlet/signin/google"
+                       class="go floatLeft sprite1 gaClick" data-element="h14"></a>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+         </div>
+        </div>
+
+
+      </div>
+      
+
+         <div class="inline hdivider absmid"><span></span></div>
+
+        <div class="inline settings item absmid">
+
+        <div class="gear piclink sprite1 gaClick" data-element="h15"><i>
+          <span class="inline">&nbsp;</span><span class="expand absmid"></span></i></div>
+
+        <div class="click_container csettings in-tab roundBL4 roundBR4 roundTL4 f13">
+          <div class="i roundBL4 roundBR4 roundTL4">
+            <div class="ls">
+
+                
+                
+                  <a href="/premium.jsp?ref=nheader" class="pr gaClick" data-element="h17">Premium</a>
+                
+                <a href="javascript:return;" id="changeLang" class="gaClick" data-element="h18" onclick="return iNHSelectLanguage()"><span class="floatLeft">Language</span><span
+                  class="pr floatRight paddingR5" >en</span></a>
+                <div class="v-div"></div>
+                <a href="/faq.jsp"  class="clear gaClick" data-element="h19">FAQ</a>
+                <a href="/help/index.jsp" class="gaClick" data-element="h20">Help</a>
+                
+                <a href="javascript:reportAbuse2();" class="gaClick" data-element="h22">Report abuse</a>
+              <!--a href="">Tour</a-->
+
+
+              <div class="clear"></div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+</div>
+
+
+<form action="/account/home.jsp" method="post" style="display:none;" id="subscribeForm" name="subscribeForm">
+  <input type="hidden" name="homemode" value="30"/>
+  <input type="hidden" name="userId" value="-1"/>
+</form>
+
+
+<script type="text/javascript">
+  function getFakePass2(el) {
+    var parent = el.parents('div:first')
+    return $('input[type=password]', parent).val()
+  }
+
+  function doLogin() {
+    $('#ipassfield').val(getFakePass2($('#ipassfield')))
+    return loginFnc.doLogin(undefined, 'https://www.4shared.com/', null, null, false, true);
+  }
+</script>
+
+<script type="text/javascript">
+  var debugInfo = {
+    loc : "Location = " + window.location,
+    usrAgent : "UserAgent = " + navigator.userAgent,
+    usrName  : "UserName = null",
+    accountType : "AccType = null",
+    winSize : "Window.W = " + screen.availWidth + "\nWindow.H = " + screen.availHeight,
+    title : "Title = dc517, rev=13840"
+  }
+  var userInfo = debugInfo.loc + "<br>" + debugInfo.usrAgent + "<br>" + debugInfo.usrName + "<br>" + debugInfo.accountType + "<br>" + debugInfo.winSize + "<br>" + debugInfo.title;
+</script>
+
+<script type="text/javascript">
+  $(document).keydown(function(e) {
+    if (!e) e = window.event;
+    var k = e.keyCode;
+    if (e.ctrlKey && e.altKey && k == 73) { // Alt+Ctrl+i
+      AccountFacade.popup({
+        content: userInfo,
+        title: 'Debug Info'
+      })
+    }
+  });
+
+  iePlaceholder('#login_form')
+  iePlaceholder('#search')
+  iePlaceholder('#signup_head')
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/plupload/plupload.js?ver=13840"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/plupload/plupload.silverlight.js?ver=13840"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/plupload/plupload.flash.js?ver=13840"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/UploadModule.js?ver=13840"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://static.4shared.com/js/Jsonp.js?ver=13840"></script>
+
+
+<script type="text/javascript">
+  UploadModule.build = function(options) {
+    var defaultSettings = {
+      
+      url: 'http://dc437.4shared.com/main/upload.jsp?sId=zUaYJ4FkT6LDASMG&fau=1&ausk=zUaYJ4FkT6LDASMG',
+      
+      uploadHandler: UploadModule.getAnonUploadHandler(),
+      
+      progressMeter: UploadModule.ProgressMeterJsonp,
+      progress_meter_url : 'http://dc437.4shared.com/servlet/ProgressStatus2?dcID=437&sId=zUaYJ4FkT6LDASMG&fau=1&ausk=zUaYJ4FkT6LDASMG',
+      static_resources_root: 'http://static.4shared.com',
+      max_file_size: 209715200,
+      max_change_dc_attempts: 0,
+      plupload_version: '',
+      upload_form_handler:{
+        max_threads: 1,
+        file_size_url: 'http://dc437.4shared.com/rest/file/size?sId=zUaYJ4FkT6LDASMG&&fau=1&ausk=zUaYJ4FkT6LDASMG&httpSessId=UnavailableHttpSession'
+      },
+      i18n: {
+        file_size_exceeded: 'Error: filesize > [maxFileSize] MB',
+        some_files_size_exceeded: 'Some files limit exceeded. Continue without them ?',
+        no_files_selected: 'You didn\'t select any file to upload yet.',
+        file_already_in_proccess: 'This file already in proccess.',
+        your_browser_not_supported: 'Your browser does not support the upload file size of 4 GB and above',
+        you_can_resume_upload: 'Your transfer have been canceled. You can resume the upload with the current percentage',
+        not_enough_free_space: 'Not enough free space',
+        you_cannot_upload: 'You cannot upload these files with current browser. Please try desktop version.',
+        you_cannot_upload_flash: 'You cannot upload these files with Multiupload. Please try 4shared desktop.'
+      },
+      resumable: {
+        section_size: 10240000,
+        max_simultaneous_files: 1,
+        max_threads: 1,
+        user_agents: 'chrome,firefox'
+      }
+    }
+    options = $.extend(true, defaultSettings, options)
+    return new UploadModule(options)
+  }
+</script>
+<div class="blueBox ">
+    <div class="ii">
+        <div class="centered">
+            <div class="floatLeft lbox alignLeft">
+                <h2>FREE ONLINE STORAGE</h2>
+
+                <h3>UPLOAD, ACCESS, SHARE YOUR FILES</h3>
+
+                <form action="http://dc437.4shared.com/main/upload.jsp?sId=zUaYJ4FkT6LDASMG&amp;fau=1&amp;ausk=zUaYJ4FkT6LDASMG" name="uploadForm"
+                      enctype="multipart/form-data" target="uploadframe1" method="POST">
+                    <input type="hidden" name="mainDC" value="517">
+
+                    <div class="uploader round10 lucida gaClick" data-element="1">
+                        <div class="o round10 dragField"
+                             ondrop="return dropDoUpload(event);"
+                             ondragenter="return stopEvent(event);"
+                             ondragover="return stopEvent(event);">
+                            <div class="oo round10">
+                                <input type="file" id="fid0" name="fff0" size="1" class="fakefile"/>
+                                <span class="drag">Drag & Drop Files Here To</span>
+                  <span class="click">Click Here To
+                      </span>
+                                <span class="up">upload</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <script type="text/javascript">
+                        function massAction(mode) {
+                            if (!document.theForm) return;
+
+                            document.theForm.homemode.value = mode;
+                            document.theForm.submit();
+                        }
+
+                        function stopEvent(event) {
+                          if (event.stopPropagation)
+                            event.stopPropagation()
+                          if (event.preventDefault)
+                            event.preventDefault()
+                        }
+
+                        function dropDoUpload(event) {
+                          stopEvent(event)
+                          if (!anonUploadWidget) return
+
+                          anonUploadWidget.dropFiles(event.dataTransfer.files)
+                        }
+
+                        
+                    </script>
+                </form>
+            </div>
+
+
+            <div class="floatRight rbox alignLeft">
+                <span class="t1">New to 4Shared?</span> <span class="t2">Join now!</span>
+
+                <div class="social_login">
+                    <a href="http://www.4shared.com/servlet/signin/twitter" class="tw sprite1 floatLeft gaClick" data-element="3"></a>
+                    <a href="http://www.4shared.com/servlet/signin/facebook" class="fb sprite1 floatLeft gaClick" data-element="4"></a>
+                    <a href="http://www.4shared.com/servlet/signin/google" class="go sprite1 floatLeft gaClick" data-element="5"></a>
+                </div>
+                <div class="f_text ffshadow lucida clear">or fill the fields below:</div>
+
+                <form id="sign_form" onsubmit="return doSignUp()">
+
+                    <div class="input-light round5 marginT5 gaClick" data-element="6">
+                        <input type="text" id="sign_form_log" placeholder="E-mail"/>
+                    </div>
+                    <div id="sign_form_log_error" class="small red" style="display: none;"></div>
+
+                    <div class="input-light round5 marginT5 gaClick" data-element="7">
+                        <input type="password" id="sign_form_cp1" placeholder="Password"/>
+                    </div>
+                    <div id="sign_form_cp1_error" class="small red" style="display: none;"></div>
+
+                    <div class="input-light round5 marginT5 gaClick" data-element="8">
+                        <input type="password" id="sign_form_cp2" placeholder="Confirm password"/>
+                    </div>
+
+                    <div class="alignRight paddingT10 lucida">
+                        <a href="#" class="button-orange round5 gaClick f18" data-element="9"
+                           onclick="return doSignUp()">
+                            Sign Up
+                        </a>
+                    </div>
+                </form>
+
+                <script type="text/javascript">
+                    iePlaceholder('#sign_form')
+
+                    function getFakeText(el) {
+                        var parent = el.parents('div:first')
+                        return $('input[type=password]', parent).val()
+                    }
+
+                    function doSignUp() {
+                        $('#regloginfield').val($('#sign_form_log').val())
+                        $('#regpassfield').val(getFakeText($('#sign_form_cp1')))
+                        $('#regpassfield2').val(getFakeText($('#sign_form_cp2')))
+                        return loginFnc.doSignUp('', 'http://www.4shared.com/', null, false, null, true, true)
+                    }
+
+                    $('#sign_form_log').keyup(function (event) {
+                        if (event.keyCode == '13') {
+                            $('#sign_form_log_error').html('').hide()
+                            $('#sign_form_cp1_error').html('').hide()
+                            return doSignUp()
+                        }
+                    })
+
+                    $('#sign_form_cp1').keyup(function (event) {
+                        if (event.keyCode == '13') {
+                            $('#sign_form_log_error').html('').hide()
+                            $('#sign_form_cp1_error').html('').hide()
+                            return doSignUp()
+                        }
+                    })
+
+                    $('#sign_form_cp2').keyup(function (event) {
+                        if (event.keyCode == '13') {
+                            $('#sign_form_log_error').html('').hide()
+                            $('#sign_form_cp2_error').html('').hide()
+                            return doSignUp()
+                        }
+                    })
+                </script>
+
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+<div class="centered">
+    <div class="productBox">
+
+        <div class="item">
+            <div class="title">
+                <div class="lb"></div>
+                <a href="http://www.4shared.com/sync/" title="Download 4sync" class="gaClick" data-element="10.1">Sync</a>
+            </div>
+            <a href="http://dc407.4shared.com/download/i6VQkuc5" class="gaClick" data-element="10.2"
+               data-download-stats="sync.indexnew.1"
+               onclick="return rotatorRegisterClick(1, false);"  title="Download 4sync">
+                <div class="pic sync"></div>
+            </a>
+        </div>
+
+        <div class="item">
+            <div class="title"><a href="http://www.4shared.com/developer" class="gaClick" data-element="11.1">Developer</a></div>
+            <a href="http://www.4shared.com/developer" class="gaClick" data-element="11.2">
+                <div class="pic dev">
+                    <div class="sh"></div>
+                </div>
+            </a>
+        </div>
+
+        <div class="item">
+            <div class="title"><a href="http://www.4shared.com/m/index.jsp" class="gaClick" data-element="12.1">Mobile</a></div>
+            <a href="http://www.4shared.com/m/index.jsp" class="gaClick" data-element="12.2">
+                <div class="pic mobile">
+                    <div class="sh"></div>
+                </div>
+            </a>
+        </div>
+
+        <div class="item">
+            <div class="title">
+                <div class="rb"></div>
+                <a href="http://www.4shared.com/desktop" title="Download 4shared Desktop" class="gaClick" data-element="13.1">Desktop</a>
+            </div>
+            <a href="http://dc153.4shared.com/download/aK3Km2yI/4shared_Desktop_332.exe"
+                class="gaClick" data-element="13.2"
+               data-download-stats="desktop.indexnew.1"
+               onclick="return rotatorRegisterClick(1, true);" title="Download 4shared Desktop">
+                <div class="pic desktop">
+                    <div class="sh"></div>
+                </div>
+            </a>
+        </div>
+
+        <div class="bord">
+            <div class="lb"></div>
+            <div class="a active" style="left:85px;"></div>
+            <div class="rb"></div>
+        </div>
+
+    </div>
+
+    <div class="productInfo">
+        <div class="lb"></div>
+        <div class="rb"></div>
+
+        <div id="n1" class="n" style="display:block;">
+
+            <div class="paddingL25 info lucida">Get access to all your files from any place like work, home, airplane and sync all your devices with free 15 GB web storage. <a
+                    href="http://www.4shared.com/sync/" class="light-blue nowrap gaClick" data-element="10.3">More info &raquo;</a>
+            </div>
+
+        </div>
+
+        <div id="n2" class="n">
+            <div class="paddingL25 info lucida">Integrate file storage into your websites or mobile applications by building apps with 4shared API.
+                <a href="http://www.4shared.com/developer" class="light-blue nowrap gaClick" data-element="11.3">More info &raquo;</a>
+            </div>
+        </div>
+
+        <div id="n3" class="n">
+            <div class="paddingL25 info lucida">Get maximum from 4shared on the go - upload, access and share files in a few clicks.
+                <a href="http://www.4shared.com//m/" class="light-blue nowrap gaClick" data-element="12.3">More info &raquo;</a>
+            </div>
+        </div>
+
+        <div id="n4" class="n">
+            <div class="paddingL25 info lucida">
+                4shared Desktop is free application for Windows, Linux and Mac PC’s expand 4shared functionality.
+                    Speed up the routine process of uploading hundreds files to your account and make it much easier.
+
+                <a href="http://www.4shared.com/desktop/" class="light-blue nowrap gaClick" data-element="13.3">More info &raquo;</a>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+
+<div id="footer">
+    <div class="footer_in lucida">
+        <div class="inpress">
+            <div class="centered">
+                <h2>In the press</h2>
+                <a href="http://www.pcworld.com/article/239833/store_and_share_your_mediaand_view_it_in_your_browserwith_free_4shared.html"
+                   class="pw gaClick" data-element="14" rel="nofollow"></a>
+                <a href="http://onespot.wsj.com/small-business/2011/04/14/b2c17/4shared-will-let-you-stream-any-song-you"
+                   class="wsj gaClick" data-element="15" rel="nofollow"></a>
+                <a href="http://www.filecluster.com/Network-Tools/File-Sharing/Download-4shared-Desktop.html"
+                   class="bi gaClick" data-element="16" rel="nofollow"></a>
+                <a href="http://www.businessinsider.com/4shared-free-music-streaming-app-for-android-2011-4"
+                   class="fc gaClick" data-element="17" rel="nofollow"></a>
+            </div>
+
+        </div>
+
+        <div class="socialBox">
+            <div class="i">
+                <div class="centered">
+
+                    <div class="networks floatLeft">
+                        <a class="item tw floatLeft sprite1 gaClick" data-element="18" href="http://twitter.com/4shared" rel="nofollow">
+               <span class="desc round4 f18 ffshadow"><span class="corn"></span>
+               Follow us
+               </span>
+                        </a>
+                        <a class="item fb floatLeft sprite1 gaClick" data-element="19" href="http://www.facebook.com/official.4shared" rel="nofollow">
+               <span class="desc round4 f18 ffshadow"><span class="corn"></span>
+               Find us
+               </span>
+                        </a>
+
+
+                    </div>
+
+
+                    <div class="uploadCounterWrapper round4 floatRight">
+                        <div class="uploadCounterCorner"></div>
+                        <div id="uploadCounter">
+                            
+                            
+
+                            <div id="num0" class="digit" style="top: -96px;" value="4">&nbsp;</div>
+                            <div id="num1" class="digit" style="top: -192px;" value="8">&nbsp;</div>
+                            <div id="num2" class="digit" style="top: -240px;" value=",">&nbsp;</div>
+                            <div id="num3" class="digit" style="top: -72px;" value="3">&nbsp;</div>
+                            <div id="num4" class="digit" style="top: -192px;" value="8">&nbsp;</div>
+                            <div id="num5" class="digit" style="top: -144px;" value="6">&nbsp;</div>
+                            <div id="num6" class="digit" style="top: -240px;" value=",">&nbsp;</div>
+                            <div id="num7" class="digit" style="top: -216px;" value="9">&nbsp;</div>
+                            <div id="num8" class="digit" style="top: -216px;" value="9">&nbsp;</div>
+                            <div id="num9" class="digit" style="top: -216px;" value="9">&nbsp;</div>
+
+                        </div>
+                    </div>
+
+                    <div class="floatRight ffshadow f15 paddingR10" style="padding-top:8px">Users at 4shared:</div>
+
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+
+                        var one_day = -1000 * 60 * 60 * 24;
+                        var millennium = new Date(2011, 10, 6) //Month is 0-11 in JavaScript
+                        var today = new Date()
+                        var days_past = Math.ceil((millennium.getTime() - today.getTime()) / one_day);
+                        var active_users = 26084597 + (days_past * 876);
+
+                        UploadCounter.init({"value": active_users, "inc":7,"pace":10000})
+                        UploadCounter.roll(active_users)
+                    });
+                </script>
+
+            </div>
+        </div>
+
+        <div class="copy">
+            <div class="centered alignCenter">
+                <a href="http://search.4shared.com" class="gaClick" data-element="f1">Search</a>&nbsp;|&nbsp;
+                <a href="http://www.4shared.com/premium.jsp?ref=nfooter" class="gaClick" data-element="f2">Premium</a>&nbsp;|&nbsp;
+                <a href="http://www.4shared.com/features.jsp" class="gaClick" data-element="f3">Features</a>&nbsp;|&nbsp;
+                <a href="http://www.4shared.com/toolbar/" class="gaClick" data-element="f4">Toolbar</a>&nbsp;|&nbsp;
+                <a href="http://www.4shared.com/faq.jsp" class="gaClick" data-element="f5">FAQ</a>&nbsp;|&nbsp;
+                <a href="http://www.4shared.com/help/index.jsp" class="gaClick" data-element="f6">Help</a>&nbsp;|&nbsp;
+                <a href="http://www.4shared.com/terms.jsp" class="gaClick" data-element="f7">Terms of Use</a>&nbsp;|&nbsp;
+                <a href="http://www.4shared.com/privacy.jsp" class="gaClick" data-element="f8">Privacy</a>&nbsp;|&nbsp;
+                <a href="http://www.4shared.com/dmca.jsp" class="gaClick" data-element="f9">Copyright Infringement</a>&nbsp;|&nbsp;
+                
+
+                <a href="http://www.4shared.com/contact.jsp" class="gaClick" data-element="f11">Contact Us</a>&nbsp; |&nbsp;
+                <a href="http://www.4shared.com/advertise/" class="gaClick" data-element="f12">Advertising</a>&nbsp; |&nbsp;
+                
+                <a href="http://www.4shared.com/resellers.jsp" class="gaClick" data-element="f14">Resellers</a>&nbsp; |&nbsp;
+                <a href="http://www.4shared.com/press_room/" class="gaClick" data-element="f15">Press Room</a>&nbsp; |&nbsp;
+                <a href="http://forum.4shared.com/" target="_blank" class="gaClick" data-element="f16">Forum</a>&nbsp; |&nbsp;
+                <a href="http://blog.4shared.com/" target="_blank" class="gaClick" data-element="f17">Blog</a>
+
+                <div class="marginT20 f11"> Copyright <span title='dc517, rev=13840'>&copy;</span> 2005-2012 4shared.com </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('[data-download-stats]').bind('click', function() {
+            statsFileDownloadHandler(this.getAttribute("data-download-stats"));
+            return true;
+         });
+        $('.data_download_class').bind('click', function() {
+            statsFileDownloadHandler(this.getAttribute("data-download-stats-attr"));
+            return true;
+        });
+    });
+
+    function statsFileDownloadHandler(value) {
+            $.ajax({
+                type: 'post',
+                url: '/rest/stat/location',
+                data: {
+                    uri: value
+                },
+                context: document.body,
+                dataType: "html",
+                async: false,
+                success: function(data) {
+                    if (data != "success")
+                        alert(data);
+                },
+
+                error: function(jqXHR, textStatus, errorThrown) {
+                }
+            })
+    }
+
+    function statsFileDownloadPopupSyncClick() {
+        statsFileDownloadHandler("sync.popup.1");
+    }
+
+</script>
+
+
+
+
+
+
+
+<script type="text/javascript">
+   var anonUploadWidget = new AnonUploadWidget({
+     upload_form: $(document.uploadForm),
+     i18n: {
+       hours: 'hr',
+       minutes: 'min',
+       seconds: 'sec',
+       upload_canceled: 'Your transfer has been cancelled.',
+       file_upload: 'file upload',
+       files_upload: 'files upload',
+       upload: 'Upload',
+       do_you_want_to_cancel_upload: 'Do you want to cancel upload?'
+     }
+   });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=4135125;
+var sc_invisible=1;
+var sc_partition=51;
+var sc_click_stat=1;
+var sc_security="e8ecc2ac";
+</script>
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript>
+  <div class="statcounter">
+    <a title="free hit counter" href="http://www.statcounter.com/free_hit_counter.html" target="_blank">
+      <img class="statcounter" src="http://c.statcounter.com/4135125/0/e8ecc2ac/1/" alt="free hit counter" >
+    </a>
+  </div>
+</noscript>
+<script type="text/javascript">
+ document.write("<img src='http://www.jscount.com/a/4/28b1a41b/z?ref="+
+escape(document.referrer)+"&url="+escape(document.URL)+"&rand="+Math.random()+"' width=1 height=1 alt='' style='display:none'>")</script>
+
+<!-- End of StatCounter Code -->
+
+<!--LiveInternet counter-->
+<script type="text/javascript">
+<!--
+document.write("<img src='http://counter.yadro.ru/hit?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' width=1 height=1 alt='' style='display:none'>")//-->
+</script>
+<!--/LiveInternet-->
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<script type="text/javascript">_qacct="p-23Fqia_-MkKko";quantserve();</script>
+<noscript>
+<a href="http://www.quantcast.com/p-23Fqia_-MkKko" target="_blank" rel="nofollow">
+  <img src="http://pixel.quantserve.com/pixel/p-23Fqia_-MkKko.gif" style="display: none" border="0" height="1" width="1" alt="Quantcast">
+</a>
+</noscript>
+<!-- End Quantcast tag -->
+
+
+
+
+<!-- Start of google-analytics -->
+
+
+
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-306602-1']);
+_gaq.push(['_setCustomVar', 1, 'User Type', 'Guest', 2]);
+_gaq.push(['_trackPageview']);
+_gaq.push(['_setSampleRate', '10']);
+
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
+
+</script>
+
+<!-- End of google-analytics -->
+
+
+
+
+
+
+
+
+<!-- BEGIN TAG - DO NOT MODIFY -->
+<script type="text/javascript">
+   document.write("<script type='text/javascript' src='http://www.adshost1.com/ads-sync.js?key=f11d7770d28f06c628386d47cb6eb053&tz="+(new Date().getTimezoneOffset()/-60)+"'><"+"/script>");
+</script>
+<!-- END TAG -->
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    try {
+      _gaq.push(['_trackEvent', 'index-new-guest', 'PageView' , 'general']);
+    } catch (err) { }
+
+    function clickFunction() {
+      var element = $(this).attr('data-element')
+      if (element)
+        try {
+        
+          _gaq.push(['_trackEvent', 'index-new-guest', 'general', element])
+        } catch (err) {
+        }
+    }
+
+    function handlerClick() {
+      $('.gaClick, .tab').unbind('click', clickFunction).click(clickFunction)
+    }
+
+    $(function() {
+      handlerClick()
+
+      Events.addListener('folder.reload', function() {
+        handlerClick()
+      })
+    })
+
+    function showGANumbers() {
+      $('.gaClick, .tab').each(function () {
+        var element = $(this).attr('data-element')
+        if ($(this).css('position') != 'absolute') {
+          $(this).css('position', 'relative')
+        }
+        if (element) $(this).append($('<div/>').html(element).addClass('gaHelperNumbers'))
+      });
+    }
+</script>
+<!-- Start Quantcast Tag -->
+<script type="text/javascript">
+    _qoptions={qacct:"p-1ccGOdbKpIUgU",labels:"_fp.event.4Shared Homepage"};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+    <img src="http://pixel.quantserve.com/pixel/p-1ccGOdbKpIUgU.gif?labels=_fp.event.4Shared+Homepage" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
+</body>
+</html>
+

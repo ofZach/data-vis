@@ -1,0 +1,1860 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:og="http://opengraphprotocol.org/schema/"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<script type="text/javascript">var IMDbTimer={starttime: new Date().getTime()};</script>
+<script>
+var addClickstreamHeadersToAjax = function(xhr) {
+    xhr.setRequestHeader("x-imdb-parent-id", "1HJKJWMR95HVVA4ZMX91");
+};
+</script>
+
+<title>The Internet Movie Database (IMDb)</title>
+<link rel="canonical" href="http://www.imdb.com/" /><meta property="og:url" content="http://www.imdb.com/" />
+
+<meta name="title" content="The Internet Movie Database (IMDb)">
+<meta name="description" content="IMDb: The biggest, best, most award-winning movie site on the planet.">
+
+<meta name="keywords" content="movies,films,movie database,actors,actresses,directors,hollywood,stars,quotes"><link rel="stylesheet" type="text/css" href="http://i.media-imdb.com/images/SF7e8da288da5eaad34c223fe3fd0ad91a/css/min/consumerhome.css" ><!--[if IE]><link rel="stylesheet" type="text/css" href="http://i.media-imdb.com/images/SF01de6605f80aa02db35f2aaa8ffd1f0a/wheel/ie.css" ><![endif]-->
+
+<meta name="application-name" content="IMDb" />
+<meta name="msapplication-tooltip" content="IMDb Web App" />
+<meta name="msapplication-window" content="width=1500;height=900" />
+<meta name="msapplication-task" content="name=Find Movie Showtimes;action-uri=/showtimes/;icon-uri=http://i.media-imdb.com/images/SFff39adb4d259f3c3fd166853a6714a32/favicon.ico"/>
+<meta name="msapplication-task" content="name=Watch HD Trailers;action-uri=/features/hdgallery;icon-uri=http://i.media-imdb.com/images/SFff39adb4d259f3c3fd166853a6714a32/favicon.ico"/>
+<meta name="msapplication-task" content="name=What's On TV Tonight;action-uri=/sections/tv/;icon-uri=http://i.media-imdb.com/images/SFff39adb4d259f3c3fd166853a6714a32/favicon.ico"/>
+<meta name="msapplication-task" content="name=Get Latest Entertainment News;action-uri=/news/top;icon-uri=http://i.media-imdb.com/images/SFff39adb4d259f3c3fd166853a6714a32/favicon.ico"/>
+<meta name="msapplication-task" content="name=Sign-in;action-uri=/register/login;icon-uri=http://i.media-imdb.com/images/SFff39adb4d259f3c3fd166853a6714a32/favicon.ico"/>
+<link rel="icon" type="image/ico"
+      href="http://i.media-imdb.com/images/SFff39adb4d259f3c3fd166853a6714a32/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon"
+      href="http://i.media-imdb.com/images/SFff39adb4d259f3c3fd166853a6714a32/desktop-favicon.ico" />
+<link rel="apple-touch-icon"
+      href="http://i.media-imdb.com/images/SFc8a0bc1039862e1386365008f0507ea9/apple-touch-icon.png" />
+<link rel="search" type="application/opensearchdescription+xml"
+      href="http://i.media-imdb.com/images/SF1c05d2599bfc9132fc0ec9b4f6ae1e74/imdbsearch.xml" title="IMDb" />
+ <link rel="alternate" type="application/rss+xml" title="IMDb News" href="http://rss.imdb.com/news/" /><link rel="alternate" type="application/rss+xml" title="WENN News" href="http://rss.imdb.com/news/wenn/" /><link rel="alternate" type="application/rss+xml" title="Studio Briefing News" href="http://rss.imdb.com/news/sb/" /><link rel="alternate" type="application/rss+xml" title="Born On This Date" href="http://rss.imdb.com/daily/born/" /><link rel="alternate" type="application/rss+xml" title="Died On This Date" href="http://rss.imdb.com/daily/died/" /><link rel="alternate" type="application/rss+xml" title="Daily Poll" href="http://rss.imdb.com/daily/poll/" />
+<meta property="fb:app_id" content="115109575169727" />
+<meta property="og:title" content="The Internet Movie Database (IMDb)" />
+<meta property="og:site_name" content="IMDb" />
+<!-- start m/s/a/_g_a_s , head -->
+<script src="http://i.media-imdb.com/images/SF301bc7faa10f3bac1375d9d9a6b78f99/js/cc/ads.js" ></script>
+<script type="text/javascript">
+generic.monitoring.set_forester_info("homepage");
+
+generic.monitoring.set_twilight_info(
+    "homepage", 
+    "Other", 
+    "a8f3b466b74817582f2f5ac8bcde321a1ce2c232", 
+    "2012-03-02T01%3A52%3A44GMT", 
+    "http://s.media-imdb.com/twilight/?");
+
+generic.monitoring.start_timing("page_load");
+
+generic.cache.set('aan',{
+    type:"js",
+    url:("http://aan.amazon.com/2009-05-01/imdb/default?slot=sitewide-iframe&u=[CLIENT_SIDE_ORD]&ord=[CLIENT_SIDE_ORD]").replace(ad_utils.ord_regex, ad_utils.ord),
+    onCall:custom.amazon.aan_iframe_oncall
+});
+
+generic.cache.set('fc',{
+    type:"swf",
+    url:"http://ia.media-imdb.com/images/M/MV5BMTMzMzgxNzM2M15BMl5Bc3dmXkFtZTcwNzM0MTkxNw@@._V1_.swf"
+});
+custom.full_page.data_url = "http://i.media-imdb.com/images/SFfb45fd582e94e372b22eaf1b354b3fe4/a/js/graffiti_data.js";
+consoleLog('advertising initialized','ads');
+</script>
+<!-- end m/s/a/_g_a_s , head -->
+
+
+</head>
+
+<body bgcolor="#ffffff" text="#000000" id="styleguide-v2" class="fixed">
+<!-- start m/s/a/_g_a_s , body -->
+
+<iframe src="/images/SF8dcd77f70a5de2a050e47b985a4dfa00/a/js/scriptloader.html#aan,fc" class="script_loader"
+allowtransparency="true" marginheight="0" marginwidth="0" scrolling="no" frameborder="0"></iframe>
+<!-- end m/s/a/_g_a_s , body -->
+
+
+<div id="wrapper">
+
+
+
+
+<div id="root">
+<layer name="root">
+  
+
+
+
+
+<div id="nb20">
+    <div id="supertab">
+
+
+<!-- begin TOP_AD -->
+<div id="top_ad_wrapper" class="dfp_slot">
+<script type="text/javascript"> 
+ad_utils.queue_ad('2','top_ad');
+</script>
+<iframe src="/images/SF99c7f777fc74f1d954417f99b985a4af/a/ifb/doubleclick/expand.html#imdb2.consumer.homepage/;tile=2;sz=1008x150,1008x200,1008x30,9x1;p=t;p=top;ct=com;[PASEGMENTS];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?" id="top_ad" name="top_ad" class="yesScript" width="0" height="0" data-config-width="0" data-config-height="0" data-cookie-width="null" data-cookie-height="null" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowtransparency="true" onload="ad_utils.on_ad_load(this)"></iframe>
+
+<noscript><a href="http://ad.doubleclick.net/jump/imdb2.consumer.homepage/;tile=2;sz=1008x150,1008x200,1008x30,9x1;p=t;p=top;ct=com;ord=132206125724?" target="_blank"><img src="http://ad.doubleclick.net/ad/imdb2.consumer.homepage/;tile=2;sz=1008x150,1008x200,1008x30,9x1;p=t;p=top;ct=com;ord=132206125724?"  border="0" alt="advertisement" /></a></noscript>
+
+</div>
+<div id="top_ad_reflow_helper"></div>
+<!-- End TOP_AD -->
+</div>
+	<div id="navbar">
+        <noscript><link rel="stylesheet" type="text/css" href="http://i.media-imdb.com/images/SFead09969ad98114020e0af7cdf34fd4e/css2/site/consumer-navbar-no-js.css"></noscript>
+        <!--[if IE]> <link rel="stylesheet" type="text/css" href="http://i.media-imdb.com/images/SFa14291d27b6a14b45fd061e3a10ce7b7/css2/site/consumer-navbar-ie.css"><![endif]-->
+		<span id="home_img_holder">            <a    onclick="(new Image()).src='/rg/home/navbar/images/b.gif?link=%2F';"     href="/"    id='home_img' class='home' title='Home' ></a>
+
+            <span class="alt_logo">
+                <a    onclick="(new Image()).src='/rg/home/navbar/images/b.gif?link=%2F';"     href="/"    title='Home' >IMDb</a>
+            </span>
+        </span>
+
+
+<form    onsubmit="(new Image()).src='/rg/SEARCH-BOX/HEADER/images/b.gif?link=/find';"    action="/find"    method="get" id="navbar-form" class="nav-searchbar-inner" >
+
+<div id="nb_search" >
+
+  <noscript><div id="more_if_no_javascript"><a href="/search/">More</a></div></noscript>
+  <button id="navbar-submit-button" class="primary btn" type="submit"><div class="magnifyingglass"></div></button>
+  <input type="text" autocomplete="off" value="" name="q" id="navbar-query" placeholder="Find Movies, TV shows, Celebrities and more..." >
+  <div class="quicksearch_dropdown_wrapper">
+
+<select
+    class="quicksearch_dropdown"
+    name="s"
+    id="quicksearch"
+    onchange="jumpMenu(this); suggestionsearch_dropdown_choice(this);">
+
+    <option  
+     value="all">All</option>
+    <option  
+     value="tt">Titles</option>
+    <option  
+     value="ep">TV Episodes</option>
+    <option  
+     value="nm">Names</option>
+    <option  
+     value="co">Companies</option>
+    <option  
+     value="kw">Keywords</option>
+    <option  
+     value="ch">Characters</option>
+    <option  
+     value="vi">Videos</option>
+    <option  
+     value="qu">Quotes</option>
+    <option  
+     value="bi">Bios</option>
+    <option  
+     value="pl">Plots</option>
+</select>
+
+  </div>
+
+<div id="navbar-suggestionsearch"></div>
+</div>
+
+</form>
+
+<div id="nb_personal">
+
+            <a    onclick="(new Image()).src='/rg/register-v2/navbar/images/b.gif?link=https%3A%2F%2Fsecure.imdb.com%2Fregister-imdb%2Fform-v2';"     href="https://secure.imdb.com/register-imdb/form-v2"    >Register</a>
+            | <a    onclick="(new Image()).src='/rg/login/navbar/images/b.gif?link=%2Fregister%2Flogin';"    rel=login href="/register/login"    id='nblogin' >Login</a>
+            | <a    onclick="(new Image()).src='/rg/help/navbar/images/b.gif?link=%2Fhelp%2F';"     href="/help/"    >Help</a>
+
+
+
+</div>
+
+
+<div>
+    <ul id="main_nav" class="no-js main_nav">
+
+    <li>
+
+
+        <a    onclick="(new Image()).src='/rg/navbar-movies/navbar/images/b.gif?link=%2Fmovies-in-theaters%2F';"     href="/movies-in-theaters/"    class='nb_link' >            Movies</a>
+
+        <ul class="sub_nav">
+
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/intheaters/navbar/images/b.gif?link=%2Fmovies-in-theaters%2F';"     href="/movies-in-theaters/"    >In Theaters</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/comingsoon/navbar/images/b.gif?link=%2Fmovies-coming-soon%2F';"     href="/movies-coming-soon/"    >Coming Soon</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/topmovies/navbar/images/b.gif?link=%2Fchart%2F';"     href="/chart/"    >Top Movies</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/showtimes/navbar/images/b.gif?link=%2Fshowtimes%2F';"     href="/showtimes/"    >Showtimes & Tickets</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/trailersmovie/navbar/images/b.gif?link=%2Ffeatures%2Fvideo%2Ftrailers%2F';"     href="/features/video/trailers/"    >Trailers</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/watchlistmovie/navbar/images/b.gif?link=%2Flist%2Fwatchlist';"     href="/list/watchlist"    >Watchlist</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/mymovies/navbar/images/b.gif?link=%2Fprofile%2Flists';"     href="/profile/lists"    >MyMovies</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/dvdbluray/navbar/images/b.gif?link=%2Fsections%2Fdvd%2F';"     href="/sections/dvd/"    >New: DVD & Blu-Ray</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/top250/navbar/images/b.gif?link=%2Fchart%2Ftop';"     href="/chart/top"    >Top 250</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/genres/navbar/images/b.gif?link=%2Fgenre';"     href="/genre"    >Genres</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/edsspotlight/navbar/images/b.gif?link=%2Fsections%2Fspotlight%2F';"     href="/sections/spotlight/"    >Editors' Spotlight</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/independentfilm/navbar/images/b.gif?link=%2Fsections%2Findie%2F';"     href="/sections/indie/"    >Independent Film</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/horror/navbar/images/b.gif?link=%2Fsections%2Fhorror%2F';"     href="/sections/horror/"    >Horror</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/oscars/navbar/images/b.gif?link=%2Foscars%2F';"     href="/oscars/"    >Road to the Oscars</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/sundance/navbar/images/b.gif?link=%2Fsundance%2F';"     href="/sundance/"    >Sundance 2012</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+
+
+        <a    onclick="(new Image()).src='/rg/navbar-tv/navbar/images/b.gif?link=%2Ftv%2F';"     href="/tv/"    class='nb_link' >            TV</a>
+
+        <ul class="sub_nav">
+
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/tvhome/navbar/images/b.gif?link=%2Ftv%2F';"     href="/tv/"    >TV Home</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/tvlistings/navbar/images/b.gif?link=%2Ftvgrid%2F';"     href="/tvgrid/"    >TV Listings</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/tvepisodesandclips/navbar/images/b.gif?link=%2Ffeatures%2Fvideo%2Ftv%2F';"     href="/features/video/tv/"    >TV Episodes & Clips</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/besttv/navbar/images/b.gif?link=%2Fsearch%2Ftitle%3Fnum_votes%3D5000%2C%26sort%3Duser_rating%2Cdesc%26title_type%3Dtv_series';"     href="/search/title?num_votes=5000,&sort=user_rating,desc&title_type=tv_series"    >Best TV Series</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+
+
+        <a    onclick="(new Image()).src='/rg/navbar-news/navbar/images/b.gif?link=%2Fnews%2Ftop';"     href="/news/top"    class='nb_link' >            News</a>
+
+        <ul class="sub_nav">
+
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/topnews/navbar/images/b.gif?link=%2Fnews%2Ftop';"     href="/news/top"    >Top News</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/movienews/navbar/images/b.gif?link=%2Fnews%2Fmovie';"     href="/news/movie"    >Movie News</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/tvnews/navbar/images/b.gif?link=%2Fnews%2Ftv';"     href="/news/tv"    >TV News</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/celebritynews/navbar/images/b.gif?link=%2Fnews%2Fcelebrity';"     href="/news/celebrity"    >Celebrity News</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/featurednews/navbar/images/b.gif?link=%2Fnews%2F';"     href="/news/"    >Featured News</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/imdbsnapshot/navbar/images/b.gif?link=%2Fphoto_galleries%2Fnew_photos%2Findex';"     href="/photo_galleries/new_photos/index"    >IMDb Snapshot</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+
+
+        <a    onclick="(new Image()).src='/rg/navbar-videos/navbar/images/b.gif?link=%2Ffeatures%2Fvideo%2Fhdgallery';"     href="/features/video/hdgallery"    class='nb_link' >            Videos</a>
+
+        <ul class="sub_nav">
+
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/hdtrailergallery/navbar/images/b.gif?link=%2Ffeatures%2Fhdgallery';"     href="/features/hdgallery"    >HD Trailer Gallery</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/browsevideos/navbar/images/b.gif?link=%2Ffeatures%2Fvideo%2Fbrowse%2F';"     href="/features/video/browse/"    >Browse Videos</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/searchvideos/navbar/images/b.gif?link=%2Fsearch%2Fvideos';"     href="/search/videos"    >Search Videos</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+
+
+        <a    onclick="(new Image()).src='/rg/navbar-community/navbar/images/b.gif?link=%2Fboards%2F';"     href="/boards/"    class='nb_link' >            Community</a>
+
+        <ul class="sub_nav">
+
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/messageboards/navbar/images/b.gif?link=%2Fboards%2F';"     href="/boards/"    >Message Boards</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/contributorzone/navbar/images/b.gif?link=%2Fczone%2F';"     href="/czone/"    >Contributor Zone</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/lists/navbar/images/b.gif?link=%2Flists';"     href="/lists"    >Newest Lists</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/yourlists/navbar/images/b.gif?link=%2Fprofile%2Flists';"     href="/profile/lists"    >Your Lists</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/ratings/navbar/images/b.gif?link=%2Flist%2Fratings';"     href="/list/ratings"    >Your Ratings</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+
+
+        <a    onclick="(new Image()).src='/rg/imdbpro/navbar/images/b.gif?link=%2Fr%2FIMDbTabNB%2F';"     href="/r/IMDbTabNB/"    class='nb_link' >            IMDbPro</a>
+
+        <ul class="sub_nav">
+
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/imdbprohome/navbar/images/b.gif?link=%2Fr%2FIMDbTabNB%2F';"     href="/r/IMDbTabNB/"    >IMDbPro</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/resume/prosystem/images/b.gif?link=%2Fr%2FIMDbResumeNB%2Fhttps%3A%2F%2Fresume.imdb.com%2F';"     href="/r/IMDbResumeNB/https://resume.imdb.com/"    >IMDb Resume</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+
+
+        <a    onclick="(new Image()).src='/rg/navbar-apps/navbar/images/b.gif?link=%2Fapps%2F';"     href="/apps/"    class='nb_link' >            Apps</a>
+
+        <ul class="sub_nav">
+
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/apps/navbar/images/b.gif?link=%2Fapps%2F';"     href="/apps/"    >Apps Home</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/iphoneapp/navbar/images/b.gif?link=%2Fapps%2Fiphone%2F';"     href="/apps/iphone/"    >iPhone App</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/ipadapp/navbar/images/b.gif?link=%2Fapps%2Fipad%2F';"     href="/apps/ipad/"    >iPad App</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/androidphonesapp/navbar/images/b.gif?link=%2Fapps%2Fandroid%2F';"     href="/apps/android/"    >Android Phones App</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/androidtabletsapp/navbar/images/b.gif?link=%2Fapps%2Fandroidtablet%2F';"     href="/apps/androidtablet/"    >Android Tablets App</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/kindlefireapp/navbar/images/b.gif?link=%2Fapps%2Fkindlefire%2F';"     href="/apps/kindlefire/"    >IMDb App on Kindle Fire</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/windowsphoneapp/navbar/images/b.gif?link=%2Fapps%2Fwindowsphone%2F';"     href="/apps/windowsphone/"    >Windows Phone App</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/imdbtriviaapp/navbar/images/b.gif?link=%2Fapps%2Ftrivia%2F';"     href="/apps/trivia/"    >IMDb Trivia App</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/imdbbuzzapp/navbar/images/b.gif?link=%2Fapps%2Fbuzz%2F';"     href="/apps/buzz/"    >IMDb Buzz App</a>
+            </li>
+
+            <li>
+            <a    onclick="(new Image()).src='/rg/mobilesite/navbar/images/b.gif?link=%2Fapps%2Fmobilesite%2F';"     href="/apps/mobilesite/"    >IMDb Mobile site</a>
+            </li>
+        </ul>
+    </li>
+
+            </ul>
+        </div>
+
+
+
+        <div class="nb_extra">
+            <a    onclick="(new Image()).src='/rg/watchlist/navbar/images/b.gif?link=%2Flist%2Fwatchlist';"     href="/list/watchlist"    >Your Watchlist</a>
+        </div>
+
+
+    </div>
+</div>
+
+        
+
+
+
+
+
+
+
+
+<!-- begin UPFRONT_NAVSTRIP -->
+<div id="upfront_navstrip_wrapper" class="dfp_slot">
+<script type="text/javascript"> 
+ad_utils.queue_ad('5','upfront_navstrip');
+</script>
+<iframe src="/images/SF99c7f777fc74f1d954417f99b985a4af/a/ifb/doubleclick/expand.html#imdb2.consumer.homepage/;tile=5;sz=1008x60,1008x66,7x1;p=ns;ct=com;[PASEGMENTS];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?" id="upfront_navstrip" name="upfront_navstrip" class="yesScript" width="0" height="0" data-config-width="0" data-config-height="0" data-cookie-width="null" data-cookie-height="null" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowtransparency="true" onload="ad_utils.on_ad_load(this)"></iframe>
+
+<noscript><a href="http://ad.doubleclick.net/jump/imdb2.consumer.homepage/;tile=5;sz=1008x60,1008x66,7x1;p=ns;ct=com;ord=132206125724?" target="_blank"><img src="http://ad.doubleclick.net/ad/imdb2.consumer.homepage/;tile=5;sz=1008x60,1008x66,7x1;p=ns;ct=com;ord=132206125724?"  border="0" alt="advertisement" /></a></noscript>
+
+</div>
+<div id="upfront_navstrip_reflow_helper"></div>
+<!-- End UPFRONT_NAVSTRIP -->
+
+
+
+
+
+
+<!-- begin injectable INJECTED_NAVSTRIP -->
+<div id="injected_navstrip_wrapper" class="injected_slot">
+<iframe src="/images/a/ifb/inject.html" id="injected_navstrip" name="injected_navstrip" class="yesScript" width="0" height="0" data-config-width="0" data-config-height="0" data-cookie-width="null" data-cookie-height="null" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+</div>
+<div id="injected_navstrip_reflow_helper"></div>
+<!-- end injectable INJECTED_NAVSTRIP -->
+
+<div id="pagecontent">
+
+<div id="content-2-wide">
+<div id="main">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- sid : 107499 : 'CENTER_1' -->
+
+<div class="">
+
+
+
+<ul class="tpack">
+    
+
+  <li style="background:url(http://ia.media-imdb.com/images/M/MV5BMTk2NTI1MTU4N15BMl5BanBnXkFtZTcwODg0OTY0Nw@@._V1._SY317_CR0,0,214,317_.jpg) top no-repeat #000000;"
+      id="tpack1" >
+    <a    onclick="(new Image()).src='/rg/VW_1_AVENGERS_TEST/HPMAIN/images/b.gif?link=http%3A%2F%2Fwww.imdb.com%2Flist%2FTB56Gm1AqRw%2F%23play-all';"     href="http://www.imdb.com/list/TB56Gm1AqRw/#play-all"   title="Robert Downey Jr., Mark Ruffalo, Jeremy Renner, Scarlett Johannson, Chris Evans, and Chris Hemsworth join forces in the new Joss Whedon flick."
+    >
+     <div class="overlay">
+        <div class="background"></div>
+        <div class="blkbtn play"><span>&#9658;</span></div>
+        <span class="title">The Avengers
+            <span class="info threepack">
+                <img class="absmiddle" src="/images/widgets/threepack/threepack-hd.png" alt="HD icon" title="HD" />
+            Latest Trailer
+          </span>
+        </span>
+     </div>
+    </a>
+  </li>  
+
+        
+
+  <li style="background:url(http://ia.media-imdb.com/images/M/MV5BMTAyMTgyMzMyNTZeQTJeQWpwZ15BbWU3MDc3MjE2NDc@._V1._SY317_CR1,0,214,317_.jpg) top no-repeat #000000;"
+      id="tpack2" >
+    <a    onclick="(new Image()).src='/rg/VW_2_REDCARPETRTO_TEST/HPMAIN/images/b.gif?link=http%3A%2F%2Fwww.imdb.com%2Foscars%2Fgalleries%2Frto2012-oscar2012-show-rm3498358272';"     href="http://www.imdb.com/oscars/galleries/rto2012-oscar2012-show-rm3498358272"   title="Check out all the red carpet photos and more from the Academy Awards!"
+    >
+     <div class="overlay">
+        <div class="background"></div>
+        <div class="blkbtn go"><span>Go</span></div>
+        <span class="title">Academy Award Photos
+            <span class="info threepack">
+            Red Carpet & More
+          </span>
+        </span>
+     </div>
+    </a>
+  </li>  
+
+        
+
+  <li style="background:url(http://ia.media-imdb.com/images/M/MV5BMTQ4MjYzMzYwNl5BMl5BanBnXkFtZTcwODQxMDg0Nw@@._V1._SX214_CR0,0,214,317_.jpg) top no-repeat #000000;"
+      id="tpack3" >
+    <a    onclick="(new Image()).src='/rg/VW_3_POPE_TEST/HPMAIN/images/b.gif?link=http%3A%2F%2Fwww.imdb.com%2Flist%2FRDuccS_NvmY%2F%23play-all';"     href="http://www.imdb.com/list/RDuccS_NvmY/#play-all"   title="Watch the exclusive trailer for filmmaker Nanni Moretti&#39;s latest, a story centered on the relationship between a reluctant newly-elected Pope and his therapist."
+    >
+     <div class="overlay">
+        <div class="background"></div>
+        <div class="blkbtn play"><span>&#9658;</span></div>
+        <span class="title">We Have a Pope
+            <span class="info threepack">
+                <img class="absmiddle" src="/images/widgets/threepack/threepack-hd.png" alt="HD icon" title="HD" />
+            Exclusive Trailer
+          </span>
+        </span>
+     </div>
+    </a>
+  </li>  
+
+</ul>
+<div class="clear"></div>
+<div class="sub_tpack">
+    <a    onclick="(new Image()).src='/rg/HDTRAILERS_all/HPMAIN/images/b.gif?link=%2Ffeatures%2Fhdgallery';"     href="/features/hdgallery"    >
+    <span>See featured HD Trailers</span>&nbsp;&raquo;</a>
+</div>
+
+
+
+</div>
+
+
+    
+    <script>
+if ('csm' in window){
+    csm.measure('csm_atf_main');
+}
+</script>
+
+    
+    <!-- sid : 105617 : 'SHADOW_2' -->
+
+    <!-- sid : 99361 : 'CENTER_3' -->
+
+<div class="article">
+
+
+<div class="newsWidget">
+<h2 id="ndheadline">NewsDesk</h2>
+<ul class="newsTabs">
+<li ><a href="/news/celebrity">Celebrity News</a></li>
+<li ><a href="/news/tv">TV News</a></li>
+<li ><a href="/news/movie">Movie News</a></li>
+<li class="active"><a href="/news/top">Top News</a></li>
+</ul>
+<div class="newsTabs">
+<div class="newsTab active">
+<div class="newsItem primary">
+<img src="http://ia.media-imdb.com/images/M/MV5BMjI4NjkzMDg1Ml5BMl5BanBnXkFtZTcwNDU2OTc0Nw@@._V1._SY90_.jpg" width="73" height="90" style="margin:4px 10px 0 0;" />
+
+
+<div class="headline">
+<h3><a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23676859%2F';" href="/news/ni23676859/">Andrew Breitbart, Conservative Firebrand, Dead at 43</a>
+</h3>
+<small>
+8 hours ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0000236%2F';" href="/news/ns0000236/">The Wrap</a>
+</small>
+</div>
+
+<p style="margin-top:6px;">
+<a href="/name/nm1620485/">Andrew Breitbart</a>, the outspoken conservative journalist, died Wednesday night in Los Angeles. He was 43. Joel Pollak, the editor of Breitbart&#x27;s Big Journalism website, confirmed the news, which was first posted on Big Journalism. Pollak wrote that Breitbart died of natural causes, and the Associated Press reported that he 
+<span class="nobr"><a onClick="(new Image()).src='/rg/widget-perma/newsdesk/images/b.gif?link=%2Fnews%2Fni23676859%2F';" href="/news/ni23676859/">See more</a> &raquo;</span>
+</p>
+
+
+</p>
+</div>
+<br clear="left" />
+<table>
+<tr><td width="48%" valign="top">
+<div class="newsItem">
+
+<div class="headline">
+<a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23681993%2F';" href="/news/ni23681993/">&#x27;The Hunger Games&#x27; tracking at &#x27;Twilight&#x27;-size numbers</a>
+
+<small>
+8 hours ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0000278%2F';" href="/news/ns0000278/">EW.com - Inside Movies</a>
+</small>
+</div>
+
+</div>
+<div class="newsItem">
+
+<div class="headline">
+<a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23686047%2F';" href="/news/ni23686047/">Nicollette Sheridan Takes the Stand in &#x27;Desperate Housewives&#x27; Trial</a>
+
+<small>
+6 hours ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0000001%2F';" href="/news/ns0000001/">The Hollywood Reporter</a>
+</small>
+</div>
+
+</div>
+</td><td>&nbsp;</td><td width="48%" valign="top" style="border-left:1px dotted #D5D5D5; padding-left: 2%;">
+<div class="newsItem">
+
+<div class="headline">
+<a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23643592%2F';" href="/news/ni23643592/">Hollywood Buzzing as Christopher Nolan Dumps CAA After His Agent Is Fired</a>
+
+<small>
+8 hours ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0000236%2F';" href="/news/ns0000236/">The Wrap</a>
+</small>
+</div>
+
+</div>
+<div class="newsItem">
+
+<div class="headline">
+<a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23695092%2F';" href="/news/ni23695092/">Bradley Cooper Signs Development Deal With Warner Bros.</a>
+
+<small>
+2 hours ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0000001%2F';" href="/news/ns0000001/">The Hollywood Reporter</a>
+</small>
+</div>
+
+</div>
+</td></tr></table>
+<p class="see-more">
+<a onClick="(new Image()).src='/rg/widget-all/newsdesk/images/b.gif?link=%2Fnews%2Ftop';" href="/news/top">See all Top News</a> &raquo;
+</p>
+</div>
+<div class="newsTab">
+<div class="newsItem primary">
+<img src="http://ia.media-imdb.com/images/M/MV5BMjA0MjMzMTE5OF5BMl5BanBnXkFtZTcwMzQ2ODE3Mw@@._V1._SY90_.jpg" width="76" height="90" style="margin:4px 10px 0 0;" />
+
+
+<div class="headline">
+<h3><a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23698315%2F';" href="/news/ni23698315/">Bruce Willis to Star in &#x27;Five Against a Bullet&#x27;</a>
+</h3>
+<small>
+1 hour ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0000236%2F';" href="/news/ns0000236/">The Wrap</a>
+</small>
+</div>
+
+<p style="margin-top:6px;">
+<a href="/name/nm0000246/">Bruce Willis</a> will star in Sony&#x27;s action thriller &#x22;Five Against a Bullet,&#x22; <a href="/name/nm1098742/">Hannah Minghella</a>, president of production at Sony&#x27;s <a href="/company/co0071509/">Columbia Pictures</a>, said Thursday. The movie, which <a href="/name/nm0514821/">Alex Litvak</a> (&#x22;<a href="/title/tt1509767/">The Three Musketeers</a>,&#x22; &#x22;<a href="/title/tt1424381/">Predators</a>&#x22;) is writing, is about a Mexican politician who hires the five best 
+<span class="nobr"><a onClick="(new Image()).src='/rg/widget-perma/newsdesk/images/b.gif?link=%2Fnews%2Fni23698315%2F';" href="/news/ni23698315/">See more</a> &raquo;</span>
+</p>
+
+
+</p>
+</div>
+<br clear="left" />
+<table>
+<tr><td width="48%" valign="top">
+<div class="newsItem">
+
+<div class="headline">
+<a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23692910%2F';" href="/news/ni23692910/">&#x27;Killer Joe&#x27; distributor appeals NC-17 rating</a>
+
+<small>
+3 hours ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0000278%2F';" href="/news/ns0000278/">EW.com - Inside Movies</a>
+</small>
+</div>
+
+</div>
+<div class="newsItem">
+
+<div class="headline">
+<a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23629280%2F';" href="/news/ni23629280/">Dan Aykroyd confirms Bill Murray is not doing Ghostbusters 3</a>
+
+<small>
+10 hours ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0000128%2F';" href="/news/ns0000128/">TotalFilm</a>
+</small>
+</div>
+
+</div>
+</td><td>&nbsp;</td><td width="48%" valign="top" style="border-left:1px dotted #D5D5D5; padding-left: 2%;">
+<div class="newsItem">
+
+<div class="headline">
+<a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23694637%2F';" href="/news/ni23694637/">&#x2018;Game Change&#x2019; Scribe Danny Strong To Adapt &#x2018;The Lost Symbol&#x2019; For Sony...</a>
+
+<small>
+2 hours ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0004912%2F';" href="/news/ns0004912/">Deadline New York</a>
+</small>
+</div>
+
+</div>
+<div class="newsItem">
+
+<div class="headline">
+<a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23695522%2F';" href="/news/ni23695522/">First Look at Ryan Gosling in Nicolas Winding Refn&#x27;s &#x27;Only God Forgives&#x27;</a>
+
+<small>
+3 hours ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0000055%2F';" href="/news/ns0000055/">Rope Of Silicon</a>
+</small>
+</div>
+
+</div>
+</td></tr></table>
+<p class="see-more">
+<a onClick="(new Image()).src='/rg/widget-all/newsdesk/images/b.gif?link=%2Fnews%2Fmovie';" href="/news/movie">See all Movie News</a> &raquo;
+</p>
+</div>
+<div class="newsTab">
+<div class="newsItem primary">
+<img src="http://ia.media-imdb.com/images/M/MV5BMTMwODc5NjI3N15BMl5BanBnXkFtZTcwNDEyMTE3Mw@@._V1._SY90_.jpg" width="71" height="90" style="margin:4px 10px 0 0;" />
+
+
+<div class="headline">
+<h3><a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23688079%2F';" href="/news/ni23688079/">Scoop: Matthew Perry Returning to NBC as Star of Comedy Pilot Go...</a>
+</h3>
+<small>
+5 hours ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0013977%2F';" href="/news/ns0013977/">TVLine.com</a>
+</small>
+</div>
+
+<p style="margin-top:6px;">
+NBC is welcoming an old Friend back into the fold. <a href="/name/nm0001612/">Matthew Perry</a> has been tapped to headline Go On, a single-camera comedy from the actor&#x2019;s former Friends colleague <a href="/name/nm0798859/">Scott Silveri</a> about a sportscaster who, while trying to move on from a loss, finds solace in his mandatory group-therapy sessions. <a href="/name/nm0925033/">Julie White</a> 
+<span class="nobr"><a onClick="(new Image()).src='/rg/widget-perma/newsdesk/images/b.gif?link=%2Fnews%2Fni23688079%2F';" href="/news/ni23688079/">See more</a> &raquo;</span>
+</p>
+
+
+</p>
+</div>
+<br clear="left" />
+<table>
+<tr><td width="48%" valign="top">
+<div class="newsItem">
+
+<div class="headline">
+<a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23686123%2F';" href="/news/ni23686123/">Jessica Lange will return to &#x27;American Horror Story&#x27; -- Exclusive</a>
+
+<small>
+6 hours ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0000345%2F';" href="/news/ns0000345/">EW.com - Inside TV</a>
+</small>
+</div>
+
+</div>
+<div class="newsItem">
+
+<div class="headline">
+<a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23695336%2F';" href="/news/ni23695336/">Scoop: Fnl&#x27;s Matt Lauria Joins Shonda Rhimes&#x27; Period Drama Pilot Gilded Lilys</a>
+
+<small>
+2 hours ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0013977%2F';" href="/news/ns0013977/">TVLine.com</a>
+</small>
+</div>
+
+</div>
+</td><td>&nbsp;</td><td width="48%" valign="top" style="border-left:1px dotted #D5D5D5; padding-left: 2%;">
+<div class="newsItem">
+
+<div class="headline">
+<a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23700234%2F';" href="/news/ni23700234/">&#x27;Hunger Games&#x27; author Suzanne Collins weighs in on the big question: Will...</a>
+
+<small>
+37 minutes ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0000344%2F';" href="/news/ns0000344/">EW.com - PopWatch</a>
+</small>
+</div>
+
+</div>
+<div class="newsItem">
+
+<div class="headline">
+<a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23700222%2F';" href="/news/ni23700222/">Magic City Preview: Jeffrey Dean Morgan Stars in the Sexy New Starz...</a>
+
+<small>
+38 minutes ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0000222%2F';" href="/news/ns0000222/">TVovermind.com</a>
+</small>
+</div>
+
+</div>
+</td></tr></table>
+<p class="see-more">
+<a onClick="(new Image()).src='/rg/widget-all/newsdesk/images/b.gif?link=%2Fnews%2Ftv';" href="/news/tv">See all TV News</a> &raquo;
+</p>
+</div>
+<div class="newsTab">
+<div class="newsItem primary">
+<img src="http://ia.media-imdb.com/images/M/MV5BMTA5NjEwODI2NDBeQTJeQWpwZ15BbWU3MDM0NTc3NjM@._V1._SY90_.jpg" width="60" height="90" style="margin:4px 10px 0 0;" />
+
+
+<div class="headline">
+<h3><a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23682146%2F';" href="/news/ni23682146/">Zac Efron Cops to Condom-Dropping: Now Watch Him Blush!</a>
+</h3>
+<small>
+8 hours ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0000141%2F';" href="/news/ns0000141/">E! Online</a>
+</small>
+</div>
+
+<p style="margin-top:6px;">
+There&#x27;s something ever so slightly awkward about a 24-year-old movie star discussing his safe sex habits with a 54-year-old morning show anchor. On live TV, no less. Luckily for all of us, there&#x27;s also something rather hilarious about it, as evidenced on Today when <a href="/name/nm0005126/">Matt Lauer</a> decided to grilll 
+<span class="nobr"><a onClick="(new Image()).src='/rg/widget-perma/newsdesk/images/b.gif?link=%2Fnews%2Fni23682146%2F';" href="/news/ni23682146/">See more</a> &raquo;</span>
+</p>
+
+
+</p>
+</div>
+<br clear="left" />
+<table>
+<tr><td width="48%" valign="top">
+<div class="newsItem">
+
+<div class="headline">
+<a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23693914%2F';" href="/news/ni23693914/">Demi Moore No Longer in Rehab, Now on &#x22;Vacation&#x22;</a>
+
+<small>
+3 hours ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0000141%2F';" href="/news/ns0000141/">E! Online</a>
+</small>
+</div>
+
+</div>
+<div class="newsItem">
+
+<div class="headline">
+<a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23689845%2F';" href="/news/ni23689845/">Wiz Khalifa and Amber Rose Engaged&#x2014;Get a Load of Her Rockin&#x27; Rock!</a>
+
+<small>
+5 hours ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0000141%2F';" href="/news/ns0000141/">E! Online</a>
+</small>
+</div>
+
+</div>
+</td><td>&nbsp;</td><td width="48%" valign="top" style="border-left:1px dotted #D5D5D5; padding-left: 2%;">
+<div class="newsItem">
+
+<div class="headline">
+<a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23700843%2F';" href="/news/ni23700843/">Cheadle &#x27;Uncomfortable&#x27; With Daughter&#x27;s College Plans</a>
+
+<small>
+16 minutes ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0000002%2F';" href="/news/ns0000002/">WENN</a>
+</small>
+</div>
+
+</div>
+<div class="newsItem">
+
+<div class="headline">
+<a onClick="(new Image()).src='/rg/widget-headline/newsdesk/images/b.gif?link=%2Fnews%2Fni23700842%2F';" href="/news/ni23700842/">Hutcherson Joins Pal Jogia&#x27;s Anti-homophobia Campaign</a>
+
+<small>
+16 minutes ago
+
+| <a onClick="(new Image()).src='/rg/widget-source/newsdesk/images/b.gif?link=%2Fnews%2Fns0000002%2F';" href="/news/ns0000002/">WENN</a>
+</small>
+</div>
+
+</div>
+</td></tr></table>
+<p class="see-more">
+<a onClick="(new Image()).src='/rg/widget-all/newsdesk/images/b.gif?link=%2Fnews%2Fcelebrity';" href="/news/celebrity">See all Celebrity News</a> &raquo;
+</p>
+</div>
+</div>
+
+<div class="newsWidgetFooter">
+
+</div>
+
+</div>
+
+
+
+</div>
+
+
+    
+    
+    
+    <!-- sid : 107488 : 'CENTER_4' -->
+
+<div class="article">
+
+<h2>IMDb Snapshot - Latest Photos and Galleries</h2>
+
+<div class="photo_strip">
+
+
+<a href="http://www.imdb.com/media/rm3832133120/tt0763831" onclick="(new Image()).src='/rg/NEWPHOTOS_ST/HPMAIN/images/b.gif'"><img src="http://ia.media-imdb.com/images/M/MV5BMTMzNTUwNjMwOF5BMl5BanBnXkFtZTcwNDgwMTc0Nw@@._V1._SY160_.jpg" alt="A Thousand Words" border="0" width="248" height="160"></a>
+
+
+<a href="http://www.imdb.com/media/rm57325056/tt1507563" onclick="(new Image()).src='/rg/NEWPHOTOS_ST/HPMAIN/images/b.gif'"><img src="http://ia.media-imdb.com/images/M/MV5BOTY2NDkwNDUzMF5BMl5BanBnXkFtZTcwNTgyMTc0Nw@@._V1._SY160_.jpg" alt="Dark Tide" border="0" width="108" height="160"></a>
+
+<a href="http://www.imdb.com/media/rm1298314752/tt1232829" onclick="(new Image()).src='/rg/NEWPHOTOS_ST/HPMAIN/images/b.gif'"><img src="http://ia.media-imdb.com/images/M/MV5BMTg2ODQ1MjAxMV5BMl5BanBnXkFtZTcwNjU4NTc0Nw@@._V1._SY160_.jpg" alt="21 Jump Street" border="0" width="248" height="160"></a>
+
+
+</div>
+
+<p>
+
+
+
+<a href="http://www.imdb.com/photo_galleries/new_photos/index" onclick="(new Image()).src='/rg/NEWPHOTOS_ALL/HPMAIN/images/b.gif'">Stills from <i>A Thousand Words</i>, <i>Dark Tide</i>, <i>21 Jump Street</i>, and more...</a>
+ 
+
+</p>
+
+<div class="see-more clear">
+<a href="http://www.imdb.com/photo_galleries/new_photos/index" onclick="(new Image()).src='/rg/NEWPHOTOS_ALL/HPMAIN/images/b.gif'">See all the latest photos</a> &raquo;
+</div>
+
+</div>
+
+
+    
+        
+        
+
+
+
+      
+    <!-- sid : 99381 : 'CENTER_5' -->
+
+<div class="article">
+
+
+
+
+<h2>Born Today</h2>
+
+<div class="born-today-item" id="born-today-1">
+  <div class="born-today-person">
+    <div class="born-today-img"><a    onclick="(new Image()).src='/rg/BIRTHDAY_1/HPMAIN/images/b.gif?link=%2Fname%2Fnm0000849%2F';"     href="/name/nm0000849/"    >
+        <img alt="Javier Bardem" width="100"
+             height="136"
+             src="http://ia.media-imdb.com/images/M/MV5BMTY1NTc4NTYzMF5BMl5BanBnXkFtZTcwNDIwOTY1NA@@._V1._SX100_CR0,0,100,136_.jpg" /></a></div>
+    <div class="born-today-name fontsmall"><a    onclick="(new Image()).src='/rg/BIRTHDAY_1/HPMAIN/images/b.gif?link=%2Fname%2Fnm0000849%2F';"     href="/name/nm0000849/"    ><b>Javier Bardem</b></a>&nbsp;(43)</div>
+  </div>
+</div>
+
+
+<div class="born-today-item" id="born-today-2">
+  <div class="born-today-person">
+    <div class="born-today-img"><a    onclick="(new Image()).src='/rg/BIRTHDAY_2/HPMAIN/images/b.gif?link=%2Fname%2Fnm0000165%2F';"     href="/name/nm0000165/"    >
+        <img alt="Ron Howard" width="100"
+             height="136"
+             src="http://ia.media-imdb.com/images/M/MV5BMTkzMDczMjUxNF5BMl5BanBnXkFtZTcwODY1Njk5Mg@@._V1._SX100_CR0,0,100,136_.jpg" /></a></div>
+    <div class="born-today-name fontsmall"><a    onclick="(new Image()).src='/rg/BIRTHDAY_2/HPMAIN/images/b.gif?link=%2Fname%2Fnm0000165%2F';"     href="/name/nm0000165/"    ><b>Ron Howard</b></a>&nbsp;(58)</div>
+  </div>
+</div>
+
+
+<div class="born-today-item" id="born-today-3">
+  <div class="born-today-person">
+    <div class="born-today-img"><a    onclick="(new Image()).src='/rg/BIRTHDAY_3/HPMAIN/images/b.gif?link=%2Fname%2Fnm3595501%2F';"     href="/name/nm3595501/"    >
+        <img alt="Justin Bieber" width="100"
+             height="136"
+             src="http://ia.media-imdb.com/images/M/MV5BMTgzMDI2MTYxOV5BMl5BanBnXkFtZTcwMjU2MzQ5NQ@@._V1._SX100_CR0,0,100,136_.jpg" /></a></div>
+    <div class="born-today-name fontsmall"><a    onclick="(new Image()).src='/rg/BIRTHDAY_3/HPMAIN/images/b.gif?link=%2Fname%2Fnm3595501%2F';"     href="/name/nm3595501/"    ><b>Justin Bieber</b></a>&nbsp;(18)</div>
+  </div>
+</div>
+
+
+<div class="born-today-item" id="born-today-4">
+  <div class="born-today-person">
+    <div class="born-today-img"><a    onclick="(new Image()).src='/rg/BIRTHDAY_4/HPMAIN/images/b.gif?link=%2Fname%2Fnm0010075%2F';"     href="/name/nm0010075/"    >
+        <img alt="Jensen Ackles" width="100"
+             height="136"
+             src="http://ia.media-imdb.com/images/M/MV5BMTMwMjY1Mjc1NF5BMl5BanBnXkFtZTcwMTEwMjA3NA@@._V1._SX100_CR0,0,100,136_.jpg" /></a></div>
+    <div class="born-today-name fontsmall"><a    onclick="(new Image()).src='/rg/BIRTHDAY_4/HPMAIN/images/b.gif?link=%2Fname%2Fnm0010075%2F';"     href="/name/nm0010075/"    ><b>Jensen Ackles</b></a>&nbsp;(34)</div>
+  </div>
+</div>
+
+
+<div class="born-today-item" id="born-today-5">
+  <div class="born-today-person">
+    <div class="born-today-img"><a    onclick="(new Image()).src='/rg/BIRTHDAY_5/HPMAIN/images/b.gif?link=%2Fname%2Fnm0000896%2F';"     href="/name/nm0000896/"    >
+        <img alt="Harry Belafonte" width="100"
+             height="136"
+             src="http://ia.media-imdb.com/images/M/MV5BMTY4MTEzNjA1NF5BMl5BanBnXkFtZTcwMzgxMDUwMg@@._V1._SY136_CR1,0,100,136_.jpg" /></a></div>
+    <div class="born-today-name fontsmall"><a    onclick="(new Image()).src='/rg/BIRTHDAY_5/HPMAIN/images/b.gif?link=%2Fname%2Fnm0000896%2F';"     href="/name/nm0000896/"    ><b>Harry Belafonte</b></a>&nbsp;(85)</div>
+  </div>
+</div>
+
+
+<br class="clear" />&nbsp;
+<br />
+<div class="see-more">
+<a href="/search/name?birth_monthday=03-01&refine=birth_monthday">See all birthdays</a> &raquo;
+</div>
+
+
+
+
+
+</div>
+
+
+    
+    
+    
+    <!-- sid : 107406 : 'CENTER_7' -->
+
+<div class="article">
+
+<h2>Editors' Spotlight</h2>
+
+
+
+<table cellpadding="0" cellspacing="0">
+<tr>
+
+<td>
+<a href="http://www.imdb.com/oscars/" onclick="(new Image()).src='/rg/RTOSPOT/GENRE/images/b.gif'"><img style="padding-top: 8px; padding-bottom: 8px;" src="http://ia.media-imdb.com/images/M/MV5BMjAzOTEyMzE5MV5BMl5BanBnXkFtZTcwMzcyMTY0Nw@@._V1._CR295,0,1458,1458_SS150_.jpg" alt="Road to the Oscars" border="0"></a>
+</td>
+
+<td width="17">&nbsp;</td>
+
+
+
+<td>
+
+
+<a href="http://www.imdb.com/list/Ic1xLEhU5Cc/#play-all" onclick="(new Image()).src='/rg/HUGOSPOT/GENRE/images/b.gif'"><img style="padding-top: 8px; padding-bottom: 8px;" src="http://ia.media-imdb.com/images/M/MV5BMjAzNzk5MzgyNF5BMl5BanBnXkFtZTcwOTE4NDU5Ng@@._V1._CR0,0,1382,1382_SS150_.jpg" alt="11 Days of Hugo" border="0"></a>
+</td>
+
+<td width="18">&nbsp;</td>
+
+<td>
+
+
+<a href="http://www.imdb.com/watchnow/" onclick="(new Image()).src='/rg/WATCHNOWSPOT/GENRE/images/b.gif'"><img style="padding-top: 8px; padding-bottom: 8px;" src="http://ia.media-imdb.com/images/M/MV5BMTMxMTU5MTY4MV5BMl5BanBnXkFtZTcwNzgyNjg2NQ@@._V1._CR0,0,960,960_SS150_.jpg" alt="Movies You Can Watch Right Now - Puss in Boots" border="0"></a>
+</td>
+
+<td width="18">&nbsp;</td>
+
+
+
+<td>
+
+<a href="http://www.imdb.com/sections/indie/" onclick="(new Image()).src='/rg/INDIESPOT/GENRE/images/b.gif'"><img style="padding-top: 8px; padding-bottom: 8px;" src="http://ia.media-imdb.com/images/M/MV5BMzk0MTQ1Nzk0OV5BMl5BanBnXkFtZTcwNTA5ODU0Mw@@._V1._CR0,0,1364,1364_SS150_.jpg" alt="IMDb Indie" border="0"></a>
+</td>
+
+<tr>
+
+<td valign="top">
+<a onclick="(new Image()).src='/rg/EDSPOT1_RTO/HPMAIN/images/b.gif'" href="http://www.imdb.com/oscars/">Road to the Oscars: Awards, Photos, and More</a>
+
+</td>
+<td width="17">&nbsp;</td>
+
+
+
+<td valign="top">
+<a onclick="(new Image()).src='/rg/EDSPOT2_HMG/HPMAIN/images/b.gif'" href="http://www.imdb.com/list/Ic1xLEhU5Cc/#play-all">11 Days of <i>Hugo</i>: Video Playlist</a>
+</td>
+
+<td width="18">&nbsp;</td>
+
+<td valign="top">
+<a onclick="(new Image()).src='/rg/EDSPOT3_HMG/HPMAIN/images/b.gif'" href="http://www.imdb.com/watchnow/">Movies You Can Watch Right Now</a>
+</td>
+
+<td width="18">&nbsp;</td>
+
+
+<td valign="top">
+<a onclick="(new Image()).src='/rg/EDSPOT4_HMG/HPMAIN/images/b.gif'" href="http://www.imdb.com/sections/indie/">IMDb Indie: <i>Sound of Noise</i> and more</a> 
+
+</td>
+</tr>
+</table>
+
+
+
+
+
+<div class="see-more clear">
+<a href="http://www.imdb.com/sections/spotlight/" onclick="(new Image()).src='/rg/EDSPOT_ALL/HPMAIN/images/b.gif'">See more Spotlight Features</a> &raquo;
+</div>
+
+</div>
+
+
+    
+    
+    
+    <!-- sid : 107484 : 'CENTER_9' -->
+
+<div class="article">
+
+<h2>Daily Poll Question:</h2>
+<p>Which one of these acclaimed directorial debuts is your favorite? 
+<span class="fontsmall">(Part two of a suggestion by "woodrr9")</span></p>
+
+<p class="see-more"><a href="/poll" onclick="(new Image()).src='/rg/POLL/HPMAIN/images/b.gif'" class="linkasbutton-secondary">Submit vote &raquo;</a></p> 
+
+</div>
+
+
+    
+    
+    
+    <!-- sid : 107292 : 'CENTER_11' -->
+
+<div class="article">
+
+<h2>Movie/TV Quote</h2>
+<a href="http://www.imdb.com/name/nm0181128/" onclick="(new Image()).src='/rg/QUOTE/HPMAIN/images/b.gif'">Bonasera</a>: I believe in America. America has made my fortune.  
+
+<br /><br />
+<div class="see-more"><a href="http://www.imdb.com/title/tt0068646/" onclick="(new Image()).src='/rg/QUOTE/HPMAIN/images/b.gif'">Guess the title</a> &raquo; | 
+<a href="http://www.imdb.com/title/tt0068646/quotes?qt=qt0361855"  onclick="(new Image()).src='/rg/QUOTE_more/HPMAIN/images/b.gif'">See more quotes from this title</a> &raquo;</div>
+
+</div>
+
+
+    
+    <!-- sid : 99375 : 'CENTER_12' -->
+
+    
+    
+    
+    
+    
+    <div class="article last"><h2>IMDb Hit List</h2>
+
+
+
+
+
+
+
+<p><a href="http://www.npr.org/2012/02/29/147570891/being-flynn-when-dad-needs-to-take-shelter" TARGET=_blank onclick="(new Image()).src='/rg/HITLISTHP_1/HPMAIN/images/b.gif'">Nick Flynn and Director Paul Weitz Discuss <i>Being Flynn</i></a> from NPR.org</p>
+
+<p><a href="http://www.virginmedia.com/movies/features/2012-oscar-stars-what-next.php" TARGET=_blank onclick="(new Image()).src='/rg/HITLISTHP_2/HPMAIN/images/b.gif'">What Next for 2012's Oscar Stars?</a> from VirginMedia.com <span class="fontsmall"> (Suggested by aligray)</span></p>
+
+
+<p><a href="http://www.vulture.com/2012/02/polone-screenwriters-rewrites-hollywood.html" TARGET=_blank onclick="(new Image()).src='/rg/HITLISTHP_3/HPMAIN/images/b.gif'">Four Star Screenwriters Talk About Rewrite Hell</a> from Vulture.com</p>
+
+
+<p><a href="http://www.empireonline.com/features/movie-poster-mash-up/david-bowie/" TARGET=_blank onclick="(new Image()).src='/rg/HITLISTHP_4/HPMAIN/images/b.gif'">Movie Poster Mashups: David Bowie</a> from EmpireOnline.com</p>
+
+
+
+<p><a href="http://www.frontroomcinema.com/midweek-mumble-lull-summer-blockbuster-storm/" TARGET=_blank onclick="(new Image()).src='/rg/HITLISTHP_5/HPMAIN/images/b.gif'">The Lull Before the Summer Blockbuster Storm</a> from FrontRoomCinema.com <span class="fontsmall"> (Suggested by scott-176-841176)</span></p>
+
+
+
+
+
+
+
+
+
+<br><span class="fontsmall">Have an item you'd like to see featured on Hit List? <a href="/ri/HITLIST_BOARD/HPMAIN/107293/http://www.imdb.com/board/bd0000089/threads/">Submit it here</a>. <br>See an archive of recent Hit Lists <a href="/ri/HITLIST_ARCHIVE/HPMAIN/107293/http://www.imdb.com/sections/hitlist/blog">here</a>. <br></span></div>
+    
+      
+      
+
+
+
+    
+    
+</div> 
+<div id="sidebar">
+    
+                  
+
+
+
+<!-- begin TOP_RHS -->
+<div id="top_rhs_wrapper" class="dfp_slot">
+<script type="text/javascript"> 
+ad_utils.queue_ad('3','top_rhs');
+</script>
+<iframe src="/images/SF99c7f777fc74f1d954417f99b985a4af/a/ifb/doubleclick/expand.html#imdb2.consumer.homepage/;tile=3;sz=300x250,11x1;p=tr;p=tc;ct=com;[PASEGMENTS];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?" id="top_rhs" name="top_rhs" class="yesScript" width="300" height="250" data-config-width="300" data-config-height="250" data-cookie-width="null" data-cookie-height="null" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowtransparency="true" onload="ad_utils.on_ad_load(this)"></iframe>
+
+<noscript><a href="http://ad.doubleclick.net/jump/imdb2.consumer.homepage/;tile=3;sz=300x250,11x1;p=tr;p=tc;ct=com;ord=132206125724?" target="_blank"><img src="http://ad.doubleclick.net/ad/imdb2.consumer.homepage/;tile=3;sz=300x250,11x1;p=tr;p=tc;ct=com;ord=132206125724?"  border="0" alt="advertisement" /></a></noscript>
+
+</div>
+<div id="top_rhs_reflow_helper"></div>
+<!-- End TOP_RHS -->
+<div id="top_rhs_after" class="after_ad ads-invisible"><a class="yesScript" href="#" onclick="ad_utils.show_ad_feedback('top_rhs');return false;" id="ad_feedback_top_rhs">ad feedback</a></div><script>
+if ('csm' in window){
+    csm.measure('csm_atf_sidebar');
+}
+</script>
+<!-- sid : 99389 : 'RIGHT_4' -->  <div class="aux-content-widget-2">
+
+
+<h3>Box Office</h3> 
+<table class="list-table" border="0" width="100%" cellspacing="0">
+<tr valign="top">
+<td>1. </td>
+<td>
+<a    onclick="(new Image()).src='/rg/BOXOFF_1/HPRHS/images/b.gif?link=%2Ftitle%2Ftt1591479%2F';"     href="/title/tt1591479/"    >Act of Valor</a></td>
+<td width="20%" align="right">$24.5M</td></tr>
+<tr valign="top">
+<td>2. </td>
+<td>
+<a    onclick="(new Image()).src='/rg/BOXOFF_2/HPRHS/images/b.gif?link=%2Ftitle%2Ftt1885265%2F';"     href="/title/tt1885265/"    >Good Deeds</a></td>
+<td width="20%" align="right">$15.6M</td></tr>
+<tr valign="top">
+<td>3. </td>
+<td>
+<a    onclick="(new Image()).src='/rg/BOXOFF_3/HPRHS/images/b.gif?link=%2Ftitle%2Ftt1397514%2F';"     href="/title/tt1397514/"    >Journey 2: The Mysterious Island</a></td>
+<td width="20%" align="right">$13.4M</td></tr>
+<tr valign="top">
+<td>4. </td>
+<td>
+<a    onclick="(new Image()).src='/rg/BOXOFF_4/HPRHS/images/b.gif?link=%2Ftitle%2Ftt1599348%2F';"     href="/title/tt1599348/"    >Safe House</a></td>
+<td width="20%" align="right">$10.9M</td></tr>
+<tr valign="top">
+<td>5. </td>
+<td>
+<a    onclick="(new Image()).src='/rg/BOXOFF_5/HPRHS/images/b.gif?link=%2Ftitle%2Ftt1606389%2F';"     href="/title/tt1606389/"    >The Vow</a></td>
+<td width="20%" align="right">$9.92M</td></tr>
+</table>
+<br />
+<p class="see-more"><a    onclick="(new Image()).src='/rg/BOXOFF_more/HPRHS/images/b.gif?link=%2Fchart%2F';"     href="/chart/"    >See more box office results</a> &raquo;</p>
+
+</div>
+
+
+<!-- begin MIDDLE_RHS -->
+<div id="middle_rhs_wrapper" class="dfp_slot">
+<script type="text/javascript"> 
+ad_utils.queue_ad('1','middle_rhs');
+</script>
+<iframe src="/images/SF99c7f777fc74f1d954417f99b985a4af/a/ifb/doubleclick/expand.html#imdb2.consumer.homepage/;tile=1;sz=300x125,6x1;p=mr;ct=com;[PASEGMENTS];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?" id="middle_rhs" name="middle_rhs" class="yesScript" width="0" height="0" data-config-width="0" data-config-height="0" data-cookie-width="null" data-cookie-height="null" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowtransparency="true" onload="ad_utils.on_ad_load(this)"></iframe>
+
+<noscript><a href="http://ad.doubleclick.net/jump/imdb2.consumer.homepage/;tile=1;sz=300x125,6x1;p=mr;ct=com;ord=132206125724?" target="_blank"><img src="http://ad.doubleclick.net/ad/imdb2.consumer.homepage/;tile=1;sz=300x125,6x1;p=mr;ct=com;ord=132206125724?"  border="0" alt="advertisement" /></a></noscript>
+
+</div>
+<div id="middle_rhs_reflow_helper"></div>
+<!-- End MIDDLE_RHS -->
+<div id="middle_rhs_after" class="after_ad ads-invisible"><div class="aux-ad-widget-3"></div></div><!-- sid : 99390 : 'RIGHT_5' -->  <div class="aux-content-widget-2">
+
+<h3>Opening This Week</h3>
+
+
+
+
+
+
+<table class="list-table meter-arrow-table">
+
+
+
+<tr valign="top">
+
+    <td class="title">
+        <a    onclick="(new Image()).src='/rg/OTW_1/HPRHS/images/b.gif?link=%2Ftitle%2Ftt1482459%2F';"     href="/title/tt1482459/"    >Dr. Seuss&#x27; The Lorax</a>
+    </td>
+
+    <td class="arrow">
+        <img src="http://i.media-imdb.com/images/SF8a8f8b3c66e29942094eb05489ac3ab3/wheel/arrows/meter_up_arrow.gif" width="9" height="8" alt="Up" />
+    </td>
+
+    <td class="percent">
+        <span class='big-percentage'>
+            311%
+        </span>
+    </td>
+
+</tr>
+
+
+
+
+<tr valign="top">
+
+    <td class="title">
+        <a    onclick="(new Image()).src='/rg/OTW_2/HPRHS/images/b.gif?link=%2Ftitle%2Ftt1636826%2F';"     href="/title/tt1636826/"    >Project X</a>
+    </td>
+
+    <td class="arrow">
+        <img src="http://i.media-imdb.com/images/SF8a8f8b3c66e29942094eb05489ac3ab3/wheel/arrows/meter_up_arrow.gif" width="9" height="8" alt="Up" />
+    </td>
+
+    <td class="percent">
+        <span >
+            162%
+        </span>
+    </td>
+
+</tr>
+
+
+
+
+<tr valign="top">
+
+    <td class="title">
+        <a    onclick="(new Image()).src='/rg/OTW_3/HPRHS/images/b.gif?link=%2Ftitle%2Ftt0455323%2F';"     href="/title/tt0455323/"    >Being Flynn</a>
+    </td>
+
+    <td class="arrow">
+        <img src="http://i.media-imdb.com/images/SF8a8f8b3c66e29942094eb05489ac3ab3/wheel/arrows/meter_up_arrow.gif" width="9" height="8" alt="Up" />
+    </td>
+
+    <td class="percent">
+        <span >
+            275%
+        </span>
+    </td>
+
+</tr>
+
+
+
+
+<tr valign="top">
+
+    <td class="title">
+        <a    onclick="(new Image()).src='/rg/OTW_4/HPRHS/images/b.gif?link=%2Ftitle%2Ftt1855401%2F';"     href="/title/tt1855401/"    >Tim and Eric&#x27;s Billion Dollar Movie</a>
+    </td>
+
+    <td class="arrow">
+        <img src="http://i.media-imdb.com/images/SF8a8f8b3c66e29942094eb05489ac3ab3/wheel/arrows/meter_up_arrow.gif" width="9" height="8" alt="Up" />
+    </td>
+
+    <td class="percent">
+        <span >
+            91%
+        </span>
+    </td>
+
+</tr>
+
+
+
+
+<tr valign="top">
+
+    <td class="title">
+        <a    onclick="(new Image()).src='/rg/OTW_5/HPRHS/images/b.gif?link=%2Ftitle%2Ftt1680114%2F';"     href="/title/tt1680114/"    >The Snowtown Murders</a>
+    </td>
+
+    <td class="arrow">
+        <img src="http://i.media-imdb.com/images/SF8a8f8b3c66e29942094eb05489ac3ab3/wheel/arrows/meter_up_arrow.gif" width="9" height="8" alt="Up" />
+    </td>
+
+    <td class="percent">
+        <span >
+            141%
+        </span>
+    </td>
+
+</tr>
+
+
+
+
+<tr valign="top">
+
+    <td class="title">
+        <a    onclick="(new Image()).src='/rg/OTW_6/HPRHS/images/b.gif?link=%2Ftitle%2Ftt1560139%2F';"     href="/title/tt1560139/"    >Boy</a>
+    </td>
+
+    <td class="arrow">
+        <img src="http://i.media-imdb.com/images/SF696d0921efe53c916590f4214d736157/wheel/arrows/meter_down_arrow.gif" width="9" height="8" alt="Down" />
+    </td>
+
+    <td class="percent">
+        <span >
+            18%
+        </span>
+    </td>
+
+</tr>
+
+
+
+
+<tr valign="top">
+
+    <td class="title">
+        <a    onclick="(new Image()).src='/rg/OTW_7/HPRHS/images/b.gif?link=%2Ftitle%2Ftt1813327%2F';"     href="/title/tt1813327/"    >The Salt of Life</a>
+    </td>
+
+    <td class="arrow">
+        <img src="http://i.media-imdb.com/images/SF8a8f8b3c66e29942094eb05489ac3ab3/wheel/arrows/meter_up_arrow.gif" width="9" height="8" alt="Up" />
+    </td>
+
+    <td class="percent">
+        <span >
+            48%
+        </span>
+    </td>
+
+</tr>
+
+
+
+
+<tr valign="top">
+
+    <td class="title">
+        <a    onclick="(new Image()).src='/rg/OTW_8/HPRHS/images/b.gif?link=%2Ftitle%2Ftt1723126%2F';"     href="/title/tt1723126/"    >Last Days Here</a>
+    </td>
+
+    <td class="arrow">
+        <img src="http://i.media-imdb.com/images/SF8a8f8b3c66e29942094eb05489ac3ab3/wheel/arrows/meter_up_arrow.gif" width="9" height="8" alt="Up" />
+    </td>
+
+    <td class="percent">
+        <span >
+            96%
+        </span>
+    </td>
+
+</tr>
+
+
+
+
+<tr valign="top">
+
+    <td class="title">
+        <a    onclick="(new Image()).src='/rg/OTW_9/HPRHS/images/b.gif?link=%2Ftitle%2Ftt1533117%2F';"     href="/title/tt1533117/"    >Let the Bullets Fly</a>
+    </td>
+
+    <td class="arrow">
+        <img src="http://i.media-imdb.com/images/SF696d0921efe53c916590f4214d736157/wheel/arrows/meter_down_arrow.gif" width="9" height="8" alt="Down" />
+    </td>
+
+    <td class="percent">
+        <span >
+            6%
+        </span>
+    </td>
+
+</tr>
+
+
+
+
+<tr valign="top">
+
+    <td class="title">
+        <a    onclick="(new Image()).src='/rg/OTW_10/HPRHS/images/b.gif?link=%2Ftitle%2Ftt2064849%2F';"     href="/title/tt2064849/"    >London Paris New York</a>
+    </td>
+
+    <td class="arrow">
+        <img src="http://i.media-imdb.com/images/SF8a8f8b3c66e29942094eb05489ac3ab3/wheel/arrows/meter_up_arrow.gif" width="9" height="8" alt="Up" />
+    </td>
+
+    <td class="percent">
+        <span >
+            49%
+        </span>
+    </td>
+
+</tr>
+
+
+
+</table>
+
+
+<p class="see-more"><a    onclick="(new Image()).src='/rg/OTW_more/HPRHS/images/b.gif?link=%2Fmovies-in-theaters%2F';"     href="/movies-in-theaters/"    >See more titles</a> &raquo;</p>
+
+</div><!-- sid : 99477 : 'RIGHT_6' -->  <div class="aux-content-widget-2">
+
+
+<h3>Coming Soon</h3>
+
+
+
+
+
+
+<table class="list-table meter-arrow-table">
+
+
+
+<tr valign="top">
+
+    <td class="title">
+        <a    onclick="(new Image()).src='/rg/SOON_1/HPRHS/images/b.gif?link=%2Ftitle%2Ftt0401729%2F';"     href="/title/tt0401729/"    >John Carter</a>
+    </td>
+
+    <td class="arrow">
+        <img src="http://i.media-imdb.com/images/SF8a8f8b3c66e29942094eb05489ac3ab3/wheel/arrows/meter_up_arrow.gif" width="9" height="8" alt="Up" />
+    </td>
+
+    <td class="percent">
+        <span >
+            36%
+        </span>
+    </td>
+
+</tr>
+
+
+
+
+<tr valign="top">
+
+    <td class="title">
+        <a    onclick="(new Image()).src='/rg/SOON_2/HPRHS/images/b.gif?link=%2Ftitle%2Ftt1441952%2F';"     href="/title/tt1441952/"    >Salmon Fishing in the Yemen</a>
+    </td>
+
+    <td class="arrow">
+        <img src="http://i.media-imdb.com/images/SF8a8f8b3c66e29942094eb05489ac3ab3/wheel/arrows/meter_up_arrow.gif" width="9" height="8" alt="Up" />
+    </td>
+
+    <td class="percent">
+        <span >
+            35%
+        </span>
+    </td>
+
+</tr>
+
+
+
+
+<tr valign="top">
+
+    <td class="title">
+        <a    onclick="(new Image()).src='/rg/SOON_3/HPRHS/images/b.gif?link=%2Ftitle%2Ftt1720616%2F';"     href="/title/tt1720616/"    >Friends with Kids</a>
+    </td>
+
+    <td class="arrow">
+        <img src="http://i.media-imdb.com/images/SF8a8f8b3c66e29942094eb05489ac3ab3/wheel/arrows/meter_up_arrow.gif" width="9" height="8" alt="Up" />
+    </td>
+
+    <td class="percent">
+        <span >
+            95%
+        </span>
+    </td>
+
+</tr>
+
+
+
+
+<tr valign="top">
+
+    <td class="title">
+        <a    onclick="(new Image()).src='/rg/SOON_4/HPRHS/images/b.gif?link=%2Ftitle%2Ftt0763831%2F';"     href="/title/tt0763831/"    >A Thousand Words</a>
+    </td>
+
+    <td class="arrow">
+        <img src="http://i.media-imdb.com/images/SF8a8f8b3c66e29942094eb05489ac3ab3/wheel/arrows/meter_up_arrow.gif" width="9" height="8" alt="Up" />
+    </td>
+
+    <td class="percent">
+        <span >
+            48%
+        </span>
+    </td>
+
+</tr>
+
+
+
+
+<tr valign="top">
+
+    <td class="title">
+        <a    onclick="(new Image()).src='/rg/SOON_5/HPRHS/images/b.gif?link=%2Ftitle%2Ftt1767382%2F';"     href="/title/tt1767382/"    >Silent House</a>
+    </td>
+
+    <td class="arrow">
+        <img src="http://i.media-imdb.com/images/SF8a8f8b3c66e29942094eb05489ac3ab3/wheel/arrows/meter_up_arrow.gif" width="9" height="8" alt="Up" />
+    </td>
+
+    <td class="percent">
+        <span class='big-percentage'>
+            224%
+        </span>
+    </td>
+
+</tr>
+
+
+
+</table>
+
+
+
+<p class="see-more"><a    onclick="(new Image()).src='/rg/SOON_more/HPRHS/images/b.gif?link=%2Fmovies-coming-soon%2F';"     href="/movies-coming-soon/"    >See more titles</a> &raquo;
+
+
+</div><!-- sid : 107493 : 'RIGHT_10' -->  <div class="aux-content-widget-2">
+
+
+
+<h3>Gallery of the Week</h3>
+<div class="photo_strip">
+
+<a    onclick="(new Image()).src='/rg/FRESH_1/HPRHS/images/b.gif?link=%2Fmedia%2Frm160216576%2Frg1866832384';"     href="/media/rm160216576/rg1866832384"    ><img width="85" height="150" alt="Headshot" src="http://ia.media-imdb.com/images/M/MV5BMTY1ODI3MjIwNF5BMl5BanBnXkFtZTcwMjI0NzU0Nw@@._V1._SY150_CR18,0,85,150_.jpg" /></a>
+
+
+<a    onclick="(new Image()).src='/rg/FRESH_2/HPRHS/images/b.gif?link=%2Fmedia%2Frm462206464%2Frg1866832384';"     href="/media/rm462206464/rg1866832384"    ><img width="85" height="150" alt="Headshot" src="http://ia.media-imdb.com/images/M/MV5BMjMyNTkxMDg4Nl5BMl5BanBnXkFtZTcwMjQ0NzU0Nw@@._V1._SY150_CR11,0,85,150_.jpg" /></a>
+
+
+<a    onclick="(new Image()).src='/rg/FRESH_3/HPRHS/images/b.gif?link=%2Fmedia%2Frm344765952%2Frg1866832384';"     href="/media/rm344765952/rg1866832384"    ><img width="85" height="150" alt="Headshot" src="http://ia.media-imdb.com/images/M/MV5BMTg5NTYxNTE3OF5BMl5BanBnXkFtZTcwNzI0NzU0Nw@@._V1._SY150_CR15,0,85,150_.jpg" /></a>
+
+</div>
+<div class="see-more clear">
+<a    onclick="(new Image()).src='/rg/FRESH_all/HPRHS/images/b.gif?link=%2Fmedia%2Findex%2Frg1866832384';"     href="/media/index/rg1866832384"    >'Women In Film' Party</a>&nbsp;&raquo;</div>
+
+
+</div>
+</div>
+</div> 
+<div id="servertime" time="195.334" treatment="control"></div>
+
+<br style="clear:both;" />
+</div>
+<div id="footer" class="ft">
+<hr width="100%" size=1>
+  <div id="rvi-div">
+    <div class="recently-viewed">&nbsp;</div>
+    <br class="clear">
+    <hr width="100%" size="1">            
+  </div>
+
+<p class="footer" align="center">
+<a    onclick="(new Image()).src='/rg/home/footer/images/b.gif?link=%2F';"     href="/"    >Home</a>
+  | <a    onclick="(new Image()).src='/rg/search/footer/images/b.gif?link=%2Fsearch';"     href="/search"    >Search</a>
+  | <a    onclick="(new Image()).src='/rg/siteindex/footer/images/b.gif?link=%2Fa2z';"     href="/a2z"    >Site Index</a>
+  | <a    onclick="(new Image()).src='/rg/intheaters/footer/images/b.gif?link=%2Fmovies-in-theaters%2F';"     href="/movies-in-theaters/"    >In Theaters</a>
+  | <a    onclick="(new Image()).src='/rg/comingsoon/footer/images/b.gif?link=%2Fmovies-coming-soon%2F';"     href="/movies-coming-soon/"    >Coming Soon</a>
+  | <a    onclick="(new Image()).src='/rg/topmovies/footer/images/b.gif?link=%2Fchart%2F';"     href="/chart/"    >Top Movies</a>
+  | <a    onclick="(new Image()).src='/rg/watchlist/footer/images/b.gif?link=%2Flist%2Fwatchlist';"     href="/list/watchlist"    >Watchlist</a>
+  | <a    onclick="(new Image()).src='/rg/top250/footer/images/b.gif?link=%2Fchart%2Ftop';"     href="/chart/top"    >Top 250</a>
+  | <a    onclick="(new Image()).src='/rg/tv/footer/images/b.gif?link=%2Fsections%2Ftv%2F';"     href="/sections/tv/"    >TV</a>
+  | <a    onclick="(new Image()).src='/rg/news/footer/images/b.gif?link=%2Fnews%2F';"     href="/news/"    >News</a>
+  | <a    onclick="(new Image()).src='/rg/video/footer/images/b.gif?link=%2Ffeatures%2Fvideo%2F';"     href="/features/video/"    >Video</a>
+  | <a    onclick="(new Image()).src='/rg/messageboards/footer/images/b.gif?link=%2Fboards%2F';"     href="/boards/"    >Message Boards</a>
+  | <a    onclick="(new Image()).src='/rg/pressroom/footer/images/b.gif?link=%2Fpressroom%2F';"     href="/pressroom/"    >Press Room</a>
+<br>
+
+<a    onclick="(new Image()).src='/rg/register-v2/footer/images/b.gif?link=https%3A%2F%2Fsecure.imdb.com%2Fregister-imdb%2Fform-v2';"     href="https://secure.imdb.com/register-imdb/form-v2"    >Register</a>
+
+  | <a    onclick="(new Image()).src='/rg/rss/footer/images/b.gif?link=%2Fhelp%2Fshow_article%3Frssavailable';"     href="/help/show_article?rssavailable"    ><img alt="RSS Feeds" width="16" height="16" border="0" align="top" src="http://i.media-imdb.com/images/SFb57d5ddb1c1208f549520b6186629f28/rss2.gif"></a> <a    onclick="(new Image()).src='/rg/rss/footer/images/b.gif?link=%2Fhelp%2Fshow_article%3Frssavailable';"     href="/help/show_article?rssavailable"    >RSS</a>
+  | <a    onclick="(new Image()).src='/rg/advertising/footer/images/b.gif?link=%2Fadvertising%2F';"     href="/advertising/"    >Advertising</a>
+  | <a    onclick="(new Image()).src='/rg/helpdesk/footer/images/b.gif?link=%2Fhelpdesk%2Fcontact';"     href="/helpdesk/contact"    >Contact Us</a>
+  | <a    onclick="(new Image()).src='/rg/jobs/footer/images/b.gif?link=%2Fjobs';"     href="/jobs"    >Jobs</a>
+  | <a href="https://secure.imdb.com/r/IMDbFooter/register/subscribe?c=a394d4442664f6f6475627" onClick="(new Image()).src='/rg/IMDbFooter/prosystem/images/b.gif?link=https://secure.imdb.com/register/subscribe?c=a394d4442664f6f6475627';">IMDbPro</a>
+  | <a href="http://resume.imdb.com" onClick="(new Image()).src='/rg/resume/prosystem/images/b.gif?link=http://resume.imdb.com';">IMDb Resume</a>
+  | <a href="http://www.boxofficemojo.com" onClick="(new Image()).src='/rg/BOXOFFICEMOJO/FOOTER/images/b.gif?link=http://www.boxofficemojo.com';">Box Office Mojo</a>
+  | <a href="http://www.withoutabox.com" onClick="(new Image()).src='/rg/WITHOUTABOX/FOOTER/images/b.gif?link=http://www.withoutabox.com';">Withoutabox</a>
+  | <a href="http://www.lovefilm.com/browse/film/watch-online/" onClick="(new Image()).src='/rg/LOVEFILM/FOOTER/images/b.gif?link=http://www.lovefilm.com/browse/film/watch-online/';">LOVEFiLM</a>
+ <br /><br />
+ IMDb Mobile: 
+    <a    onclick="(new Image()).src='/rg/mobile-ios/footer/images/b.gif?link=%2Fiphone';"     href="/iphone"    >iPhone/iPad</a>
+  | <a    onclick="(new Image()).src='/rg/mobile-android/footer/images/b.gif?link=%2Fandroid';"     href="/android"    >Android</a>
+  | <a    onclick="(new Image()).src='/rg/mobile-web/footer/images/b.gif?link=http%3A%2F%2Fm.imdb.com';"     href="http://m.imdb.com"    >Mobile site</a>
+  | <a    onclick="(new Image()).src='/rg/mobile-win7/footer/images/b.gif?link=%2Fwindowsphone';"     href="/windowsphone"    >Windows Phone 7</a>
+  | IMDb Social:
+    <a    onclick="(new Image()).src='/rg/facebook/footer/images/b.gif?link=http%3A%2F%2Fwww.facebook.com%2Fimdb';"     href="http://www.facebook.com/imdb"    >Facebook</a>
+  | <a    onclick="(new Image()).src='/rg/twitter/footer/images/b.gif?link=http%3A%2F%2Ftwitter.com%2Fimdb';"     href="http://twitter.com/imdb"    >Twitter</a>
+ <br /><br /> 
+  International Sites: <a href="http://www.imdb.de">IMDb Germany</a>
+  | <a href="http://www.imdb.it">IMDb Italy</a>
+  | <a href="http://www.imdb.es">IMDb Spain</a>
+  | <a href="http://www.imdb.fr">IMDb France</a>
+  | <a href="http://www.imdb.pt">IMDb Portugal</a>
+<br><br>
+</p>
+<p class="footer" align="center">
+
+<a href="/help/show_article?conditions">Copyright &copy;</a> 1990-2012
+<a href="/help/">IMDb.com, Inc.</a>
+<br>
+<a href="/help/show_article?conditions">Terms</a> and <a href="/privacy">Privacy Policy</a> under which this service is provided to you.
+<br>
+
+An <img id="amazon_logo" align="middle" style="width:80px;height:19px;border:0 none" src="http://i.media-imdb.com/images/SF9bb191c6827273aa978cab39a3587950/b.gif"/> company.
+
+</p>
+<table class="footer" id="amazon-affiliates">
+  <tr>
+    <td colspan="10">
+      Amazon Affiliates
+    </td>
+  </tr>
+  <tr>
+    <td class="amazon-affiliate-site-first">
+      <a class="amazon-affiliate-site-link" href="http://www.amazon.com/b?ie=UTF8&node=2858778011">
+        <span class="amazon-affiliate-site-name">Amazon Instant Video</span><br>
+        <span class="amazon-affiliate-site-desc">Watch Movies &<br>TV Online</span>
+      </a>
+    </td>
+    <td class="amazon-affiliate-site-item-nth">
+      <a class="amazon-affiliate-site-link" href="http://www.amazon.com/b?ie=UTF8&node=2676882011">
+        <span class="amazon-affiliate-site-name">Prime Instant Video</span><br>
+        <span class="amazon-affiliate-site-desc">Unlimited Streaming<br>of Movies & TV</span>
+      </a>
+    </td>
+    <td class="amazon-affiliate-site-item-nth">
+      <a class="amazon-affiliate-site-link" href="http://www.amazon.de/b?ie=UTF8&node=284266">
+        <span class="amazon-affiliate-site-name">Amazon Germany</span><br>
+        <span class="amazon-affiliate-site-desc">Buy Movies on<br>DVD & Blu-ray</span>
+      </a>
+    </td>
+    <td class="amazon-affiliate-site-item-nth">
+      <a class="amazon-affiliate-site-link" href="http://www.amazon.it/b?ie=UTF8&node=412606031">
+        <span class="amazon-affiliate-site-name">Amazon Italy</span><br>
+        <span class="amazon-affiliate-site-desc">Buy Movies on<br>DVD & Blu-ray</span>
+      </a>
+    </td>
+    <td class="amazon-affiliate-site-item-nth">
+      <a class="amazon-affiliate-site-link" href="http://www.amazon.fr/b?ie=UTF8&node=405322">
+        <span class="amazon-affiliate-site-name">Amazon France</span><br>
+        <span class="amazon-affiliate-site-desc">Buy Movies on<br>DVD & Blu-ray</span>
+      </a>
+    </td>
+    <td class="amazon-affiliate-site-item-nth">
+      <a class="amazon-affiliate-site-link" href="http://www.lovefilm.com/browse/film/watch-online/">
+        <span class="amazon-affiliate-site-name">LOVEFiLM</span><br>
+        <span class="amazon-affiliate-site-desc">Watch Movies<br>Online</span>
+      </a>
+    </td>
+    <td class="amazon-affiliate-site-item-nth">
+      <a class="amazon-affiliate-site-link" href="http://wireless.amazon.com">
+        <span class="amazon-affiliate-site-name">Amazon Wireless</span><br>
+        <span class="amazon-affiliate-site-desc">Cellphones &<br>Wireless Plans</span>
+      </a>
+    </td>
+    <td class="amazon-affiliate-site-item-nth">
+      <a class="amazon-affiliate-site-link" href="http://www.junglee.com/">
+        <span class="amazon-affiliate-site-name">Junglee</span><br>
+        <span class="amazon-affiliate-site-desc">India Online<br>Shopping</span>
+      </a>
+    </td>
+    <td class="amazon-affiliate-site-item-nth">
+      <a class="amazon-affiliate-site-link" href="http://www.dpreview.com">
+        <span class="amazon-affiliate-site-name">DPReview</span><br>
+        <span class="amazon-affiliate-site-desc">Digital<br>Photography</span>
+      </a>
+    </td>
+    <td class="amazon-affiliate-site-item-nth">
+      <a class="amazon-affiliate-site-link" href="http://www.audible.com">
+        <span class="amazon-affiliate-site-name">Audible</span><br>
+      <span class="amazon-affiliate-site-desc">Download<br>Audio Books</span></a>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</layer>
+</div>
+<img src="/rd/?q=50703000000030a090f29616f226e276966600000010c6a0462303132303330313c29393339303c2130373438383c29393437373c29393337353c2130353631373c2130373239323c2130373439393c29393336313c2130373439333c29393338393c2130373239333c29393338313c2130373430363c21303734383430000001037a040379646370000001047&cb=133065316424450" width="1" height="1" alt="" border="0">
+</div> <!-- id="wrapper" -->
+<!-- h=iop127 i=2012-03-01 s=legacy(default) t='Thu Mar  1 17:52:44 2012' -->
+<script src="http://i.media-imdb.com/images/SF7e0791f9fc3d5c7c1a0c2366fad57de6/js/jquery.js" ></script><script src="http://i.media-imdb.com/images/SFc308e27e2787da6618a01d30f70cd5bd/js/cc/gateway.js" ></script><script type="text/javascript">jQuery(function(){generic.document_is_ready()})</script><script type="text/javascript">generic.monitoring.stop_timing('page_load', '', true);generic.monitoring.all_events_started();</script><script src="http://i.media-imdb.com/images/SF86793c35a08946b1496c39d0dbd5b6c9/js/jquery/plugins/jquery.colorbox-min.js" ></script><script type="text/imdblogin-js" id="login">
+    jQuery(document).ready(function(){
+        window.imdb.login_lightbox("https://secure.imdb.com",
+                       "49e6c=da29",
+                       "http://www.imdb.com/",
+                       0);
+    });
+</script>
+<script src="http://i.media-imdb.com/images/SF47cb465947a96b1fcd754c3e1a5ed41c/js/cc/loginbox.js" ></script><script src="http://i.media-imdb.com/images/SF72fc7a8e0ff539dca8655108769213e8/js/cc/suggestionsearch.js" charset="UTF-8"></script><script src="http://i.media-imdb.com/images/SF13b529abb2d7f5490100996dd20b6a68/js/jquery/plugins/jquery.appear-1.1.1.min.js" ></script><script src="http://i.media-imdb.com/images/SFa4be5baa8d51e22640d81fa1e6773c7c/js/app/clickstream/rvi.js" ></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3916519-1']);
+  _gaq.push(['_setDomainName', '.imdb.com']); _gaq.push(['_setSampleRate', '10']);
+ _gaq.push(['_trackPageview']); // must come last
+  
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = 'http://www.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script src="http://i.media-imdb.com/images/SF14176f459bd0474f6a0284a9c3ba61f7/a/js/beacon.js" ></script><script>COMSCORE.beacon({c1:2,c2:"6034961",c3:"",c4:"http%3A%2F%2Fwww.imdb.com%2F",c5:"",c6:"",c15:""});</script>
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=6034961&c3=&c4=http%3A%2F%2Fwww.imdb.com%2F&c5=c6=&15=&cj=1"/></noscript>
+
+</body>
+</html>

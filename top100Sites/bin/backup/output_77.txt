@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site</title>
+<link rel="search" type="application/opensearchdescription+xml" href="//static.thepiratebay.se/opensearch.xml" title="Search The Pirate Bay" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="description" content="Download music, movies, games, software and much more. The Pirate Bay is the galaxy's largest bittorrent network."/>
+<meta name="keywords" content="mp3, avi, bittorrent, torrent, torrents, movies, music, games, applications, apps, download, upload, share, kopimi"/>
+<script src="//static.thepiratebay.se/js/tpb.js" type="text/javascript"></script>
+<script type="text/javascript">
+if (top != self) top.location.href = location.href;
+</script>
+
+<style type="text/css">
+body{
+	text-align: center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:.7em;
+	margin: 10px;
+	color: #000;
+	background: #fff;
+	min-width: 520px;
+}
+a{
+	color: #009;
+	text-decoration: none;
+	border-bottom: 1px dotted #4040D9;
+}
+a:hover{
+	text-decoration: none;
+	border-bottom: 1px solid #009;
+}
+#searchfield{
+	display: block;
+	width: 500px;
+	margin: 0 auto 20px auto;
+	text-align: center;
+	padding: 0 0 0 100px;
+}
+
+.searchBox{
+	padding-left: 3px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	background-image:url('//static.thepiratebay.se/img/icon-https.gif');
+  	background-repeat:no-repeat;
+	background-position: right;
+	padding-right: 18px;
+}
+
+h1 { padding-right: .7em; }
+
+h1 a {
+	margin: 0 auto;
+	text-indent: -9999px;
+	display: block;
+	border: 0;
+	width: 275px;
+	height: 295px;
+	background: url('//static.thepiratebay.se/img/tpb.jpg') no-repeat;
+}
+h3 { font-size: 1.2em; }
+h1 a:hover { border: 0; text-decoration: none; }
+.smalltext {
+	font-size:.8em;
+}
+
+#fbanners { padding: 10px; margin: 0 auto; }
+#fbanners a { border: 0; margin: 0 7px; color: #000; }
+#fbanners img { border: 0; }
+#fbanners #kopimi { display: block; margin: 20px auto 0 auto; width: 40px;}
+.noborder, .noborder:hover, .noborder img { border: 0; text-decoration: 0; }
+
+#topright {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	height: 204px;
+	width: 205px;
+	cursor: pointer;
+	text-decoration: none;
+}
+#topright a {
+	border: 0;
+}
+
+#topleft {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	height: 225px;
+	width: 225px;
+	cursor: pointer;
+	text-decoration: none;
+}
+#topleft a {
+	border: 0;
+}
+</style>
+
+
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/blog" title="Blog" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/0" title="All" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/100" title="Audio" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/101" title="Audio - Music" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/102" title="Audio - Audio books" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/103" title="Audio - Sound clips" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/104" title="Audio - FLAC" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/199" title="Audio - Other" />
+
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/200" title="Video" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/201" title="Video - Movies" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/202" title="Video - Movies DVDR" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/203" title="Video - Music videos" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/204" title="Video - Movie clips" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/205" title="Video - TV shows" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/206" title="Video - Handheld" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/207" title="Video - Highres - Movies" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/208" title="Video - Highres - TV shows" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/209" title="Video - 3D" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/299" title="Video - Other" />
+
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/300" title="Applications" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/301" title="Applications - Windows" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/302" title="Applications - Mac" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/303" title="Applications - UNIX" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/304" title="Applications - Handheld" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/305" title="Applications - IOS (iPad/iPhone)" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/306" title="Applications - Android" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/399" title="Applications - Other OS" />
+
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/400" title="Games" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/401" title="Games - PC" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/402" title="Games - Mac" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/403" title="Games - PSx" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/404" title="Games - XBOX360" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/405" title="Games - Wii" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/406" title="Games - Handheld" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/407" title="Games - IOS (iPad/iPhone)" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/408" title="Games - Android" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/499" title="Games - Other" />
+
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/600" title="Other" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/601" title="Other - E-books" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/602" title="Other - Comics" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/603" title="Other - Pictures" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/604" title="Other - Covers" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/605" title="Other - Physibles" />
+<link rel="alternate" type="application/rss+xml" href="http://rss.thepiratebay.se/699" title="Other - Other" /></head>
+
+<body>
+<div id="topright"><a href="http://www.bytelove.com/tpb" target="_blank"><img src="//static.thepiratebay.se/img/corner.png" border="0" alt=""/></a></div>
+<div class="searchfield" style="margin:1em auto 0 auto;">
+<h1><a href="/blog" title="The Pirate Bay">&nbsp;</a></h1>
+<form name="q" method="get" action="/s/">
+<table style="margin:0 auto; ">
+	<tr>
+		<td rowspan="4" width="150">&nbsp;</td>
+        	<td>
+        		<div style="white-space:nowrap;" id="noBreak"><b>Search Torrents</b>&nbsp;&nbsp;|&nbsp;<a href="/browse" title="Browse Torrents">Browse Torrents</a>&nbsp;&nbsp;|&nbsp;<a href="/recent" title="Recent Torrents">Recent Torrents</a>&nbsp;&nbsp;|&nbsp;<a href="/tv" title="TV shows">TV shows</a>&nbsp;&nbsp;|&nbsp;<a href="/music" title="Music">Music</a>&nbsp;&nbsp;|&nbsp;<a href="/top" title="Top 100">Top 100</a></div>
+        	</td>
+        	<td>&nbsp;</td>
+        </tr>
+        <tr>
+		<td style="width:427px;">
+			<input title="Pirate Search" type="search" style="margin:6px;width: 390px;" autofocus required placeholder="Pirate Search" name="q"/>
+		</td>
+		<td style="width:150px; text-align:left;" class="smalltext">
+			<a href="/settings" title="Preferences">Preferences</a><br /><a href="/language" title="Languages">Languages</a>
+		</td>
+	</tr>
+
+ 	<tr style="margin:0 auto;">
+		<td align="center">
+			<label for="all" title="All"><input id="all" onclick="javascript:setAll();" type="checkbox" checked="checked"/>All</label>
+			<label for="audio" title="Audio"><input name="audio" id="audio" onclick="javascript:rmAll();" type="checkbox"/>Audio</label>
+			<label for="video" title="Video"><input name="video" id="video" onclick="javascript:rmAll();" type="checkbox"/>Video</label>
+			<label for="apps" title="Applications"><input name="apps" id="apps" onclick="javascript:rmAll();" type="checkbox"/>Applications</label>
+			<label for="games" title="Games"><input name="games" id="games" onclick="javascript:rmAll();" type="checkbox"/>Games</label>
+			<label for="other" title="Other"><input name="other" id="other" onclick="javascript:rmAll();" type="checkbox"/>Other</label>
+		</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td align="center"><input value="Pirate Search" title="Pirate Search" type="submit" /> <input value="I'm Feeling Lucky" title="I'm Feeling Lucky" name="lucky" type="submit" />
+			<script type="text/javascript">document.q.q.focus();</script>
+		</td>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+<input type="hidden" name="page" value="0" />
+<input type="hidden" name="orderby" value="99" />
+</form>
+</div>
+	<h3><a href="/help" title="How do I download?" style="border-bottom: none;">How do I download?</a></h3>
+
+</div><!-- //div:content -->
+
+	<div id="foot" style="text-align:center;margin-top:1em;">
+		<p>
+			<a href="/login" title="Login">Login</a> | 
+			<a href="/register" title="Register">Register</a> | 
+			<a href="/language" title="Select language">Language / Select language</a> | 
+			<a href="/about" title="About">About</a> | 
+			<a href="/legal" title="Legal threats">Legal threats</a> | 
+			<a href="/blog" title="Blog">Blog</a>
+			<br />
+			<a href="/contact" title="Contact us">Contact us</a> | 
+			<a href="/policy" title="Usage policy">Usage policy</a> | 
+			<a href="/downloads" title="Downloads">Downloads</a> | 
+			<a href="/promo" title="Promo">Promo</a> | 
+			<a href="/doodles" title="Doodles">Doodles</a> | 
+			<a href="/searchcloud" title="Search Cloud">Search Cloud</a> | 
+			<a href="/tags" title="Tag Cloud">Tag Cloud</a> | 
+			<a href="http://suprbay.org/" title="Forum" target="_blank">Forum</a> | 
+			<b><a href="http://www.bytelove.com" title="TPB T-shirts" target="_blank">TPB T-shirts</a></b>
+			<br />
+			<b><a href="http://bayfiles.com" title="Bayfiles" target="_blank">Bayfiles</a></b> | 
+			<!-- <a href="http://baywords.com" title="BayWords" target="_blank">BayWords</a> | -->
+			<a href="http://bayimg.com" title="BayImg" target="_blank">BayImg</a> | 
+			<a href="http://www.pastebay.net" title="PasteBay" target="_blank">PasteBay</a> | 
+			<!-- <a href="http://www.pirateshops.com" title="Pirate Shops" target="_blank">Pirate Shops</a> | -->
+			<a href="https://www.ipredator.se" title="IPREDator" target="_blank">IPREDator</a> | 
+			<a href="https://twitter.com/tpbdotorg" title="Twitter" target="_blank">Follow TPB on Twitter</a> | 
+			<a href="https://www.facebook.com/ThePirateBayWarMachine" title="Facebook" target="_blank">Follow TPB on Facebook</a>
+			<br />
+		</p>
+
+<p id="footer" style="color:#666; font-size:0.9em; ">
+        5.565.014 registered users. Last updated 02:50:06.<br />
+        31.573.659 peers (22.887.156 seeders + 8.686.503 leechers) in 4.066.986 torrents.<br />
+</p>
+
+
+		<div id="fbanners">
+			<a href="/rss" class="rss" title="RSS"><img src="http://static.thepiratebay.se/img/rss_small.gif" alt="RSS" /></a>
+			<div id="kopimi">
+				<a href="http://www.kopimi.com/kopimi" target="_blank" title="Kopimi"><img src="http://static.thepiratebay.se/img/tpb_kopi.gif" alt="Kopimi"/></a>
+
+			</div><!-- // div:kopimi -->
+		</div><!-- // div:fbanners -->
+	</div><!-- // div:foot -->
+</body>
+</html>
+

@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en"><head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--
+<meta property="fb:page_id" content="6427302910" />
+-->
+<link href="https://plus.google.com/107188080561309681193" rel="publisher" />
+<meta name="google-site-verification" content="7VWES_-rcHBcmaQis9mSYamPfNwE03f4vyTj4pfuAw0" />
+<title>WordPress &#8250; Blog Tool, Publishing Platform, and CMS</title>
+<style type="text/css">
+@import url("http://s.wordpress.org/style/wp4.css?20");
+</style>
+<link media="only screen and (max-device-width: 480px)" href="http://s.wordpress.org/style/iphone.css" type="text/css" rel="stylesheet" />
+<link rel="shortcut icon" href="http://s.wordpress.org/favicon.ico?3" type="image/x-icon" />
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-52447-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+function recordOutboundLink(link, category, action) {
+  pageTracker._trackEvent(category, action);
+  setTimeout('document.location = "' + link.href + '"', 100);
+}
+</script>
+<!--[if lt IE 8]>
+<style type="text/css">
+@import url("http://s.wordpress.org/style/ie.css");
+</style>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="WordPress Blog RSS" href="http://wordpress.org/news/feed/" />	<script type="text/javascript" src="http://s.wordpress.org/wp-includes/js/jquery/jquery.js"></script>
+</head>
+
+<body id="wordpress-org">
+<div id="header">
+	<div class="wrapper">
+		<h1><a href="http://wordpress.org">WordPress.org</a></h1>
+
+		<form action="http://wordpress.org/search/do-search.php" method="get" id="head-search">
+			<input class="text" name="search" type="text" value="Search WordPress.org" maxlength="150" onfocus="this.value=(this.value=='Search WordPress.org') ? '' : this.value;" onblur="this.value=(this.value=='') ? 'Search WordPress.org' : this.value;" /> <input type="submit" class="button" value="Go" />
+		</form>
+		
+<ul>
+<li><a href='' title='Home is where the heart is.' class="current">Home</a></li>
+<li><a href='http://wordpress.org/showcase/' title='See some of the sites built on WordPress.'>Showcase</a></li>
+<li><a href='http://wordpress.org/extend/themes/' title='Find just the right look for your website.'>Themes</a></li>
+<li><a href='http://wordpress.org/extend/plugins/' title='Plugins can extend WordPress to do almost anything you can imagine.'>Plugins</a></li>
+<li><a href='http://wordpress.org/extend/mobile/' title='Take your website on the go!'>Mobile</a></li>
+<li><a href='http://wordpress.org/about/' title='About the WordPress Organization, and where we&#039;re going.'>About</a></li>
+<li><a href='http://codex.wordpress.org/Main_Page' title='Documentation, tutorials, best practices.'>Docs</a></li>
+<li><a href='http://wordpress.org/news/' title='Come here for the latest scoop.'>Blog</a></li>
+<li><a href='http://wordpress.org/support/' title='Support and discussion forums.'>Forums</a></li>
+<li><a href='http://wordpress.org/hosting/' title='Find a home for your blog.'>Hosting</a></li>
+<li id="download"><a href='http://wordpress.org/download/' title='Get it. Got it? Good.'>Download</a></li>
+</ul>
+	</div>
+</div>
+
+<!-- feed is cached --> 
+
+<div id="home-welcome" style="padding-bottom: 14px;">
+	<div class="wrapper">
+				<img alt="" class="screenshot" src="http://s.wordpress.org/screenshots/3.3/ss1-dashboard.png?1" width="466" height="303" />
+						
+		<p class="intro"><strong>WordPress</strong> is web software you can use to create a beautiful website or blog. We like to say that WordPress is both free and priceless at the&nbsp;same&nbsp;time.</p> 
+
+		<p>The core software is built by hundreds of community volunteers, and when you&#8217;re ready for more there are thousands of <a href="/extend/plugins/">plugins</a> and <a href="/extend/themes/">themes</a> available to transform your site into almost <a href="/showcase/">anything you can imagine</a>. Over 60 million people have chosen WordPress to power the place on the web they call &#8220;home&#8221; &#8212; we&#8217;d love you to join the family.</p> 
+		
+		<p>Ready to get started? <a class="button download-button" href="/download/">Download&nbsp;WordPress&nbsp;3.3.1</a></p>
+	</div>
+</div>
+<div id="lang-guess-wrap"></div>
+
+<div id="home-below">
+	<div class="wrapper">
+		<div class="col-2">
+
+<h4><a href="http://wordpress.hellomerch.com">WordPress&nbsp;Swag</a></h4>
+<a href="/about/swag"><img width="132" height="177" src="http://s.wordpress.org/images/swag/wphoodie.jpg?1" alt="WordPress Swag" /></a>
+				
+		</div>
+
+		<div class="col-4">
+			<h4><a href="/news/">News From Our Blog</a></h4>
+			
+			<h5><a href="http://wordpress.org/news/2012/01/year-of-the-meetup/">Year of the Meetup</a></h5> 
+	 	    <p>We hereby declare 2012 as the Year of the WordPress Meetup. You'll want to get in on this action. So what is a WordPress Meetup? Basically, it's people in a community getting together &#8212; meeting up &#8212; who share an interest in WordPress, whether they be bloggers, business users, developers, consultants, or any other category of person able to say, "I use WordPress in some way and I like it, and I want to meet other people who can say the same.</p>
+		</div>
+		
+		<div class="col-4">
+			<h4>It&rsquo;s Easy&nbsp;As&hellip;</h4>
+			
+			<ol class="steps">
+				<li class="one"><a href="/hosting/">Find a Web Host</a> and get great hosting while supporting WordPress at the same&nbsp;time.</li>
+				<li class="two"><a href="/download/">Download &amp; Install WordPress</a> with our famous 5-minute&nbsp;installation. Feel like a rock star.</li>
+				<li class="three"><a href="http://codex.wordpress.org/Main_Page">Read the Documentation</a> and become a WordPress expert yourself, impress your friends.</li>
+			</ol>
+		</div>
+		
+		<div class="col-2">
+			<h4><a href="/showcase/">WordPress&nbsp;Users</a></h4>
+			<ul id="notable-users">
+				<li><a href='http://wordpress.org/showcase/themarthablog/'><img src='http://s.wordpress.org/images/notableusers/marthastewart.png' alt='marthastewart' width='130' height='57' /></a></li><li><a href='http://wordpress.org/showcase/ebay-ink/'><img src='http://s.wordpress.org/images/notableusers/ebay.png' alt='ebay' width='130' height='57' /></a></li><li><a href='http://wordpress.org/showcase/b5media/'><img src='http://s.wordpress.org/images/notableusers/b5media.png' alt='b5media' width='130' height='57' /></a></li>			</ul>
+			<p id="showcase-link"><a href="/showcase/">&hellip; and hundreds more</a></p>
+		</div>
+	</div>
+</div>
+
+
+<div id="footer">
+	<div class="wrapper">
+		<p> 
+			<a href="http://wordpress.org/about/privacy/">Privacy</a> | 
+			<a href="http://wordpress.org/about/license/">License / GPLv2</a>
+            &nbsp; &nbsp; See also: 
+            <a href="http://wordpress.com/?ref=wporg-footer" title="Hassle-free WP hosting">WordPress.com</a> |
+			<a href="http://wordpress.tv/" title="Videos, tutorials, WordCamps">WordPress.TV</a> |
+			<a href="http://central.wordcamp.org/" title="Find a WordPress event near your home">WordCamp</a> |
+			<a href="http://jobs.wordpress.net/" title="Find or post WordPress jobs">WP Jobs</a> | 
+            <a href="http://ma.tt/" title="Co-founder of WordPress, an example of what WordPress can do">Matt</a> |
+			<a href="http://wordpress.org/news/feed/" class="rsslink">Blog RSS</a>
+		</p>
+<br />
+<iframe src="http://www.facebook.com/plugins/like.php?app_id=121415197926116&amp;href=http%3A%2F%2Fwww.facebook.com%2Fwordpress&amp;send=false&amp;layout=button_count&amp;width=150&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=lucida+grande&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:21px;" allowTransparency="true"></iframe>
+<div class="g-plusone" data-size="medium" data-href="https://plus.google.com/107188080561309681193"></div>
+<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/follow_button.html?screen_name=WordPress&show_count=false" style="width:150px; height:20px;"></iframe>
+
+		<h6>Code is Poetry</h6>
+	</div>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+function jah(url,target) {
+    // native XMLHttpRequest object
+    if (window.XMLHttpRequest) {
+        req = new XMLHttpRequest();
+        req.onreadystatechange = function() {jahDone(target);};
+        req.open("GET", url, true);
+        req.send(null);
+    // IE/Windows ActiveX version
+    } else if (window.ActiveXObject) {
+        req = new ActiveXObject("Microsoft.XMLHTTP");
+        if (req) {
+            req.onreadystatechange = function() {jahDone(target);};
+            req.open("GET", url, true);
+            req.send();
+		}
+	}
+}
+
+function jahDone(target) {
+    // only if req is "loaded"
+    if (req.readyState == 4) {
+        // only if "OK"
+        if (req.status == 200) {
+            results = req.responseText;
+            document.getElementById(target).innerHTML = results;
+        }   
+	}
+}
+jah( '/lang-guess/lang-guess-ajax.php?uri=%2F&latest=3.3.1', 'lang-guess-wrap' );
+//]]>
+</script>
+
+<script type="text/javascript">_qoptions={qacct:"p-18-mFEk4J448M"};</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript><img src="http://pixel.quantserve.com/pixel/p-18-mFEk4J448M.gif" style="display: none;" border="0" height="1" width="1" alt=""/></noscript>
+<!--  -->
+<script type="text/javascript" src="http://s.gravatar.com/js/gprofiles.js"></script>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<script type="text/javascript">
+(function($){
+$(document).ready(function() {
+	$('#footer a').click(function() {
+		if (this.href.indexOf('wordpress.org') == -1 && this.href.indexOf('http') == 0) {
+			recordOutboundLink(this, 'Outbound Links', this.href);
+			return false;
+		}
+	});
+	$('#download a, .download-button').click(function() {
+		recordOutboundLink(this, 'Download Links', $(this).hasClass('download-button') ? 'button' : 'nav' );
+		return false;
+	});
+});
+})(jQuery);
+</script>
+</body>
+</html>

@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="robots" content="follow,index" />
+	<meta name="keywords" content="images, funny pictures, image host, image upload, image sharing, image resize" />
+	<meta name="description" content="Imgur is used to share photos with social networks and online communities, and has the funniest pictures from all over the Internet." />
+	<meta http-equiv="X-UA-Compatible" content="IE=9;IE=8;" />
+	<!--[if lt IE 9]>
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="pragma" content="no-cache">
+	<![endif]-->
+	<title>imgur: the simple image sharer</title>
+	<link rel="icon" href="//imgur.com/include/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="//imgur.com/include/favicon.ico" type="image/x-icon" />
+	<link rel="alternate" type="application/rss+xml" title="Imgur Gallery" href="http://feeds.feedburner.com/ImgurGallery?format=xml" />
+	<link rel="stylesheet" href="http://s.imgur.com/min/global_css?4" type="text/css" />
+		<link type="text/css" href="http://s.imgur.com/min/index_css?1" rel="stylesheet" />
+	
+	<!--[if IE 9]><link rel="stylesheet" href="//imgur.com/include/css/ie-sucks.css?0" type="text/css" /><![endif]-->
+	
+</head>
+<body>
+		<div id="topbar">
+		<div class="left">
+			<ul>
+				<li><a href="http://imgur.com/tools">tools</a></li><li><a href="http://imgur.com/gallery">gallery</a></li>
+			</ul>
+		</div>
+
+		<div class="right">
+						<ul>
+				<li><a class="dot" href="https://imgur.com/signin">sign in</a></li><li><a href="https://imgur.com/register">register</a></li>
+			</ul>
+			
+		</div>
+	</div>
+
+	<div id="underbar" class="clear"></div>
+	
+
+	
+
+	<div class="nodisplay">
+		Imgur is used to share photos with social networks and online
+		communities, and has the funniest pictures from all over the Internet.
+	</div>
+
+		<div id="drop-overlay">
+		<h1>upload</h1>
+	</div>
+
+	<div id="loading-overlay">
+		<div id="loader"></div>
+	</div>
+
+	<div id="progress-wrapper" >
+		<div id="progressbar-wrapper">
+			<h1 id="progress-title">Processing...</h1>
+			<div id="progressbar"></div>
+		</div>
+
+		<div id="upload-queue"></div>
+	</div>
+
+	<div id="logo"></div>
+
+	<div id="content">
+		<noscript>
+			<div id="errorbox">
+				<div class="textbox error">
+					This page requires JavaScript and will not work without
+					it. Please enable JavaScript or make an exception for
+					Imgur. You will not be able to upload any images without it.
+				</div>
+			</div>
+		</noscript>
+
+		
+
+		
+
+		<div id="no-cookies">
+			<div class="textbox">
+				<p class="error center">
+					<strong>Imgur requires the use of <a href="http://en.wikipedia.org/wiki/HTTP_cookie">cookies</a>.</strong>
+				</p>
+				<p>
+					You do not have cookies enabled. This means you
+					can't upload images, sign in, or use any site
+					functions. In order to do these things, you must
+					first enable cookies or set a cookie exception for
+					imgur.com. If you don't want to do that, then you
+					can at least browse the <a href="/gallery/">gallery</a>.
+				</p>
+			</div>
+		</div>
+
+		<div class="left">
+			<form method="post" id="uploadform" enctype="multipart/form-data" action="/upload">
+
+				<div class="panel">
+					<h1>Upload images</h1>
+
+					
+
+					<div id="not-working">
+													<a href="?noFlash">not working? - html version</a>
+						
+					</div>
+
+					<div id="buttons">
+						<div id="upload-loader" class="textbox">
+							Loading...
+						</div>
+
+													<div id="flash-container" class="title" title="upload images from your computer">
+								<div id="flash-browse"></div>
+							</div>
+						
+
+						<div id="file-wrapper" class="title" title="upload images from your computer">
+							<input type="file" name="file" multiple="multiple" id="file">
+						</div>
+
+						<div class="right">
+							<input type="button" id="url" class="button-big title" title="upload images from the web" value="" />
+						</div>
+
+						<div class="clear"></div>
+					</div>
+
+					
+
+					<div id="errors" class="textbox error"></div>
+				</div>
+
+				<div id="start-upload">
+					<div class="panel">
+						<div>
+							<input id="start-button" class="button-big" type="submit" value="Start Upload" />
+
+							<div id="album">
+								<div id="album-checkbox-div">
+									<input id="album-checkbox" type="checkbox" name="create_album" value="1" />
+								</div>
+
+								<div class="textbox">
+									Group images into an album
+								</div>
+
+								<div class="clear"></div>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+
+						<div id="album-options">
+							<input name="album_title" type="text" value="Optional Album Title" id="album-title" maxlength="55" />
+
+							<div class="textbox">
+								<table id="album-layout">
+	<tr>
+		<td class="center" width="10%">
+			<label for="blog">
+				<img class="title" src="http://s.imgur.com/images/album-layout-blog.png" alt="Blog Layout" title="<h1>Blog Layout</h1>Shows all the images on one page in a blog post style layout. Best for albums with a small to medium amount of images." />
+			</label>
+		</td>
+		
+		<td class="center" width="30%">
+			<label for="vertical">
+				<img class="title" src="http://s.imgur.com/images/album-layout-vertical.png" alt="Vertical Layout" title="<h1>Vertical Layout</h1>Shows one image at a time in a traditional style, with thumbnails to the right. Good for almost any album." />
+			</label>
+		</td>
+		
+		<td class="center" width="30%">
+			<label for="horizontal">
+				<img class="title" src="http://s.imgur.com/images/album-layout-horizontal.png" alt="Horizontal Layout" title="<h1>Horizontal Layout</h1>Shows one image in high resolution at a time, with thumbnails on top. Best for albums that have high resolution photos." />
+			</label>
+		</td>
+		
+		<td class="center" width="30%">
+			<label for="grid">
+				<img class="title" src="http://s.imgur.com/images/album-layout-grid.png" alt="Grid Layout" title="<h1>Grid Layout</h1>Shows all the images on one page as thumbnails that expand when clicked on. Best for albums with lots of images." />
+			</label>
+		</td>
+	</tr>
+	
+	<tr>
+		<td class="center">
+			<input class="title" id="blog" type="radio" name="layout" value="b" id="blog" title="<h1>Blog Layout</h1>Shows all the images on one page in a blog post style layout. Best for albums with a small to medium amount of images." />
+		</td>
+		
+		<td class="center">
+			<input class="title" id="vertical" type="radio" name="layout" value="v" id="vertical" title="<h1>Vertical Layout</h1>Shows one image at a time in a traditional style, with thumbnails to the right. Good for almost any album." />
+		</td>
+		
+		<td class="center">
+			<input class="title" id="horizontal" type="radio" name="layout" value="h" id="horizontal" title="<h1>Horizontal Layout</h1>Shows one image in high resolution at a time, with thumbnails on top. Best for albums that have high resolution photos." />
+		</td>
+		
+		<td class="center">
+			<input class="title" id="grid" type="radio" name="layout" value="g" id="grid" title="<h1>Grid Layout</h1>Shows all the images on one page as thumbnails that expand when clicked on. Best for albums with lots of images." />
+		</td>
+	</tr>
+</table>
+							</div>
+						</div>
+
+						<div class="textbox list">
+							<div id="thumbnail-list"></div>
+							<table id="file-list">
+								<tr class="top-tr">
+									<td width="15"></td>
+									<td width="60"><h2>Edit</h2></td>
+									<td><h2>Your Images</h2></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<div class="right">
+			<div class="panel">
+				<h1 class="left">View images</h1>
+				<a href="/gallery">
+					<input type="button" class="button-medium right title" title="browse the Internet's best images" value="browse" onclick="window.location = '/gallery'" />
+				</a>
+
+				<div class="clear"></div>
+
+				<div id="view-images"><a href="/gallery/tQmD5"><img src="http://i.imgur.com/tQmD5b.jpg" title="I don&#039;t understand why I&#039;m friends with these people on Facebook..." alt="" /></a><a href="/gallery/17SCo"><img src="http://i.imgur.com/17SCob.jpg" title="Dave Grohl on his music:" alt="" /></a><a href="/gallery/Qt9MV"><img src="http://i.imgur.com/Qt9MVb.jpg" title="BAHAHA" alt="" /></a><a href="/gallery/VXAp4"><img src="http://i.imgur.com/VXAp4b.jpg" title="Pre-9/11 Pilots" alt="" /></a><a href="/gallery/F93RM"><img src="http://i.imgur.com/F93RMb.jpg" title="Me when my Mom used to shield my eyes during a sex scene in a movie." alt="" /></a><a href="/gallery/rfZDK"><img src="http://i.imgur.com/rfZDKb.jpg" title="Roses are red, violets are blue" alt="" /></a><a href="/gallery/GFqfV"><img src="http://i.imgur.com/GFqfVb.jpg" title="I laughed" alt="" /></a><a href="/gallery/WOFxo"><img src="http://i.imgur.com/WOFxob.jpg" title="Could I, get pregnant? Someone tell me!" alt="" /></a><a href="/gallery/TRtqB"><img src="http://i.imgur.com/TRtqBb.jpg" title="20,000 Nopes Under the Sea" alt="" /></a><a href="/gallery/2uTVb"><img src="http://i.imgur.com/2uTVbb.jpg" title="Hugh Hefner&#039;s secret " alt="" /></a><a href="/gallery/zMLNO"><img src="http://i.imgur.com/zMLNOb.jpg" title="this is why Bieber is still alive." alt="" /></a><a href="/gallery/yZB5V"><img src="http://i.imgur.com/yZB5Vb.jpg" title="sunshine bum" alt="" /></a><a href="/gallery/a9XIc"><img src="http://i.imgur.com/a9XIcb.jpg" title="Seems this guy might be a little lost." alt="" /></a><a href="/gallery/bMpGK"><img src="http://i.imgur.com/bMpGKb.jpg" title="Our kitten looked shocked for pretty much her entire kittenhood. Here&#039;s a great example." alt="" /></a><a href="/gallery/c9yTy"><img src="http://i.imgur.com/c9yTyb.jpg" title="I wish I knew what she was saying, quite the talker. " alt="" /></a><a href="/gallery/SUp5I"><img src="http://i.imgur.com/SUp5Ib.jpg" title="guys, I just can&#039;t.  It&#039;s a baby stoat" alt="" /></a></div>
+			</div>
+
+			<div id="footer">
+				<a href="http://imgur.com/jobs" class="title green" title="apply for a job at imgur">jobs</a>
+				<a href="http://imgur.com/blog/" class="title" title="the simple imgur blog">blog</a>
+				<!--<a href="http://imgur.userecho.com/" class="title" title="have something to say?">feedback</a>-->
+				<a href="http://imgur.com/stats" class="title" title="view site statistics">site stats</a>
+				<a href="http://imgur.com/faq" class="title" title="have a question?">faq</a>
+				<a href="http://imgur.com/removalrequest" class="title" title="submit an image removal request">deletion</a>
+				<a href="http://imgur.com/contact" class="title" title="contact imgur">contact</a>
+				<a href="http://imgur.com/tos" class="title" title="terms of service">terms</a>
+				<a href="http://api.imgur.com" class="title" title="the imgur API">api</a>
+				
+			</div>
+
+			<div class="clear"></div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+
+	<div class="nodisplay">
+	<div id="upload-web" class="popup">
+		<h1>Upload from the web</h1>
+		
+		<div class="enter textbox">
+			Enter the URLs of images, one per line:
+		</div>
+
+		<textarea title="http://www.example.com/image.jpg"></textarea>
+
+		
+
+		<input type="button" id="url-done" class="button-medium title" title="add URLs to the upload queue" value="Done" />
+		<input type="button" id="url-start" class="button-medium title right" title="start uploading the URLs" value="Upload" />
+	</div>
+</div>
+
+	<div class="nodisplay">
+		<div id="image-formats" class="popup">
+			<h1>Supported file formats</h1>
+
+			<div class="textbox">
+				<strong>JPEG, GIF, PNG, APNG, TIFF, BMP, PDF, XCF</strong><br />
+				Please note that the TIFF, BMP, PDF and XCF formats will be converted to PNG on upload.
+			</div>
+		</div>
+	</div>
+	
+
+	
+
+	
+
+	<script type="text/javascript" src="http://s.imgur.com/min/global_js?13"></script>
+	<script type="text/javascript">
+		var Imgur = new ImgurBase({
+			host: 'imgur.com',
+			cdn_url: 'http://i.imgur.com',
+			signed: false
+		});
+	</script>
+
+		<script type="text/javascript">
+		var sid        = '1uc7s8ta6e2kn2i7lg4nrr23v2';
+		var isFlash    = 1;
+		var sid_hash   = '0464eb6b07b75df8d2e3579caa29f8e1';
+		var preprocess = 1;
+	</script>
+	<script type="text/javascript" src="http://s.imgur.com/min/index_js?2"></script>
+	<script type="text/javascript">
+		app = new ImgurUpload();
+		app.onLoad();
+		app.onReady();
+
+		if(isFlash) {
+			SWFUpload.onload = function() {
+				app.loadFlash();
+			}
+		}
+	</script>
+
+	
+
+			<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-6671908-2']);
+			_gaq.push(['_setDomainName', 'none']);
+			_gaq.push(['_trackPageview']);
+			_gaq.push(['_trackPageLoadTime']);
+
+			(function() {
+			  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : '//www') + '.google-analytics.com/ga.js';
+			  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+
+		<script type='text/javascript'>
+			var _qevents = _qevents || [];
+			(function() {
+			var elem = document.createElement('script');
+			elem.src = (document.location.protocol == "https:" ? "https://secure" : "//edge") + ".quantserve.com/quant.js";
+			elem.async = true;
+			elem.type = "text/javascript";
+			var scpt = document.getElementsByTagName('script')[0];
+			scpt.parentNode.insertBefore(elem, scpt);
+			})();
+
+			_qevents.push({
+				qacct:"p-f8oruOqDFlMeI"
+			});
+		</script>
+
+		<noscript>
+			<div class="nodisplay">
+				<img src="//pixel.quantserve.com/pixel/p-f8oruOqDFlMeI.gif" border="0" height="1" width="1" alt="Quantcast"/>
+			</div>
+		</noscript>
+
+		
+
+					<script type='text/javascript' src='http://static.fmpub.net/site/imgur'></script>
+			<script type="text/javascript" src="http://tap-cdn.rubiconproject.com/partner/scripts/rubicon/alice.js?pc=8526/13802"></script>
+		
+	
+
+	
+</body>
+</html>

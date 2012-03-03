@@ -1,0 +1,1592 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head profile="http://dublincore.org/documents/dcq-html/">
+     <meta http-equiv="X-UA-Compatible" content="IE=8" />     <link rel="schema.dcterms" href="http://purl.org/dc/terms/" />  <link rel="index" href="http://www.bbc.co.uk/a-z/" title="A to Z" /> <link rel="help" href="http://www.bbc.co.uk/help/" title="BBC Help" /> <link rel="copyright" href="http://www.bbc.co.uk/terms/" title="Terms of Use" /> <link rel="icon" href="http://www.bbc.co.uk/favicon.ico" type="image/x-icon" />  <meta name="viewport" content="width = 996" />    <link rel="stylesheet" type="text/css" href="http://static.bbc.co.uk/frameworks/barlesque/1.36.0/desktop/3/style/main.css"  />  <link rel="stylesheet" type="text/css" href="http://static.bbc.co.uk/bbcdotcom/0.3.104/style/3pt_ads.css"  />      <script type="text/javascript"> if (! window.gloader) { window.gloader = [ "glow", {map: "http://node1.bbcimg.co.uk/glow/glow/map.1.7.3.js"}]; } </script>  <script type="text/javascript" src="http://node1.bbcimg.co.uk/glow/gloader.0.1.6.js"></script>   <script type="text/javascript" src="http://static.bbc.co.uk/frameworks/requirejs/0.11.1/sharedmodules/require.js"></script> <script type="text/javascript">  bbcRequireMap = {"jquery-1":"http://static.bbc.co.uk/frameworks/jquery/0.1.8/sharedmodules/jquery-1.6.2", "jquery-1.4":"http://static.bbc.co.uk/frameworks/jquery/0.1.8/sharedmodules/jquery-1.4", "swfobject-2":"http://static.bbc.co.uk/frameworks/swfobject/0.1.3/sharedmodules/swfobject-2", "demi-1":"http://static.bbc.co.uk/frameworks/demi/0.9.2/sharedmodules/demi-1", "gelui-1":"http://static.bbc.co.uk/frameworks/gelui/0.9.3/sharedmodules/gelui-1", "cssp!gelui-1/overlay":"http://static.bbc.co.uk/frameworks/gelui/0.9.3/sharedmodules/gelui-1/overlay.css", "istats-1":"http://static.bbc.co.uk/frameworks/istats/0.8.1/modules/istats-1", "relay-1":"http://static.bbc.co.uk/frameworks/relay/0.2.1/sharedmodules/relay-1", "clock-1":"http://static.bbc.co.uk/frameworks/clock/0.1.5/sharedmodules/clock-1", "canvas-clock-1":"http://static.bbc.co.uk/frameworks/clock/0.1.5/sharedmodules/canvas-clock-1", "cssp!clock-1":"http://static.bbc.co.uk/frameworks/clock/0.1.5/sharedmodules/clock-1.css", "jssignals-1":"http://static.bbc.co.uk/frameworks/jssignals/0.3.3/modules/jssignals-1", "jcarousel-1":"http://static.bbc.co.uk/frameworks/jcarousel/0.1.8/modules/jcarousel-1"}; require({ baseUrl: 'http://static.bbc.co.uk/', paths: bbcRequireMap, waitSeconds: 30 }); </script>      <script type="text/javascript" src="http://static.bbc.co.uk/frameworks/barlesque/1.36.0/desktop/3/script/barlesque.js"></script>
+  <!--[if (IE 6)|(IE 7)|(IE 8)]>   <style type="text/css"> .blq-gvl-3 #blq-mast, body #blq-container.blq-gvl-3 .blq-foot-opaque { background: transparent;  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000,endColorstr=#B2000000)"; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000,endColorstr=#B2000000); } .blq-gvl-3 #blq-mast.blq-mast-light { -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000)"; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000); }  html body #blq-container #blq-nav {background: transparent;} .blq-gvl-3 #blq-mast #blq-search { padding: 5px 4px 4px 7px; } .blq-gvl-3 #blq-nav-main a { background-position: right 12px; } .blq-gvl-3 #blq-nav-main { background-position: 97% 18px; } .blq-morepanel-shown #blq-nav-m a { background-position: 83% -17px} </style>  <![endif]-->  <!--[if IE 6]>  <style type="text/css"> .blq-clearfix {height:1%;} .blq-gvl-3 #blq-mast-home .blq-home {display:none;} .blq-gvl-3 #blq-autosuggest { margin-left:-7px; padding-bottom:8px} .blq-gvl-3 #blq-nav-main { background-position: 96% 17px; } .blq-gvl-3 #blq-mast-home img {visibility: hidden;} .blq-gvl-3 #blq-mast-home a {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod='crop', src='http://static.bbc.co.uk/frameworks/barlesque/1.36.0/desktop/3/img/blocks/light.png');} .blq-gvl-3 #blq-mast-home a {cursor:pointer} .blq-gvl-3 #blq-mast-home span.blq-home {height:32px; width:107px;} .blq-footer-image-light, .blq-footer-image-dark {width: 68px;height: 21px;display: block;} .blq-footer-image-dark img, .blq-footer-image-light img { visibility: hidden; } .blq-footer-image-light {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod='scale', src='http://static.bbc.co.uk/frameworks/barlesque/1.36.0/desktop/3/img/blocks/light.png');} .blq-footer-image-dark {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod='scale', src='http://static.bbc.co.uk/frameworks/barlesque/1.36.0/desktop/3/img/blocks/dark.png');} </style>   <script type="text/javascript"> try { document.execCommand("BackgroundImageCache",false,true); } catch(e) {} </script> <![endif]-->   <!--[if lt IE 6]> <style> html body #blq-container #blq-foot { background: #4c4c4c; } html body #blq-container #blq-foot a, html body #blq-container #blq-foot p, html body #blq-container #blq-foot li { color: white; } </style> <![endif]-->  <script type="text/javascript">  blq.setEnvironment('live');   </script>  <script type="text/javascript" src="http://static.bbc.co.uk/frameworks/pulsesurvey/0.7.0/script/pulse.js"></script>  <script type="text/javascript" src="http://www.bbc.co.uk/survey/pulse/conf.js"></script>  <script type="text/javascript"> pulse.translations.intro = "We are always looking to improve the site and your opinions count."; pulse.translations.question = "Do you have a few minutes to tell us what you think about this site?"; pulse.translations.accept = "Yes"; pulse.translations.reject = "No";  </script> <link rel="stylesheet" href="http://static.bbc.co.uk/frameworks/pulsesurvey/0.7.0/style/pulse.css" type="text/css"/> <!--[if gte IE 6]> <style type="text/css"> .pulse-pop li{display:inline;width:40px} </style> <![endif]--> <!--[if IE 6]> <style type="text/css"> .pulse-pop li{display:inline;width:40px} .pulse-pop #pulse-q{background:url(http://static.bbc.co.uk/frameworks/pulsesurvey/0.7.0/img/pulse_bg.gif) no-repeat} .pulse-pop #pulse-a{background:url(http://static.bbc.co.uk/frameworks/pulsesurvey/0.7.0/img/pulse_bg.gif) bottom no-repeat;} </style> <![endif]--> <!--[if IE 7]> <style type="text/css">  .pulse-pop #pulse-a{zoom:1} </style> <![endif]--> <!-- BBCDOTCOM journalismVariant: false -->
+    <script type="text/javascript">
+    /*<![CDATA[*/
+    if(typeof(bbcdotcom) === 'undefined') { var bbcdotcom = {}; }
+    bbcdotcom.createObject = function(namespace){
+        var names   = namespace.split('.'),
+            next    = '',
+            i       = 0,
+            len     = names.length;
+        for(i; i < len; i++){
+            if('' !== next) {
+                next = ('object' === typeof next[names[i]]) ? next[names[i]] : next[names[i]] = {};
+            } else {
+                next = ('object' === typeof window[names[i]]) ? window[names[i]] : window[names[i]] = {};
+            }
+        }
+    };
+    bbcdotcom.createObject('bbcdotcom.stats');
+    /*]]>*/
+    </script>
+    <!-- BBCDOTCOM ipIsAdvertiseCombined: true adsEnabled: true flagpole: ON -->
+                    <script type="text/javascript">
+        /*<![CDATA[*/
+            /* Note all JS comments should use asterisks so as to work with Spectrum's simple minification */
+            if(typeof BBC === 'undefined') var BBC = {};
+            BBC.adverts = {setZone: function(){}, configure: function(){}, write: function(){}, show: function(){}};
+        /*]]>*/
+        </script>
+
+                        <script type="text/javascript" src="http://static.bbc.co.uk/bbcdotcom/0.3.104/script/bbccom.js"></script>
+        
+        <script type="text/javascript">
+        /*<![CDATA[*/
+            (function(){
+                var zone = "3pt_zone_file";
+                                var zoneAuto = false;
+                var siteAuto = false;
+                var keywordsAuto = false;
+                var zoneOverride = false;
+
+                    
+
+                if(/[?|&]zone=((?!preview)\w*\/*\w+)(&|$)/.test(window.location.search)) {
+                    zone = RegExp.$1;
+                    zoneOverride = false;
+                };
+
+                if(/[?|&]zone=(http:\/\/.+(\.bbc\.co\.uk){1}.*(bbc\.com){1}.*\.js)(&|$)/.test(window.location.search)) {
+                    if (RegExp.$1.indexOf("/../") === -1) {
+                        zone = RegExp.$1;
+                        zoneOverride = true;
+                    };
+                };
+
+                /* Added by Barlesque, so new static root can be passed post-load scripts. */
+                    BBC.adverts.setScriptRoot("http://static.bbc.co.uk/bbcdotcom/0.3.104/script/");
+    
+                BBC.adverts.init({
+                    domain: "www.bbc.co.uk",
+                    location: window.location.pathname,
+                    zoneVersion: zone,
+                    zoneAuto: zoneAuto,
+                    siteAuto: siteAuto,
+                    keywordsAuto: keywordsAuto,
+                    zoneOverride: zoneOverride,
+                    zoneReferrer: document.referrer,
+                    inclusionstyle: "direct_ads"
+                });
+            })();
+        /*]]>*/
+        </script>
+                  <meta name="dcterms.created" content="2012-02-21T15:26:44Z" />
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta name="description" content="Breaking news, sport, TV, radio and a whole lot more. The BBC informs, educates and entertains - wherever you are, whatever your age." />
+<meta name="keywords" content="BBC, bbc.co.uk, bbc.com, Search, British Broadcasting Corporation, BBC iPlayer, BBCi" />
+<meta name="robots" content="noodp" />
+<meta property="fb:page_id" content="228735667216" />
+<meta property="og:title" content="BBC - Homepage" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="http://static.bbc.co.uk/wwhomepage-3.5/1.0.37/img/iphone.png" />
+<meta property="og:url" content="http://www.bbc.co.uk/" />
+<meta name="y_key" content="91d5be896c086cce" />
+<meta name="msvalidate.01" content="FA038C44CEBE5EA88AAC2D70A4BB7A47" />
+<meta name="google-site-verification" content="LfZrJoAwRqkiXcCHNrjkhKSIYicjiIEjcAqp3rGkg6M" />
+<link rel="apple-touch-icon" href="http://static.bbc.co.uk/wwhomepage-3.5/1.0.37/img/iphone.png"/>
+<link rel="canonical" href="http://www.bbc.co.uk/" />
+<title>BBC - Homepage</title>
+<link rel="stylesheet" type="text/css" href="http://static.bbc.co.uk/wwhomepage-3.5/1.0.37/css/bundles/main.css" media="screen,print" />
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="http://static.bbc.co.uk/wwhomepage-3.5/1.0.37/css/bundles/ie6.css" media="screen,print" />
+<![endif]--><!--[if IE 7]><link rel="stylesheet" type="text/css" href="http://static.bbc.co.uk/wwhomepage-3.5/1.0.37/css/bundles/ie7.css" media="screen,print" />
+<![endif]--><!--[if IE 8]><link rel="stylesheet" type="text/css" href="http://static.bbc.co.uk/wwhomepage-3.5/1.0.37/css/bundles/ie8.css" media="screen,print" />
+<![endif]--><script type="text/javascript">
+//<![CDATA[
+    pulse.localSurvey = {
+        'active' : true,
+        'URLFormat' :
+            'https://www.bbcglobalminds.com/R.aspx'
+          + '?a=150&t=1&company=bbc&url={url}&id={siteid}&unique_hash={bbcuid}',
+        'probability' : 500,
+        'translations' : {
+            'intro' : 'Help us to keep our finger on the pulse.',
+            'question' : 'Do you have 5 minutes to tell us what you think about this site?'
+        }
+    };
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+if (!window.console) {
+	window.console = { log: function() { return; }, warn: function() { return; }, info: function() {return; }, error: function() { return; }, debug: function() { return; }
+};
+				}
+if(typeof(Homepage) === "undefined") {
+	Homepage = {};
+	Homepage.VSGet = function() {
+		return '';
+	};
+        // Homepage.stat;
+        Homepage.edition = 'i';
+        Homepage.env = 'live';
+        Homepage.fetchBbcCookie = function () {
+                if (!navigator.cookieEnabled) {
+                        return '';
+                }
+
+                var nameEQ = "BBC-UID=";
+                var ca = document.cookie.split(';');
+                for(i=0;i < ca.length;i++) {
+                        var c = ca[i];
+                        while (c.charAt(0)===' ') { c = c.substring(1,c.length); }
+                        if (c.indexOf(nameEQ) === 0) {
+                                return c.substring(nameEQ.length,c.length);
+                        }
+                }
+                return '';
+        };
+}
+
+if(typeof(wwhomepage) === 'undefined'){
+        wwhomepage = {};
+        wwhomepage.configs = [];
+		if(Homepage !== 'undefined'){
+			wwhomepage.legacy = Homepage;
+		}
+
+		wwhomepage.createObject = function(strName) {
+			var nameParts = strName.split("."),
+			i = 0,
+			len = nameParts.length,
+			obj = window;
+			
+			for (; i < len; i++){
+				if (obj[nameParts[i]] === undefined) {
+					obj[nameParts[i]] = {};
+				}
+				
+				obj = obj[nameParts[i]];
+			}
+			
+			return obj;
+		}
+}
+
+
+(function(){
+	require({
+				baseUrl:"http://static.bbc.co.uk/wwhomepage-3.5/1.0.37/js/",
+				paths:{"wwhomepage.ui.carouselfactory":"bundles/main", "wwhomepage.utils.popup":"bundles/main", "wwhomepage.ui.tabs":"bundles/main", "wwhomepage.ui.weather":"bundles/main","lib.external.moodular":"bundles/main", "lib.external.jqueryEffects":"bundles/main"}
+			});
+})()
+//]]>
+</script>
+</head>
+<body id="us" class="greenMode promoSpanTwoColumnsLeft blq_hp">
+<script type="text/javascript">
+//<![CDATA[
+    bodyTag = document.getElementsByTagName('body')[0];
+    bodyTag.setAttribute('class', bodyTag.getAttribute('class') + ' js');
+    delete bodyTag;
+//]]>
+</script>
+    <script type="text/javascript">/*<![CDATA[*/ bbcFlagpoles_istats = 'ON'; istatsTrackingUrl = '//sa.bbc.co.uk/bbc/bbc/s?name=home.page&geo_edition=us&pal_route=default&ml_name=barlesque&app_type=web&language=en-GB&ml_version=0.8.1&pal_webapp=wwhomepage'; if ( /\bIDENTITY=/.test(document.cookie) ) { istatsTrackingUrl += '&bbc_identity=1'; } /*]]>*/</script>  <!-- Begin iStats 20100118 (UX-CMC 1.1009.3) --> <script type="text/javascript">/*<![CDATA[*/ (function() { window.istats || (istats = {}); var cookieDisabled = (document.cookie.indexOf('NO-SA=') != -1), hasCookieLabels = (document.cookie.indexOf('sa_labels=') != -1), hasClickThrough = /^#sa-(.*?)(?:-sa(.*))?$/.test(document.location.hash), runSitestat = !cookieDisabled && !hasCookieLabels && !hasClickThrough && !istats._linkTracked; if (runSitestat && bbcFlagpoles_istats === 'ON') { sitestat(istatsTrackingUrl); } function sitestat(n){var j=document,f=j.location,b="";if(j.cookie.indexOf("st_ux=")!=-1){var k=j.cookie.split(";");var e="st_ux",h=document.domain,a="/";if(typeof ns_!="undefined"&&typeof ns_.ux!="undefined"){e=ns_.ux.cName||e;h=ns_.ux.cDomain||h;a=ns_.ux.cPath||a}for(var g=0,f=k.length;g<f;g++){var m=k[g].indexOf("st_ux=");if(m!=-1){b="&"+unescape(k[g].substring(m+6))}}document.cookie=e+"=; expires="+new Date(new Date().getTime()-60).toGMTString()+"; path="+a+"; domain="+h}ns_pixelUrl=n;n=ns_pixelUrl+"&ns__t="+(new Date().getTime())+"&ns_c="+((j.characterSet)?j.characterSet:j.defaultCharset)+"&ns_ti="+escape(j.title)+b+"&ns_jspageurl="+escape(f&&f.href?f.href:j.URL)+"&ns_referrer="+escape(j.referrer);if(n.length>2000&&n.lastIndexOf("&")){n=n.substring(0,n.lastIndexOf("&")+1)+"ns_cut="+n.substring(n.lastIndexOf("&")+1,n.lastIndexOf("=")).substring(0,40)}(j.images)?new Image().src=n:j.write('<p><i'+'mg src="'+n+'" height="1" width="1" alt="" /></p>')}; })(); /*]]>*/</script> <noscript><p class="blq-hide"><img src="//sa.bbc.co.uk/bbc/bbc/s?name=home.page&amp;geo_edition=us&amp;pal_route=default&amp;ml_name=barlesque&amp;app_type=web&amp;language=en-GB&amp;ml_version=0.8.1&amp;pal_webapp=wwhomepage" height="1" width="1" alt="" /></p></noscript> <!-- End iStats (UX-CMC) -->   <div id="blq-global" class="blq-gvl-3"> <div id="blq-pre-mast" xml:lang="en-GB"> <!-- Pre mast -->         <div id="bbccom_leaderboard_container">
+                    <div id="bbccom_leaderboard" class="bbccom_display_none bbccom_leaderboard">
+        <script type="text/javascript">BBC.adverts.write("leaderboard", true);</script>
+    </div>
+    <script type="text/javascript">BBC.adverts.show("leaderboard");</script>
+        </div>
+     </div> </div> <div id="blq-container-outer">  <div id="blq-container" class="blq-lang-en-GB blq-dotcom blq-gvl-3"> <div id="blq-container-inner" xml:lang="en-GB">  <div id="blq-acc" class="blq-rst"> <p id="blq-mast-home" class="blq-no-images"><a href="/" hreflang="en-GB"> <span class="blq-home"><abbr title="British Broadcasting Corporation">BBC</abbr></span><img src="http://static.bbc.co.uk/frameworks/barlesque/1.36.0/desktop/3/img/blocks/light.png" alt="" id="blq-blocks" width="84" height="24" /></a></p> <p class="blq-hide"><strong><a id="page-top">Accessibility links</a></strong></p> <ul id="blq-acc-links">   <li class="blq-hide"><a href="#blq-content">Skip to content</a></li>  <li class="blq-hide"><a href="#blq-nav-main">Skip to bbc.co.uk navigation</a></li> <li class="blq-hide"><a href="#blq-search">Skip to bbc.co.uk search</a></li> <li id="blq-acc-help"><a href="/help/">Help</a></li> <li class="blq-hide"><a href="/accessibility/">Accessibility Help</a></li>   </ul>  </div>   <div id="blq-main" class="blq-clearfix"> <h1 class="hide">BBC Homepage</h1>
+<div class="colA  column">
+    <div id="adLeaderboard" class="module">
+
+
+<div id="adLeaderboard_container" class="container">
+    <div class="contentBlocks cbg0">
+   <div class="advert">
+	<div id="bbccom_leaderboard_below_nav" class="bbccom_display_none">
+
+	</div>
+	<script type="text/javascript">
+        //<![CDATA[
+        if(typeof BBC != 'undefined' && typeof BBC.adverts != 'undefined' && typeof BBC.adverts.moveCallback != 'undefined'){
+            BBC.adverts.moveCallback("leaderboard_below_nav");
+        }
+        //]]>
+	</script>
+    </div>
+</div>
+</div>
+
+</div>
+</div><div class="colB  column">
+    <div id="promo" class="module">
+
+
+	<h2 id="promo_title" class="draggable">
+                <a rev="promo|homepage|na|r|t|i|text|headline" id="promo_title_link"  href="http://news.bbc.co.uk/" title="Go to ">
+            Top stories        </a>
+                	</h2>
+    
+
+<div id="promo_container" class="container">
+    <div class="contentBlocks cbg0">
+<div id="promo_carousel">
+    <div id="carousel_items" class="carousel">
+    
+        <dl class="news">
+                        <dt><a rev="promo|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/world-middle-east-17225776">UN demands Syria aid chief access</a></dt>
+            <dd class="desc">The UN Security Council demands access to Syria for its humanitarian chief Valerie Amos, as rebels withdraw from their stronghold in Homs.</dd>
+                        <dd class="img">
+                <a rev="promo|homepage|na|r|t|i|image|content" href="http://www.bbc.co.uk/news/world-middle-east-17225776">
+                                        <img src="http://static.bbc.co.uk/wwhomepage-3.5/ic/news/432-259/58822000/jpg/_58822190_014128682-1.jpg" alt="Baroness Valerie Amos, head of UNOCHA (file photo, 3 February)"  width="432" height="259" />                </a>
+            </dd>
+        </dl>
+    
+        <dl class="sport">
+                        <dt><a rev="promo|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/sport/0/formula1/17224431">Webber hopes for Hamilton revival</a></dt>
+            <dd class="desc">Mark Webber hopes Lewis Hamilton can regain his best form but urges his rival to &quot;look in the mirror and work out what&#039;s best for him&quot;.</dd>
+                        <dd class="img">
+                <a rev="promo|homepage|na|r|t|i|image|content" href="http://www.bbc.co.uk/sport/0/formula1/17224431">
+                                        <img src="http://static.bbc.co.uk/wwhomepage-3.5/ic/news/432-259/58819000/jpg/_58819416_58819415.jpg" alt="Team Mclaren driver Lewis Hamilton"  width="432" height="259" />                </a>
+            </dd>
+        </dl>
+    
+        <dl class="travel">
+                        <dt><a rev="promo|homepage|na|r|t|i|text|content" href="http://www.bbc.com/travel/blog/20120227-travelling-responsibly-in-burma">Travelling responsibly in Burma</a></dt>
+            <dd class="desc">The country&rsquo;s previously tense political situation prevented many from visiting. If you do decide to go to this South Asian country, here are a few tips for travelling responsibly.</dd>
+                        <dd class="img">
+                <a rev="promo|homepage|na|r|t|i|image|content" href="http://www.bbc.com/travel/blog/20120227-travelling-responsibly-in-burma">
+                                        <img src="http://static.bbc.co.uk/wwtravel/img/ic/432-258/1330378909959749736_1.jpg" alt=""  width="432" height="259" />                </a>
+            </dd>
+        </dl>
+    
+        <dl class="custom">
+                        <dt><a rev="promo|homepage|na|r|t|i|text|content" href="http://www.bbc.com/future/story/20120301-the-lost-world-finally-revealed">Lost world revealed</a></dt>
+            <dd class="desc">The discovery of an Antarctic lake cut off from the world for thousands of years has generated outrageous headlines and bizarre claims involving dinosaurs. Quentin Cooper sorts fact from fiction.</dd>
+                        <dd class="img">
+                <a rev="promo|homepage|na|r|t|i|image|content" href="http://www.bbc.com/future/story/20120301-the-lost-world-finally-revealed">
+                                        <img src="http://static.bbc.co.uk/wwhomepage-3.5/ic/custom-promo/432-259/promo_deep_010312.jpg" alt="Nasa image shows exploration of the deep"  width="432" height="259" />                </a>
+            </dd>
+        </dl>
+    
+        <dl class="custom">
+                        <dt><a rev="promo|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/world-south-asia-17211767">Bin Laden was my neighbour</a></dt>
+            <dd class="desc">Pakistan has been demolishing the compound where US forces shot dead the al-Qaeda last year. Aleem Maqbool meets a local man, who says property prices have plummeted.</dd>
+                        <dd class="img">
+                <a rev="promo|homepage|na|r|t|i|image|content" href="http://www.bbc.co.uk/news/world-south-asia-17211767">
+                                        <img src="http://static.bbc.co.uk/wwhomepage-3.5/ic/custom-promo/432-259/promo_demolish_010312a.jpg" alt="Demolishing the house in Pakistan"  width="432" height="259" />                </a>
+            </dd>
+        </dl>
+    
+        <dl class="custom">
+                        <dt><a rev="promo|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/magazine-17177053">All fired up</a></dt>
+            <dd class="desc">Voters in Russia are more passionate than they have been for a decade, thanks to an internet revolution that has challenged the state&#039;s control of public opinion - and the blogging platform LiveJournal.</dd>
+                        <dd class="img">
+                <a rev="promo|homepage|na|r|t|i|image|content" href="http://www.bbc.co.uk/news/magazine-17177053">
+                                        <img src="http://static.bbc.co.uk/wwhomepage-3.5/ic/custom-promo/432-259/promo_russia_010312.jpg" alt="Anti-Putin leaflets"  width="432" height="259" />                </a>
+            </dd>
+        </dl>
+    
+        <dl class="custom">
+                        <dt><a rev="promo|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/technology-17216464">Google: What do new rules mean for you?</a></dt>
+            <dd class="desc">The internet giant has implemented its new privacy policy despite warnings that it may violate European law. Christian Fraser reports from Paris on what it means for Google&#039;s users.</dd>
+                        <dd class="img">
+                <a rev="promo|homepage|na|r|t|i|image|content" href="http://www.bbc.co.uk/news/technology-17216464">
+                    <span class="video"></span>                    <img src="http://static.bbc.co.uk/wwhomepage-3.5/ic/custom-promo/432-259/promo_googlespecs_010212.jpg" alt="A Google search page viewed through spectacles"  width="432" height="259" />                </a>
+            </dd>
+        </dl>
+    
+        <dl class="custom">
+                        <dt><a rev="promo|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/video_and_audio/">One-minute World News</a></dt>
+            <dd class="desc">Watch a summary of the latest headlines from BBC World News.</dd>
+                        <dd class="img">
+                <a rev="promo|homepage|na|r|t|i|image|content" href="http://www.bbc.co.uk/news/video_and_audio/">
+                    <span class="video"></span>                    <img src="http://static.bbc.co.uk/wwhomepage-3.5/ic/custom-promo/432-259/promo_1mwn4_070212.jpg" alt="The gallery of the BBC World News studio"  width="432" height="259" />                </a>
+            </dd>
+        </dl>
+        </div>
+
+        <script type="text/javascript">
+        //<![CDATA[
+        // this block of code exists to hide the carousel items when javascript enables
+        // it also allows custom promo titles to be displayed
+
+        if('undefined' === typeof wwhomepage) var wwhomepage = {};
+        wwhomepage.customPromoHeaders = {"http:\/\/www.bbc.com\/future\/story\/20120301-the-lost-world-finally-revealed":{"promo_type":"From BBC Future","promo_url":"http:\/\/www.bbc.com\/future\/story\/20120301-the-lost-world-finally-revealed"},"http:\/\/www.bbc.co.uk\/news\/world-south-asia-17211767":{"promo_type":"News feature","promo_url":"http:\/\/www.bbc.co.uk\/news\/world-south-asia-17211767"},"http:\/\/www.bbc.co.uk\/news\/magazine-17177053":{"promo_type":"Magazine feature","promo_url":"http:\/\/www.bbc.co.uk\/news\/magazine-17177053"},"http:\/\/www.bbc.co.uk\/news\/technology-17216464":{"promo_type":"News video","promo_url":"http:\/\/www.bbc.co.uk\/news\/technology-17216464"},"http:\/\/www.bbc.co.uk\/news\/video_and_audio\/":{"promo_type":"News video","promo_url":"http:\/\/www.bbc.co.uk\/news\/video_and_audio\/"}}
+        var carousel = document.getElementById("carousel_items");
+        carousel.style.height = '259px';
+        carousel.style.overflow = 'hidden';
+        if(carousel.getElementsByTagName('a').length >=1){
+          var firstItemHref = carousel.getElementsByTagName('a')[0].getAttribute('href');
+          var firstItemClass = carousel.getElementsByTagName('dl')[0].className;
+          if ("undefined" == typeof(firstItemClass)) {
+              firstItemClass = carousel.getElementsByTagName('dl')[0].getAttribute('class');
+          }
+          var fistItemTitle = "Top Story";
+
+          if(firstItemClass.indexOf("news") != -1){
+              firstItemTitle = "Top News Story";
+          }
+          if(firstItemClass.indexOf("sport") != -1){
+              firstItemTitle = "Top Sport Story";
+          }
+          if(firstItemClass.indexOf("travel") != -1){
+              firstItemTitle = "Top Travel Story";
+          }
+          if(firstItemClass.indexOf("custom") != -1){
+              firstItemTitle = wwhomepage.customPromoHeaders[firstItemHref].promo_type;
+          }
+
+        }
+        //now that we have js, change the text in the promo
+        document.getElementById('promo_title').innerHTML = '<a rev="promo|homepage|na|r|t|i|text|headline" title="Go to '+firstItemTitle+'" href="'+firstItemHref+'" id="promo_title_link">' +
+                                                                    firstItemTitle +
+                                                                '</a>';
+
+        require(["wwhomepage.ui.carouselfactory"], function (carousel) {
+                require.ready(function(){
+                    carousel.createCarousel('#carousel_items',{"auto":true,"playPause":true,"effects":"singleRevolution","speed":800,"api":true,"controls":"previewNav","item":"dl","dispTimeout":6000,"promoCarousel":true});
+                })
+        });
+        //]]>
+    </script>
+</div>
+</div>
+</div>
+
+        <script type="text/javascript">
+            //<![CDATA[
+                    //]]>
+        </script>
+    </div>
+<div id="news" class="module">
+
+
+	<h2 id="news_title" class="draggable">
+                <a rev="news|homepage|na|r|t|i|text|headline" id="news_title_link"  href="http://news.bbc.co.uk/" title="Go to ">
+            News        </a>
+                	</h2>
+    
+
+<div id="news_container" class="container">
+    <div class="contentBlocks cbg0">
+<div id="news_hero" class="hero contentBlock">
+	<h3 id="news_hero_title" class="draggable">Top Story</h3>
+
+<div class="title image_first">
+    	<a rev="news|homepage|na|r|t|i|hero|content"  href="http://www.bbc.co.uk/news/technology-17205754" class="heroLink">
+                    <img src="http://static.bbc.co.uk/wwhomepage-3.5/ic/news/304-171/58795000/jpg/_58795972_103337500.jpg" alt="People sit on a sofa in front of a Google logo" width="304" height="171" />
+                    <span>Google privacy change &#039;breaches EU law&#039;</span>
+        	</a>
+	
+	<p class="summary" id="news_hero_summary">Changes made to Google&#039;s privacy policy are in breach of European law, the EU&#039;s justice commissioner tells the BBC.</p>
+	</div>
+</div>
+<div id="news_hero_mini" class="hero contentBlock">
+
+<div class="title image_first">
+    	<a rev="news|homepage|na|r|t|i|hero|content"  href="http://www.bbc.co.uk/news/world-europe-17227438" class="heroLink">
+                    <img src="http://static.bbc.co.uk/wwhomepage-3.5/ic/news/144-81/58823000/jpg/_58823331_014139863-1.jpg" alt="Nicolas Sarkozy is escorted by plain-clothes police out of Bayonne" width="144" height="81" />
+                    <span>Mob forces Sarkozy to hide in bar</span>
+        	</a>
+	
+	<p class="summary" id="news_hero_mini_summary">Protesters mob French President Nicolas Sarkozy as he campaigns for re-election in the Basque country, forcing him to take shelter in a bar.</p>
+	</div>
+</div>
+<div id="news_moreTopStories" class="list contentBlock">
+
+<ul class="blq-clearfix">
+<li class="first"><a rev="news|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/world-middle-east-17226779">Accused NGO workers leave Egypt</a></li><li><a rev="news|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/world-us-canada-17223887">Fiery US conservative author dies</a></li><li><a rev="news|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/uk-england-london-17040111">Witchcraft murder couple guilty</a></li><li><a rev="news|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/world-us-canada-17228155">Suspect charged for Ohio shooting</a></li><li class="last"><a rev="news|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/world-europe-17225415">EU grants Serbia candidate status</a></li></ul>
+</div>
+</div>
+</div>
+
+</div>
+<div id="business" class="module">
+
+
+	<h2 id="business_title" class="draggable">
+                <a rev="business|homepage|na|r|t|i|text|headline" id="business_title_link"  href="http://www.bbc.com/news/business" title="Go to ">
+            Business        </a>
+                	</h2>
+    
+
+<div id="business_container" class="container">
+    <div class="contentBlocks cbg0">
+<div id="business_moreTopStories" class="list contentBlock">
+    	<h3 id="business_moreTopStories_title" class="draggable">
+		<a rev="business|homepage|na|r|t|i|text|sub headline" href="http://news.bbc.co.uk/1/hi/business/">
+			Top<span class="hidden"> Business and Money</span> Stories		</a>
+	</h3>
+
+<ul class="blq-clearfix">
+<li class="first"><a rev="business|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/business-17219160">Eurozone jobless rate at new high</a></li><li class="last"><a rev="business|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/business-17229025">Oil price jumps to 43-month high</a></li></ul>
+</div>
+<div id="business_marketData" class="marketData table list contentBlock">
+    	<h3 id="business_marketData_title" class="draggable">
+		<a rev="business|homepage|na|r|t|i|text|sub headline" href="http://newsvote.bbc.co.uk/1/shared/fds/hi/business/market_data/overview/default.stm">
+			Market Data		</a>
+	 <abbr title="Friday">Fri</abbr>, 2 <abbr title="March">Mar</abbr>  2012 01:47 GMT</h3>
+
+
+    <div id="marketwatch">
+        <h4><a href="http://www.bbc.co.uk/news/business/market_data/overview/default.stm">Marketwatch</a></h4>
+        <span>(min delay 15 mins)</span>
+        <span id="marketwatchTicker">
+            <a href="http://www.bbc.co.uk/news/business/market_data/ticker/markets/default.stm">Marketwatch Ticker</a>
+        </span>
+    </div>
+	<table id="business_marketData_items" summary="Current market values for major international indexes"  class="marketdata">
+		<thead>
+			<tr>
+				<th>Market Name</th>
+				<th>Current Value</th>
+				<th>Movement</th>
+				<th>Change</th>
+				<th>Percentage Change</th>
+			</tr>
+		</thead>
+		<tbody>
+		<tr class="up">
+	<td class="marketname">
+		<a href="http://www.bbc.co.uk/news/business/market_data/stockmarket/2/">Dow Jones</a>
+	</td>
+	<td class="current">
+		12980.30	</td>
+	<td class="movement">
+		<span>+</span>
+	</td>
+	<td class="change">
+		28.23	</td>
+	<td class="percentageChange">
+		0.22&#37;
+	</td>
+</tr><tr class="up dk">
+	<td class="marketname">
+		<a href="http://www.bbc.co.uk/news/business/market_data/stockmarket/12122/">Nasdaq</a>
+	</td>
+	<td class="current">
+		2988.97	</td>
+	<td class="movement">
+		<span>+</span>
+	</td>
+	<td class="change">
+		22.08	</td>
+	<td class="percentageChange">
+		0.74&#37;
+	</td>
+</tr><tr class="up">
+	<td class="marketname">
+		<a href="http://www.bbc.co.uk/news/business/market_data/stockmarket/3/">FTSE 100</a>
+	</td>
+	<td class="current">
+		5931.25	</td>
+	<td class="movement">
+		<span>+</span>
+	</td>
+	<td class="change">
+		59.74	</td>
+	<td class="percentageChange">
+		1.02&#37;
+	</td>
+</tr><tr class="up dk">
+	<td class="marketname">
+		<a href="http://www.bbc.co.uk/news/business/market_data/stockmarket/18/">Dax</a>
+	</td>
+	<td class="current">
+		6941.77	</td>
+	<td class="movement">
+		<span>+</span>
+	</td>
+	<td class="change">
+		85.69	</td>
+	<td class="percentageChange">
+		1.25&#37;
+	</td>
+</tr><tr class="up">
+	<td class="marketname">
+		<a href="http://www.bbc.co.uk/news/business/market_data/stockmarket/1/">Cac 40</a>
+	</td>
+	<td class="current">
+		3499.73	</td>
+	<td class="movement">
+		<span>+</span>
+	</td>
+	<td class="change">
+		47.28	</td>
+	<td class="percentageChange">
+		1.37&#37;
+	</td>
+</tr>		</tbody>
+	</table>
+
+	    <script type="text/javascript">
+    //<![CDATA[
+    require(["wwhomepage.utils.popup"], function (popupManager) {
+            require.ready(function(){
+                    popupManager.registerPopup('#marketwatchTicker a',{windowName:'popUpWindow',width:'450',height:'557',left:'300',top:'100'});
+            })
+    });
+    //]]>
+    </script>
+</div>
+
+</div>
+</div>
+
+        <script type="text/javascript">
+            //<![CDATA[
+                    //]]>
+        </script>
+    </div>
+<div id="sport" class="module">
+
+
+	<h2 id="sport_title" class="draggable">
+                <a rev="sport|homepage|na|r|t|i|text|headline" id="sport_title_link"  href="http://www.bbc.co.uk/sport" title="Go to ">
+            Sport        </a>
+                	</h2>
+        <div id="sport_from" class="contentBlock">
+	    <div id="bbccom_module_00008" class="bbccom_display_none bbccom_module">
+		    <div id="moduleAdvertContent_00008" class="moduleAdvertContent">
+			    <div id="bbccom_module_00008_adlabel" class="bbccom_text bbccom_module_adlabel">In Association With</div>
+			    <div id="bbccom_module_00008_image" class="bbccom_image bbccom_module_image">
+				    <script type="text/javascript">
+                        //<![CDATA[
+                            if(typeof BBC != 'undefined' && typeof BBC.adverts != 'undefined'){
+                                BBC.adverts.write("module_00008",false, {});
+                            }
+                        //]]>
+                    </script>
+			    </div>
+			    <script type="text/javascript">
+                    //<![CDATA[
+                        if(typeof BBC != 'undefined' && typeof BBC.adverts != 'undefined'){
+                            BBC.adverts.show("module_00008");
+                        }
+                    //]]>
+                </script>
+		    </div>
+	    </div>
+    </div>
+
+
+<div id="sport_container" class="container">
+    <div class="contentBlocks cbg0">
+<div id="sport_hero_mini" class="hero contentBlock">
+
+<div class="title title_first">
+    	<a rev="sport|homepage|na|r|t|i|hero|content"  href="http://www.bbc.co.uk/sport/0/tennis/17221038" class="heroLink">
+                    <span>Murray to face Djokovic in semis</span>
+                    <img src="http://static.bbc.co.uk/wwhomepage-3.5/ic/news/144-81/58814000/jpg/_58814764_murray_ap.jpg" alt="Andy Murray" width="144" height="81" />
+        	</a>
+	
+	<p class="summary" id="sport_hero_mini_summary">Andy Murray beats fifth seed Tomas Berdych and will face Novak Djokovic in the semi-finals of the Dubai Championships.</p>
+	</div>
+</div>
+<div id="sport_moreTopStories" class="list contentBlock">
+
+<ul class="blq-clearfix">
+<li class="first"><a rev="sport|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/sport/0/football/17223783">FA &#039;in no rush&#039; over England boss</a></li><li><a rev="sport|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/sport/0/football/17221172">McCoist fights to keep Rangers players</a></li><li><a rev="sport|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/sport/0/rugby-union/17222251">RFU ready to interview Lancaster for England</a></li><li class="last"><a rev="sport|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/sport/0/cricket/17223784">Amir rules out spot-fixing appeal</a></li></ul>
+</div>
+</div>
+</div>
+
+</div>
+<div id="more" class="module">
+
+
+	<h2 id="more_title" class="draggable">
+        More from BBC News        	</h2>
+    
+
+<div id="more_container" class="container">
+    <div class="contentBlocks cbg0">
+<h2 id="more_entertainment_title">
+    	<a rev="more|homepage|na|r|t|i|text|headline" href="http://news.bbc.co.uk/2/hi/entertainment/">
+        Entertainment &amp; Arts    </a>
+</h2><div id="more_entertainment_hero" class="hero contentBlock">
+	<h3 id="more_entertainment_hero_title" class="draggable">Top Story</h3>
+
+<div class="title image_first">
+    	<a rev="more|homepage|na|r|t|i|hero|content"  href="http://www.bbc.co.uk/news/entertainment-arts-17217161" class="heroLink">
+                    <img src="http://static.bbc.co.uk/wwhomepage-3.5/ic/news/144-81/58796000/jpg/_58796660_014129381-1.jpg" alt="Davy Jones" width="144" height="81" />
+                    <span>Monkees lead Davy Jones tributes</span>
+        	</a>
+	
+	<p class="summary" id="more_entertainment_hero_summary">Davy Jones&#039; Monkees bandmates lead tributes to their &quot;fellow-adventurer&quot; after the British singer dies aged 66 in Florida.</p>
+	</div>
+<div class="list">
+	<ul>
+	<li class="first">
+<a href="http://www.bbc.co.uk/news/entertainment-arts-17219599">Dion cancels shows due to illness</a>
+</li><li>
+<a href="http://www.bbc.co.uk/news/entertainment-arts-17220446">Titian work saved in &pound;45m deal</a>
+</li>	</ul>
+</div>
+</div>
+    <div id="more_from" class="contentBlock">
+	    <div id="bbccom_module_0002l" class="bbccom_display_none bbccom_module">
+		    <div id="moduleAdvertContent_0002l" class="moduleAdvertContent">
+			    <div id="bbccom_module_0002l_adlabel" class="bbccom_text bbccom_module_adlabel">In Association With</div>
+			    <div id="bbccom_module_0002l_image" class="bbccom_image bbccom_module_image">
+				    <script type="text/javascript">
+                        //<![CDATA[
+                            if(typeof BBC != 'undefined' && typeof BBC.adverts != 'undefined'){
+                                BBC.adverts.write("module_0002l",false, {});
+                            }
+                        //]]>
+                    </script>
+			    </div>
+			    <script type="text/javascript">
+                    //<![CDATA[
+                        if(typeof BBC != 'undefined' && typeof BBC.adverts != 'undefined'){
+                            BBC.adverts.show("module_0002l");
+                        }
+                    //]]>
+                </script>
+		    </div>
+	    </div>
+    </div>
+</div>
+<div class="contentBlocks cbg1">
+<h2 id="more_health_title">
+    	<a rev="more|homepage|na|r|t|i|text|headline" href="http://news.bbc.co.uk/2/hi/health">
+        Health    </a>
+</h2><div id="more_health_hero" class="hero contentBlock">
+	<h3 id="more_health_hero_title" class="draggable">Top Story</h3>
+
+<div class="title image_first">
+    	<a rev="more|homepage|na|r|t|i|hero|content"  href="http://www.bbc.co.uk/news/health-17209448" class="heroLink">
+                    <img src="http://static.bbc.co.uk/wwhomepage-3.5/ic/news/144-81/57084000/jpg/_57084905_coupleasleep.jpg" alt="Couple asleep" width="144" height="81" />
+                    <span>Sleep quality &#039;improves with age&#039;</span>
+        	</a>
+	
+	<p class="summary" id="more_health_hero_summary">The belief that older people tend to suffer worse sleep may be false - in fact the reverse may be true, according to US researchers.</p>
+	</div>
+<div class="list">
+	<ul>
+	<li class="first">
+<a href="http://www.bbc.co.uk/news/health-17209795">Online therapy &#039;helps fight CFS&#039;</a>
+</li><li>
+<a href="http://www.bbc.co.uk/news/health-17208667">Consultation on brain technology</a>
+</li>	</ul>
+</div>
+</div>
+</div>
+<div class="contentBlocks cbg2">
+<h2 id="more_technology_title">
+    	<a rev="more|homepage|na|r|t|i|text|headline" href="http://www.bbc.co.uk/news/technology/">
+        Technology    </a>
+</h2><div id="more_technology_hero" class="hero contentBlock">
+	<h3 id="more_technology_hero_title" class="draggable">Top Story</h3>
+
+<div class="title image_first">
+    	<a rev="more|homepage|na|r|t|i|hero|content"  href="http://www.bbc.co.uk/news/business-17220736" class="heroLink">
+                    <img src="http://static.bbc.co.uk/wwhomepage-3.5/ic/news/144-81/58815000/jpg/_58815823_014108822-1.jpg" alt="Nokia Lumia smartphone" width="144" height="81" />
+                    <span>Mobile phone &#039;bill shock&#039; tackled</span>
+        	</a>
+	
+	<p class="summary" id="more_technology_hero_summary">UK mobile phone companies are told by the regulator Ofcom to let their contract customers restrict how much they spend.</p>
+	</div>
+<div class="list">
+	<ul>
+	<li class="first">
+<a href="http://www.bbc.co.uk/news/technology-17218655">Slate makers win innovation prize</a>
+</li><li>
+<a href="http://www.bbc.co.uk/news/technology-17190918">Raspberry Pi goes on general sale</a>
+</li>	</ul>
+</div>
+</div>
+</div>
+<div class="contentBlocks cbg3">
+<h2 id="more_science_environment_title">
+    	<a rev="more|homepage|na|r|t|i|text|headline" href="http://www.bbc.co.uk/news/science_and_environment/">
+        Science &amp; Environment    </a>
+</h2><div id="more_science_environment_hero" class="hero contentBlock">
+	<h3 id="more_science_environment_hero_title" class="draggable">Top Story</h3>
+
+<div class="title image_first">
+    	<a rev="more|homepage|na|r|t|i|hero|content"  href="http://www.bbc.co.uk/news/science-environment-17223445" class="heroLink">
+                    <img src="http://static.bbc.co.uk/wwhomepage-3.5/ic/news/144-81/54768000/jpg/_54768718_sheepap.jpg" alt="A flock of sheep" width="144" height="81" />
+                    <span>Climate &#039;raising UK disease risk&#039;</span>
+        	</a>
+	
+	<p class="summary" id="more_science_environment_hero_summary">Climate change is raising the risk of diseases such as Schmallenberg in the UK and northern Europe, say scientists.</p>
+	</div>
+<div class="list">
+	<ul>
+	<li class="first">
+<a href="http://www.bbc.co.uk/news/science-environment-17192624">Horn dinos &#039;two species, not one&#039;</a>
+</li><li>
+<a href="http://www.bbc.co.uk/nature/17117661">Apes &#039;advertise&#039; homosexual bonds</a>
+</li>	</ul>
+</div>
+</div>
+</div>
+</div>
+
+        <script type="text/javascript">
+            //<![CDATA[
+                    //]]>
+        </script>
+    </div>
+<div id="future" class="module">
+
+
+	<h2 id="future_title" class="draggable">
+                <a rev="future|homepage|na|r|t|i|text|headline" id="future_title_link"  href="http://www.bbc.com/future" title="Go to ">
+            Future        </a>
+                	</h2>
+        <div id="future_from" class="contentBlock">
+	    <div id="bbccom_module_0006i" class="bbccom_display_none bbccom_module">
+		    <div id="moduleAdvertContent_0006i" class="moduleAdvertContent">
+			    <div id="bbccom_module_0006i_adlabel" class="bbccom_text bbccom_module_adlabel">In Association With</div>
+			    <div id="bbccom_module_0006i_image" class="bbccom_image bbccom_module_image">
+				    <script type="text/javascript">
+                        //<![CDATA[
+                            if(typeof BBC != 'undefined' && typeof BBC.adverts != 'undefined'){
+                                BBC.adverts.write("module_0006i",false, {});
+                            }
+                        //]]>
+                    </script>
+			    </div>
+			    <script type="text/javascript">
+                    //<![CDATA[
+                        if(typeof BBC != 'undefined' && typeof BBC.adverts != 'undefined'){
+                            BBC.adverts.show("module_0006i");
+                        }
+                    //]]>
+                </script>
+		    </div>
+	    </div>
+    </div>
+
+
+<div id="future_container" class="container">
+    <div class="contentBlocks cbg0">
+<div id="future_hero_mini_one" class="hero contentBlock">
+
+<div class="title title_first">
+    	<a rev="future|homepage|na|r|t|i|hero|content"  href="http://www.bbc.com/future/story/20120301-here-come-the-megabuses" class="heroLink">
+                    <span>Here come the megabuses</span>
+                    <img src="http://static.bbc.co.uk/wwfuture/img/ic/624_351/images/live/p0/0p/lt/p00plt8s.jpg" alt="" width="144" height="81" />
+        	</a>
+	
+	<p class="summary" id="future_hero_mini_one_summary">Extreme forms of public transport aim to wean us off our obsession with cars</p>
+	</div>
+</div>
+<div id="future_hero_mini_two" class="hero contentBlock">
+
+<div class="title title_first">
+    	<a rev="future|homepage|na|r|t|i|hero|content"  href="http://www.bbc.com/future/story/20120229-future-interaction-brain-control" class="heroLink">
+                    <span>Future interaction: Brain control</span>
+                    <img src="http://static.bbc.co.uk/wwfuture/img/ic/624_351/images/live/p0/0p/l2/p00pl23n.jpg" alt="" width="144" height="81" />
+        	</a>
+	
+	<p class="summary" id="future_hero_mini_two_summary">How brain waves can be used to control games and technology</p>
+	</div>
+</div>
+</div>
+</div>
+
+</div>
+<div id="travel" class="module">
+
+
+	<h2 id="travel_title" class="draggable">
+                <a rev="travel|homepage|na|r|t|i|text|headline" id="travel_title_link"  href="http://www.bbc.com/travel" title="Go to ">
+            Travel        </a>
+                	</h2>
+        <div id="travel_from" class="contentBlock">
+	    <div id="bbccom_module_0001f" class="bbccom_display_none bbccom_module">
+		    <div id="moduleAdvertContent_0001f" class="moduleAdvertContent">
+			    <div id="bbccom_module_0001f_adlabel" class="bbccom_text bbccom_module_adlabel">In Association With</div>
+			    <div id="bbccom_module_0001f_image" class="bbccom_image bbccom_module_image">
+				    <script type="text/javascript">
+                        //<![CDATA[
+                            if(typeof BBC != 'undefined' && typeof BBC.adverts != 'undefined'){
+                                BBC.adverts.write("module_0001f",false, {});
+                            }
+                        //]]>
+                    </script>
+			    </div>
+			    <script type="text/javascript">
+                    //<![CDATA[
+                        if(typeof BBC != 'undefined' && typeof BBC.adverts != 'undefined'){
+                            BBC.adverts.show("module_0001f");
+                        }
+                    //]]>
+                </script>
+		    </div>
+	    </div>
+    </div>
+
+
+<div id="travel_container" class="container">
+    <div class="contentBlocks cbg0">
+<div id="travel_carousel" class="carousel list contentBlock">
+
+<div id="travel_carousel_items" class="carousel">
+        <dl>
+              <dt><a rev="travel|homepage|na|r|t|i|text|content" href="http://www.bbc.com/travel/slideshow/20120228-children-around-the-world">Children around the world</a></dt>
+       <dd class="desc">From Africa to China, explore the cultures of different countries through the lives of today&rsquo;s youth.</dd>
+       <dd class="img"><a rev="travel|homepage|na|r|t|i|text|content" href="http://www.bbc.com/travel/slideshow/20120228-children-around-the-world"><img src="http://static.bbc.co.uk/wwtravel/img/ic/432-258/13304567499794377865_1.jpg" alt=""  width="432" height="259" /></a></dd>
+   </dl>
+    <dl>
+              <dt><a rev="travel|homepage|na|r|t|i|text|content" href="http://www.bbc.com/travel/blog/20120229-twitter-tips-for-travellers">Twitter tips for travellers</a></dt>
+       <dd class="desc">How to find the best bargains, last-minute deals and latest information on the social networking site</dd>
+       <dd class="img"><a rev="travel|homepage|na|r|t|i|text|content" href="http://www.bbc.com/travel/blog/20120229-twitter-tips-for-travellers"><img src="http://static.bbc.co.uk/wwtravel/img/ic/432-258/133053249118705562355_1.jpg" alt=""  width="432" height="259" /></a></dd>
+   </dl>
+    <dl>
+              <dt><a rev="travel|homepage|na|r|t|i|text|content" href="http://www.bbc.com/travel/feature/20120229-cycling-the-tel-aviv-coast">Cycling the Tel Aviv coast</a></dt>
+       <dd class="desc">With more than 100km of dedicated bike paths in a flat and compact metropolis, this beachside Israeli city is best explored on two wheels.</dd>
+       <dd class="img"><a rev="travel|homepage|na|r|t|i|text|content" href="http://www.bbc.com/travel/feature/20120229-cycling-the-tel-aviv-coast"><img src="http://static.bbc.co.uk/wwtravel/img/ic/432-258/13304071789806489178_1.jpg" alt=""  width="432" height="259" /></a></dd>
+   </dl>
+    <dl>
+              <dt><a rev="travel|homepage|na|r|t|i|text|content" href="http://www.bbc.com/travel/feature/20120229-nepals-local-eateries">Nepal&rsquo;s local eateries</a></dt>
+       <dd class="desc">Hidden in and around Kathmandu&rsquo;s nameless alleys are countless traditional bhatti serving rice-based home brew and various buffalo meat snacks in historic settings.</dd>
+       <dd class="img"><a rev="travel|homepage|na|r|t|i|text|content" href="http://www.bbc.com/travel/feature/20120229-nepals-local-eateries"><img src="http://static.bbc.co.uk/wwtravel/img/ic/432-258/133053786618710598365_1.jpg" alt=""  width="432" height="259" /></a></dd>
+   </dl>
+    <dl>
+              <dt><a rev="travel|homepage|na|r|t|i|text|content" href="http://www.bbc.com/travel/blog/20120228-braving-the-booming-business-travel-markets">Braving the booming markets</a></dt>
+       <dd class="desc">Corporate travellers from ailing economies are facing pressure to do business in the booming developing world, where their tightened budgets do not measure up to sky high prices.</dd>
+       <dd class="img"><a rev="travel|homepage|na|r|t|i|text|content" href="http://www.bbc.com/travel/blog/20120228-braving-the-booming-business-travel-markets"><img src="http://static.bbc.co.uk/wwtravel/img/ic/432-258/13008041327175774178_1.jpg" alt=""  width="432" height="259" /></a></dd>
+   </dl>
+    <dl>
+              <dt><a rev="travel|homepage|na|r|t|i|text|content" href="http://www.bbc.com/travel/blog/20120227-buenos-aires-man-tour">Buenos Aires&rsquo; Man Tour</a></dt>
+       <dd class="desc">Combing history, macho activities and old-school Porteno flavour, the Man Tour offers travellers an inside look at male panache in this South American city.</dd>
+       <dd class="img"><a rev="travel|homepage|na|r|t|i|text|content" href="http://www.bbc.com/travel/blog/20120227-buenos-aires-man-tour"><img src="http://static.bbc.co.uk/wwtravel/img/ic/432-258/1330319584955114476_1.jpg" alt=""  width="432" height="259" /></a></dd>
+   </dl>
+    <dl>
+              <dt><a rev="travel|homepage|na|r|t|i|text|content" href="http://www.bbc.com/travel/slideshow/20120223-the-best-caribbean-hotels">The best Caribbean hotels</a></dt>
+       <dd class="desc">These idyllic accommodations offer beachfront rooms, infinity pools, lush gardens and tranquil spas.</dd>
+       <dd class="img"><a rev="travel|homepage|na|r|t|i|text|content" href="http://www.bbc.com/travel/slideshow/20120223-the-best-caribbean-hotels"><img src="http://static.bbc.co.uk/wwtravel/img/ic/432-258/132941120525853464953_1.jpg" alt=""  width="432" height="259" /></a></dd>
+   </dl>
+
+</div>
+<script type="text/javascript">
+//<![CDATA[
+var carousel = document.getElementById("travel_carousel_items");
+carousel.style.height = '259px';
+carousel.style.overflow = 'hidden';
+
+require(["wwhomepage.ui.carouselfactory"], function (carousel) {
+        require.ready(function(){
+            carousel.createCarousel('#travel_carousel_items',{"auto":false,"playPause":true,"effects":"singleRevolution","speed":800,"api":"true","controls":"previewNav","item":"dl","dispTimeout":6000});
+        })
+});
+//]]>
+</script>
+</div>
+</div>
+</div>
+
+        <script type="text/javascript">
+            //<![CDATA[
+                    //]]>
+        </script>
+    </div>
+<div id="worldService" class="module">
+
+
+	<h2 id="worldService_title" class="draggable">
+                <a rev="worldservice|homepage|na|r|t|i|text|headline" id="worldService_title_link"  href="http://www.bbc.co.uk/worldservice/languages/index.shtml" title="Go to ">
+            BBC in your language        </a>
+                	</h2>
+    
+
+<div id="worldService_container" class="container">
+    <div class="contentBlocks cbg0">
+<div id="worldService_spanish" class="hero contentBlock">
+    	<h3 id="worldService_spanish_title" class="draggable">
+		<a rev="worldservice|homepage|na|r|t|i|text|sub headline" href="http://www.bbc.co.uk/mundo/">
+			Spanish		</a>
+	</h3>
+
+<div class="title image_first">
+    	<a rev="worldservice|homepage|na|r|t|i|hero|content"  href="http://www.bbc.co.uk/mundo/noticias/2012/03/120301_argentina_malvinas_faklands_vuelos_vh.shtml" class="heroLink">
+                    <span>Argentina quiere una conexi&oacute;n directa con las Malvinas/Falklands</span>
+        	</a>
+	
+	<p class="summary" id="worldService_spanish_summary">La presidenta Cristina Fern&aacute;ndez dice querer ampliar los vuelos a las islas y que sean desde Buenos Aires. Un gui&ntilde;o a los isle&ntilde;os que se contradice con el endurecimiento experimentado esta semana.</p>
+	</div>
+</div>
+<div id="worldService_chinese" class="hero contentBlock">
+    	<h3 id="worldService_chinese_title" class="draggable">
+		<a rev="worldservice|homepage|na|r|t|i|text|sub headline" href="http://www.bbc.co.uk/zhongwen/simp/">
+			Chinese		</a>
+	</h3>
+
+<div class="title image_first">
+    	<a rev="worldservice|homepage|na|r|t|i|hero|content"  href="http://www.bbc.co.uk/zhongwen/simp/business/2012/03/120301_us_china_trade.shtml" class="heroLink">
+                    <span>美国就公平贸易向中国发出警告</span>
+        	</a>
+	
+	<p class="summary" id="worldService_chinese_summary">美国贸易代表办公室表示，将动用一切手段要求中国遵守公平贸易原则。2011年，美国对中国的贸易赤字创下历史新高。</p>
+	</div>
+</div>
+<div id="worldService_arabic" class="hero contentBlock">
+    	<h3 id="worldService_arabic_title" class="draggable">
+		<a rev="worldservice|homepage|na|r|t|i|text|sub headline" href="http://www.bbc.co.uk/arabic/">
+			Arabic		</a>
+	</h3>
+
+<div class="title image_first" dir="rtl">
+    	<a rev="worldservice|homepage|na|r|t|i|hero|content"  href="http://www.bbc.co.uk/arabic/middleeast/2012/03/120301_syria_france.shtml" class="heroLink">
+                    <span>الامم المتحدة تشجب تدهور الاوضاع في سوريا وتطالب بالسماح لمسؤولة الشؤون الانسانية بدخول البلاد</span>
+        	</a>
+	
+	<p class="summary" id="worldService_arabic_summary">بيان لمجلس الامن يشجب تدهور الاوضاع في سوريا ويطالب السلطات السورية بالسماح لمسؤولة الشؤون الانسانية في الامم المتحدة بدخول البلاد، فيما انسحب مقاتلو الجيش السورية الحر من حي بابا عمرو في حمص.</p>
+	</div>
+</div>
+<div id="worldService_persian" class="hero contentBlock">
+    	<h3 id="worldService_persian_title" class="draggable">
+		<a rev="worldservice|homepage|na|r|t|i|text|sub headline" href="http://www.bbc.co.uk/persian/">
+			Persian		</a>
+	</h3>
+
+<div class="title image_first" dir="rtl">
+    	<a rev="worldservice|homepage|na|r|t|i|hero|content"  href="http://www.bbc.co.uk/persian/world/2012/03/120301_u14_unsc_amos_syria.shtml" class="heroLink">
+                    <span>سازمان ملل خواستار ورود عاجل نماینده کمک رسانی اش به سوریه شد</span>
+        	</a>
+	
+	<p class="summary" id="worldService_persian_summary">شورای امنیت سازمان ملل متحد از دولت سوریه خواسته فورا به والری آموس نماینده سازمان ملل در کمک رسانی به آسیب دیدگان اجازه ورود به کشور و بررسی وضعیت سوریه را بدهد</p>
+	</div>
+</div>
+</div>
+<div class="contentBlocks cbg1">
+<div id="worldService_languages" class="list contentBlock fourColumn">
+    	<h3 id="worldService_languages_title" class="draggable">
+		<a rev="worldservice|homepage|na|r|t|i|text|sub headline" href="http://www.bbc.co.uk/worldservice/languages/index.shtml">
+			More languages		</a>
+	</h3>
+
+<ul class="blq-clearfix">
+<li class="first"><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/azeri/" xml:lang="as" class="as" title="Azeri service">Azeri</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/bengali/" xml:lang="bn" class="bn" title="Bangla service">Bangla</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/burmese/" xml:lang="my" class="my" title="Burmese service">Burmese</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/afrique/" xml:lang="fr" class="fr" title="French (for Africa) service">French</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/hausa/" xml:lang="ha" class="ha" title="Hausa service">Hausa</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/hindi/" xml:lang="hi" class="hi" title="Hindi service">Hindi</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/indonesia/" xml:lang="id" class="id" title="Indonesian service">Indonesian</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/gahuza/" xml:lang="rn" class="rn" title="Kirundi service">Kirundi</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/kyrgyz/" xml:lang="ky" class="ky" title="Kyrgyz service">Kyrgyz</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/nepali/" xml:lang="ne" class="ne" title="Nepali service">Nepali</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/pashto/" xml:lang="ps" class="ps" title="Pashto service">Pashto</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/portuguese/" xml:lang="pt-BR" class="pt-BR" title="Portuguese (for Brazil) service">Portuguese</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/russian/" xml:lang="ru" class="ru" title="Russian service">Russian</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/sinhala/" xml:lang="si" class="si" title="Sinhala service">Sinhala</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/somali/" xml:lang="so" class="so" title="Somali service">Somali</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/swahili/" xml:lang="sw" class="sw" title="Swahili service">Swahili</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/tamil/" xml:lang="ta" class="ta" title="Tamil service">Tamil</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/turkce/" xml:lang="tr" class="tr" title="Turkish service">Turkish</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/ukrainian/" xml:lang="uk" class="uk" title="Ukrainian service">Ukrainian</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/urdu/" xml:lang="ur" class="ur" title="Urdu service">Urdu</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/uzbek/" xml:lang="uz" class="uz" title="Uzbek service">Uzbek</a></li><li><a rev="worldservice|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/vietnamese/" xml:lang="vi" class="vi" title="Vietnamese service">Vietnamese</a></li></ul>
+</div>
+</div>
+</div>
+
+</div>
+</div><div class="colC  column">
+    <div id="adMpu" class="module">
+
+
+<div id="adMpu_container" class="container">
+    <div class="contentBlocks cbg0">
+    <div class="advert">
+	<div id="bbccom_mpu" class="bbccom_display_none">
+	    <script type="text/javascript">
+		//<![CDATA[
+            if(typeof BBC != 'undefined' && typeof BBC.adverts != 'undefined'){
+                BBC.adverts.write("mpu",true);
+            }
+		//]]>
+	    </script>
+	</div>
+	<script type="text/javascript">
+	    //<![CDATA[
+            if(typeof BBC != 'undefined' && typeof BBC.adverts != 'undefined'){
+                BBC.adverts.show("mpu");
+            }
+	    //]]>
+	</script>
+    </div>
+</div>
+</div>
+
+</div>
+<div id="spotlight" class="module">
+
+
+	<h2 id="spotlight_title" class="draggable">
+                <a rev="spotlight|homepage|na|r|t|i|text|headline" id="spotlight_title_link"  href="http://www.bbc.co.uk/news/world-15920496" title="Go to ">
+            Spotlight        </a>
+                	</h2>
+    
+
+<div id="spotlight_container" class="container">
+    <div class="contentBlocks cbg0">
+
+<div id="spotlight_sponsorAd" class="contentBlock">
+                <h3 id="spotlight_sponsorAd_title" class="draggable"><a rev="spotlight|homepage|na|r|t|i|text|headline" href="http://www.bbc.co.uk/news/magazine-14760628" title="Go to Picture This">Picture This</a></h3>
+                <div id="bbccom_module_0000i" class="bbccom_display_none bbccom_module">
+	    <div id="moduleAdvertContent_0000i" class="moduleAdvertContent">
+		    <div id="bbccom_module_0000i_adlabel" class="bbccom_text bbccom_module_adlabel">In Association With</div>
+		    <div id="bbccom_module_0000i_image" class="bbccom_image bbccom_module_image">
+			    <script type="text/javascript">
+                    //<![CDATA[
+                        if(typeof BBC != 'undefined' && typeof BBC.adverts != 'undefined'){
+                            BBC.adverts.write("module_0000i",false);
+                        }
+                    //]]>
+                </script>
+		    </div>
+		    <script type="text/javascript">
+                //<![CDATA[
+                    if(typeof BBC != 'undefined' && typeof BBC.adverts != 'undefined'){
+                        BBC.adverts.show("module_0000i");
+                    }
+                //]]>
+            </script>
+	    </div>
+    </div>
+    </div>
+<div id="spotlight_hero" class="hero contentBlock">
+	<h3 id="spotlight_hero_title" class="draggable">Top Story</h3>
+
+<div class="title image_first">
+    	<a rev="spotlight|homepage|na|r|t|i|hero|content"  href="http://www.bbc.co.uk/news/magazine-17215248" class="heroLink">
+                    <img src="http://static.bbc.co.uk/wwhomepage-3.5/ic/spotlight-borg/336-189/spotlight_jewish2_010312.jpg" alt="Orthodox Jews" width="336" height="189" />
+                    <span>Breaking away</span>
+        	</a>
+	
+	<p class="summary" id="spotlight_hero_summary">Feeling choked by her arranged marriage, Deborah Feldman has written a book about her rejection of the Orthodox Jewish community in which she was raised.</p>
+	</div>
+</div>
+<div id="spotlight_list" class="list contentBlock">
+
+<ul class="blq-clearfix">
+<li class="first"><a rev="spotlight|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/magazine-17136245">A portrait of Mexico&#039;s Mennonite community</a></li><li><a rev="spotlight|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/magazine-17052511">Doomed Arctic expedition to the north pole</a></li><li class="last"><a rev="spotlight|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/magazine-16957988">Jungle tribes untouched by modern civilisation</a></li></ul>
+</div>
+</div>
+</div>
+
+</div>
+<div id="mostPopular" class="module">
+
+
+	<h2 id="mostPopular_title" class="draggable">
+        Most Popular in News        	</h2>
+    
+
+<div id="mostPopular_container" class="container">
+    <div class="contentBlocks cbg0">
+<div id="mostPopular_tabset" class="livestats livestats-tabbed contentBlock topTabs">
+
+
+    <h3 class="first tab">
+        <a id="mostPopular_tabset_shared_link" href="#">Shared</a>
+    </h3>
+
+    
+    <div id="mostPopular_tabset_shared" class="panel">
+
+            
+        <ul class="blq-clearfix">
+    
+                
+                <li class="ol0 first-child">
+                    <a rev="mostpopular|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/magazine-16964783"><span class="livestats-icon livestats-1">1: </span>The myth of the eight-hour sleep</a>                </li>
+
+                
+                <li class="ol1">
+                    <a rev="mostpopular|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/magazine-17193783"><span class="livestats-icon livestats-2">2: </span>Ten strange things people do at night</a>                </li>
+
+                
+                <li class="ol2">
+                    <a rev="mostpopular|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/magazine-17215248"><span class="livestats-icon livestats-3">3: </span>Breaking ties with Hasidic Jews</a>                </li>
+
+                
+                <li class="ol3">
+                    <a rev="mostpopular|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/uk-england-london-17040111"><span class="livestats-icon livestats-4">4: </span>Witchcraft murder couple guilty</a>                </li>
+
+                
+                <li class="ol4">
+                    <a rev="mostpopular|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/technology-17205754"><span class="livestats-icon livestats-5">5: </span>Google change &#039;breaches EU law&#039;</a>                </li>
+
+    
+        </ul>
+
+    
+    </div>
+
+    
+    <h3 class="tab">
+        <a id="mostPopular_tabset_read_link" href="#">Read</a>
+    </h3>
+
+    
+    <div id="mostPopular_tabset_read" class="panel">
+
+            
+        <ul class="blq-clearfix">
+    
+                
+                <li class="ol0 first-child">
+                    <a rev="mostpopular|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/health-17187179"><span class="livestats-icon livestats-1">1: </span>Free HIV treatment for foreigners</a>                </li>
+
+                
+                <li class="ol1">
+                    <a rev="mostpopular|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/world-europe-17227438"><span class="livestats-icon livestats-2">2: </span>Sarkozy hides in bar amid protest</a>                </li>
+
+                
+                <li class="ol2">
+                    <a rev="mostpopular|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/uk-england-london-17040111"><span class="livestats-icon livestats-3">3: </span>Witchcraft murder couple guilty</a>                </li>
+
+                
+                <li class="ol3">
+                    <a rev="mostpopular|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/magazine-17193783"><span class="livestats-icon livestats-4">4: </span>Ten strange things people do at night</a>                </li>
+
+                
+                <li class="ol4">
+                    <a rev="mostpopular|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/technology-17205754"><span class="livestats-icon livestats-5">5: </span>Google change &#039;breaches EU law&#039;</a>                </li>
+
+    
+        </ul>
+
+    
+    </div>
+
+    
+    <h3 class="selected tab">
+        <a id="mostPopular_tabset_watched_link" href="#">Watched/Listened</a>
+    </h3>
+
+    
+    <div id="mostPopular_tabset_watched" class="selected panel">
+
+            
+        <ul class="blq-clearfix">
+    
+                
+                <li class="ol0 first-child">
+                    <a rev="mostpopular|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/magazine-17215248"><span class="livestats-icon livestats-1">1: </span>Breaking ties with Hasidic Jews</a>                </li>
+
+                
+                <li class="ol1">
+                    <a rev="mostpopular|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/world-europe-17228029"><span class="livestats-icon livestats-2">2: </span>Sarkozy hides in bar to avoid protest</a>                </li>
+
+                
+                <li class="ol2">
+                    <a rev="mostpopular|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/health-17222883"><span class="livestats-icon livestats-3">3: </span>Pioneering treatment reshaped head</a>                </li>
+
+                
+                <li class="ol3">
+                    <a rev="mostpopular|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/uk-17219049"><span class="livestats-icon livestats-4">4: </span>Royals visit Fortnum &amp; Mason</a>                </li>
+
+                
+                <li class="ol4">
+                    <a rev="mostpopular|homepage|na|r|t|i|text|content" href="http://www.bbc.co.uk/news/world-europe-17225278"><span class="livestats-icon livestats-5">5: </span>What impact are Greek austerity cuts having?</a>                </li>
+
+    
+        </ul>
+
+    
+    </div>
+
+        <script type="text/javascript">
+    //<![CDATA[
+    require(["wwhomepage.ui.tabs"], function (tabs) {
+            require.ready(function(){
+                    tabs.registerTabs('#mostPopular_tabset');
+            })
+    });
+    //]]>
+    </script>
+</div>
+
+
+    <div id="mostPopular_from" class="contentBlock">
+	    <div id="bbccom_module_00029" class="bbccom_display_none bbccom_module">
+		    <div id="moduleAdvertContent_00029" class="moduleAdvertContent">
+			    <div id="bbccom_module_00029_adlabel" class="bbccom_text bbccom_module_adlabel">Functionality In Association With</div>
+			    <div id="bbccom_module_00029_image" class="bbccom_image bbccom_module_image">
+				    <script type="text/javascript">
+                        //<![CDATA[
+                            if(typeof BBC != 'undefined' && typeof BBC.adverts != 'undefined'){
+                                BBC.adverts.write("module_00029",false, {});
+                            }
+                        //]]>
+                    </script>
+			    </div>
+			    <script type="text/javascript">
+                    //<![CDATA[
+                        if(typeof BBC != 'undefined' && typeof BBC.adverts != 'undefined'){
+                            BBC.adverts.show("module_00029");
+                        }
+                    //]]>
+                </script>
+		    </div>
+	    </div>
+    </div>
+</div>
+</div>
+
+        <script type="text/javascript">
+            //<![CDATA[
+                    //]]>
+        </script>
+    </div>
+<div id="weather" class="module">
+
+
+	<h2 id="weather_title" class="draggable">
+                <a rev="weather|homepage|na|r|t|i|text|headline" id="weather_title_link"  href="http://news.bbc.co.uk/weather/" title="Go to ">
+            Weather        </a>
+                	</h2>
+        <div id="weather_from" class="contentBlock">
+	    <div id="bbccom_module_0001k" class="bbccom_display_none bbccom_module">
+		    <div id="moduleAdvertContent_0001k" class="moduleAdvertContent">
+			    <div id="bbccom_module_0001k_adlabel" class="bbccom_text bbccom_module_adlabel">In Association With</div>
+			    <div id="bbccom_module_0001k_image" class="bbccom_image bbccom_module_image">
+				    <script type="text/javascript">
+                        //<![CDATA[
+                            if(typeof BBC != 'undefined' && typeof BBC.adverts != 'undefined'){
+                                BBC.adverts.write("module_0001k",false, {});
+                            }
+                        //]]>
+                    </script>
+			    </div>
+			    <script type="text/javascript">
+                    //<![CDATA[
+                        if(typeof BBC != 'undefined' && typeof BBC.adverts != 'undefined'){
+                            BBC.adverts.show("module_0001k");
+                        }
+                    //]]>
+                </script>
+		    </div>
+	    </div>
+    </div>
+
+
+<div id="weather_container" class="container">
+    <div class="contentBlocks cbg0">
+<div id="weather_forecast" class="weatherforecast contentBlock weather_loading">
+	<h3>London</h3>
+
+<div id="weather_searchPanel" class="searchPanel editPanel contentBlock">
+	<form id="weather_searchPanel_form" method="get" action="/customise">
+		<fieldset>
+
+            <input type="hidden" name="queue" value="searchPanel%7C0001k%7C0001q%7C0001m" />
+			<input type="hidden" name="action" value="searchPanel" />
+			<input type="hidden" name="module" value="0001k" />
+			<input type="hidden" name="contentBlockGroup" value="0001q" />
+			<input type="hidden" name="contentBlock" value="0001m" />
+
+            <div class="field">
+			<label>Enter city, town or region</label>
+			<input type="text" size="25" maxlength="40" value="Enter city, town or region" class="searchPanelSearch" name="value" />
+            <button type="submit" class="submit">Search</button>
+            </div>
+
+	    </fieldset>
+	</form>
+    <div id="searchResults" class="results">
+        <p>&nbsp;</p>
+
+        <ul><li>&nbsp;</li></ul>
+        </div>
+</div>
+	<dl class="dayForecast">
+			<dt>
+			Friday		</dt>
+		<dd>
+			<a href="http://news.bbc.co.uk/weather/forecast/8?area=London">
+				<img width="62" height="62" alt="White Cloud" src="http://newsimg.bbc.co.uk/weather/img/symbols/57x57/7.gif" class="icon" />
+			</a>
+			<p class="forecast">White Cloud</p>
+			<p class="temp max">
+				Max<span class="hide"> Temperature</span>:
+				<span> 13&#176;C</span>
+				<span class="hide">55&#176;F</span>
+			</p>
+			<p class="temp min">
+				Min<span class="hide"> Temperature</span>:
+				<span> 9&#176;C</span>
+				<span class="hide">48&#176;F</span>
+			</p>
+		</dd>
+				<dt>
+			Saturday		</dt>
+		<dd>
+			<a href="http://news.bbc.co.uk/weather/forecast/8?area=London#Next4Days">
+				<img width="62" height="62" alt="Light Rain" src="http://newsimg.bbc.co.uk/weather/img/symbols/57x57/12.gif" class="icon" />
+			</a>
+			<p class="forecast">Light Rain</p>
+			<p class="temp max">
+				Max<span class="hide"> Temperature</span>:
+				<span> 13&#176;C</span>
+				<span class="hide">55&#176;F</span>
+			</p>
+			<p class="temp min">
+				Min<span class="hide"> Temperature</span>:
+				<span> 5&#176;C</span>
+				<span class="hide">41&#176;F</span>
+			</p>
+		</dd>
+				<dt>
+			Sunday		</dt>
+		<dd>
+			<a href="http://news.bbc.co.uk/weather/forecast/8?area=London#Next4Days">
+				<img width="62" height="62" alt="Heavy Rain" src="http://newsimg.bbc.co.uk/weather/img/symbols/57x57/15.gif" class="icon" />
+			</a>
+			<p class="forecast">Heavy Rain</p>
+			<p class="temp max">
+				Max<span class="hide"> Temperature</span>:
+				<span> 8&#176;C</span>
+				<span class="hide">46&#176;F</span>
+			</p>
+			<p class="temp min">
+				Min<span class="hide"> Temperature</span>:
+				<span> 2&#176;C</span>
+				<span class="hide">36&#176;F</span>
+			</p>
+		</dd>
+				<dt class="last">
+			Monday		</dt>
+		<dd class="last">
+			<a href="http://news.bbc.co.uk/weather/forecast/8?area=London">
+				<img width="62" height="62" alt="Light Rain Shower" src="http://newsimg.bbc.co.uk/weather/img/symbols/57x57/10.gif" class="icon" />
+			</a>
+			<p class="forecast">Light Rain Shower</p>
+			<p class="temp max">
+				Max<span class="hide"> Temperature</span>:
+				<span> 6&#176;C</span>
+				<span class="hide">43&#176;F</span>
+			</p>
+			<p class="temp min">
+				Min<span class="hide"> Temperature</span>:
+				<span> 2&#176;C</span>
+				<span class="hide">36&#176;F</span>
+			</p>
+		</dd>
+		
+	</dl>
+
+    <p class="detail"><a href="http://news.bbc.co.uk/weather/forecast/8?area=London" title="Detailed forecast for London">Detailed forecast</a></p>
+</div>
+</div>
+</div>
+
+        <script type="text/javascript">
+            //<![CDATA[
+                        require(["wwhomepage.ui.weather"], function (weather) {
+                        require.ready(function(){
+                                weather = new weather;weather.renderWeather('#weather',{"autocomplete":{"enabled":false,"minLength":4}});
+                        });
+                });
+                        //]]>
+        </script>
+    </div>
+</div><div id="exploreTray">
+	<h2>Explore the BBC</h2>
+	<div class="directory">
+        <div class="directoryColumn hpDir1">
+            <h3><a href="http://www.bbc.co.uk/go/homepage/i/int/br/ne/head/t/-/news/1/hi/default.stm">News</a></h3>
+            <h4 class="offscreen">World Regions</h4>
+            <ul>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/ne/africa/t/-/news/2/hi/africa/default.stm">Africa</a></li>
+                <li><a href="http://www.bbc.co.uk/news/world/asia/">Asia</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/ne/europe/t/-/news/2/hi/europe/default.stm">Europe</a></li>
+                <li><a href="http://www.bbc.co.uk/news/world/latin_america/">Latin America</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/ne/middleeast/t/-/news/2/hi/middle_east/default.stm">Middle East</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/ne/uknews/t/-/news/2/hi/uk_news/default.stm">UK</a></li>
+                <li><a href="http://www.bbc.co.uk/news/world/us_and_canada/">US &amp; Canada</a></li>
+            </ul>
+            <h4 class="offscreen">Types of news</h4>
+            <ul>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/ne/business/t/-/news/2/hi/business/default.stm">Business</a></li>
+                <li><a href="http://news.bbc.co.uk/go/homepage/i/int/br/ne/health/t/-/2/hi/health/default.stm">Health</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/ne/sciencenature/t/-/news/2/hi/science/nature/default.stm">Science &amp; Environment</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/ne/technology/t/-/news/2/hi/technology/default.stm">Technology</a></li>
+                <li><a href="http://www.bbc.co.uk/news/entertainment_and_arts/">Entertainment &amp; Arts</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/ne/alsointhenews/t/-/news/2/hi/also_in_the_news/">Also in the News</a></li>
+            </ul>
+            <ul>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/ne/languages/t/-/worldservice/languages/">BBC in your language</a></li>
+            </ul>
+        </div>
+        <div class="directoryColumn hpDir2">
+
+            <h3><a href="http://www.bbc.co.uk/go/homepage/i/int/br/sp/head/t/-/http://www.bbc.com/sport">Sport</a></h3>
+            <ul>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/sp/football/t/-/sport/0/football/">Football</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/sp/cricket/t/-/sport/0/cricket/">Cricket</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/sp/tennis/t/-/sport/0/tennis/">Tennis</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/sp/motorsport/t/-/sport/0/formula1/">Formula 1</a></li>
+            </ul>
+            <h3><a href="http://www.bbc.co.uk/go/homepage/i/int/br/bus/head/t/-/news/2/hi/business/default.stm">Business</a></h3>
+            <ul>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/bus/markets/t/-/news/2/shared/fds/hi/business/market_data/overview/default.stm">Market Data</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/bus/economy/t/-/news/2/hi/business/economy/default.stm">Economy</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/bus/companies/t/-/news/2/hi/business/companies/default.stm">Companies</a></li>
+            </ul>
+            <h3><a href="http://www.bbc.co.uk/go/homepage/i/int/br/wea/head/t/-/news/weather">Weather</a></h3>
+            <ul>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/wea/news/t/-/news/weather/hi/news">Weather News</a></li>
+            </ul>
+            <h3><a href="http://www.bbc.co.uk/go/homepage/i/int/br/wea/head/t/-/http://www.bbc.com/travel">Travel</a></h3>
+        </div>
+        <div class="directoryColumn hpDir3">
+            <h3><a href="http://www.bbc.co.uk/go/homepage/i/int/br/ent/head/t/-/entertainment/">Entertainment</a></h3>
+            <ul>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/ent/head/t/-/news/2/hi/entertainment/default.stm">Entertainment News</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/ent/comedy/t/-/comedy/">Comedy</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/ent/drama/t/-/drama/">Drama</a></li>
+            </ul>
+            <h3><a href="http://www.bbc.co.uk/go/homepage/i/int/br/mus/head/t/-/music/">Music</a></h3>
+            <ul>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/mus/genres/t/-/music/genres/">Genres</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/mus/reviews/t/-/music/reviews">Reviews</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/mus/artists/t/-/music/artists/">Artists</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/mus/news/t/-/music/news/">News</a></li>
+            </ul>
+            <h3><a href="http://www.bbc.co.uk/go/homepage/i/int/br/art/head/t/-/arts/">Arts &amp; Culture</a></h3>
+            <ul>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/art/film/t/-/film/">Film</a></li>
+            </ul>
+            <h3><a href="http://www.bbc.co.uk/go/homepage/i/int/br/food/head/t/-/food/">Food</a></h3>
+            <ul>
+                <li><a href="http://www.bbc.co.uk/food/techniques">Techniques</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/food/recipes/t/-/food/recipes/">Recipes</a></li>
+            </ul>
+        </div>
+        <div class="directoryColumn hpDir4">
+            <h3><a href="http://www.bbc.co.uk/go/homepage/i/int/br/sci/headscience/t/-/sn/">Science</a></h3>
+            <ul>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/sci/human/t/-/science/humanbody/">Humans</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/sci/space/t/-/space/">Space</a></li>
+            </ul>
+            <h3><a href="http://www.bbc.co.uk/go/homepage/i/int/br/sci/headnature/t/-/nature/">Nature</a></h3>
+            <ul>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/sci/animals/t/-/nature/animals/">Animals</a></li>
+            </ul>
+            <h3><a href="http://www.bbc.co.uk/go/homepage/i/int/br/gard/head/t/-/gardening/">Gardening</a></h3>
+            <ul>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/gard/plantfind/t/-/gardening/plants/plant_finder/">Plant finder</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/gard/advice/t/-/gardening/advice/">Advice</a></li>
+            </ul>
+            <h3><a href="http://www.bbc.co.uk/go/homepage/i/int/br/rel/headreligion/t/-/religion/">Religion</a></h3>
+            <ul>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/rel/calendar/t/-/religion/tools/calendar/">Multifaith Calendar</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/rel/quiz/t/-/religion/tools/quizzes">Quizzes</a></li>
+            </ul>
+            <h3><a href="http://www.bbc.co.uk/go/homepage/i/int/br/rel/headethics/t/-/ethics/">Ethics</a></h3>
+        </div>
+        <div class="directoryColumn hpDir5">
+            <h3><a href="http://www.bbc.co.uk/go/homepage/i/int/br/learningenglish/t/-/worldservice/learningenglish/">Learning English</a></h3>
+            <ul>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/le/learningenglish/t/-/worldservice/learningenglish/">Online courses</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/le/grammar/t/-/worldservice/learningenglish/grammar/index.shtml">Vocabulary &amp; Grammar</a></li>
+                <li class="clearLeft nosep"><a href="http://www.bbc.co.uk/go/homepage/i/int/br/le/quizzes/t/-/worldservice/learningenglish/quizzes/index.shtml">Quizzes</a></li>
+            </ul>
+            <h3><a href="http://www.bbc.co.uk/go/homepage/i/int/br/le/languages/t/-/languages/">Learning Other Languages</a></h3>
+            <ul>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/languages/french/t/-/languages/french/">French</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/languages/spanish/t/-/languages/spanish/">Spanish</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/languages/german/t/-/languages/german/">German</a></li>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/languages/italian/t/-/languages/italian/">Italian</a></li>
+            </ul>
+            <h3><a href="http://www.bbc.co.uk/go/homepage/i/int/br/tv/tv1/t/-/tv/i/">TV Channels</a></h3>
+            <ul>
+                <li><a href="http://www.bbc.com/tvschedule/">BBC World News</a></li>
+                <li><a href="http://www.bbcamerica.com/">BBC America</a></li>
+            </ul>
+            <h3><a href="http://www.bbc.co.uk/go/homepage/i/int/br/rad/head/t/-/radio/">Radio</a></h3>
+            <ul>
+                <li><a href="http://www.bbc.co.uk/go/homepage/i/int/br/rad/ws/t/-/worldservice/">World Service</a></li>
+            </ul>
+            <p class="aToz">Can't find it? Try the <a href="http://www.bbc.co.uk/go/homepage/i/int/br/atoz/-/a-z/">A to Z</a></p>
+        </div>
+    </div>
+</div>
+
+   </div>   <div id="blq-mast" class="blq-rst blq-mast-dark blq-new-nav" xml:lang="en-GB">   <div id="blq-acc-mobile"><a href="/mobile/" id="blq-acc-mobile-link">Mobile</a></div>    <form method="get" action="http://search.bbc.co.uk/search" accept-charset="utf-8"> <p>  <input type="hidden" name="go" value="toolbar" />   <input type="hidden" name="uri" value="/" />    <label for="blq-search" class="blq-hide">Search term:</label> <input id="blq-search" type="text" name="q" value="" maxlength="128" /> <input id="blq-search-btn" type="submit" value="Search" /> </p> </form>   <h2 class="blq-hide">bbc.co.uk navigation</h2> <ul id="blq-nav-main" class="blq-not-uk">    <li id="blq-nav-n"><a href="http://www.bbc.co.uk/news/" hreflang="en-GB">News</a></li> <li id="blq-nav-s"><a href="http://news.bbc.co.uk/sport/" hreflang="en-GB">Sport</a></li> <li id="blq-nav-w"><a href="http://news.bbc.co.uk/weather/" hreflang="en-GB">Weather</a></li>  <li id="blq-nav-tr"> <a href="http://www.bbc.com/travel/" hreflang="en-GB">Travel</a> </li>  <li id="blq-nav-t"><a href="/tv/" hreflang="en-GB">TV</a></li>  <li id="blq-nav-r"><a href="/radio/" hreflang="en-GB">Radio</a></li> <li id="blq-nav-m"><a href="#blq-nav">More</a></li>  </ul> </div>  <div id="blq-nav" class="blq-blue blq-rst"> <div id="blq-nav-links" class="blq-clearfix" xml:lang="en-GB"> <div id="blq-nav-links-inner">  <ul class="blq-nav-sub blq-first"> <li><a href="/cbbc/">CBBC</a></li> <li><a href="/cbeebies/">CBeebies</a></li> <li><a href="/comedy/">Comedy</a></li> <li><a href="/food/">Food</a></li> <li><a href="/health/">Health</a></li> </ul> <ul class="blq-nav-sub"> <li><a href="/history/">History</a></li> <li><a href="/learning/">Learning</a></li> <li><a href="/music/">Music</a></li> <li><a href="/science/">Science</a></li> <li><a href="/nature/">Nature</a></li> </ul> <ul class="blq-nav-sub blq-last"> <li><a href="/local/">Local</a></li> <li><a href="/northernireland/">Northern Ireland</a></li> <li><a href="/scotland/">Scotland</a></li> <li><a href="/wales/">Wales</a></li> <li id="blq-az"><a href="/a-z/">Full A-Z<span class="blq-hide"> of BBC sites</span></a></li> </ul>  </div> </div> </div>  <!--[if IE 6]> <div id="blq-ie6-upgrade"> <p> <span>You're using the Internet Explorer 6 browser to view the BBC website. Our site will work much better if you change to a more modern browser. It's free, quick and easy.</span> <a href="http://www.browserchoice.eu/">Find out more <span>about upgrading your browser</span> here&hellip;</a> </p> </div> <![endif]-->  <div id="blq-foot" xml:lang="en-GB" class="blq-rst blq-clearfix blq-foot-opaque">  <div id="blq-footlinks"> <h2 class="blq-hide">BBC links</h2>  <ul id="blq-bbclinks"> <li>     <a href="/aboutthebbc/">About the BBC</a> </li> <li>     <a href="/help/">BBC Help</a> </li>  <li>     <a href="/feedback/">Contact Us</a> </li>  <li>     <a href="/accessibility/">Accessibility Help</a> </li> <li>     <a href="/terms/">Terms of Use</a> </li> <li>     <a href="/careers/">Careers</a> </li> <li>     <a href="/privacy/">Privacy &amp; Cookies</a> </li>  <li>     <a href="/bbc.com/furtherinformation/">Advertise With Us</a> </li> <li>     <a href="/bbc.com/ad-choices/" hreflang="en-GB">Ad Choices</a> </li>  </ul>  </div>   <p id="blq-logo" class="blq-footer-image-light"><img src="http://static.bbc.co.uk/frameworks/barlesque/1.36.0/desktop/3/img/blocks/light.png" width="84" height="24" alt="BBC" /></p>                 <div id="bbccom_bottom" class="bbccom_display_none" style="width:468px; text-align:right;">
+            <script type="text/javascript">BBC.adverts.write("bottom",true);</script>
+        </div>
+        <script type="text/javascript">BBC.adverts.show("bottom");</script>
+ <p id="blq-disclaim"><span id="blq-copy">BBC &copy; 2012</span> <a href="/help/web/links/">The BBC is not responsible for the content of external sites. Read more.</a></p> <div id="blq-obit"><p><strong>This page is best viewed in an up-to-date web browser with style sheets (CSS) enabled. While you will be able to view the content of this page in your current browser, you will not be able to get the full visual experience. Please consider upgrading your browser software or enabling style sheets (CSS) if you are able to do so.</strong></p></div> </div> </div> 
+        <script type="text/javascript">
+        /*<![CDATA[*/
+            if('undefined' != typeof(bbcdotcom) && 'undefined' != typeof(bbcdotcom.stats)) {
+                bbcdotcom.stats.adEnabled = "yes";
+                bbcdotcom.stats.contentType = "HTML";
+                bbcdotcom.stats.audience = "us";
+                            }
+        /*]]>*/
+        </script>
+                <script type="text/javascript" src="http://js.revsci.net/gateway/gw.js?csid=J08781"></script>
+        <script type="text/javascript">
+            DM_tag();
+        </script>
+
+        <!-- SiteCatalyst code version: H.21.
+        Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+        More info available at http://www.omniture.com -->
+                <script type="text/javascript">
+            var s_account = "bbcwglobalprod";
+        </script>
+        
+        <script type="text/javascript" src="http://static.bbc.co.uk/bbcdotcom/0.3.104/script/s_code.js"></script>
+
+        <script type="text/javascript"><!--
+        /* You may give each page an identifying name, server, and channel on
+        the next lines. */
+
+        /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+        var s_code=scw.t();if(s_code)document.write(s_code)//--></script>
+        <script type="text/javascript"><!--
+        if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+        //--></script><noscript><div><a href="http://www.omniture.com" title="Web Analytics"><img
+        src="http://bbc.112.2o7.net/b/ss/bbcwglobalprod/1/H.21--NS/0" height="1" width="1" alt="" /></a></div></noscript><!--/DO NOT REMOVE/-->
+        <!-- End SiteCatalyst code version: H.21. -->
+
+        <!-- Begin comScore Tag -->
+        <script type="text/javascript">
+            document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</script>
+        <script type="text/javascript">
+            COMSCORE.beacon({
+                c1:2,
+                c2:"6035051",
+                c3:"",
+                c4:"www.bbc.co.uk/",
+                c5:"",
+                c6:"",
+                c15:""
+            });
+        </script>
+        <noscript>
+            <div>
+                <img src="http://b.scorecardresearch.com/b?c1=2&amp;c2=6035051&amp;c3=&amp;c4=www.bbc.co.uk/&amp;c5=&amp;c6=&amp;c15=&amp;cv=1.3&amp;cj=1" style="display:none" width="0" height="0" alt="" />
+            </div>
+        </noscript>
+        <!-- End comScore Tag -->
+        
+        <!-- Start QuBit -->
+        <script type="text/javascript" src="//d3c3cq33003psk.cloudfront.net/bbc-filter.js" defer="defer"></script>
+        <!-- End QuBit -->
+
+        
+                    <!-- START Nielsen Online SiteCensus V6.0 --> 
+            <!-- COPYRIGHT 2010 Nielsen Online --> 
+            <script type="text/javascript"> 
+               (function () {
+                   var d = new Image(1, 1);
+                   d.onerror = d.onload = function () {
+                       d.onerror = d.onload = null;
+                   };
+                   d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-804789h&amp;cg=0&amp;cc=1&amp;si=", escape(window.location.href), "&amp;rp=",
+                   escape(document.referrer), "&amp;ts=compact&amp;rnd=", (new Date()).getTime()].join('');
+                })();
+            </script> 
+            <noscript> 
+              <div> 
+                <img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-804789h&amp;cg=0&amp;cc=1&amp;ts=noscript" 
+                width="1" height="1" alt="" /> 
+              </div> 
+            </noscript> 
+            <!-- END Nielsen Online SiteCensus V6.0 -->
+            <!-- Effective Measure BBCCOM-1195 -->
+            <script type="text/javascript">
+              (function() {
+                var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;
+                em.src = ('https:' == document.location.protocol ? 'https://me-ssl' : 'http://me-cdn') + '.effectivemeasure.net/em.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);
+              })();
+            </script>
+            <noscript>
+                <div>
+                    <img src="//me.effectivemeasure.net/em_image" alt="" style="position:absolute; left:-5px;" />
+                </div>
+            </noscript>
+            <!-- End Effective Measure -->
+ </div> </div>  <script type="text/javascript"> if (typeof require !== 'undefined') { require(['istats-1'], function(istats){ istats.track('external', { region: document.getElementById('blq-main') }); istats.track('download', { region: document.getElementById('blq-main') }); }); } </script>               <script type="text/javascript"> pulse.init( '', false ); </script> </body>
+</html>

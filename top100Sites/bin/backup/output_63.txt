@@ -1,0 +1,822 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<!-- portal-fe5-ld102.websys.aol.com 1330653165297 -->
+
+<link rel="canonical" href="http://www.aol.com/" />
+<meta http-equiv="pics-label" content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l r (ca 1 lz 1 nz 1 oz 1 vz 1) gen true for "http://www.aol.com" r (ca 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l r (n 0 s 0 v 0 l 0) gen true for "http://www.aol.com" r (n 0 s 0 v 0 l 0))' />
+<meta name="description" content="AOL offers today's news, sports, stock quotes, weather, movie reviews, TV trends and more. Get free email, AIM access, online radio, videos and horoscopes -- all on AOL.com!" />
+<meta property="og:description" content="AOL.com Homepage"/>
+<meta property="fb:app_id" content="183146218394780" />
+<meta property="og:site_name" content="AOL.com"/>
+<meta property="og:title" content="AOL.com - News, Sports, Weather, Entertainment, Local & Lifestyle" />
+<meta property="og:type" content="website" /><title>AOL.com - News, Sports, Weather, Entertainment, Stocks & Local</title>
+        <script type="text/javascript">var pops_cb="3_column_rm";</script><script type="text/javascript">String.prototype.trim=function(){return this.replace(/^\s*/,"").replace(/\s*$/,"")};function gC(a){var e=document.cookie.split(";");for(var b=0;b<e.length;b++){var d=e[b].trim().split("=");if(d[0]==a){return d[1]}}return null}var de="www.aol.de",fr="www.aol.fr";var ius=new Array(de,fr);var TZs=new Array();TZs={0:{},1:{de:de,"de-at":de,"de-li":de,"de-lu":de,"de-ch":de,fr:fr,"fr-be":fr,"fr-lu":fr,"fr-mc":fr,"fr-ch":fr},2:{de:de,"de-at":de,"de-li":de,"de-lu":de,"de-ch":de,fr:fr,"fr-be":fr,"fr-lu":fr,"fr-mc":fr,"fr-ch":fr},3:{},4:{},5:{},6:{},7:{},8:{},9:{},10:{},11:{},12:{},13:{},"-12":{},"-11":{},"-10":{},"-9":{},"-8":{},"-7":{},"-6":{},"-5":{},"-4":{},"-3":{},"-2":{},"-1":{}};var offSet=String(-(new Date().getTimezoneOffset()/60));var langloc=String(nav_lang());var fqdn;if(TZs[offSet]&&TZs[offSet][langloc]){fqdn=TZs[offSet][langloc]}var doIr=true;if(typeof iro!="undefined"){for(var i in iro){if(iro[i]==fqdn){doIr=false}}}if(gC("intlr")=="0"){doIr=false}if(!gC("intlRedirBp")&&doIr){var ckNm="l18nUrl";var myLclUrl=gC(ckNm);if(myLclUrl!=null){for(i=0;i<ius.length;i++){if(myLclUrl.indexOf(ius[i])>=0){window.location.href=myLclUrl+"?r="+document.domain;break}}}else{if(fqdn){fqdn="http://"+fqdn;document.cookie=ckNm+"="+fqdn+";";window.location.href=fqdn+"?r="+document.domain}}}function nav_lang(){if(typeof(navigator.language)=="string"){return(navigator.language.toLowerCase())}else{if(typeof(navigator.userLanguage)=="string"){return(navigator.userLanguage.toLowerCase())}else{return 0}}};</script>
+<script type="text/javascript">
+(function(g){var d=g.getElementsByTagName("head")[0]||g.documentElement,c={},e={},f={},b={},h={};function a(j,r){var o=b[j]=this._c,q=g.createElement("script"),n=0,p,m=p="text/javascript",k="c",i=(function(s){s[s]=s+"";return s[s]!=s+""})(new String("__count__"));function l(s,t){function u(w){do{if(!c[w]){return 0}}while(w=b[w]);return 1}var v=f[s];if(t===m){v&&v();l(h[s],k)}else{s&&u(s)&&!e[s]&&a(s,v)}}f[j]=r;if(o&&!i){h[o]=j;p=k}q.type=p;q.src=j;p===m&&(e[j]=1);q.onload=q.onreadystatechange=function(){if(!n&&(!q.readyState||q.readyState==="loaded"||q.readyState==="complete")){c[j]=n=1;l(j,p);q.onload=q.onreadystatechange=null;d.removeChild(q)}};d.insertBefore(q,d.firstChild);return{_c:j,getJS:a}}window.Aol||(Aol={});Aol.getJS=a})(document);
+
+bN_cfg = {h:"aol.com, www.aol.com,www.aol.ca,aol.ca,w.main.welcomescreen.aol.com,n.main.welcomescreen.aol.com,w.sb.welcomescreen.aol.com,n.sb.welcomescreen.aol.com,welcome.aol.com,www.welcomescreen.aol.com",p:[["dL_ch", "us.aolportal"],["dL_dpt", "s397a maing11 AOL.com 5.0 Main"],["template", "maing-grid7"],["cobrand", "maing11"],["plids","58322|leaveback-pixel|col3|9,139960|sports-news|col1R|5,139817|daily-buzz9|col2|2,123244|sports-news|col1R|5,123245|weird-news|col1R|8,60631|brand-4|footer|1,60821|more-news|col1R|1,139958|daily-buzz6|col2|2,83944|more-news|col1R|1,102223|qnav-aim|null|7,139633|slideshow|col3|3,128308|popular-videos-5min-main|col3|10,130794|newsletter|col3|4,120199|brand-5|footer|1,139892|daily-buzz8|col2|2,124385|qnav-quick-nav-video|null|7,98427|stock-markets-markets-v2|col1R|1,138866|hnav|null|8,136443|trending-stories-feed|col3|5,120248|weather|null|4,139889|welcome-messaging|null|2,22596|scrolldetection|col1R|3,89645|qnav-mail|null|7,131355|local|col1R|2,24682|scrolldetection3|col1R|10,136425|trending-stories|col3|5,139836|daily-buzz10|col2|2,139979|daily-buzz1|col2|2,80943|entertainment-news|col1R|7,139932|video-module|col2|1,139931|business-news|col1R|4,139876|footerlinks|footer|2,120217|brand-8|footer|1,59533|brand-9|footer|1,79416|brand-7|footer|1,139982|daily-buzz5|col2|2,139936|daily-buzz4|col2|2,139984|dl1|dl-wide|1,139935|daily-buzz7|col2|2,120214|brand-6|footer|1,89650|sign-in-sign-out|null|3,82213|logo|null|5,92073|weird-news|col1R|8,103575|health-news|col1R|9,123239|entertainment-news|col1R|7,139969|daily-buzz2|col2|2,79348|brand-3|footer|1,24679|scrolldetection2|col1R|6,79349|brand-1|footer|1,123241|health-news|col1R|9,137554|featured-brands|footer|1,79346|brand-2|footer|1,139971|daily-buzz3|col2|2,127037|follow-me-module|col3|6",1]]};
+
+
+Aol.getJS("http://portal.aolcdn.com/p5/_v65.9/js/beacon.min.js",function(){bN.extractIds=function(d,b){var e=d.className,c=e&&e.match(/[a-z]{1,3}id-[^ ]+/g),j,a,f,g,h=encodeURIComponent,k;if(typeof b!="undefined"){k=b}else{bN.set([["plid","",1],["mnid","",1],["mpid","",1],["mlid","",1],["lnid","",1],["icid","",1],["ncid","",1],["dtid","",1],["anid","",1],["apnIcidGlb","",1],["vid_series","",1],["vid_autoplay","",1],["vid_id","",1]]);k=""}if(c){l=c.length;while(l--){j=c[l];f=j.indexOf("-");j=[j.substring(0,f),j.substr(f+1)];if(!k.match("/|"+(j[0])+"|/")){k+="|"+j[0]+"|";bN.set(j[0],j[1],1);if(j[0].match(/[in]cid/g)!=null){var m=j[1];if(typeof(p_c_n)!="undefined"&&m.indexOf(p_c_n)===-1){m=m+"_"+p_c_n}j=h(j[0])+"="+h(m);if((a=d.href)&&a.indexOf(j)===-1&&a.substring(0,6)!="aol://"){d.href=a+((a.indexOf("?")===-1)?"?":"&")+j}}}}}(g=d.parentNode)&&bN.extractIds(g,k)};bN.rebuildHrefWithIcid=function(c,a){var b="";var d="";if(c.indexOf("?")==-1){return c+"?"+a}if(c.indexOf("icid=")>=0){urlParts=c.split("?");params=new Array();if(c.indexOf("&")==-1){params[0]=urlParts[1]}for(i=0;i<params.length;i++){param=params[i];if(param.indexOf("icid=")>=0){d=d+a+"&";continue}d=d+param+"&"}return urlParts[0]+"?"+d.substr(0,d.length-1)}else{return c+"&"+a}};Aol.bind(document,"mouseup",function(h){var f=h.srcElement||h.target;bN.extractIds(f);if(typeof dsblApnIcid!="undefined"&&dsblApnIcid==true){return}var j=f.nodeName;if(j!="A"){if(j.match(/IMG|TABLE|TD/)){var c=1;var d=f;while(c<=6){d=d.parentNode;if(d.nodeName=="A"){f=d;break}c++}}else{return}}var b=f.className;var g=bN.get("anid",1)==1?true:false;var a=bN.get("apnIcidGlb")=="true"?true:false;if(g||a){evNdHref=f.href;if(!evNdHref.match(/(.*)?video\//)){return}tmp=bN.get("template");cob=bN.get("cobrand");mid=bN.get("mnid",1);lid=bN.get("lnid",1);pid=bN.get("plid",1);newIcidParam="icid="+encodeURIComponent(tmp+"|"+cob+"|"+mid+"|"+lid+"|"+pid);newHref=bN.rebuildHrefWithIcid(f.href,newIcidParam);f.href=newHref}})});
+</script>
+<script type="text/javascript">
+function PortalRightAdWrapper(){
+    $("#adchoice").addClass("right");
+    $("#adchoice-sep").show();
+}
+</script>
+
+<iframe src="./ads/load_v7.html#1" width="0" height="0" scrolling="NO" marginwidth="0" marginheight="0" frameborder="0" style="display:none"></iframe>
+<link rel="stylesheet" type="text/css" href="http://portal.aolcdn.com/p5/_v65.9/css/maing.css" />
+    <script type="text/javascript">var assetsUrl = 'http://portal.aolcdn.com/p5/_v65.9';</script>
+<link rel="stylesheet" type="text/css" class="skin_link" href="http://portal.aolcdn.com/p5/skin/_v25/strawberry.css" />
+            <style>
+.IE #header_logo{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://portal.aolcdn.com/p5/_v65.9/css/logo_IE.png', sizingMethod='crop')}
+</style><style>
+#aol-header{z-index:3;}
+.Gecko.mac #yellowPgMain #yellowPg-button,.Gecko.mac #yellowPgLocal #yellowPg-button,.SAF #yellowPgMain #yellowPg-button,.SAF #yellowPgLocal #yellowPg-button {height:26px;}
+.SAF #yellowPgMain #yellowPg-button {top: 0;}
+
+.rrpromo .content {clear:both; margin-bottom:22px; padding-bottom:4px;}
+
+#msg-overlay .header, #msg-ol-mtmhp .header {font-size: 24px;}
+
+</style><style>
+.slideshow ul li {background:none;padding-left:0px;}
+#dailyvjmod_video-module h3 {display:none;}
+</style></head>
+<body class="strawberry">
+            <script type="text/javascript" src="http://o.aolcdn.com/ads/adsWrapper.js"></script>
+<script type="text/javascript">
+<!--
+    adSetAdURL('./ads/load_v7.html');
+    adsDisableTacoda('aol');
+//-->
+</script><div class="bcn">
+    <script type="text/javascript"><!--
+        var s_account='aolcommem,aolsvc';
+        var vid_acnt_ovrd='';
+        var cl_account='aolcommem,aolsvc';
+        var psz='';
+        var segment='';
+        
+        var global_cl_report_suite="aolsvc";
+        
+        //-->
+    </script>
+    <script type="text/javascript" src="http://o.aolcdn.com/os/omniture/prod/omniunih_portal_min_2-21.js"></script>
+    <script type="text/javascript"><!--
+        if (typeof s_265 != "undefined" && s_265 != null) {
+        s_265.channel="us.aolportal";
+        s_265.linkInternalFilters="javascript:,aol.com,mapquest.com,#dl";
+        s_265.linkTrackVars="prop20";
+        s_265.pageName="acm : s397a maing11 AOL.com 5.0 Main";
+        s_265.pfxID="acm";
+        s_265.prop1="s397a maing11 AOL.com 5.0 Main";
+        s_265.prop2="";
+        s_265.prop20="s397a maing11 AOL.com 5.0 Main";
+        s_265.prop12=document.URL;        
+        s_265.prop16="location";
+        s_265.prop17="theme_default-strawberry_maing11";
+                
+            }
+        
+        var p23 = "";
+        var p23_mol = p23;
+        
+            if (typeof s_265 != "undefined" && s_265 != null) {
+              if (p23_mol.length > 0 && p23.indexOf(",") == -1){
+                s_265.prop23 = p23 + ",";
+              }else{
+                s_265.prop23 = p23 + "";
+              }
+                            
+            }
+        
+         if (typeof s_265 != "undefined" && s_265 != null) {
+    
+            var s_265_user_authenticated=false;
+        s_265.eVar14=s_265.pfxID+':45';
+s_265.mmxgo=true;
+            var s_code=s_265.t();if(s_code)document.write(s_code);
+        
+            var cl_disable=new Object();
+            
+                cl_disable.dlfwd='true';
+            
+                cl_disable.dlpause='true';
+            
+                cl_disable.dlplay='true';
+            
+                cl_disable.mailpreview='true';
+            
+                cl_disable.dlbwd='true';
+            
+                cl_disable.om_hnav_='true';
+            
+            }
+        var p_t_n = "grid7";
+        var p_c_n = "maing11";
+            //-->
+    </script>
+    </div><!-- Using template grid7 -->
+        <div class="mlid-topbanner">
+    </div>
+
+<div class="mlid-mobileviewlink">
+    </div>
+
+<div class="mlid-netbanner">
+    <div class="mpid-1">
+                        <span class="dn" id="banner-delay">2000</span>
+<span class="dn" id="banner-clickset"></span>
+<span class="dn" id="campaign-cookie-name">nb_cid</span></div>
+                </div>
+
+<div class="mlid-topad">
+    </div>
+
+<div id="themes">
+    <div class="mpid-1">
+                        <div class="visNum dn">14</div>
+<div id="themew" class='promo'></div></div>
+                </div>
+<div id="pgbg">
+    <div id="aol-header">
+        <div id="om_aol-jumpbar"><div class="mpid-2">
+                        <p class="wcmsg mnid-welcomemsg plid-139889">
+        <b id="wun">Welcome! <a class="makeHomepage url-http://www.aol.com/?mtmhp=txtlnkusaolp00000051&xicid=acm50mtmhpunauthgreeting2 om-mtmhpGreetingIE" style="font-weight:bold" href="http://www.aol.com/?molhp=txtlnkusaolp00000051&icid=acm50mtmhpunauthgreeting2">Make this your homepage.</a> </b>
+                <b class="lnk3"> New here? <a style="font-weight:bold" href="https://new.aol.com/productsweb/?promocode=825345&ncid=txtlnkuswebr00000106" name="om_signup">Sign up.</a></b></p></div>
+                <div class="mpid-3">
+                        <b class="sns  mnid-signinout plid-89650"><a name="om_signin" class="lnid-sec1_lnk1" target="_self" href="https://my.screenname.aol.com/_cqr/login/login.psp?sitedomain=startpage.aol.com&siteState=OrigUrl%3dhttp%253A%252F%252Fwww.aol.com%252F&authLev=0&lang=en&locale=us">Sign In</a></b></div>
+                <div class="lp" style="font-weight: bold;margin-top: 10px;padding-bottom: 2px;float:right;">&nbsp;</div><div id="thmc" class="lp rp mnid-themelink"><a href="#" class="themesopenDouble lnid-sec1_lnk1">Change Canvas<span class="arrow"></span></a></div><div id="weather"><div class="mpid-4">
+                        <div class="mnid-weather plid-120248">
+    <!-- Weather Header data as of 2012-03-2 01:45:00 -->
+                <b id="wcity" class="dn">New York, NY</b>
+                <a href="/local/" class="lnid-sec1_lnk1" name="om_weathericon"><img class="wthr_avatar" alt="New York, NY: Partly Cloudy" title="New York, NY: Partly Cloudy" src="http://portal.aolcdn.com/p5/_v65.9/css/w/w29.png"/></a><a class="lnid-sec1_lnk2" href="/local/" name="om_weatherforecast"><b class="curr" title='Click for the full forecast'>39&deg;</b></a> <a class="lnid-sec1_lnk3" href="#" id="weatheredit">Edit</a>
+<script type="text/javascript">
+            </script>
+        </div></div>
+                </div></div><div class="mpid-5">
+                        <div id="headerlogo"class="mnid-logo plid-82213">
+    <h1 class="dn">AOL.com - News, Sports, Weather, Entertainment, Stocks & Local</h1>
+    <script type="text/javascript">var logoT="Click here to refresh";var logoH="?icid=aolcomlogorefresh5&dlact=dl1";</script>
+    <a id="aol-header-logo" title="Click here to refresh" name="om_hdrlogo" class="lnid-sec1_lnk1 " href="?icid=aolcomlogorefresh5&dlact=dl1"><img alt="Click here to refresh" src="http://portal.aolcdn.com/p5/forms/326/7116f573-7cda-4e8f-b2ec-b0d272075b69.png"/></a></div></div>
+                <div class="mpid-6">
+                        <div class="mnid-header-search plid-71870">
+ 
+<form id="aol-header-search" action="http://search.aol.com/aol/search" method="get" class="search search-3 tabs-0">
+    <input type="hidden" id="header-ghostText" value=""/>
+    
+    <input type="hidden" id="header-enabledTerms" name="enabled_terms" value=""/>
+    <input type="hidden" id="header-s_it" name="s_it" value="comsearch50ct19"/>
+    <input type="hidden" id="header-s_it_h" value="comsearch50ct19"/>
+    <input type="hidden" id="header-s_it_r" value="comsearch50qt5"/>
+    <input type="hidden" id="header-s_it_f" value="comsearch50ct19"/>
+    <input type="hidden" id="header-s_it_s" value="comsearch50ct19"/>
+    <input type="hidden" id="header-initSmartSearch" value="false"/>
+    <input type="hidden" id="header-apiDictionary" value=""/>
+    <input type="hidden" id="header-initFocus" value="true"/>
+            <input type="hidden" id="header-preserveGhostText" value=""/>
+    <input type="hidden" id="header-apiIt" value="comsearch50ct5-ac"/>
+    <input type="hidden" id="header-apiUrl" value="http://autocomplete.search.aol.com/autocomplete/get"/>
+    <input type="hidden" id="header-apiCount" value="8"/>
+    <input type="hidden" id="header-apiQueryParam" value="q"/>
+    <fieldset>
+        <input class="" type="text" value="" id="aol-header-query" name="q"  maxlength="150" title="Search the Web"/>
+        <input class="om_header-searchbutton lnid-sec2_lnk1" type="submit" value="Search" id="aol-header-search-button" onclick="omn.omo('header-searchbutton');" title="Search"/>
+        <div id="aol-header-search-results"></div>
+    </fieldset>
+</form>
+</div></div>
+                <div class="mpid-7">
+                        <div id="quick-nav" quick-nav-icons="2" class="mnid-quicknav quick-nav2">
+    <a href="http://mail.aol.com/" class="qnpos1 qn auth-0 show-500 hide-300 thresh-500 plid-89645 lnid-sec1_lnk1" name="om_quicknav_mail_redesign"  title='AOL Mail' id='mailpreview'><img alt="" class="noion" src="http://portal.aolcdn.com/p5/forms/3619/3fd44455-fa76-46b0-8bcc-962ad8f7126f.png"/><span></span></a>
+<div id="mailoverw"><div id="mailover"></div></div><a href="http://www.aim.com/products/express/" class="qnpos4 plid-102223 lnid-sec1_lnk4" name="om_quicknav_aim_redesign"  title='Chat' id='aimexpress'><img alt="" class="noion" src="http://portal.aolcdn.com/p5/forms/3619/3fd44455-fa76-46b0-8bcc-962ad8f7126f.png"/></a>
+<i class="last"><a href="http://video.aol.com/" class="qnpos7 plid-124385 lnid-sec1_lnk7" name="om_quicknav_quick-nav-video_redesign"  title='Get millions of video from AOL , AOL partners and third party videos'><img alt="" class="noion" src="http://portal.aolcdn.com/p5/forms/3619/3fd44455-fa76-46b0-8bcc-962ad8f7126f.png"/></a>
+</i></div></div>
+                <div id="preview-container"></div></div>
+    <div id="aol-hnav">
+        <div class="mpid-8">
+                   <div id="hnav" class="mnid-hnav plid-138866" showdelay="500" hidedelay="400" showdelayonhover="50"><ul class='nav-top-level'><li class='nav-top-level first'><div class='itemTitle'><a title="News" name="om_hnav_sec1_link1" class="icid-navbar_rootnews lnid-sec1_lnk2" href="http://www.huffingtonpost.com/">NEWS</a><span class='arrow'></span></div><div class='hnav_menu subWrapper' id='om_hnav_sec1_link'><ul class='navCol'><li class='first underline_cell'><a title="Breaking News and Opinion on The Huffington Post" name="om_hnav_sec1_link3" class="icid-navbar_huffpo lnid-sec1_lnk3" href="http://www.huffingtonpost.com/">Huffington Post</a></li><li class='underline_cell'><a title="Politics News and Opinion on The Huffington Post" name="om_hnav_sec1_link4" class="icid-navbar_politics lnid-sec1_lnk4" href="http://www.huffingtonpost.com/politics">Politics</a></li><li class='underline_cell'><a title="Pro and college sports news, stats, scores and player updates from SportingNews" name="om_hnav_sec1_link5" class="icid-navbar_sports lnid-sec1_lnk5" href="http://aol.sportingnews.com">Sports</a></li><li class='underline_cell'><a title="At AOL Weird News you'll find strange but true news stories and much more" name="om_hnav_sec1_link6" class="icid-navbar_weird lnid-sec1_lnk6" href="http://weirdnews.aol.com/">Weird</a></li><li class='last '><a title="World News and Opinion on The Huffington Post" name="om_hnav_sec1_link7" class="icid-navbar_world lnid-sec1_lnk7" href="http://www.huffingtonpost.com/world">World</a></li></ul></div></li><li class='nav-top-level'><div class='itemTitle'><a title="Entertainment" name="om_hnav_sec2_link1" class="icid-navbar_rootentertainment lnid-sec2_lnk2" href="http://www.huffingtonpost.com/entertainment/">ENTERTAINMENT</a><span class='arrow'></span></div><div class='hnav_menu subWrapper' id='om_hnav_sec2_link'><ul class='navCol'><li class='first underline_cell'><a title="Celebrity news and photos and top music, movie and TV news" name="om_hnav_sec2_link3" class="icid-navbar_entnews lnid-sec2_lnk3" href="http://www.huffingtonpost.com/celebrity/">Celebrity News</a></li><li class='underline_cell'><a title="Comedy News and Opinion on the Huffington Post" name="om_hnav_sec2_link4" class="icid-navbar_comedy lnid-sec2_lnk4" href="http://www.huffingtonpost.com/comedy">Comedy</a></li><li class='underline_cell'><a title="Play hundreds of free online games from Games.com" name="om_hnav_sec2_link5" class="icid-navbar_games lnid-sec2_lnk5" href="http://www.games.com">Games</a></li><li class='underline_cell'><a title="Movie news, show times, tickets, trailers and more from Moviefone" name="om_hnav_sec2_link6" class="icid-navbar_movies lnid-sec2_lnk6" href="http://www.moviefone.com">Movies</a></li><li class='underline_cell'><a title="Music news, artist profiles, free videos, lyrics and downloads" name="om_hnav_sec2_link7" class="icid-navbar_music lnid-sec2_lnk7" href="http://music.aol.com">Music</a></li><li class='underline_cell'><a title="Browse TV Listings on AOL Television by city, state or zip" name="om_hnav_sec2_link8" class="icid-navbar_tvlistings lnid-sec2_lnk8" href="http://tvlistings.aol.com/listings/">TV Listings</a></li><li class='last '><a title="TV news, listings, reviews, free TV shows, daily clips and more" name="om_hnav_sec2_link9" class="icid-navbar_TV lnid-sec2_lnk9" href="http://www.huffingtonpost.com/tv/">TV News</a></li></ul></div></li><li class='nav-top-level'><div class='itemTitle'><a title="Finance" name="om_hnav_sec3_link1" class="icid-navbar_rootfinance lnid-sec3_lnk2" href="http://www.dailyfinance.com">FINANCE</a><span class='arrow'></span></div><div class='hnav_menu subWrapper' id='om_hnav_sec3_link'><ul class='navCol'><li class='first underline_cell'><a title="Business News and Opinion on The Huffington Post" name="om_hnav_sec3_link3" class="icid-navbar_business lnid-sec3_lnk3" href="http://www.huffingtonpost.com/business">Business News</a></li><li class='underline_cell'><a title="Business news, stock quotes and investment advice" name="om_hnav_sec3_link4" class="icid-navbar_Finance lnid-sec3_lnk4" href="http://www.dailyfinance.com">DailyFinance</a></li><li class='underline_cell'><a title="Careers, job listings, resume tips and interview advice" name="om_hnav_sec3_link5" class="icid-navbar_jobs lnid-sec3_lnk5" href="http://jobs.aol.com">Jobs</a></li><li class='underline_cell'><a title="Your quotes, news and summary from DailyFinance" name="om_hnav_sec3_link6" class="icid-navbar_myportfolios lnid-sec3_lnk6" href="http://www.dailyfinance.com/portfolios/myportfolios">My Portfolios</a></li><li class='underline_cell'><a title="Search real estate listings and foreclosures and get local market info" name="om_hnav_sec3_link7" class="icid-navbar_realest lnid-sec3_lnk7" href="http://realestate.aol.com/">Real Estate</a></li><li class='last '><a title="Small business news from the Huffington Post" name="om_hnav_sec3_link8" class="icid-navbar_smallbus lnid-sec3_lnk8" href="http://www.huffingtonpost.com/small-business/">Small Business</a></li></ul></div></li><li class='nav-top-level'><div class='itemTitle'><a title="Tech" name="om_hnav_sec4_link1" class="icid-navbar_roottech lnid-sec4_lnk2" href="http://techcrunch.com">TECH</a><span class='arrow'></span></div><div class='hnav_menu subWrapper' id='om_hnav_sec4_link'><ul class='navCol'><li class='first underline_cell'><a title="Coverage of everything new in gadgets and consumer electronics" name="om_hnav_sec4_link3" class="icid-navbar_engadget lnid-sec4_lnk3" href="http://www.engadget.com/">Engadget</a></li><li class='underline_cell'><a title="The definitive source for news and information on the video game industry" name="om_hnav_sec4_link4" class="icid-navbar_joystiq lnid-sec4_lnk4" href="http://www.joystiq.com/">Joystiq</a></li><li class='underline_cell'><a title="Your source for Apple news, tips, reviews and how-tos" name="om_hnav_sec4_link5" class="icid-navbar_tuaw lnid-sec4_lnk5" href="http://www.tuaw.com/">TUAW</a></li><li class='last '><a title="A blog about technology news and analysis, as well as profiling of startup companies, products and websites" name="om_hnav_sec4_link6" class="icid-navbar_techcrunch lnid-sec4_lnk6" href="http://techcrunch.com/">TechCrunch</a></li></ul></div></li><li class='nav-top-level'><div class='itemTitle'><a title="Lifestyle" name="om_hnav_sec5_link1" class="icid-navbar_rootstyle lnid-sec5_lnk2" href="http://www.stylelist.com/">LIFESTYLE</a><span class='arrow'></span></div><div class='hnav_menu subWrapper' id='om_hnav_sec5_link'><ul class='navCol'><li class='first underline_cell'><a title="African American news, culture and community" name="om_hnav_sec5_link3" class="icid-navbar_bv lnid-sec5_lnk3" href="http://www.blackvoices.com/">Black Voices</a></li><li class='underline_cell'><a title="Parenting advice, news, deals and more from ParentDish" name="om_hnav_sec5_link4" class="icid-navbar_parent lnid-sec5_lnk4" href="http://www.huffingtonpost.com/parents/">Family</a></li><li class='underline_cell'><a title="Recipes, Cooking Tips, Food Advice and Menus" name="om_hnav_sec5_link5" class="icid-navbar_food lnid-sec5_lnk5" href="http://www.kitchendaily.com">Food</a></li><li class='underline_cell'><a title="Health information, news, diet and fitness tips, tools and more" name="om_hnav_sec5_link6" class="icid-navbar_health lnid-sec5_lnk6" href="http://www.everydayhealth.com/aol">Health</a></li><li class='underline_cell'><a title="Get all the latest fashion advice, tips, rants and cool new looks from Heidi Klum." name="om_hnav_sec5_link7" class="icid-navbar_heidi lnid-sec5_lnk7" href="http://heidiklum.aol.com/">Heidi Klum</a></li><li class='underline_cell'><a title="Daily, weekly and monthly forecasts, astrology, tarot and numerology" name="om_hnav_sec5_link8" class="icid-navbar_horo lnid-sec5_lnk8" href="http://horoscopes.mydaily.com">Horoscopes</a></li><li class='underline_cell'><a title="Latin American news, photos, AIM and free e-mail in Spanish" name="om_hnav_sec5_link9" class="icid-navbar_latino lnid-sec5_lnk9" href="http://www.aollatino.com/">Latino</a></li><li class='underline_cell'><a title="Fashion trends, product reviews, beauty tips and more from StyleList" name="om_hnav_sec5_link10" class="icid-navbar_style lnid-sec5_lnk10" href="http://www.stylelist.com">StyleList</a></li><li class='underline_cell'><a title="Explore travel destinations, get airline tickets, hotels, car rentals and deals" name="om_hnav_sec5_link11" class="icid-navbar_travel lnid-sec5_lnk11" href="http://travel.aol.com">Travel</a></li><li class='last '><a title="Healthy Living News and Opinion" name="om_hnav_sec5_link12" class="icid-navbar_wellness lnid-sec5_lnk12" href="http://www.huffingtonpost.com/healthy-living">Wellness</a></li></ul></div></li><li class='nav-top-level'><div class='itemTitle'><a title="Shop" name="om_hnav_sec6_link1" class="icid-navbar_rootshop lnid-sec6_lnk2" href="http://shopping.aol.com">SHOP</a><span class='arrow'></span></div><div class='hnav_menu subWrapper' id='om_hnav_sec6_link'><ul class='navCol'><li class='first underline_cell'><a title="The car finder is ready to find vehicles that meet your needs" name="om_hnav_sec6_link3" class="icid-navbar_carfinder lnid-sec6_lnk3" href="http://autos.aol.com/car-finder/">Car Finder</a></li><li class='underline_cell'><a title="Offering free, online coupon codes and cash back savings for online discounts" name="om_hnav_sec6_link4" class="icid-navbar_coupons lnid-sec6_lnk4" href="http://shortcuts.com/">Coupons</a></li><li class='underline_cell'><a title="Best solutions for your everyday life needs" name="om_hnav_sec6_link5" class="icid-navbar_lifestore lnid-sec6_lnk5" href="http://lifestore.aol.com/main/?ncid=txtlnkusstor00000093">Lifestore</a></li><li class='underline_cell'><a title="Quickly and easily shop all of your favorite online stores" name="om_hnav_sec6_link6" class="icid-navbar_shopping lnid-sec6_lnk6" href="http://shopping.aol.com/">Shopping</a></li><li class='underline_cell'><a title="Hot deals and discount travel" name="om_hnav_sec6_link7" class="icid-navbar_traveldeals lnid-sec6_lnk7" href="http://travel.aol.com/discount-travel/">Travel Deals</a></li><li class='last '><a title="Find local business listings, address information and phone numbers" name="om_hnav_sec6_link8" class="icid-navbar_YP lnid-sec6_lnk8" href="http://yellowpages.aol.com">Yellow Pages</a></li></ul></div></li><li class='nav-top-level'><div class='itemTitle'><a title="Services" name="om_hnav_sec7_link1" target="_blank" class="icid-navbar_rootservices lnid-sec7_lnk2" href="http://daol.aol.com/">SERVICES</a><span class='arrow'></span></div><div class='hnav_menu subWrapper' id='om_hnav_sec7_link'><ul class='navCol'><li class='first underline_cell'><a title="Free, and installs in seconds.  Save time by adding buttons to your favorite sites" name="om_hnav_sec7_link3" class="icid-navbar_toolbar lnid-sec7_lnk3" href="http://toolbar.aol.com/aol/download.html">AOL Toolbar</a></li><li class='underline_cell'><a title="Lets you quickly build simple and visually elegant splash pages that point visitors to your content from around the web." name="om_hnav_sec7_link4" class="icid-navbar_aboutme lnid-sec7_lnk4" href="https://about.me/">About.Me</a></li><li class='underline_cell'><a title="Update your browser to the current version" name="om_hnav_sec7_link5" class="icid-navbar_browserupdates lnid-sec7_lnk5" href="http://browsers.aol.com/utilities/browser_upgrade_redirect.html">Browser Update</a></li><li class='underline_cell'><a title="Find the most popular AOL downloads" name="om_hnav_sec7_link6" class="icid-navbar_downloads lnid-sec7_lnk6" href="http://daol.aol.com/software/">Downloads</a></li><li class='underline_cell'><a title="Find employment opportunities, jobs, salary information, career advice and resume tips for all US States" name="om_hnav_sec7_link7" class="icid-navbar_jobfinder lnid-sec7_lnk7" href="http://jobs.aol.com/employment-by-state">Find a Job</a></li><li class='underline_cell'><a title="Get free AOL Email" name="om_hnav_sec7_link8" class="icid-navbar_freeemail lnid-sec7_lnk8" href="https://new.aol.com/productsweb/?promocode=825346&amp;ncid=txtlnkuswebr00000105_main5">Free Email</a></li><li class='underline_cell'><a title="Best solutions for your everyday life needs" name="om_hnav_sec7_link9" class="icid-navbar_lifestore lnid-sec7_lnk9" href="http://lifestore.aol.com/main/?ncid=txtlnkusstor00000093">Lifestore</a></li><li class='underline_cell'><a title="Keep up with your friends on all your social networks all in one place" name="om_hnav_sec7_link10" class="icid-navbar_lifestream lnid-sec7_lnk10" href="http://lifestream.aol.com/">Lifestream</a></li><li class='underline_cell'><a title="Smartphone apps, free mobile apps, latest news on mobile applications and smartphones" name="om_hnav_sec7_link11" class="icid-navbar_mobile lnid-sec7_lnk11" href="http://mobile.aol.com/">Mobile</a></li><li class='last '><a title="Anytime,anywhere tech support" name="om_hnav_sec7_link12" class="icid-navbar_techguru lnid-sec7_lnk12" href="http://techguru.aol.com/?ncid=txtlnkusstor00000094">TechGuru</a></li></ul></div></li><li class='nav-top-level'><div class='itemTitle'><a title="Play hundreds of free online games from Games.com" name="om_hnav_sec8_link1" target="_blank" class="icid-navbar_rootgames lnid-sec8_lnk1" href="http://www.games.com">GAMES</a></div></li><li class='nav-top-level'><div class='itemTitle'><a title="Research, find and buy new and used cars" name="om_hnav_sec9_link1" class="icid-navbar_rootauto lnid-sec9_lnk1" href="http://autos.aol.com/">AUTOS</a></div></li><li class='nav-top-level'><div class='itemTitle'><a title="Get maps, driving directions, gas prices, local information and more" name="om_hnav_sec10_link1" class="icid-navbar_rootmapquest lnid-sec10_lnk1" href="http://www.mapquest.com/">MAPS</a></div></li><li class='nav-top-level'><div class='itemTitle'><a title="Your source for local knowledge" name="om_hnav_sec11_link1" class="icid-navbar_rootlocal lnid-sec11_lnk1" href="/local/">LOCAL</a></div></li><li class='nav-top-level'><div class='itemTitle'><a title="Free online radio offering 350+ sports, news, talk and music stations" name="om_hnav_sec12_link1" class="icid-navbar_rootradio lnid-sec12_lnk1" href="http://aolradio.slacker.com">RADIO</a></div></li><li class='nav-top-level'><div class='itemTitle'><a title="A listing of all AOL sites, from A to Z" name="om_hnav_sec13_link1" class="icid-navbar_rootmore lnid-sec13_lnk1" href="http://daol.aol.com">MORE</a></div></li></ul></div>
+</div>
+            </div>
+    <div id="aol-content" class="aol-content clearfix">
+
+        <div class="mlid-refresh-module">
+            </div>
+
+        <div id="col12_2">
+            <div id="col1" >
+
+                <div class="mlid-dl-wide">
+                    <div class="mpid-1 rfrsh rfrshs-dynamiclead rfrsho-false">
+                        <div id="dl" class="wide typew ">
+    <h2 class="hidden">Rotating Content</h2>
+    <a href="#" id="dlpBtnA" class="hidden" title="">Pause</a>
+    <div id="vdisplay-type" class="dn">:</div>
+    <div id="dlw">
+<p id="dlSlt" class="dn">dynamiclead</p><i id="dlBtnTitle" class="dn">Pause,Play</i>
+    <span class="dn" id="curr-dlcount">23</span>
+
+
+
+<span id="slduration" title="10000"></span>
+            <div class="${appendIcidClass} mnid-dl1 dtid-exclusiveStacked plid-139984">
+                <span class="dn" id="dl-vslot">dynamiclead31</span>
+                    <a id="dlimg" name="om_dl1_image" class="photo-link lnid-sec1_lnk1 icid-maing-grid7|maing11|dl1|sec1_lnk1&amp;pLid=139984" href="http://www.huffingtonpost.com/2012/03/01/china-woman-guanghua-bridge-jump_n_1312971.html"><img height="217" width="386" class="noion" src="http://i.huffpost.com/gen/518909/thumbs/a-SUICIDEATTEMPT-386x217.jpg"/></a><span class='credit'>Daily Telegraph</span><h2><a name="om_dl1_hdln" href="http://www.huffingtonpost.com/2012/03/01/china-woman-guanghua-bridge-jump_n_1312971.html" class=" lnid-sec1_lnk2 icid-maing-grid7|maing11|dl1|sec1_lnk2&amp;pLid=139984">Footage of Desperate Woman Released 
+</a></h2>
+                        <p>She was dangling over a bridge with a child in her arms and only water below ... until someone intervened. 
+</p>
+
+                        <p class="lede-link"><a name="om_dl1_cpy" href="http://www.huffingtonpost.com/2012/03/01/china-woman-guanghua-bridge-jump_n_1312971.html" class=" lnid-sec1_lnk3 icid-maing-grid7|maing11|dl1|sec1_lnk3&amp;pLid=139984">What made her want to jump</a></p>
+                            <h3>More News</h3>
+                        <ul id="om_dl1_slde">
+                        <li ><a name="om_dl1_slede1" class="dl-sublede-link bold lnid-sec3_lnk1 icid-maing-grid7|maing11|dl1|sec3_lnk1&amp;pLid=139984" href="http://troy.patch.com/articles/effort-to-recall-troy-mayor-moves-forward-group-plans-to-start-collecting-signatures">Mayor in Hot Water Following Comments 
+
+</a></li>
+                                    <li ><a name="om_dl1_slede2" class="dl-sublede-link bold lnid-sec3_lnk2 icid-maing-grid7|maing11|dl1|sec3_lnk2&amp;pLid=139984" href="http://www.huffingtonpost.com/2012/03/01/michigan-delegates-mitt-romney-rick-santorum_n_1313710.html">Santorum Cries Foul Over Mich. Delegates
+</a></li>
+                                    <li ><a name="om_dl1_slede3" class="dl-sublede-link bold lnid-sec3_lnk3 icid-maing-grid7|maing11|dl1|sec3_lnk3&amp;pLid=139984" href="http://www.huffingtonpost.com/2012/03/01/willcox-high-school-shooting-arizona_n_1314971.html">Student Shot Before High School Game</a></li>
+                                    </ul>
+                        </div>
+<p class="dn" id="dlImp1">36394,139984</p>
+        <script type="text/javascript">
+        var dlImps = new Array();dlImps["dl1"]=true;
+        var dlact = "";
+        var dlduration = 10000;
+        var dloverrided = false;
+        var dlcurr = 1;
+        var dltotal = 23;
+        var paramslot = "dynamiclead";
+        var dloffset = 0;
+        var ftmslot = "dynamiclead-ftm";
+        var ftmversion = "3";
+        var disableftm = "true";
+        var sitHot = "";
+        var vcslot = "dynamiclead-video-config";
+        var vbclass = "vid_over";
+        var stcExpTime = 300000;
+    </script>
+
+    </div>
+    <div id="dl-controls">
+            <span id="dl-count">1/23</span>
+            <div class="dl-button"><a id="dlbBtn" class="dl-previous" href="#" alt="Previous" title="Previous"><img class="noion" src="http://portal.aolcdn.com/p5/_v65.9/css/maing.png"/></a>Previous</div>
+            <div class="dl-button"><a id="dlpBtn" class="dl-pause" href="#" alt="Pause" title="Pause"><img class="noion" src="http://portal.aolcdn.com/p5/_v65.9/css/maing.png"/></a>Pause</div>
+            <div class="dl-button"><a id="dlfBtn" class="dl-nextb" href="#" alt="Next" title="Next"><img class="noion" src="http://portal.aolcdn.com/p5/_v65.9/css/maing.png"/></a>Next</div>
+        </div>
+    </div></div>
+                </div>
+
+                <div id="col1R" class="mlid-col1R">
+                    <div class="mpid-1">
+                        <div class="gmod aol-headlines news-headlines headlines- mnid-more-news plid-60821" id="more-news">
+        <h2 id="om_news_more-news_title"><a class="lnid-sec1_lnk1" href="http://www.huffingtonpost.com/">Latest Headlines</a></h2><ul class="headlines mnid-more-news plid-83944" id="om_news_more-news_link_">
+            <li><a href="http://www.huffingtonpost.com/2012/03/01/maryland-gay-marriage-martin-o-malley-signs-bill_n_1314352.html" class="lnid-sec2_lnk1">Maryland Gay Marriage Legislation Signed Into Law</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/tj-lane-charged-juvenile-ohio-school-shooting_n_1314684.html" class="lnid-sec2_lnk2">T.J. Lane Charged As Juvenile In Ohio School Shooting</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/war-on-women-house-democrats-raise-million_n_1314661.html" class="lnid-sec2_lnk3">House Democrats Raise $1.1 Million In 'War On Women' Campaign</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/att-data-throttling-unlimited_n_1314046.html" class="lnid-sec2_lnk4">AT&T Data Throttling To Be Eased Slightly For Unlimited Subscribers</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/michigan-delegates-mitt-romney-rick-santorum_n_1313710.html" class="lnid-sec2_lnk5">Mitt Romney Beats Rick Santorum In Michigan Delegate Race: 16-14</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/roy-blunt-contraception_n_1314253.html" class="lnid-sec2_lnk6">Roy Blunt On Contraception Debate: 'I Am Confident This Issue Is Not Over'</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/cell-phone-jamming-commuter-buses_n_1314175.html" class="lnid-sec2_lnk7">Cell Phone Vigilante Illegally Jams Service On Public Buses</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/autocorrect-fail-puts-school-on-lockdown_n_1314090.html" class="lnid-sec2_lnk8">Autocorrect Mistake Puts Schools On Lockdown</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/egypt-americans-leave_n_1313603.html" class="lnid-sec2_lnk9">Americans Headed Home After Posting Bail In Egypt</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/rush-limbaugh-sandra-fluke_n_1313891.html" class="lnid-sec2_lnk10">Rush Limbaugh Makes Another Controversial Comment About Georgetown Students</a></li>
+                </ul><a name="om_news_more-news_more" class="newsmore newsmoreinline lnid-sec3_lnk1" href="http://www.huffingtonpost.com">More News</a></div></div>
+                <div id="local-wrapper" class="aol-headlines"><div id="local" class="cod mpid-2">
+                                </div>
+                                </div><div id="scrolldetection" class="cod mpid-3">
+                                </div>
+                                <div class="mpid-4">
+                        <div class="gmod aol-headlines news-headlines headlines- mnid-business-news plid-139931" id="business-news">
+        <h2 id="om_news_business-news_title"><a class="lnid-sec1_lnk1" href="http://www.dailyfinance.com/">Business News</a></h2><div class="stock-markets mq-v2 mnid-stock-markets-markets plid-98427">
+    <ul><li>
+                        <div><span><a name="om_marketquotes_quote1" href="http://www.dailyfinance.com/quote/djindices/dow-jones-industrial-average/%5Edji">
+                    DJIA</a></span><span class="mqval">12980.3</span></div>
+                        <div class="up">
+                            <span class="sprite up"><img class="noion" src="http://portal.aolcdn.com/p5/_v65.9/css/maing.png" alt="up"></span>
+                            <span class="mqchange">28.23</span><span class="mqperc">0.22%</span>
+                        </div>
+
+                    </li>
+                <li>
+                        <div><span><a name="om_marketquotes_quote2" href="http://www.dailyfinance.com/quote/nasdaqindex/nasdaq-composite/%5Eixic">
+                    NASDAQ</a></span><span class="mqval">2988.97</span></div>
+                        <div class="up">
+                            <span class="sprite up"><img class="noion" src="http://portal.aolcdn.com/p5/_v65.9/css/maing.png" alt="up"></span>
+                            <span class="mqchange">22.08</span><span class="mqperc">0.74%</span>
+                        </div>
+
+                    </li>
+                <li class="last">
+                        <div><span><a name="om_marketquotes_quote3" href="http://www.dailyfinance.com/quote/snpindex/sampp-500-index/%5Egspc">
+                    S&amp;P 500</a></span><span class="mqval">1374.09</span></div>
+                        <div class="up">
+                            <span class="sprite up"><img class="noion" src="http://portal.aolcdn.com/p5/_v65.9/css/maing.png" alt="up"></span>
+                            <span class="mqchange">8.41</span><span class="mqperc">0.62%</span>
+                        </div>
+
+                    </li></ul>
+    <form id="quote-form" action="http://www.dailyfinance.com/usw/quotes/quotesandnews">
+        <input class="stock-quote-input" type="text" name="sym" title="Enter a stock symbol">
+        <button id="mktsrchbut" class="get-quote-btn" type="submit" >Get Quote</button>
+    </form><a name="om_marketquotes_link" class="lnid-sec1_lnk mqlnk" href="http://www.dailyfinance.com/portfolios/myportfolios">My Portfolios</a></div><ul class="headlines" id="om_news_business-news_link_">
+            <li><a class="lnid-sec2_lnk1" href="http://www.dailyfinance.com/2012/03/01/government-colleges-report-card-value/">Should the Government Give Colleges a Value Report Card?
+</a></li>
+                    <li><a class="lnid-sec2_lnk2" href="http://www.dailyfinance.com/2012/03/01/warren-buffett-shareholder-perks/">How to Get Warren Buffett-Style Shareholder Perks</a></li>
+                    <li><a class="lnid-sec2_lnk3" href="http://www.dailyfinance.com/2012/02/29/dow-13-000-what-it-means-to-you/">Dow 13,000: What It Means to You </a></li>
+                    <li><a class="lnid-sec2_lnk4" href="http://realestate.aol.com/blog/2012/03/01/reo-to-rental-fannie-mae-dips-further-into-foreclosure-pool/">From REOs to Rentals: Fannie Mae Dips Further Into the Foreclosure Pool</a></li>
+                    <li><a class="lnid-sec2_lnk5" href="http://money.cnn.com/2012/02/29/news/economy/bernanke_congress/index.htm?iid=HP_LN">Bernanke: Job Market 'Far From Normal'</a></li>
+                    <li><a class="lnid-sec2_lnk6" href="http://www.ibtimes.com/articles/307209/20120301/goldman-sachs-executive-reportedly-under-investigation-insider.htm">Goldman Sachs Exec Under Investigation for Insider Trading</a></li>
+                    <li><a class="lnid-sec2_lnk7" href="http://247wallst.com/2012/02/29/states-with-the-most-miserable-housing-markets/">The 10 States with the Most Miserable Housing Markets
+
+
+
+
+
+</a></li>
+                    </ul><a name="om_news_business-news_more" class="newsmore newsmoreinline lnid-sec3_lnk1" href="http://www.dailyfinance.com/">More Business News</a></div></div>
+                <div class="mpid-5">
+                        <div class="gmod aol-headlines news-headlines headlines- mnid-sports-news plid-139960" id="sports-news">
+        <h2 id="om_news_sports-news_title"><a class="lnid-sec1_lnk1" href="http://aol.sportingnews.com/">Sports News</a></h2><ul class="headlines mnid-sports-news plid-123244" id="om_news_sports-news_link_">
+            <li><a href="http://aol.sportingnews.com/nba/story/2012-03-01/barack-obama-bill-simmons-podcast-jeremy-lin-linsanity-chris-paul-derrick-rose" class="lnid-sec2_lnk1">Obama: I Knew About Linsanity a Long Time Ago</a></li>
+                <li><a href="http://aol.sportingnews.com/nhl/story/2012-03-01/alex-ovechkin-weight-washington-capitals-playoff-chances" class="lnid-sec2_lnk2">NHL Star's Big Weight Becoming a Big Problem?</a></li>
+                <li><a href="http://aol.sportingnews.com/nfl/story/2012-03-01/2012-nfl-mock-draft-combine-andrew-luck-robert-griffin-iii-dontari-poe" class="lnid-sec2_lnk3">Big Surprises in Latest Mock Draft</a></li>
+                <li><a href="http://aol.sportingnews.com/nascar/story/2012-03-01/jet-dryer-operators-to-wear-helmets-firesuits-in-response-to-daytona-wreck" class="lnid-sec2_lnk4">NASCAR Makes Changes After Fiery Daytona Crash</a></li>
+                <li><a href="http://aol.sportingnews.com/nfl/story/2012-03-01/green-bay-packers-sell-268000-shares-raise-67-million" class="lnid-sec2_lnk5">Green Bay Packers Raise $67 Million Selling Shares</a></li>
+                <li><a href="http://aol.sportingnews.com/nfl/story/2012-03-01/peyton-hillis-cleveland-browns-nfl-free-agency-2012-cia" class="lnid-sec2_lnk6">NFL All-Pro Considered Retirement, Joining CIA</a></li>
+                <li><a href="http://aol.sportingnews.com/nfl/story/2012-03-01/philadelphia-eagles-place-franchise-tag-on-desean-jackson" class="lnid-sec2_lnk7">Eagles Use Franchise Tag on Receiver DeSean Jackson</a></li>
+                </ul><a name="om_news_sports-news_more" class="newsmore newsmoreinline lnid-sec3_lnk1" href="http://aol.sportingnews.com/">More Sports News
+</a></div></div>
+                <div id="scrolldetection2" class="cod mpid-6">
+                                </div>
+                                <div class="mpid-7">
+                        <div class="gmod aol-headlines news-headlines headlines- mnid-entertainment-news plid-80943" id="entertainment-news">
+        <h2 id="om_news_entertainment-news_title"><a class="lnid-sec1_lnk1" href="http://www.huffingtonpost.com/entertainment/">Entertainment News</a></h2><ul class="headlines mnid-entertainment-news plid-123239" id="om_news_entertainment-news_link_">
+            <li><a href="http://www.huffingtonpost.com/2012/03/01/green-day-album-billie-joe-armstrong-mike-dirnt_n_1314432.html" class="lnid-sec2_lnk1">Green Day's Billie Joe Armstrong Says Next Album Will Be About Sex</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/uma-thurman-pregnant-actr_n_1314946.html" class="lnid-sec2_lnk2">PHOTOS:Uma Thurman Debuts Her Baby Bump</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/the-pauly-d-project-trailer-mtv_n_1314783.html" class="lnid-sec2_lnk3">FIRST LOOK: Pauly D's Jersey Shore Spinoff</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/john-mayer-born-and-raised_n_1313418.html" class="lnid-sec2_lnk4">John Mayer Reveals Release Date, Track List Of New Album</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/whitney-houston-casket-photo-funeral-home-denies_n_1314282.html" class="lnid-sec2_lnk5">NJ Funeral Home Denies Leaking Whitney Houston Casket Image</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/katy-perrys-see-through-dress-flashes-underwear-butt_n_1314375.html" class="lnid-sec2_lnk6">PHOTOS: Katy Perry's Super See-Through Skirt</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/obama-oscars-election-predictions_n_1314552.html" class="lnid-sec2_lnk7">Obama And The Oscars: Predicting Election Results From Award Shows</a></li>
+                </ul><a name="om_news_entertainment-news_more" class="newsmore newsmoreinline lnid-sec3_lnk1" href="http://www.huffingtonpost.com/entertainment/">More Entertainment News</a></div></div>
+                <div class="mpid-8">
+                        <div class="gmod aol-headlines news-headlines headlines- mnid-weird-news plid-92073" id="weird-news">
+        <h2 id="om_news_weird-news_title"><a class="lnid-sec1_lnk1" href="http://www.huffingtonpost.com/weird-news/">Weird News</a></h2><ul class="headlines mnid-weird-news plid-123245" id="om_news_weird-news_link_">
+            <li><a href="http://www.huffingtonpost.com/2012/03/01/juggalobook-icp-social-network_n_1314334.html" class="lnid-sec2_lnk1">WHOOP WHOOP! JuggaloBook, Insane Clown Posse's Social Network, Is 'Filth'</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/landlord-tows-trailer-tenant-inside-florida_n_1314535.html" class="lnid-sec2_lnk2">WATCH: Landlord Tows Trailer -- While Tenant Is Still Inside</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/texas-prisoners-pornography-cable-liberty-county_n_1314923.html" class="lnid-sec2_lnk3">Prisoners Get Porn At Texas Jail</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/ultimate-tazer-ball_n_1304396.html" class="lnid-sec2_lnk4">Mix Soccer, Rugby And Stun Guns Together For A SHOCKING New Sport</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/human-mattress-domino-world-record-new-orleans_n_1313792.html" class="lnid-sec2_lnk5">WATCH: 850 Human Dominoes</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/semen-tainted-yogurt_n_1314935.html" class="lnid-sec2_lnk6">Semen-Tainted Yogurt Sample Lands Market Worker In Prison</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/cell-phone-jamming-commuter-buses_n_1314175.html" class="lnid-sec2_lnk7">Cell Phone Vigilante Breaks Law, Jams Service On Public Buses</a></li>
+                </ul><a name="om_news_weird-news_more" class="newsmore newsmoreinline lnid-sec3_lnk1" href="http://www.huffingtonpost.com/weird-news/">More Weird News</a></div></div>
+                <div class="mpid-9">
+                        <div class="gmod aol-headlines news-headlines headlines- mnid-health-news plid-103575" id="health-news">
+        <h2 id="om_news_health-news_title"><a class="lnid-sec1_lnk1" href="http://www.huffingtonpost.com/news/healthy-living-health-news/">Health News</a></h2><ul class="headlines mnid-health-news plid-123241" id="om_news_health-news_link_">
+            <li><a href="http://www.huffingtonpost.com/2012/03/01/american-way-of-eating_n_1313631.html" class="lnid-sec2_lnk1">Is There An American Way Of Eating?</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/college-degree-health-graduate-20s-midlife_n_1311006.html" class="lnid-sec2_lnk2">A Healthy Reason To Get That College Degree</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/virginia-ultrasound-bill-rape-exception_n_1314490.html" class="lnid-sec2_lnk3">Lawmakers Pass Final Ultrasound Bill</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/baby-barista-helps-mom-make-coffee_n_1313940.html" class="lnid-sec2_lnk4">WATCH: Meet This Adorable Baby Barista!</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/ginger-recipes-for-health_n_1313493.html" class="lnid-sec2_lnk5">Eat Ginger -- It Might Make You Smarter</a></li>
+                <li><a href="http://www.huffingtonpost.ca/2012/03/01/nutrition-month-2012_n_1310751.html" class="lnid-sec2_lnk6">25 Common Nutrition Myths Busted</a></li>
+                <li><a href="http://www.huffingtonpost.com/2012/03/01/andrew-breitbart-dead_n_1313228.html" class="lnid-sec2_lnk7">What Andrew Breitbart's Death Teaches Us About Remembering Loved Ones</a></li>
+                </ul><a name="om_news_health-news_more" class="newsmore newsmoreinline lnid-sec3_lnk1" href="http://www.huffingtonpost.com/news/healthy-living-health-news/">More Health News</a></div></div>
+                <div id="scrolldetection3" class="cod mpid-10">
+                                </div>
+                                </div>
+
+                <div id="col1L" class="mlid-col1L">
+                    </div>
+            </div>
+
+            <div id="col2" class="mlid-col2">
+                <div class="mpid-1">
+                        <div id="dailyvjmod_video-module" class="anid-1 gmod">
+    <div class="dailyvj slot-video-module mnid-video-module plid-139932 vj-v2">
+        
+        
+        <a name="om_video-modulevideo_image" class="vjvideo lnid-sec2_lnk1" href="http://www.aol.com/video/brad-pitt-wont-call-his-grandma/517287205/"><img height="155" alt="Brad Pitt" width="233" class="vjimg" src="http://i.huffpost.com/gen/518803/thumbs/a-BRAD-PITT-233x155.jpg"/><div class="vbpos-bottom-right videobutton" style="width:41px; height:41px; ">
+    <img src="http://portal.aolcdn.com/p5/forms/4335/97221ba0-aab6-4fd6-b8db-aa2d22fbd728.png" alt="" class="playbutton" title="Play Video"/><img src="http://portal.aolcdn.com/p5/forms/4335/5534901d-5f39-4f43-a119-adbb286d996d.png" alt="" class="playbutton-over" title="Play Video"/><div class="vbtext" title="Play Video"><table style="width:0px; height:0px;"><tr><td></td></tr></table></div>
+</div>
+
+<b class="hidden">Play</b></a><span class="credit">Getty Images</span><div class="header"><h2><a name="om_video-modulevideo_title" class="lnid-sec1_lnk1 " href="http://www.aol.com/video/brad-pitt-wont-call-his-grandma/517287205/">Watch: Brad Really Upset
+His 89-Year-Old Grandma 
+</a></h2></div>
+
+        <h3>Video</h3><ul id="om_video-module_subvideo_" class="vj-playlist ">
+                <li><a name="om_video-module_subvideo_1" class="lnid-sec3_lnk1" href="http://www.aol.com/video/brad-pitt-wont-call-his-grandma/517287205/">What he reportedly hasn't done for years is pretty heartbreaking.</a></li>
+
+                    <h3 style="display:none;"></h3>
+                    <li><a name="om_video-module_subvideo_2" class="lnid-sec3_lnk2" href="http://www.aol.com/video/urlesque-daily-plastic-chair-prank/517287034/">She Picked a Bad Day to Wear This</a></li>
+
+                    <li><a name="om_video-module_subvideo_3" class="lnid-sec3_lnk3" href="http://www.aol.com/video/justin-bieber-celebrates-18th-birthday-with-a-new-car-world-record/517287268/">Justin Bieber Gets Outrageous Gift </a></li>
+
+                    <li><a name="om_video-module_subvideo_4" class="lnid-sec3_lnk4" href="http://www.aol.com/video/don-cheadle-talks-about-getting-naked-for-house-of-lies-on-wendy/517287046/">Star Says He's Very Naked in Role</a></li>
+
+                    </ul><span class="site-credit"><a name="om_video-modulevideo_channel" class="lnid-sec4_lnk2" href="http://src.com">Source Channel</a></span>
+        </div>
+    <span class="dn disableScroll"></span>
+</div></div>
+                <div id="poll-linkback-wrapper"></div><div class="mpid-2">
+                        <div id="dailybuzz_daily-buzz" class="anid-1 dailyBuzz buzz-v2">
+            <h2>Daily Buzz</h2>
+                <div class="gmod photo-lede mnid-daily-buzz1 plid-139979">
+    <a title="President Obama" name="om_daily-buzz_image_1" class="photo-link lnid-sec2_lnk1" href="http://www.huffingtonpost.com/2012/03/01/obama-facebook-page-timeline_n_1313506.html"><img alt="President Obama" src="http://i.huffpost.com/gen/518259/thumbs/a-OBAMA-FACEBOOK-233x155.jpg"/></a><span class="credit">AP</span>
+    <h3><a name="om_daily-buzz_headline1" href="http://www.huffingtonpost.com/2012/03/01/obama-facebook-page-timeline_n_1313506.html" class=" lnid-sec2_lnk2">President's Facebook Page Has a New Look
+</a></h3>
+        </div>
+<div class="gmod photo-lede mnid-daily-buzz2 plid-139969">
+    <a title="Fox" name="om_daily-buzz_image_2" class="photo-link lnid-sec3_lnk1" href="http://www.huffingtonpost.com/2012/03/01/fox-news-morning-fox-and-friends-four-hours_n_1314088.html"><img alt="Fox" src="http://portal.aolcdn.com/p5/forms/2560/fa3fc2d7-b0bc-4090-b20b-727129c37e55.jpg"/></a><span class="credit">Fox</span>
+    <h3><a name="om_daily-buzz_headline2" href="http://www.huffingtonpost.com/2012/03/01/fox-news-morning-fox-and-friends-four-hours_n_1314088.html" class=" lnid-sec3_lnk2">Big Change Coming To Fox Morning Show</a></h3>
+        </div>
+<div class="gmod photo-lede mnid-daily-buzz3 plid-139971">
+    <a title="Whitney Houston" name="om_daily-buzz_image_3" class="photo-link lnid-sec4_lnk1" href="http://www.huffingtonpost.com/2012/03/01/jason-mecier-whitney-houston-pill-portrait_n_1314029.html?ref=gay-voices"><img alt="Whitney Houston" src="http://portal.aolcdn.com/p5/forms/657/0e24fbbe-93d6-4389-bb96-682143e65945.jpg"/></a><span class="credit">AFP / Getty Images</span>
+    <h3><a name="om_daily-buzz_headline3" href="http://www.huffingtonpost.com/2012/03/01/jason-mecier-whitney-houston-pill-portrait_n_1314029.html?ref=gay-voices" class=" lnid-sec4_lnk2">Unusual Whitney Houston Portrait Causes Uproar</a></h3>
+        </div>
+<div class="gmod photo-lede mnid-daily-buzz4 plid-139936">
+    <a title="'Tree Lobsters'" name="om_daily-buzz_image_4" class="photo-link lnid-sec5_lnk1" href="http://www.huffingtonpost.com/2012/03/01/tree-lobsters_n_1313654.html"><img alt="'Tree Lobsters'" src="http://portal.aolcdn.com/p5/forms/2559/45d9913f-1afa-46aa-b844-5c5b28832248.jpg"/></a><span class="credit">Vimeo</span>
+    <h3><a name="om_daily-buzz_headline4" href="http://www.huffingtonpost.com/2012/03/01/tree-lobsters_n_1313654.html" class=" lnid-sec5_lnk2">Rare Species of 'Tree Lobsters' Rediscovered After 80 Years</a></h3>
+        </div>
+<div class="gmod photo-lede mnid-daily-buzz5 plid-139982">
+    <a title="" name="om_daily-buzz_image_5" class="photo-link lnid-sec6_lnk1" href="http://www.huffingtonpost.com/2012/03/01/andrew-breitbart-dead-blogger-dies_n_1312944.html"><img src="http://i.huffpost.com/gen/518593/thumbs/a-BREITBARTFOLLOW700-233x155.jpg"/></a><span class="credit">Getty Images</span>
+    <h3><a name="om_daily-buzz_headline5" href="http://www.huffingtonpost.com/2012/03/01/andrew-breitbart-dead-blogger-dies_n_1312944.html" class=" lnid-sec6_lnk2">Reactions Pour in After Blogger's Death
+</a></h3>
+        </div>
+<div class="gmod photo-lede mnid-daily-buzz6 plid-139958">
+    <a title="Dutch Polar Bears" name="om_daily-buzz_image_6" class="photo-link lnid-sec7_lnk1" href="http://www.aol.com/video/grand-debut-for-dutch-polar-bear-twins/517287177/"><img alt="Dutch Polar Bears" src="http://portal.aolcdn.com/p5/forms/656/accd4119-f034-4b1e-b5f2-050c58e393a7.jpg"/><div class="vbpos-bottom-right videobutton" style="width:41px; height:41px; ">
+    <img src="http://portal.aolcdn.com/p5/forms/3963/c99fbfd4-b6ab-43f7-944e-78b50fc88ac1.png" alt="" class="playbutton" title=""/><img src="http://portal.aolcdn.com/p5/forms/3963/607b1233-64e4-4513-a6cb-a228cb1ce784.png" alt="" class="playbutton-over" title=""/><div class="vbtext" title=""><table style="width:0px; height:0px;"><tr><td></td></tr></table></div>
+</div>
+
+</a><span class="credit">Reuters</span>
+    <h3><a name="om_daily-buzz_headline6" href="http://www.aol.com/video/grand-debut-for-dutch-polar-bear-twins/517287177/" class=" lnid-sec7_lnk2">Watch: Polar Bear Twins Make First Appearance</a></h3>
+        </div>
+<div class="gmod photo-lede mnid-daily-buzz7 plid-139935">
+    <a title="Sofia Vergara" name="om_daily-buzz_image_7" class="photo-link lnid-sec8_lnk1" href="http://www.huffingtonpost.com/2012/03/01/sofia-vergara-looks-terrified-in-splash-mountain_n_1313361.html?ref=latino-voices"><img alt="Sofia Vergara" src="http://portal.aolcdn.com/p5/forms/1781/dd90244d-9327-4e0d-878a-c7f0cf6ec31b.jpg"/></a><span class="credit">Getty Images</span>
+    <h3><a name="om_daily-buzz_headline7" href="http://www.huffingtonpost.com/2012/03/01/sofia-vergara-looks-terrified-in-splash-mountain_n_1313361.html?ref=latino-voices" class=" lnid-sec8_lnk2">Photo: Vergara Doesn't Look Very Happy on Set</a></h3>
+        </div>
+<div class="gmod photo-lede mnid-daily-buzz8 plid-139892">
+    <a title="Tiger Cubs" name="om_daily-buzz_image_8" class="photo-link lnid-sec9_lnk1" href="http://www.huffingtonpost.com/2012/03/01/lioness-gives-birth-to-tigon_n_1313289.html"><img alt="Tiger Cubs" src="http://portal.aolcdn.com/p5/forms/3944/e2d9504a-6b3f-4773-9e03-bdeb0a3081b4.jpg"/></a><span class="credit">AP</span>
+    <h3><a name="om_daily-buzz_headline8" href="http://www.huffingtonpost.com/2012/03/01/lioness-gives-birth-to-tigon_n_1313289.html" class=" lnid-sec9_lnk2">Lioness Gives Birth To Adorable Tiger Cubs</a></h3>
+        </div>
+<div class="gmod photo-lede mnid-daily-buzz9 plid-139817">
+    <a title="Jessica Alba" name="om_daily-buzz_image_9" class="photo-link lnid-sec10_lnk1" href="http://www.aol.com/video/jessica-alba-shows-off-slender-figure/517286269/"><img alt="Jessica Alba" src="http://portal.aolcdn.com/p5/forms/616/e390a710-583d-48bf-b4c8-fa4f6640296b.jpg"/><div class="vbpos-bottom-right videobutton" style="width:41px; height:41px; ">
+    <img src="http://portal.aolcdn.com/p5/forms/3963/c99fbfd4-b6ab-43f7-944e-78b50fc88ac1.png" alt="" class="playbutton" title=""/><img src="http://portal.aolcdn.com/p5/forms/3963/607b1233-64e4-4513-a6cb-a228cb1ce784.png" alt="" class="playbutton-over" title=""/><div class="vbtext" title=""><table style="width:0px; height:0px;"><tr><td></td></tr></table></div>
+</div>
+
+</a><span class="credit">E!</span>
+    <h3><a name="om_daily-buzz_headline9" href="http://www.aol.com/video/jessica-alba-shows-off-slender-figure/517286269/" class=" lnid-sec10_lnk2">Jessica Alba Flaunts Slender Post-Baby Body</a></h3>
+        </div>
+<div class="gmod photo-lede mnid-daily-buzz10 plid-139836">
+    <a title="St. Patrick's Day Clothes" name="om_daily-buzz_image_10" class="photo-link lnid-sec11_lnk1" href="http://www.huffingtonpost.com/2012/03/01/urban-outfitters-st-patricks-day-clothes-_n_1313242.html"><img alt="St. Patrick's Day Clothes" src="http://portal.aolcdn.com/p5/forms/878/3d06a159-7036-4488-b2ce-84f02038993b.jpg"/></a><span class="credit">Urban Outfitters</span>
+    <h3><a name="om_daily-buzz_headline10" href="http://www.huffingtonpost.com/2012/03/01/urban-outfitters-st-patricks-day-clothes-_n_1313242.html" class=" lnid-sec11_lnk2">St. Patrick's Day Clothing Sparks Major Outrage</a></h3>
+        </div>
+</div></div>
+                </div>
+
+            <div id="col4" class="mlid-col4">
+                </div>
+        </div>
+
+        <div id="col3" class="mlid-col3">
+            <div id="mail_prev_pl"></div><div class="mpid-1">
+                        <div class="gmod topAd mdl">
+<div id="fi_139986729" class="di refreshYES"></div>
+            <script type="text/javascript">
+            
+                    htmlAdWH('93315268', 'RR', 'RR', 'ajax', 'fi_139986729');
+                </script>
+
+            <div class="feedback">
+<span class="text-ad">
+        <div id="fi_139986730" class="di refreshNO"></div>
+            <script type="text/javascript">
+            
+                    htmlAdWH('93312603', '61', '21', 'text', 'fi_139986730');
+                </script>
+
+            </span>
+<a target="_blank" class="feedback" href="http://www.opselect.com/ad_feedback/survey.adp?src=115">Ad Feedback</a><div id="adchoice">
+    <span id="adchoice-sep" class="dn">|</span>
+    <a id="adchoicelink" name="om_adchoices_link" href="http://adinfo.aol.com/about-our-ads/">Ad Choices<img class="feedback" src="http://portal.aolcdn.com/p5/forms/1245/9db9a9bc-ecd8-4f18-a67c-adc647f55731.jpg"/></a></div>
+</div>
+</div></div>
+                <div class="mpid-2">
+                        <div id="rrpromo" class="gmod rrpromo plid-90902 mnid-rr1">
+        <div class="header">
+            <h2 id="rrpromoTitle"><a name="om_rr1_title" href="http://impact.aol.com/" class=" lnid-sec1_lnk1">Daily Impact</a></h2>
+            <span>
+                </span>
+        </div><div id="headlineAd">
+                <span class="content">
+                    <div id="fi_139986731" class="di refreshNO"></div>
+            <script type="text/javascript">
+            
+                    adSetType('F');
+                    htmlAdWH('93312606', '300', '75');
+                    adSetType('');
+                </script>
+
+            </span> 
+                </div>
+                </div></div>
+                <div class="mpid-3">
+                        <div class="slideshowmod gmod plid-139633 mnid-slideshow">
+    <h2>Slideshows</h2>
+     <div class="slideshow" id="slideshow">
+    <ul>
+    <li>
+                <a href="http://www.huffingtonpost.com/2012/03/01/tami-roman-basketball-wives-divorce_n_1314810.html" target="" name="om_slideshow_img1" class="lnid-sec2_lnk1"><img src="http://i.huffpost.com/gen/518759/thumbs/s-TAMI-ROMAN-large300.jpg" alt="Tami Roman"/></a>
+                <h3><a href="http://www.huffingtonpost.com/2012/03/01/tami-roman-basketball-wives-divorce_n_1314810.html" name="om_slideshow_lnk1" target="" class="lnid-sec3_lnk1">Tami Roman Talks Divorce</a></h3>
+            </li>
+        <li class="dn">
+                <a href="http://www.huffingtonpost.com/2012/03/01/kate-middleton-attends-tea-party_n_1314386.html" target="" name="om_slideshow_img2" class="lnid-sec2_lnk2"><img class="http://i.huffpost.com/gen/518652/thumbs/s-KATE-MIDDLETON-large300.jpg" src="http://o.aolcdn.com/js/x.gif" alt="Kate Middleton"/></a>
+                <h3><a href="http://www.huffingtonpost.com/2012/03/01/kate-middleton-attends-tea-party_n_1314386.html" name="om_slideshow_lnk2" target="" class="lnid-sec3_lnk2">Kate Middleton Drinks Tea</a></h3>
+            </li>
+        <li class="dn">
+                <a href="http://www.huffingtonpost.com/2012/03/01/katy-perrys-see-through-dress-flashes-underwear-butt_n_1314375.html" target="" name="om_slideshow_img3" class="lnid-sec2_lnk3"><img class="http://i.huffpost.com/gen/518673/thumbs/s-KATY-PERRY-SEE-THROUGH-DRESS-large300.jpg" src="http://o.aolcdn.com/js/x.gif" alt="Katy Perry See Through Dress"/></a>
+                <h3><a href="http://www.huffingtonpost.com/2012/03/01/katy-perrys-see-through-dress-flashes-underwear-butt_n_1314375.html" name="om_slideshow_lnk3" target="" class="lnid-sec3_lnk3">Katy's Super Sheer Skirt</a></h3>
+            </li>
+        <li class="dn">
+                <a href="http://www.huffingtonpost.com/2012/03/01/obama-oscars-election-predictions_n_1314552.html" target="" name="om_slideshow_img4" class="lnid-sec2_lnk4"><img class="http://i.huffpost.com/gen/518708/thumbs/s-OBAMA-STREEP-large300.jpg" src="http://o.aolcdn.com/js/x.gif" alt="Obama Streep"/></a>
+                <h3><a href="http://www.huffingtonpost.com/2012/03/01/obama-oscars-election-predictions_n_1314552.html" name="om_slideshow_lnk4" target="" class="lnid-sec3_lnk4">Obama And The Oscars</a></h3>
+            </li>
+        <li class="dn">
+                <a href="http://www.huffingtonpost.com/2012/03/01/kanye-west-shoes-colette_n_1314472.html" target="" name="om_slideshow_img5" class="lnid-sec2_lnk5"><img class="http://i.huffpost.com/gen/518636/thumbs/s-KANYE-WEST-SHOES-large300.jpg" src="http://o.aolcdn.com/js/x.gif" alt="Kanye West Shoes"/></a>
+                <h3><a href="http://www.huffingtonpost.com/2012/03/01/kanye-west-shoes-colette_n_1314472.html" name="om_slideshow_lnk5" target="" class="lnid-sec3_lnk5">Kanye's Shoes Expensive</a></h3>
+            </li>
+        <li class="dn">
+                <a href="http://www.huffingtonpost.com/2012/03/01/jessica-simpson-pregnant-photo-laguna_n_1314388.html" target="" name="om_slideshow_img6" class="lnid-sec2_lnk6"><img class="http://i.huffpost.com/gen/518649/thumbs/s-JESSICA-SIMPSON-PREGNANT-PHOTO-large300.jpg" src="http://o.aolcdn.com/js/x.gif" alt="Jessica Simpson Pregnant Photo"/></a>
+                <h3><a href="http://www.huffingtonpost.com/2012/03/01/jessica-simpson-pregnant-photo-laguna_n_1314388.html" name="om_slideshow_lnk6" target="" class="lnid-sec3_lnk6">Pregnant Jess In Laguna</a></h3>
+            </li>
+        <li class="dn">
+                <a href="http://www.huffingtonpost.com/2012/03/01/whitney-houston-casket-photo-funeral-home-denies_n_1314282.html" target="" name="om_slideshow_img7" class="lnid-sec2_lnk7"><img class="http://i.huffpost.com/gen/518745/thumbs/s-WHITNEY-HOUSTON-CASKET-PHOTO-large300.jpg" src="http://o.aolcdn.com/js/x.gif" alt="Whitney Houston Casket Photo"/></a>
+                <h3><a href="http://www.huffingtonpost.com/2012/03/01/whitney-houston-casket-photo-funeral-home-denies_n_1314282.html" name="om_slideshow_lnk7" target="" class="lnid-sec3_lnk7">Funeral Home Denies Leak</a></h3>
+            </li>
+        <li class="dn">
+                <a href="http://www.huffingtonpost.com/2012/03/01/florence-welch-parties-post-nme-awards_n_1314240.html" target="" name="om_slideshow_img8" class="lnid-sec2_lnk8"><img class="http://i.huffpost.com/gen/518620/thumbs/s-FLORENCE-WELCH-PARTIES-POSTNME-AWARDS-large300.jpg" src="http://o.aolcdn.com/js/x.gif" alt="Florence Welch Parties Postnme Awards"/></a>
+                <h3><a href="http://www.huffingtonpost.com/2012/03/01/florence-welch-parties-post-nme-awards_n_1314240.html" name="om_slideshow_lnk8" target="" class="lnid-sec3_lnk8">Flo Welch Goes Wild </a></h3>
+            </li>
+        <li class="dn">
+                <a href="http://www.huffingtonpost.com/2012/03/01/amber-rose-wiz-khalifa-engaged-ring_n_1313916.html" target="" name="om_slideshow_img9" class="lnid-sec2_lnk9"><img class="http://i.huffpost.com/gen/518867/thumbs/s-AMBER-ROSE-WIZ-KHALIFA-ENGAGED-large300.jpg" src="http://o.aolcdn.com/js/x.gif" alt="Amber Rose Wiz Khalifa Engaged"/></a>
+                <h3><a href="http://www.huffingtonpost.com/2012/03/01/amber-rose-wiz-khalifa-engaged-ring_n_1313916.html" name="om_slideshow_lnk9" target="" class="lnid-sec3_lnk9">Amber Rose Engaged</a></h3>
+            </li>
+        <li class="dn">
+                <a href="http://www.stylelist.com/2012/03/01/chloe-moretz-for-maxmara-_n_1311694.html" target="" name="om_slideshow_img10" class="lnid-sec2_lnk10"><img class="http://i.huffpost.com/gen/517388/thumbs/s-CHLOEMORETZ-large300.jpg" src="http://o.aolcdn.com/js/x.gif" alt="Chloemoretz"/></a>
+                <h3><a href="http://www.stylelist.com/2012/03/01/chloe-moretz-for-maxmara-_n_1311694.html" name="om_slideshow_lnk10" target="" class="lnid-sec3_lnk10">Chloe Moretz's Crushes</a></h3>
+            </li>
+        </ul>
+    <a href="#" id="slideshowprev" name="om_slideshow_prev" class="prev lnid-sec4_lnk1" title="Previous">Previous</a>
+    <a href="#" id="slideshownext" name="om_slideshow_next" class="next lnid-sec4_lnk2" title="Next">Next</a>
+    <div class="paginate_wrap">
+        <div class="paginate">
+            <div class="paginate_inner">
+                <a href="#" name="om_slideshow_page1" class="lnid-sec5_lnk1 page1 sel" title="Image 1">Image 1</a>
+                <a href="#" name="om_slideshow_page2" class="lnid-sec5_lnk2 page2" title="Image 2">Image 2</a>
+                <a href="#" name="om_slideshow_page3" class="lnid-sec5_lnk3 page3" title="Image 3">Image 3</a>
+                <a href="#" name="om_slideshow_page4" class="lnid-sec5_lnk4 page4" title="Image 4">Image 4</a>
+                <a href="#" name="om_slideshow_page5" class="lnid-sec5_lnk5 page5" title="Image 5">Image 5</a>
+                <a href="#" name="om_slideshow_page6" class="lnid-sec5_lnk6 page6" title="Image 6">Image 6</a>
+                <a href="#" name="om_slideshow_page7" class="lnid-sec5_lnk7 page7" title="Image 7">Image 7</a>
+                <a href="#" name="om_slideshow_page8" class="lnid-sec5_lnk8 page8" title="Image 8">Image 8</a>
+                <a href="#" name="om_slideshow_page9" class="lnid-sec5_lnk9 page9" title="Image 9">Image 9</a>
+                <a href="#" name="om_slideshow_page10" class="lnid-sec5_lnk10 page10" title="Image 10">Image 10</a>
+                </div>
+        </div>
+    </div>
+    </div>
+        </div></div>
+                <div class="mpid-4">
+                        <div id="newsletter" class="gmod newsletterModule mnid-newsletter plid-130794 " >
+    <h2 class="newsletter_header">AOL Today Newsletter</h2>
+     <form action="ajax.jsp" method="get" class="newsletterform" action="#newsletter">
+	   <input type="hidden" name="list" value="AOL" class="listName"/>
+           <input type="hidden" name="welcome" value="" class="welcomeTemplate"/>
+	   <input name="email" class="nlEmail" type="text" value="Enter Your Email to Sign Up"/>
+	   <a class="lnid-sec2_lnk1 nlSubmit" name="om_newsletter_submit" >Submit</a>
+	   </form>
+	
+</div></div>
+                <div class="mpid-5">
+                        <div class="trend-v2"><div id="aol-trendingstories" class="gmod plid-136425 mnid-trending-stories">
+    <h2>
+        Most Popular</h2>
+
+    <div class="ctnt">
+            <div class="mnid-trending-stories-feed plid-136443">
+            <div class="story">
+                        <a href="http://www.engadget.com/2012/02/29/mini-quadrotors-play-bond-james-bond-video/" name="om_trending-stories_img_1" class="lnid-sec1_lnk1 storyimg"><img src="http://www.blogcdn.com/www.engadget.com/media/2012/02/quadcopters-bond-theme-piano_97x75.jpg" class="img97x75" alt=""/></a><p><a href="http://www.engadget.com" name="om_trending-stories_attr_1" class="lnid-sec1_lnk3 storyattr">Engadget</a><span class="vertsep">:</span> <a href="http://www.engadget.com/2012/02/29/mini-quadrotors-play-bond-james-bond-video/" name="om_trending-stories_link_1" class="lnid-sec1_lnk2 storytxt">Mini quadrotors play Bond, James Bond (video)</a></p>
+                        <span class="fcb"></span>
+                    </div>
+                    <div class="story">
+                        <a href="http://www.huffingtonpost.com/2012/03/01/rush-limbaugh-sandra-fluke_n_1313891.html" name="om_trending-stories_img_2" class="lnid-sec2_lnk1 storyimg"><img src="http://i.huffpost.com/gen/518452/thumbs/s-RUSH-LIMBAUGH-SANDRA-FLUKE-97x75.jpg" class="img97x75" alt="RUSH LIMBAUGH SANDRA FLUKE"/></a><p><a href="http://www.huffingtonpost.com/politics/" name="om_trending-stories_attr_2" class="lnid-sec2_lnk3 storyattr">Politics</a><span class="vertsep">:</span> <a href="http://www.huffingtonpost.com/2012/03/01/rush-limbaugh-sandra-fluke_n_1313891.html" name="om_trending-stories_link_2" class="lnid-sec2_lnk2 storytxt">Rush Limbaugh: I'll Buy Georgetown Women 'As Much Aspirin To Put Between Their Knees As They Want'</a></p>
+                        <span class="fcb"></span>
+                    </div>
+                    <div class="story">
+                        <a href="http://www.dailyfinance.com/2012/02/28/online-travel-sites-dirty-little-secrets/" name="om_trending-stories_img_3" class="lnid-sec3_lnk1 storyimg"><img src="http://www.blogcdn.com/www.dailyfinance.com/media/2012/02/travel-sites-240cs022812_97x75.jpg" class="img97x75" alt="Online travel"/></a><p><a href="http://www.dailyfinance.com" name="om_trending-stories_attr_3" class="lnid-sec3_lnk3 storyattr">Daily Finance</a><span class="vertsep">:</span> <a href="http://www.dailyfinance.com/2012/02/28/online-travel-sites-dirty-little-secrets/" name="om_trending-stories_link_3" class="lnid-sec3_lnk2 storytxt">Online Travel Sites' Dirty Little Secrets</a></p>
+                        <span class="fcb"></span>
+                    </div>
+                    <div class="story">
+                        <a href="http://www.engadget.com/2012/02/29/whole-foods-experimenting-with-kinect-powered-shopping-carts/" name="om_trending-stories_img_4" class="lnid-sec4_lnk1 storyimg"><img src="http://www.blogcdn.com/www.engadget.com/media/2012/02/2-28-2011kinectshoppingcart_97x75.jpg" class="img97x75" alt="Kinect Shopping Cart"/></a><p><a href="http://www.engadget.com" name="om_trending-stories_attr_4" class="lnid-sec4_lnk3 storyattr">Engadget</a><span class="vertsep">:</span> <a href="http://www.engadget.com/2012/02/29/whole-foods-experimenting-with-kinect-powered-shopping-carts/" name="om_trending-stories_link_4" class="lnid-sec4_lnk2 storytxt">Whole Foods experimenting with Kinect-powered shopping carts that are smarter than you (video)</a></p>
+                        <span class="fcb"></span>
+                    </div>
+                    <div class="story last">
+                        <a href="http://www.huffingtonpost.com/2012/02/29/oklahoma-personhood-fetal-personhood-bill_n_1310992.html" name="om_trending-stories_img_5" class="lnid-sec5_lnk1 storyimg"><img src="http://i.huffpost.com/gen/516958/thumbs/s-OKLAHOMA-PERSONHOOD-97x75.jpg" class="img97x75" alt="OKLAHOMA PERSONHOOD"/></a><p><a href="http://www.huffingtonpost.com/politics/" name="om_trending-stories_attr_5" class="lnid-sec5_lnk3 storyattr">Politics</a><span class="vertsep">:</span> <a href="http://www.huffingtonpost.com/2012/02/29/oklahoma-personhood-fetal-personhood-bill_n_1310992.html" name="om_trending-stories_link_5" class="lnid-sec5_lnk2 storytxt">Fetal Personhood Bill Ignites Feminist Movement In Oklahoma</a></p>
+                        <span class="fcb"></span>
+                    </div>
+                    </div>
+    
+    </div>
+
+        <div class="rectip">
+            <a id="trendingstories-ViewMore" class="lnid-sec2_lnk1" name="om_trending-stories_more" href="#">More Stories</a>
+                <b class="corrtip">
+            </b>
+        </div>
+</div>
+<!--
+newsBodySlotName=trending-stories
+-->
+</div></div>
+                <div id="follow-me-module" class="cod mpid-6">
+                                </div>
+                                <div class="mpid-7">
+                        <div id="marketplace" class="gmod mnid-marketplace plid-79370">
+    <h2>Marketplace</h2><div class="mrkplc nb">
+                <div id="fi_139986732" class="di refreshNO"></div>
+            <script type="text/javascript">
+            
+                    htmlAdWH('93317447', '300', '60', 'text', 'fi_139986732');
+                </script>
+
+            </div>
+</div></div>
+                <div class="mpid-8">
+                        <div class="blog-v2"><div id="featblogposts" class="gmod plid-76251 mnid-featured-blog-posts-feed">
+    <h2><a name="om_featured-blog-posts-feed_title" class="lnid-sec1_lnk1" href="http://www.huffingtonpost.com/theblog/index/">Featured Blog Posts</a></h2><div class="entry">
+                <div class="about">
+                    <img class="headshot" alt="Arianna Huffington" src="http://s.huffpost.com/contributors/arianna-huffington/headshot.jpg"/>
+                    <p class="vertical"><a href="http://www.huffingtonpost.com/money" name="om_featured-blog-rss_sec2_vert" class="lnid-sec2_lnk1">MONEY</a></p>
+                                <h3 class="headline"><a href="http://www.huffingtonpost.com/arianna-huffington/announcing-huffpost-money_b_1311863.html" name="om_featured-blog-rss_sec2_hl" class="headline lnid-sec2_lnk2">Making Sense of Dollars and Cents: Announcing HuffPost Money</a></h3>
+                                </div>
+                    <p class="author"><b>Arianna Huffington</b><span class="date">, 3.1.2012</span></p>
+                    <p class="synopsis">I'm delighted to announce the launch of HuffPost Money, a section dedicated to looking at the big financial stories of our time, with an eye on answering the question: how do the day's headlines affect you and your finances? Check it out <a href="http://www.huffingtonpost.com/money/" target="_hplink" class=" lnid-sec1_lnk3">here</a>.</p>
+                        <p class="read"><a href="http://www.huffingtonpost.com/arianna-huffington/announcing-huffpost-money_b_1311863.html" name="om_featured-blog-rss_sec2_read" class="read lnid-sec2_lnk3">Read Post</a> | <a href="http://www.huffingtonpost.com/arianna-huffington/announcing-huffpost-money_b_1311863.html#comments" name="om_featured-blog-rss_sec2_cmnt" class="comments lnid-sec2_lnk4">Comments</a></p>
+                    </div>          
+        <div class="entry last">
+                <div class="about">
+                    <img class="headshot" alt="Paul&#32;Johnson" src="http://s.huffpost.com/contributors/pauljohnson/headshot.jpg"/>
+                    <p class="vertical"><a href="http://www.huffingtonpost.com/comedy" name="om_featured-blog-rss_sec3_vert" class="lnid-sec3_lnk1">COMEDY</a></p>
+                                <h3 class="headline"><a href="http://www.huffingtonpost.com/pauljohnson/rick-santorum-church-state_b_1308690.html" name="om_featured-blog-rss_sec3_hl" class="headline lnid-sec3_lnk2"><i>When Church Met State</i>: A New Romantic Comedy From Rick Santorum</a></h3>
+                                </div>
+                    <p class="author"><b>Paul&#32;Johnson</b><span class="date">, 2.29.2012</span></p>
+                    <p class="about">Humorist; Writer; Would Love to be Invited to Your Party</p>
+                        <p class="synopsis"><a href="http://www.huffingtonpost.com/pauljohnson/rick-santorum-church-state_b_1308690.html" target="_hplink" class=" lnid-sec1_lnk3"><img alt="2012-02-29-Screenshot20120229at8.28.40AM.jpg" src="http://images.huffingtonpost.com/2012-02-29-Screenshot20120229at8.28.40AM.jpg" width="300" height="80" />
+</a></p>
+                        <p class="read"><a href="http://www.huffingtonpost.com/pauljohnson/rick-santorum-church-state_b_1308690.html" name="om_featured-blog-rss_sec3_read" class="read lnid-sec3_lnk3">Read Post</a> | <a href="http://www.huffingtonpost.com/pauljohnson/rick-santorum-church-state_b_1308690.html#comments" name="om_featured-blog-rss_sec3_cmnt" class="comments lnid-sec3_lnk4">Comments</a></p>
+                    </div></div></div></div>
+                <div class="mpid-9">
+                   <img src="http://leadback.advertising.com/adcedge/lb?site=695501&srvc=1&betr=aolcom_cs=1&betq=13668=438747" width="1" height="1" border="0" /> </div>
+            <div class="mpid-10">
+                        <div id="popular-videos-5min-main-wrapper" class="anid-1 gmod plid-128308 mnid-popular-videos-5min-main playlistMod">
+            <h2><a name="om_popular-videos-5min-main_headline" class="lnid-sec0_lnk1" href="http://video.aol.com/">Watch Popular Videos</a></h2>
+            <ul id='popular-videos-5min-main' class='videoPlaylist plist-128121 max-4'>
+                <li id='vod517285962' class='vid '>
+                    <a href="/video/target-pulls-offensive-whitney-houston-greeting-card/517285962/" class="imgLnk lnid-sec1_lnk1" name="om_popular-videos-5min-main_image_1" ><img class="vidThumb"src="http://pthumbnails.5min.com/10345720/517285962_3_140_102.jpg"alt="Target Pulls Offensive Whitney Houston Greeting Card" title="Target Pulls Offensive Whitney Houston Greeting Card" /><div class=" videobutton" style="width:35px; height:35px; left:105px;top:70px;">
+    <img src="http://portal.aolcdn.com/p5/forms/3615/d778d106-94ee-46e5-b206-37410d614fc1.png" alt="Play Video" class="playbutton" title=""/><img src="http://portal.aolcdn.com/p5/forms/3615/1bf21dbc-a38c-479a-a20b-f687cea6587f.png" alt="Play Video" class="playbutton-over" title=""/><div class="vbtext" title=""><table style="width:0px; height:0px;"><tr><td></td></tr></table></div>
+</div>
+
+</a><div class='vidItemDetails'>
+                        <div class='vidTitle'><a href="/video/target-pulls-offensive-whitney-houston-greeting-card/517285962/" name="om_popular-videos-5min-main_title_1" class="lnid-sec1_lnk2" title="Target Pulls Offensive Whitney Houston Greeting Card" >Target Pulls Offensive Whitney Houston...</a></div>
+                        <div class='vidLen'>(0:59)</div>   
+                        <div class='vidChan'><a href="/search/video/?q=Buzz60&source=true" title="Source: Buzz60"  name="om_popular-videos-5min-main_owner_1" class="lnid-sec1_lnk3" >Buzz60</a></div>
+                        </div>
+                </li>
+                <li id='vod517286921' class='vid '>
+                    <a href="/video/idol-gets-standing-ovation/517286921/" class="imgLnk lnid-sec2_lnk1" name="om_popular-videos-5min-main_image_2" ><img class="vidThumb"src="http://pthumbnails.5min.com/10345739/517286921_c_140_102.jpg"alt="Idol Gets Standing Ovation" title="Idol Gets Standing Ovation" /><div class=" videobutton" style="width:35px; height:35px; left:105px;top:70px;">
+    <img src="http://portal.aolcdn.com/p5/forms/3615/d778d106-94ee-46e5-b206-37410d614fc1.png" alt="Play Video" class="playbutton" title=""/><img src="http://portal.aolcdn.com/p5/forms/3615/1bf21dbc-a38c-479a-a20b-f687cea6587f.png" alt="Play Video" class="playbutton-over" title=""/><div class="vbtext" title=""><table style="width:0px; height:0px;"><tr><td></td></tr></table></div>
+</div>
+
+</a><div class='vidItemDetails'>
+                        <div class='vidTitle'><a href="/video/idol-gets-standing-ovation/517286921/" name="om_popular-videos-5min-main_title_2" class="lnid-sec2_lnk2" title="Idol Gets Standing Ovation" >Idol Gets Standing Ovation</a></div>
+                        <div class='vidLen'>(1:20)</div>   
+                        <div class='vidChan'><a href="/search/video/?q=E!&source=true" title="Source: E!"  name="om_popular-videos-5min-main_owner_2" class="lnid-sec2_lnk3" >E!</a></div>
+                        </div>
+                </li>
+                <li id='vod517286193' class='vid '>
+                    <a href="/video/witherspoon-diaz-and-paltrow-team-up/517286193/" class="imgLnk lnid-sec3_lnk1" name="om_popular-videos-5min-main_image_3" ><img class="vidThumb"src="http://pthumbnails.5min.com/10345724/517286193_c_140_102.jpg"alt="Witherspoon, Diaz, and Paltrow Team Up" title="Witherspoon, Diaz, and Paltrow Team Up" /><div class=" videobutton" style="width:35px; height:35px; left:105px;top:70px;">
+    <img src="http://portal.aolcdn.com/p5/forms/3615/d778d106-94ee-46e5-b206-37410d614fc1.png" alt="Play Video" class="playbutton" title=""/><img src="http://portal.aolcdn.com/p5/forms/3615/1bf21dbc-a38c-479a-a20b-f687cea6587f.png" alt="Play Video" class="playbutton-over" title=""/><div class="vbtext" title=""><table style="width:0px; height:0px;"><tr><td></td></tr></table></div>
+</div>
+
+</a><div class='vidItemDetails'>
+                        <div class='vidTitle'><a href="/video/witherspoon-diaz-and-paltrow-team-up/517286193/" name="om_popular-videos-5min-main_title_3" class="lnid-sec3_lnk2" title="Witherspoon, Diaz, and Paltrow Team Up" >Witherspoon, Diaz, and Paltrow Team Up</a></div>
+                        <div class='vidLen'>(0:53)</div>   
+                        <div class='vidChan'><a href="/search/video/?q=SplashNews&source=true" title="Source: SplashNews"  name="om_popular-videos-5min-main_owner_3" class="lnid-sec3_lnk3" >SplashNews</a></div>
+                        </div>
+                </li>
+                <li id='vod517286318' class='vid '>
+                    <a href="/video/bristols-exciting-new-gig/517286318/" class="imgLnk lnid-sec4_lnk1" name="om_popular-videos-5min-main_image_4" ><img class="vidThumb"src="http://pthumbnails.5min.com/10345727/517286318_c_140_102.jpg"alt="Bristol's Exciting New Gig" title="Bristol's Exciting New Gig" /><div class=" videobutton" style="width:35px; height:35px; left:105px;top:70px;">
+    <img src="http://portal.aolcdn.com/p5/forms/3615/d778d106-94ee-46e5-b206-37410d614fc1.png" alt="Play Video" class="playbutton" title=""/><img src="http://portal.aolcdn.com/p5/forms/3615/1bf21dbc-a38c-479a-a20b-f687cea6587f.png" alt="Play Video" class="playbutton-over" title=""/><div class="vbtext" title=""><table style="width:0px; height:0px;"><tr><td></td></tr></table></div>
+</div>
+
+</a><div class='vidItemDetails'>
+                        <div class='vidTitle'><a href="/video/bristols-exciting-new-gig/517286318/" name="om_popular-videos-5min-main_title_4" class="lnid-sec4_lnk2" title="Bristol's Exciting New Gig" >Bristol's Exciting New Gig</a></div>
+                        <div class='vidLen'>(1:06)</div>   
+                        <div class='vidChan'><a href="/search/video/?q=E!&source=true" title="Source: E!"  name="om_popular-videos-5min-main_owner_4" class="lnid-sec4_lnk3" >E!</a></div>
+                        </div>
+                </li>
+                </ul>
+            <span class="view-more"><a name="om_popular-videos-5min-main_more" class="lnid-sec0_lnk2 more" href="http://video.aol.com">More Videos</a></span>
+            </div></div>
+                </div>
+
+        <div id="col5" class="mlid-col5">
+                </div>
+    </div>
+    <div id="aol-footer" class="mlid-footer">
+        <br style="clear:both"><div class="mpid-1">
+                        <div id="brands-footer" class="plid-137554 mnid-featured-brands">
+<h3>Featured AOL Brands<span><a name="om_brandsall" href="http://corp.aol.com/all-brands/">View All Brands</a></span></h3>
+<div id="brands" class="img-http://portal.aolcdn.com/p5/forms/679/33d47a77-3bfd-4baa-88a1-3abaa167d407.png">
+    <span class="mnid-brand-1 plid-79349"><a class="lnid-sec1_lnk1 icid-brandfooter_aolcom brand9" href="http://www.aol.com/" name="om_brands_aolcom">AOL.com</a>
+</span><span class="mnid-brand-2 plid-79346"><a class="lnid-sec1_lnk1 icid-brandfooter_dailyfinance brand11" href="http://www.dailyfinance.com/" name="om_brands_dailyfinance">Daily Finance</a>
+</span><span class="mnid-brand-3 plid-79348"><a class="lnid-sec1_lnk1 icid-brandfooter_engadget brand12" href="http://www.engadget.com/" name="om_brands_engadget">Engadget</a>
+</span><span class="mnid-brand-4 plid-60631"><a class="lnid-sec1_lnk1 icid-brandfooter_techcrunch brand10" href="http://techcrunch.com" name="om_brands_techcrunch">TechCrunch</a>
+</span><span class="mnid-brand-5 plid-120199"><a class="lnid-sec1_lnk1 icid-brandfooter_patch brand38" href="http://www.patch.com/" name="om_brands_patch">Patch</a>
+</span><span class="mnid-brand-6 plid-120214"><a class="lnid-sec1_lnk1 icid-brandfooter_mapquest brand29" href="http://www.mapquest.com/" name="om_brands_mapquest">Mapquest</a>
+</span><span class="mnid-brand-7 plid-79416"><a class="lnid-sec1_lnk1 icid-brandfooter_stylelist brand53" href="http://www.stylelist.com/" name="om_brands_stylelist">Stylelist</a>
+</span><span class="mnid-brand-8 plid-120217"><a class="lnid-sec1_lnk1 icid-brandfooter_moviefone brand32" href="http://www.moviefone.com/" name="om_brands_moviefone">Moviefone</a>
+</span><span class="mnid-brand-9 plid-59533"><a class="lnid-sec1_lnk1 icid-brandfooter_huffingtonpost brand17 last" href="http://www.huffingtonpost.com/" name="om_brands_huffingtonpost">Huffington Post</a>
+</span></div>
+</div></div>
+                <div class="mpid-2">
+                   <div class="plid-139876 mnid-aol-footer-link">
+<div id="aol-footer-logo" title="Aol." class=''><img src="http://portal.aolcdn.com/p5/_v65.9/css/maing.png" alt="Aol."/></div>
+<div class="footer-links-row1" id="om_footer_row1_">
+        <a class="feedbackLink lnid-sec1_lnk1" href="http://feedback.aol.com/help/aolcomt6/?icid=hffooterlink">Send Us Your Feedback</a> | <a href="http://help.aol.com/" class=" lnid-sec1_lnk2">Help</a> | <a class="ncid-txtlnkuswebr00000105 lnid-sec1_lnk3" href="https://new.aol.com/productsweb/?promocode=825346">Get Free Email</a> | <a href="http://daol.aol.com/software/" class=" lnid-sec1_lnk4">AOL Downloads</a></div>
+<div class="footer-links-row2" id="om_footer_row2_">
+        <a href="http://corp.aol.com/" class=" lnid-sec1_lnk5">AOL Inc.</a> | <a href="http://privacy.aol.com/" class=" lnid-sec1_lnk6">Privacy Policy</a> | <a href="http://legal.aol.com/TOS/" class=" lnid-sec1_lnk7">Terms of Service</a> | <a href="http://adinfo.aol.com/about-our-ads/" class=" lnid-sec1_lnk8">About Our Ads</a> | <a href="http://mail.aol.com/" class=" lnid-sec1_lnk9">AOL Mail</a><br/><a href="http://daol.aol.com/main" class=" lnid-sec1_lnk10">Site Map</a> | <a class="makeHomepage url-http://www.aol.com/?mtmhp=txtlnkusaolp00000051&amp;xicid=acm50mtmhpfooter om-mtmhpGreetingIE lnid-sec1_lnk11" href="http://www.aol.com/?molhp=txtlnkusaolp00000051&amp;icid=acm50mtmhpfooter">Make AOL.com My Homepage</a> | <a href="http://browsers.aol.com/utilities/browser_upgrade_redirect.html" class=" lnid-sec1_lnk12">Upgrade Browser</a></div>
+<div class="footer-links-row3" id="om_footer_row3_">
+        <style>
+.blog {background: url("http://o.aolcdn.com/os/aolportal5/logo_redaol_small") no-repeat scroll transparent; display: inline-block; padding-left: 28px; padding-right: 6px;}
+</style>
+<b id="fao"><font color='#000000'>Follow AOL On:   </font><a href="http://bit.ly/btxTZj" class="fb lnid-sec1_lnk9" target="_blank" name="om_followme1">Facebook</a> | <a href=" http://bit.ly/9BAHOm" class="tw lnid-sec1_lnk10" target="_blank" name="om_followme2">Twitter</a> | <a href="http://bit.ly/cCSb2K" class="rss lnid-sec1_lnk11" target="_blank" name="om_followme3">RSS</a> | <a href="http://mobile.aol.com/?icid=homepagefootermobile" class="mb lnid-sec1_lnk12" target="_blank" name="om_followme4">Mobile</a> | <a href="http://blog.aol.com/
+?icid=homepagefooterblog" class="blog  lnid-sec1_lnk13" target="_blank" name="om_followme5">Blog</a></b></div>
+<div id="aol-copyright">
+    
+        &copy; 2012&nbsp; AOL Inc. All Rights Reserved | <a href="http://myaccount.aol.com" name="om_myaccount">My Account</a></div>
+</div>
+</div>
+            <div class="mpid-3">
+                        <div class="mnid-footer-search plid-71870">
+ 
+<form id="aol-footer-search" action="http://search.aol.com/aol/search" method="get" class="search search-3 tabs-0">
+    <input type="hidden" id="footer-ghostText" value=""/>
+    
+    <input type="hidden" id="footer-enabledTerms" name="enabled_terms" value=""/>
+    <input type="hidden" id="footer-s_it" name="s_it" value="comsearch50ct19"/>
+    <input type="hidden" id="footer-s_it_h" value="comsearch50ct19"/>
+    <input type="hidden" id="footer-s_it_r" value="comsearch50qt5"/>
+    <input type="hidden" id="footer-s_it_f" value="comsearch50ct19"/>
+    <input type="hidden" id="footer-s_it_s" value="comsearch50ct19"/>
+    <input type="hidden" id="footer-initSmartSearch" value="false"/>
+    <input type="hidden" id="footer-apiDictionary" value=""/>
+    <input type="hidden" id="footer-initFocus" value="true"/>
+            <input type="hidden" id="footer-preserveGhostText" value=""/>
+    <input type="hidden" id="footer-apiIt" value="comsearch50ct5-ac"/>
+    <input type="hidden" id="footer-apiUrl" value="http://autocomplete.search.aol.com/autocomplete/get"/>
+    <input type="hidden" id="footer-apiCount" value="8"/>
+    <input type="hidden" id="footer-apiQueryParam" value="q"/>
+    <fieldset>
+        <input class="" type="text" value="" id="aol-footer-query" name="q"  maxlength="150" title="Search the Web"/>
+        <input class="om_footer-searchbutton lnid-sec2_lnk1" type="submit" value="Search" id="aol-footer-search-button" onclick="omn.omo('footer-searchbutton');" title="Search"/>
+        
+    </fieldset>
+</form>
+</div></div>
+                </div>
+</div>
+        
+<div class="mpid-1">
+                        <div id="mail_prev_w">
+            <div id="mail_prev" class="plid-53467 mnid-mailpreview">
+            </div>
+        </div></div>
+                <div class="mpid-2">
+                        <div id="cntTimeout" class="dn">7200|7200|Refreshing Content</div>
+<script type="text/javascript">
+var ajaxCacheNum = "cv=4";
+Sonar=function(k){var e=3,c=k||0,j=[],b=0,f=function(){var o,n=j,m,d=n.length,p;for(m=0;m<d;m++){o=n[m];p=o.px||c;if(h.detect(o.obj,p)){o.call(o.obj);n.splice(m,1);m--;d--;if(n.length===0){if(i.removeEventListener){i.removeEventListener("scroll",f,false);i.removeEventListener("resize",f,false);}else{if(i.detachEvent){i.detachEvent("onscroll",f);i.detachEvent("onresize",f)}}b=0}}}},g=document,i=window,a,h={detect:function(n,d){try{a=a||(a=g.body);var q=n,s=0,r=a.offsetHeight,o=i.innerHeight||g.documentElement.clientHeight||a.clientHeight||0,p=g.documentElement.scrollTop||i.pageYOffset||a.scrollTop||0,l=n.offsetHeight||0,m=d||c;if(!n.__top||n.__bh!=r){try{if(q.offsetParent){do{s+=q.offsetTop}while(q=q.offsetParent)}}catch(e){}n.__top=s;n.__bh=r}return(!(n.__top+l<p-m)&&!(n.__top>p+o+m))}catch(e){}},add:function(d){if(d){if(d.id){d.obj=document.getElementById(d.id)}if(typeof d.obj==="object"&&typeof d.call==="function"){if(h.detect(d.obj,(d.px||c))){d.call(d.obj);return false}else{if(!b){if(i.addEventListener){i.addEventListener("scroll",f,false);i.addEventListener("resize",f,false);}else{if(i.attachEvent){i.attachEvent("onscroll",f);i.attachEvent("onresize",f);}}b=1}j.push(d);return true}}}}};return h},sonar=Sonar();
+</script>
+
+<script type="text/javascript" src="http://portal.aolcdn.com/p5/_v65.9/js/main.js"></script>
+    <script type="text/javascript">
+var origUrl="http%3A%2F%2Fwww.aol.com%2F";
+var ae_url="https://www.aol.com/aimexpress.jsp";
+cookies.set("rrpmo1","rr1~1~1330653165352~0");</script>
+<script type="text/javascript">window.dpcms={};window.dpcms.track={};window.dpcms.track.recordImpr=function(a,b){};</script></div>
+                </body>
+</html>

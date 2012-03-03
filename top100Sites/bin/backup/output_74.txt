@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta name="robots" content="noydir" />
+<meta name="robots" content="noodp" />
+<meta http-equiv="content-language" content="ja" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta name="description" content="アメーバブログ（アメブロ）はブログを簡単に作成できる登録無料のブログサイト。動画や限定公開機能が使え、有名人・芸能人のブログも充実。携帯（モブログ）にも対応。" />
+<meta name="keywords" content="ameba,ブログ,blog,アメーバ,アメブロ,ランキング,無料" />
+<title>Ameba (アメーバ)｜ブログを中心とした登録無料サイト</title>
+<link rel="alternate" media="handheld" href="http://m.ameba.jp/" />
+<link rel="alternate" type="application/rss+xml" title="ROR" href="http://ameblo.jp/ameblo_ror.xml" />
+<link rel="stylesheet" href="http://stat100.ameba.jp/common_style/css/common/common.css" type="text/css" media="screen,print" />
+<link rel="stylesheet" href="http://stat100.ameba.jp/blog/css/blog_top/ameblo_top_20111018.css" type="text/css" media="screen,print" />
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-2855726-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</head>
+
+<body>
+<!-- ClickTale Top part -->
+<script>
+var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+
+<div id="headerArea" class="clearFix">
+<div id="header_logo">
+<a href="http://www.ameba.jp/">
+<img id="logo" alt="Ameba (アメーバ)｜ブログを中心とした登録無料サイト" src="http://stat100.ameba.jp/common_style/img/common/logo_ameba.gif" />
+</a>
+</div><!--header_logo-->
+
+<div id="headerNavigation">
+<ul id="btn">
+<li class="register"><a href="https://user.ameba.jp/regist/registerIntro.do?frmid=1006" onclick="videoPlayerTrackEvent('link_ameblo_top_page','click_register_main');">新規会員登録</a></li>
+<li class="login"><a href="http://link.ameba.jp/66569/" title="マイページへ移動します。" onclick="_gaq.push(['_trackEvent', 'link_ameblo_top_page', 'click_login']);">ログイン</a></li>
+</ul>
+</div><!--headerNavigation//-->
+
+</div><!--headerArea-->
+
+<div id="contentsArea">
+
+<div id="external_videoPlayerArea">
+</div>
+<!--external_videoPlayerArea//-->
+<div id="noFlashPlayerArea">
+
+<div id="registrationArea">
+<h1>無料でカンタン♪ Amebaに会員登録しよう！</h1>
+
+<form id="inputArea" action="https://user.ameba.jp/regist/registerIntro.do" method="post">
+
+<div class="helpBox inputDetail">
+<p>PCまたはスマートフォンで受信可能なメールアドレスを入力してください。</p>
+<p><a href="https://user.ameba.jp/regist/registerIntroMb.do" id="anchorToMobileArea" title="アメーバモバイルのQRコードを表示します。">携帯メールでの登録はこちら&nbsp;&gt;&gt;</a></p>
+</div>
+
+<label for="mailaddress">メールアドレス</label>
+<input type="text" id="mailaddress" class="textInput" value="" size="40" maxlength="255" name="email" />
+<input type="hidden" value="complete" name="toWay" />
+<input type="hidden" value="1006" name="frmid" />
+<input type="submit" title="メール送信して会員登録" value="" id="submitBtn" />
+
+<p class="detailLink">他ブログからの<a href="http://blog.ameba.jp/import/index.html" title="お引越し手続きのページへ移動します。">お引越しはこちら</a></p>
+
+</form>
+
+</div><!--registrationArea//-->
+
+<ul id="notice">
+<li>AmebaモバイルのIDをお持ちの方は、PCでも共通でご利用いただけます。</li>
+<li>Amebaからのメールマガジン／各種お知らせをお送りさせていただきます。（不要な場合は登録後に解除できます。）</li>
+<li>Amebaにおける個人情報の取り扱いは、<a href="http://www.cyberagent.co.jp/privacy/">プライバシーポリシー</a>をご確認ください。</li>
+</ul>
+
+</div><!--noFlashPlayerArea//-->
+
+
+<div id="subContentsArea">
+<div id="about">
+
+<div id="blog">
+<h3>国内NO.1のブログサービス！</h3>
+<ul>
+<li>初心者でもカンタン！</li>
+<li>ケータイ・スマホから更新♪</li>
+<li>かわいいデザイン！</li>
+</ul>
+</div>
+
+<div id="official">
+<h3>国内最大級の芸能人ブログ！</h3>
+<ul>
+<li>芸能人・有名人がたくさん！</li>
+<li>秘密記事も読めちゃう！</li>
+<li>プレゼントも送れるよ！</li>
+</ul>
+</div>
+
+<div id="pigg">
+<h3>CMで話題のピグで遊ぼう！</h3>
+<ul>
+<li>着せ替えやチャットができる！</li>
+<li>ペットも飼える！</li>
+<li>無料ゲームがたくさん！</li>
+</ul>
+</div>
+
+<div id="other">
+<h3>他にも楽しい機能がいっぱい！</h3>
+<ul>
+<li>ミニブログでつぶやこう！</li>
+<li>コミュニティがたくさん！</li>
+<li>動画を投稿 ブログに張り付け！</li>
+</ul>
+</div>
+
+<div id="mobileArea">
+<h3>スマートフォンでもケータイでも、Amebaを楽しもう！</h3>
+<ul>
+<li>無料アプリが続々登場！</li>
+<li>ケータイでも、着せ替え！</li>
+<li>無料ゲームがいっぱい！</li>
+</ul>
+<p>人気のゲームをケータイでチェック！</p>
+</div>
+
+<div id="bottomLinks">
+<p id="pcRegisterBtn"><a href="https://user.ameba.jp/regist/registerIntro.do" title="会員登録のページへ移動します。" onclick="videoPlayerTrackEvent('link_ameblo_top_page','click_register_main');">さっそくAmebaに無料会員登録</a></p>
+<p id="linkMyPage"><a href="http://link.ameba.jp/66569/" title="マイページへ移動します。" onclick="_gaq.push(['_trackEvent', 'link_ameblo_top_page', 'click_login']);">会員の方はこちら >></a></p>
+</div>
+
+</div><!--about-->
+</div><!--subContentsArea-->
+
+</div><!--ContentsArea-->
+
+<!--footerArea-->
+<div id="footerArea"><noscript>正常にご覧いただくにはJavaScriptを有効にする必要があります。</noscript></div>
+<script type="text/javascript" src="http://stat.ameba.jp/common_style/js/ameba/common/add_footer.js" charset='utf-8'></script>
+<!--//footerArea-->
+
+<script type="text/javascript" src="http://stat100.ameba.jp/common_style/js/ameba/common/cookie.js"></script>
+<script type="text/javascript" src="http://stat100.ameba.jp/blog/js/blog_top/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="http://stat100.ameba.jp/blog/js/blog_top/textbox_focus.js"></script>
+<script type="text/javascript" src="http://stat100.ameba.jp/blog/js/blog_top/loader.js"></script>
+
+<script type="text/javascript" src="http://stat.ameba.jp/common_style/js/library/swfobject.js"></script>
+<script type="text/javascript">
+window.onunload = function(){};
+
+function videoPlayerTrackEvent(category, action) {
+
+try {
+_gaq.push(['_trackEvent', category, action]);
+}catch(err){}
+
+if(action == "click_video_play"){
+	if(typeof ClickTaleTag=="function") ClickTaleTag("WatchAmebloTopPageVideo");
+}else{
+	if(typeof ClickTaleTag=="function") ClickTaleTag("amebloTopPage");
+}
+
+}
+
+var swfUrl = "http://stat100.ameba.jp/blog/videoplayer/blog_top/swf/videoplayer.swf";
+var so = new SWFObject(swfUrl, "externalVideoPlayer", "900", "326", "9", "#DCEFF0");
+so.addParam("movie", swfUrl);
+so.addParam("allowfullscreen","true");
+so.addParam("allowScriptAccess", "always");
+so.addParam("allownetworking", "all");
+so.addParam("wmode","transparent");
+
+if(so.installedVer.major >= 9){
+so.write("external_videoPlayerArea");
+}else{
+document.getElementById("external_videoPlayerArea").style.display = "none";
+document.getElementById("noFlashPlayerArea").style.display = "block";
+}
+</script>
+</body>
+</html>

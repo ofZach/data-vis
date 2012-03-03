@@ -1,0 +1,247 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="content-script-type" content="text/javascript">
+<meta name="description" content="日本最大級のポータルサイト。検索、オークション、ニュース、メール、コミュニティ、ショッピング、など80以上のサービスを展開。あなたの生活をより豊かにする「ライフ・エンジン」を目指していきます。">
+<title>Yahoo! JAPAN</title>
+<base href="http://www.yahoo.co.jp/_ylh=X3oDMTB2OHNyYWxqBF9TAzIwNzkxODE5OTkEdGlkAzEzBHRtcGwDdGFibGU-/">
+<style type="text/css">
+<!--
+body{word-break:break-all;font:12px/1.22 "Osaka", "ＭＳ Ｐゴシック", Arial, sans-serif;*font-size:small;*font:x-small;}
+table{font-size:inherit;font:100%;}
+pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:99%;}
+h1,h2,h3,h4,h5{font-size:100%;}
+#p{width:350px;}
+a{color:#1d3994;}
+a:visited{color:#941d55;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+-->
+</style>
+<style type="text/css" media="all">
+<!--
+form{margin:0;}
+#p{border:1px solid #7e9db9;}
+-->
+</style>
+</head>
+<body link="#1d3994" vlink="#941d55" leftmargin="0" topmargin="0" marginwidth="1" marginheight="0">
+<center>
+<table width="770" border="0" cellspacing="0" cellpadding="0"><tr><td align="center">
+<table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#c8d4e4"><tr><td>
+<table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#f9fafe"><tr>
+<td width="10%" align="right"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="1"></td>
+<td width="80%" align="center"></td>
+<td width="10%" align="right"><a href="r/mht"><nobr>ヘルプ</nobr></a></td>
+</tr></table>
+</td></tr></table>
+<img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10"><br>
+<table border="0" cellspacing="0" cellpadding="0"><tr><td>
+<img src="http://k.yimg.jp/images/top/sp/cgrade/logo3.gif" alt="" width="770" height="60" border="0" usemap="#Map" widh="770"><map name="Map"><area shape="rect" coords="23,5,77,59" href="r/mbb" alt="Yahoo! BB"><area shape="rect" coords="102,5,156,59" href="r/mauc" alt="オークション"><area shape="rect" coords="181,5,235,59" href="r/mmy" alt="My Yahoo!"><area shape="rect" coords="275,0,498,60" href="r/mlg" alt="Yahoo! JAPAN"><area shape="rect" coords="533,5,587,59" href="r/mtb" alt="ツールバー"><area shape="rect" coords="611,5,666,59" href="r/mshp" alt="ショッピング"><area shape="rect" coords="691,5,745,59" href="r/mkid" alt="きっず"></map>
+</td></tr></table>
+<img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="5"><br>
+<!-- SpaceID=0 robot -->
+<!-- SpaceID=0 robot -->
+<!-- SpaceID=0 robot -->
+<img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="5"><br>
+<table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#9fb6d5">
+<tr><td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#e9eef4">
+<tr><td><table width="100%" border="0" cellspacing="0" cellpadding="10"><tr>
+<td align="center">
+<form name="sf1" action="http://search.yahoo.co.jp/search"><input type="hidden" name="fr" value="top_table"><input type="hidden" name="tid" value="top_table"><input type="hidden" name="ei" value="UTF-8"><table border="0" cellspacing="0" cellpadding="0"><tr><td><table cellpadding="0" cellspacing="0" border="0"><tr><td><input type="text" name="p" id="p" size="20"></td><td><img src="http://k.yimg.jp/images/clear.gif" alt="" width="5" height="1"><input type="image" name="search" src="http://k.yimg.jp/images/top/searchbox/s_w.gif" border="0" alt="ウェブ検索" title="ウェブ検索"></td></tr></table></td></tr><tr><td><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="15"></td></tr><tr><td><input type="image" name="isearch" src="http://k.yimg.jp/images/top/searchbox/s_i.gif" alt="画像" title="画像検索" width="47" height="21" border="0"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="5" height="1"><input type="image" name="msearch" src="http://k.yimg.jp/images/top/searchbox/s_m.gif" alt="動画" title="動画検索" width="47" height="21" border="0"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="5" height="1"><input type="image" name="bsearch" src="http://k.yimg.jp/images/top/searchbox/s_b.gif" alt="ブログ" title="ブログ検索" width="47" height="21" border="0"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="5" height="1"><input type="image" name="dsearch" src="http://k.yimg.jp/images/top/searchbox/s_d.gif" alt="辞書" title="辞書検索" width="47" height="21" border="0"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="5" height="1"><input type="image" name="ksearch" src="http://k.yimg.jp/images/top/searchbox/s_k.gif" alt="知恵袋" title="知恵袋検索" width="47" height="21" border="0"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="5" height="1"><input type="image" name="csearch" src="http://k.yimg.jp/images/top/searchbox/s_mp.gif" alt="地図" title="地図検索" width="47" height="21" border="0"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="5" height="1"></td></tr></table>
+</form></td></tr></table>
+</td>
+</tr></table></td></tr></table>
+<img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10">
+<table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#ffcc01"><tr><td>
+<table width="100%" border="0" cellpadding="10" cellspacing="0" bgcolor="#fefbc4"><tr><td align="center"><nobr>Yahoo! JAPANトップページの全機能をご利用いただくには、下記の環境が必要となります。</nobr><br>
+Windows：Internet Explorer 6.0以上 / Firefox 3.0以上　Macintosh：Safari 3.x以上<img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="15"></td></tr></table>
+</td></tr></table>
+<img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10"><br>
+
+<a href=s/115337>明日はひな祭り、簡単レシピほかお楽しみ情報</a>
+<img height="11" align="absmiddle" width="28" alt="NEW" src="http://k.yimg.jp/images/new2.gif">
+ -
+<a href=s/115338>業界最安値 ADSL12Mが1,327円</a>
+<img height="11" align="absmiddle" width="28" alt="NEW" src="http://k.yimg.jp/images/new2.gif">
+<br>
+<a href=s/115339>MacBook Airが当たる“スマホ”キャンペーン</a>
+<img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="18"><br>
+<img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10">
+
+<table width="100%" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top">
+<table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#a0b7d6"><tr><td>
+<table width="100%" border="0" cellpadding="4" cellspacing="0" bgcolor="#e9eef4"><tr><td>
+<table width="100%" cellpadding="2" cellspacing="0"><tr><td width="25%" valign="top"><a href="r/c1">ショッピング</a></td><td width="25%" valign="top"><a href="r/c2">オークション</a></td><td width="25%" valign="top"><a href="r/c5">旅行、出張</a></td><td width="25%" valign="top"><a href="r/c12">ニュース</a></td></tr><tr><td valign="top"><a href="r/c13">天気</a></td><td valign="top"><a href="r/c14">スポーツ</a></td><td valign="top"><a href="r/c15">ファイナンス</a></td><td valign="top"><a href="r/c25">テレビ</a></td></tr><tr><td valign="top"><a href="r/c33">地図</a></td><td valign="top"><a href="r/c34">路線</a></td><td valign="top"><a href="r/c41">グルメ</a></td><td valign="top"><a href="r/c73">求人</a></td></tr><tr><td valign="top"><a href="r/c48">不動産</a></td><td valign="top"><a href="r/c37">自動車</a></td><td valign="top"><a href="r/c53">掲示板</a></td><td valign="top"><a href="r/c57">ブログ</a></td></tr><tr><td valign="top"><a href="r/c46">服、ビューティー</a></td><td valign="top"><a href="r/c44">出会い</a></td><td valign="top"><a href="r/c17">映画</a></td><td valign="top"><a href="r/c18">音楽</a></td></tr><tr><td valign="top"><a href="r/c20">ゲーム</a></td><td valign="top"><a href="r/c21">占い</a></td><td valign="top"><a href="r/c26">GyaO!</a></td><td valign="top">&nbsp;</td></tr><tr><td colspan="4" align="right"><strong><a href="r/lst">&gt;&gt;サービス一覧</a></strong></td></tr></table>
+</td></tr></table>
+</td></tr></table>
+<img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#d7e0ff"><tr><td><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="4"><br><img src="http://k.yimg.jp/images/clear.gif" alt="" width="10" height="1"><strong>トピックス</strong><br><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="4"><br></td></tr><tr><td bgcolor="#9fb6d5"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="1"></td></tr></table><table width="100%" cellspacing="10" cellpadding="0"><tr><td><table width="100%" border="0" cellspacing="4" cellpadding="0"><tr><td><font size="-3" color="#666666">10時47分更新</font></td></tr><tr><td>・<a href="f/topics/top_table/1/*-http://dailynews.yahoo.co.jp/fc/domestic/rikuzankai/?1330644341">虚偽報告書 検察は1年前把握</a><img src="http://k.yimg.jp/images/icon/photo.gif" alt="写真"></td></tr><tr><td>・<a href="f/topics/top_table/2/*-http://dailynews.yahoo.co.jp/fc/domestic/securities_exchanges_violation/?1330648015">黒崎播磨社員らを逮捕へ</a></td></tr><tr><td>・<a href="f/topics/top_table/3/*-http://dailynews.yahoo.co.jp/fc/economy/tokyo_electric_power/?1330652864">東電首脳部 若手改革案を一蹴</a><img src="http://k.yimg.jp/images/new2.gif" width="28" height="11" alt="NEW"></td></tr><tr><td>・<a href="f/topics/top_table/4/*-http://dailynews.yahoo.co.jp/fc/economy/employment/?1330649395">完全失業率、2か月ぶり悪化</a></td></tr><tr><td>・<a href="f/topics/top_table/5/*-http://dailynews.yahoo.co.jp/fc/computer/google/?1330652864">ストビューで笑いもの 提訴へ</a><img src="http://k.yimg.jp/images/new2.gif" width="28" height="11" alt="NEW"></td></tr><tr><td>・<a href="f/topics/top_table/6/*-http://dailynews.yahoo.co.jp/fc/sports/giants/?1330650787">巨人の開幕投手に内海が内定</a><img src="http://k.yimg.jp/images/icon/photo.gif" alt="写真"></td></tr><tr><td>・<a href="f/topics/top_table/7/*-http://dailynews.yahoo.co.jp/fc/entertainment/tomoko_nakajima/?1330652864">オセロ中島の母「会いたい」</a><img src="http://k.yimg.jp/images/new2.gif" width="28" height="11" alt="NEW"></td></tr><tr><td>・<a href="f/topics/top_table/8/*-http://dailynews.yahoo.co.jp/fc/entertainment/romance/?1330646741">あやまんのさくらだ熱愛報道</a></td></tr><tr><td><img src="http://k.yimg.jp/images/clear.gif" alt="" width="10" height="20"><a href="f/topics/top_table/11/*-http://backnumber.dailynews.yahoo.co.jp/?t=d&d=20120302&c=top">今日の話題（13件）</a><img src="http://k.yimg.jp/images/clear.gif" alt="" width="40" height="1"><a href="r/ttl">一覧</a></td></tr></table></td><td width="140" valign="top" bgcolor="#e9eef4"><table width="100%" cellspacing="0" cellpadding="10"><tr><td><center><a href="f/topics/top_table/9/*-http://dailynews.yahoo.co.jp/photograph/pickup/?1330650003"><img src="http://news.c.yimg.jp/images/topics/20120302-00000000-jijp-000-thumb.jpg" alt="着物姿で支援に謝意" width:59px;height:90px; border="0"></a></center><a href="f/topics/top_table/10/*-http://dailynews.yahoo.co.jp/photograph/pickup/?1330650003">着物姿で支援に謝意</a><br><font size="-3" color="#666666">3月2日9時4分配信<br>時事通信</font></td></tr></table></td></tr></table><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10">
+<table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#ffecc4">
+<tr>
+<td><img src="http://k.yimg.jp/images/clear.gif" alt="" width="5" height="1"><strong><nobr>特集</nobr></strong></td>
+<td width="80%"><nobr><a href="f/eventbox/13306140001/*-http://doraemon.yahoo.co.jp/">最新映画情報ほか、大人のためのドラえもん特集</a></nobr></td>
+<td><n><a href="r/rev"><nobr>一覧</nobr></a><img src="http://k.yimg.jp/images/clear.gif" alt="" width="5" height="1"></n></td>
+</tr>
+</table>
+<img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10"><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#d7e0ff"><tr><td><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="3"><br><img src="http://k.yimg.jp/images/clear.gif" alt="" width="10" height="1"><strong>おすすめセレクション</strong><br><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="3"><br></td><td align="right"><a href="z/5179_1">Yahoo!ショッピング</a><img src="http://k.yimg.jp/images/clear.gif" alt="" width="10" height="1"></td></tr><tr><td colspan="2" bgcolor="#9fb6d5"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="1"></td></tr></table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><table border="0" cellspacing="10" cellpadding="0">
+<tr>
+<td width="25%">
+<a href="z/5179_2">
+<img src="http://k.yimg.jp/images/shp_edit/recommend/2011/4q/0206_268.jpg" alt="プラダ" width="84" height="84" border="0"></a>
+<br>
+<a href="z/5179_3">プラダから新作の登場です</a>
+</td>
+<td width="25%">
+<a href="z/5179_4">
+<img src="http://k.yimg.jp/images/shp_edit/recommend/2011/3q/1116_228.jpg" alt="トートバッグ" width="84" height="84" border="0"></a>
+<br>
+<a href="z/5179_5">プチプラの人気トート</a>
+</td>
+<td width="25%">
+<a href="z/5179_6">
+<img src="http://k.yimg.jp/images/shp_edit/recommend/2011/4q/0222_403.jpg" alt="TUMI" width="84" height="84" border="0"></a>
+<br>
+<a href="z/5179_7">ビジネスの味方、TUMI</a>
+</td>
+<td width="25%">
+<a href="z/5179_8">
+<img src="http://k.yimg.jp/images/sh/recommend/84_84_2633.jpg" alt="メンズ財布" width="84" height="84" border="0"></a>
+<br>
+<a href="z/5179_9">注目のメンズ格上げ財布</a>
+</td>
+</tr>
+</table></td>
+</tr>
+</table><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10"><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#e9eef4">
+<tr><td><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="3"><br><img src="http://k.yimg.jp/images/clear.gif" alt="" width="10" height="1"><strong>Yahoo! JAPANからのお知らせ </strong><br><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="3"><br></td></tr>
+<tr><td bgcolor="#587190"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="1"></td></tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr>
+<td><table width="100%" border="0" cellspacing="5" cellpadding="0">
+<tr><td><a href=s/115340>新執行体制への移行および代表取締役の異動を決議</a></td></tr>
+<tr><td><a href=s/113342>【社会的な活動】無料の有害サイトフィルターで“スマホ”を安全に</a></td></tr>
+</table></td>
+</tr></table>
+<img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="15"><br>
+</td>
+<td width="10">&nbsp;</td>
+<td width="350" align="left" valign="top">
+<!-- SpaceID=0 robot -->
+<img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10"><br>
+<table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#9fb6d5"><tr><td>
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td>
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td width="10" background="http://k.yimg.jp/images/top/sp/cgrade/pb_bg.gif"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10"></td><td width="330" background="http://k.yimg.jp/images/top/sp/cgrade/pb_bg.gif"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10"></td><td width="10" background="http://k.yimg.jp/images/top/sp/cgrade/pb_bg.gif"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10"></td></tr>
+<tr><td width="10" background="http://k.yimg.jp/images/top/sp/cgrade/pb_bg.gif">&nbsp;</td><td width="330">
+<table width="100%" border="0" cellpadding="2" cellspacing="0" bgcolor="#ffffff">
+<tr><td colspan="2"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="7" height="1"><a href="r/pl1">ログイン</a></td></tr><tr><td><img src="http://k.yimg.jp/images/clear.gif" alt="" width="7" height="1">IDでもっと便利に[ <a href="r/pnr">新規取得</a> ]</td><td align="right"><a href="r/pet"><img src="http://k.yimg.jp/images/top/sp/cgrade/info_btn.gif" alt="登録情報" width="47" height="16" border="0"></a><img src="http://k.yimg.jp/images/clear.gif" alt="" width="7" height="1"></td></tr>
+<tr><td colspan="2"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="5"></td></tr>
+<tr><td><img src="http://k.yimg.jp/images/clear.gif" alt="" width="7" height="1"><strong><a href="r/pmllo"><img src="http://k.yimg.jp/images/top/mail1.gif" alt="Yahoo!メール" width="16" height="16" border="0" align="absmiddle">メール</a></strong> - <strong><a href="r/ppml">メールアドレスを取得</a></strong></td><td align="right"><a href="r/pbk"><img src="http://k.yimg.jp/images/sicons/ybm161.gif" alt="Yahoo!ブックマーク" width="16" height="16" border="0"></a><img src="http://k.yimg.jp/images/clear.gif" alt="" width="10" height="1"><a href="r/pnp"><img src="http://k.yimg.jp/images/sicons/notepad16.gif" alt="Yahoo!ノートパッド" width="16" height="16" border="0"></a><img src="http://k.yimg.jp/images/clear.gif" alt="" width="10" height="1"><a href="r/pbc"><img src="http://k.yimg.jp/images/sicons/briefcase16.gif" alt="Yahoo!ブリーフケース" width="16" height="16" border="0"></a><img src="http://k.yimg.jp/images/clear.gif" alt="" width="7" height="1"></td></tr>
+<tr><td colspan="2"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="7" height="1"><strong><a href="r/pcl"><img src="http://k.yimg.jp/images/top/calender2.gif" alt="Yahoo!カレンダー" width="16" height="16" border="0" align="absmiddle">カレンダー</a></strong> - <strong><a href="r/pclplo">カレンダーを活用</a></strong></td></tr>
+</table>
+</td>
+<td width="10" background="http://k.yimg.jp/images/top/sp/cgrade/pb_bg.gif">&nbsp;</td>
+</tr>
+<tr>
+<td width="10" background="http://k.yimg.jp/images/top/sp/cgrade/pb_bg.gif"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10"></td><td width="330" background="http://k.yimg.jp/images/top/sp/cgrade/pb_bg.gif"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10"></td><td width="10" background="http://k.yimg.jp/images/top/sp/cgrade/pb_bg.gif"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10"></td></tr>
+</table>
+</td></tr>
+<tr><td bgcolor="#ffffff"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="1"></td></tr>
+<tr><td><table width="100%" border="0" cellspacing="0" cellpadding="5">
+<tr><td background="http://k.yimg.jp/images/top/sp/cgrade/pb_bg.gif"><img src="http://k.yimg.jp/images/top/sp/cgrade/icon_point.gif" alt="利用可能ポイントを確認" width="25" height="16" align="top"><a href="r/plpb" title="ポイントを確認">ポイントを確認</a></td></tr>
+<tr><td background="http://k.yimg.jp/images/top/sp/cgrade/pb_bg.gif"><img src="http://k.yimg.jp/images/top/sp/cgrade/icon_login.gif" alt="ログイン履歴を確認" width="25" height="16" align="top"><a href="r/plh1" title="ログイン履歴を確認">ログイン履歴を確認</a></td></tr>
+</table>
+</td></tr>
+</table>
+</td></tr>
+</table>
+<img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10">
+<table cellspacing="0" cellpadding="1" border="0" bgcolor="#9fb7d3" width="100%">
+<tbody><tr><td><table cellspacing="0" cellpadding="5" border="0" background="http://k.yimg.jp/images/top/sp/comp_bg.gif" width="100%">
+<tbody><tr>
+<td><table cellspacing="0" cellpadding="4" border="0" width="100%">
+<tbody><tr>
+<td colspan="2">
+<table cellspacing="0" cellpadding="0" border="0" width="100%"><tbody><tr>
+<td>
+<img height="16" align="top" width="19" alt="Yahoo!プレミアム" src="http://k.yimg.jp/images/top/sp/cgrade/icon_premium.gif"/><strong><a href="r/rpro">Yahoo!プレミアム</a></strong></td>
+<td align="right"><a href=s/115345>韓国ドラマなど動画が見放題</a></td></tr></tbody></table></td></tr>
+<tr><td width="50"><a href=s/115346><img src="http://k.yimg.jp/images/premium/bn/50x50/ytop50_100910.gif" alt="Yahoo!プレミアム"></a></td>
+<td width="272"><a href=s/115347>奥薗さんのおうちごはん簡単レシピ264品</a><br>
+<img height="10" align="absmiddle" width="1" alt="" src="http://k.yimg.jp/images/clear.gif"/><br>
+<a href=s/115348>ポール・スミスほか、ブランドバッグが大集合</a></td>
+</tr></tbody></table></td>
+</tr></tbody></table></td>
+</tr></tbody></table>
+<img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10">
+<table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#c8d4e4">
+<tr>
+<td>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#f9fafe">
+<tr>
+<td valign="top">
+<table width="100%" border="0" cellspacing="5" cellpadding="0">
+<tr><td width="50%" valign="top"><strong><a href="r/lbb">Yahoo! BB</a></strong></td></tr>
+<tr><td valign="top"><a href=s/115351>ADSL 今だけ1,327円</a></td></tr>
+<tr><td valign="top"><a href=s/115352>実質2,000円台から 光</a></td></tr>
+<tr><td valign="top"><strong><a href="r/lbz">ビジネスで活用するなら</a></strong></td></tr>
+<tr><td valign="top"><a href=s/114324>ヤフーの広告 3,000円から</a></td></tr>
+<tr><td valign="top"><a href=s/58148>ヤフーでお店を開く</a></td></tr>
+<tr><td valign="top"><a href=s/115215>無料　Yahoo!ロコに掲載</a></td></tr>
+<tr><td valign="top"><a href=s/113935>Yahoo!カテゴリ登録</a></td></tr>
+</table>
+</td>
+<td valign="top">
+<table width="100%" border="0" cellspacing="5" cellpadding="0">
+<tr><td valign="top"><strong><a href="r/lrn">求人</a></strong></td></tr>
+<tr><td valign="top"><a href="r/lnxt">転職</a><img src="http://k.yimg.jp/images/clear.gif" alt="" width="10" height="1"><a href="r/lhkn">派遣</a><img src="http://k.yimg.jp/images/clear.gif" alt="" width="10" height="1"><a href="r/labt">アルバイト</a></td></tr>
+<tr><td valign="top"><strong><a href="r/mcfp">Yahoo!カテゴリ</a></strong></td></tr>
+<tr><td valign="top"><a href="r/msb">サイトの登録</a></td></tr>
+<tr><td valign="top"><a href="r/myid">無料ID活用</a></td></tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#d7e0ff">
+<tr><td><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="4"><br><img src="http://k.yimg.jp/images/clear.gif" alt="" width="10" height="1"><strong>どこでもYahoo! JAPAN</strong><br><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="4"><br></td></tr>
+<tr><td bgcolor="#9fb6d5"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="1"></td></tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+<tr><td><table width="100%" border="0" cellspacing="0" cellpadding="4">
+<tr><td>・<a href=s/115353>期間限定1巻無料の電子コミックアプリ</a></td></tr>
+<tr><td>・<a href=s/115354>“スマホ”買ったらヤフーを簡単設定</a></td></tr>
+<tr><td>・<a href=s/114652>防水、ワンセグ対応の“スマホ”登場</a></td></tr>
+</table></td></tr></table>
+<img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#eeeeee"><tr><td><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="4"><br><img src="http://k.yimg.jp/images/clear.gif" alt="" width="10" height="1"><strong>おすすめのパートナーサイト情報</strong><br><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="4"><br></td></tr>
+<tr><td bgcolor="#58718f"><img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="1"></td></tr>
+</table>
+<table width="100%" border="0" cellspacing="6" cellpadding="0"><tr><td>
+<table width="100%" border="0" cellspacing="4" cellpadding="0">
+<tr><td>・<a href=s/115325>思わずうなるサラリーマン川柳、傑作100句発表</a></td></tr>
+<tr><td>・<a href=s/115326>教えて、「いちご大福」を電子レンジで簡単に作る方法</a></td></tr>
+</table></td></tr>
+</table>
+<img src="http://k.yimg.jp/images/clear.gif" alt="" width="1" height="10">
+</td>
+</tr>
+</table>
+<hr size="1" color="#cccccc" width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="4">
+<tr><td align="center"><nobr><a href="r/fin">会社概要</a> - <a href="r/fiv">投資家情報</a> - <a href="r/fcsr">社会的責任</a> - <a href="r/fcgi">企業行動憲章</a> - <a href="r/fad">広告掲載について</a> - <a href="r/fhr">採用情報</a></nobr></td></tr>
+<tr><td align="center"><a href="r/ftm">利用規約</a> - <a href="r/fsec">セキュリティーの考え方</a> - <a href="r/fpv">プライバシーポリシー</a> - <a href="r/fdi">免責事項</a></td></tr>
+<tr><td align="center">Copyright (C) 2012 Yahoo Japan Corporation. All Rights Reserved.</td></tr>
+</table>
+</td></tr></table>
+</center>
+</body>
+</html>
+<!-- p03.f11.top.ogk.yahoo.co.jp uncompressed/chunked Fri Mar  2 10:52:44 JST 2012 -->

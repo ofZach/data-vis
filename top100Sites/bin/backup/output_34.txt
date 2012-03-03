@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="Author" content="Apple Inc." />
+	<meta name="viewport" content="width=1024" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
+	<link id="globalheader-stylesheet" rel="stylesheet" href="http://images.apple.com/global/nav/styles/navigation.css" type="text/css" />
+
+	<title>Apple</title>
+	<meta name="omni_page" content="Apple - Index/Tab" />
+	<meta name="Keywords" content="Apple" />
+	<meta name="Description" content="Apple designs and creates iPod and iTunes, Mac laptop and desktop computers, the OS X operating system, and the revolutionary iPhone and iPad." />
+	<link rel="home" href="http://www.apple.com/" />
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://images.apple.com/main/rss/hotnews/hotnews.rss" />
+	<link rel="index" href="http://www.apple.com/sitemap/" />
+	<script src="http://images.apple.com/global/scripts/lib/prototype.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/lib/scriptaculous.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/browserdetect.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/apple_core.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/search_decorator.js" type="text/javascript" charset="utf-8"></script>
+
+	<script src="http://images.apple.com/global/scripts/lib/event_mixins.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/swap_view.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/view_master_tracker.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/ac_media.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="http://images.apple.com/global/styles/ac_media.css" type="text/css" />
+	<link rel="stylesheet" href="http://images.apple.com/global/styles/base.css" type="text/css" />
+	<link rel="stylesheet" href="http://images.apple.com/v/home/h/styles/home.css" type="text/css" />
+	<link rel="stylesheet" href="http://images.apple.com/home/styles/home.css" type="text/css" />
+	<link rel="stylesheet" href="http://images.apple.com/v/home/h/styles/promos.css" type="text/css" />
+	<link rel="stylesheet" href="http://images.apple.com/home/styles/promos.css" type="text/css" />
+	
+
+
+
+	<style type="text/css">
+		/* billboard */
+		#billboard #counter-container {
+			width:978px; height: 609px; margin:0 auto 24px;
+			border: 1px solid #d6d6d6;
+			background: rgb(255,255,255);
+			background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(235,235,235,1)));
+			background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(235,235,235,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ebebeb',GradientType=0 );
+		}
+
+		#billboard #counter-container h1 { margin:0 auto 72px; padding-top:84px; }
+		#billboard #counter-container h2 { margin:72px auto 0; }
+		#billboard #counter-container h1 img,
+		#billboard #counter-container h2 img { display:block; margin:0 auto; }
+		
+		#billboard #counter-promo,
+		#billboard #counter-promo-alt,
+		#billboard #counter-noscript { position:relative; z-index:50; width:978px; height:609px; margin:0; color:#000; font-size:16px; }
+		
+		#billboard #counter-noscript { text-align: center; }
+		
+		#billboard #counter-promo:after,
+		#billboard #counter-promo-alt:after,
+		#billboard #counter-noscript:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+		
+		#billboard #counter-noscript .noscript-counter { margin: 0 auto; }
+		
+		#billboard #counter-promo #downloadCounter { width:889px; margin: 0 auto; overflow:hidden; }
+		#billboard #counter-promo #downloadCounter .digit { float:left; position:relative; height:145px; width:73px; margin-left: 4px; overflow:hidden; }
+		#billboard #counter-promo #downloadCounter .digit .digitText { position:absolute; text-indent:-999em; width:73px; display:none; }
+		#billboard #counter-promo #downloadCounter .digit .digitImage { position:absolute; width:73px; height:17690px; }
+		#billboard #counter-promo #downloadCounter .digit .digitImageElement { width:73px; height:8845px; background:url(http://images.apple.com/home/images/billboard_25b_counter_filmstrip.png) no-repeat 0 0; }
+		#billboard #counter-promo #downloadCounter .digitGroupSeparator { position:relative; text-indent:-999em; float:left; width:14px; height:112px; background:url(http://images.apple.com/home/images/billboard_25b_counter_comma.png) no-repeat 50% 100%; }
+	
+		/* promo */
+		aside #counter-container { position:relative; margin:0 auto 9px; width:234px; height:155px; }
+		aside #counter-container .counter-promo a { width:235px; height:153px; }
+		aside #counter-container .counter-promo div { width:236px; height:155px; }
+		aside #counter-container .counter-promo { position:relative; float:right; width:235px; height:155px; _width:236px; _height:155px; margin-left:1px; *cursor:pointer; }
+		aside #counter-container .counter-promo img { position:absolute; top:1px; left:1px; behavior: url(/global/scripts/lib/iepngfix.htc); _zoom: 1; }
+		aside #counter-container .counter-promo #downloadCounter { width:229px; position:relative; padding:65px 0 0 7px; _padding-top:63px; height:90px; overflow:hidden; }
+		aside #counter-container .counter-promo #downloadCounter .digit { float:left; position:relative; height:38px; width:19px; overflow:hidden; }
+		aside #counter-container .counter-promo #downloadCounter .digit .digitText { position:absolute; text-indent:-5000px; width:19px; display:none; }
+		aside #counter-container .counter-promo #downloadCounter .digit .digitImage { position:absolute; width:19px; height:4636px; }
+		aside #counter-container .counter-promo #downloadCounter .digit .digitImageElement { width:19px; height:2318px; background:url(http://images.apple.com/home/images/promo_25b_counter_filmstrip.png) no-repeat 0 0; }
+		aside #counter-container .counter-promo #downloadCounter .digitGroupSeparator { position:relative; text-indent:-999em; float:left; width:4px; height:52px; background:url(http://images.apple.com/home/images/promo_25b_counter_comma.png) no-repeat 0 27px; }
+		aside #counter-container #counter-noscript img { position:absolute; top:65px; left:9px; }
+		
+		.promos .managed { position:relative; z-index:1; }
+		.promos .managed a { position:absolute; top:0; left:0; width:235px; height:153px; }
+		
+		@media only screen and (max-device-width: 768px) {
+			aside #counter-container .counter-promo #downloadCounter .digit { height:37px; }
+		}
+	</style>
+	
+		<style type="text/css">
+			#billboard #counter-container #counter-promo-alt { height: 609px; background: url("http://images.apple.com/home/images/billboard_25b_thankyou_bg_Yr4p8DedLk7y.jpg") no-repeat; }
+			#billboard #counter-container #counter-promo-alt h1 { width: 666px; margin: 0 auto; padding-top: 27px; }
+		</style>
+	
+	<script src="http://images.apple.com/global/scripts/downloadcounter.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		document.write('<style type="text/css">#counter-container { visibility: hidden }</style>');
+
+		var iPhoneOSVersion = AC.Detector.isMobile() ? AC.Detector.iOSVersion() : null,
+			isCountdownShowing = false,
+			downloadCounter = new DownloadCounter("/autopush/us/itunes/includes/countdown.inc"),
+			maxCount = 24999999990,
+			setup = function() {
+				var currentCount = downloadCounter.currentCount(),
+					counterPromo = $('counter-promo'),
+					counterPromoAlt = $('counter-promo-alt');
+				if (currentCount >= maxCount) {
+					counterPromo.hide();
+					downloadCounter.stop();
+					counterPromoAlt.show();
+				} else {
+					counterPromoAlt.hide();
+					counterPromo.hide();
+					downloadCounter.setElement($('downloadCounter'));
+				}
+				$('counter-container').style.visibility = 'visible';
+			};
+
+		downloadCounter.setMaxCount(maxCount);
+		downloadCounter.setDigitImageAnimationCount(6);
+
+		
+		if ((iPhoneOSVersion && iPhoneOSVersion[0] < 4)) {
+			downloadCounter.setDigitImageHeight(145);
+			document.write('<style type="text/css">#downloadCounter .digit { height:145px; }</style>');
+		} else {	
+			downloadCounter.setDigitImageHeight(145);
+		}
+		
+		downloadCounter.setDelegate({
+			counterDidReachValue: function(downloadCounter, currentCount) {
+				if(currentCount >= maxCount) {
+					downloadCounter.stop();
+					$('counter-promo').remove();
+					new Effect.Appear('counter-promo-alt', {duration:0.8});
+				} else {
+					if(!isCountdownShowing && !isNaN(downloadCounter.currentCount())){
+						$('counter-promo').show();
+						isCountdownShowing = true;
+					}
+				}
+			},
+			didLoadData: function() {
+				Event.onDOMReady(setup.bind(this));
+			}
+		});
+	</script>
+	
+	<script type="text/javascript" src="http://images.apple.com/global/scripts/promomanager.js" charset="utf-8"></script>
+	
+</head>
+<body id="home" class="home">
+	<script type="text/javascript">
+	var searchSection = 'global';
+	var searchCountry = 'us';
+</script>
+<script src="http://images.apple.com/global/nav/scripts/globalnav.js" type="text/javascript" charset="utf-8"></script>
+<nav id="globalheader" class="apple">
+	<!--googleoff: all-->
+	<ul id="globalnav" role="navigation">
+		<li id="gn-apple"><a href="/"><span>Apple</span></a></li>
+		<li id="gn-store"><a href="http://store.apple.com/"><span>Store</span></a></li>
+		<li id="gn-mac"><a href="/mac/"><span>Mac</span></a></li>
+		<li id="gn-ipod"><a href="/ipod/"><span>iPod</span></a></li>
+		<li id="gn-iphone"><a href="/iphone/"><span>iPhone</span></a></li>
+		<li id="gn-ipad"><a href="/ipad/"><span>iPad</span></a></li>
+		<li id="gn-itunes"><a href="/itunes/"><span>iTunes</span></a></li>
+		<li id="gn-support" class="gn-last"><a href="/support/"><span>Support</span></a></li>
+	</ul>
+	<!--googleon: all-->
+	<div id="globalsearch">
+		<form action="/search/" method="post" class="search" id="g-search"><div class="sp-label">
+			<label for="sp-searchtext">Search</label>
+			<input type="text" name="q" id="sp-searchtext" accesskey="s" />
+		</div></form>
+		<div id="sp-magnify"><div class="magnify-searchmode"></div><div class="magnify"></div></div>
+		<div id="sp-results"></div>
+	</div>
+</nav>
+<script type="text/javascript">
+	AC.GlobalNav.Instance = new AC.GlobalNav();
+</script>
+
+	<div id="top">
+<!-- SiteCatalyst code version: H.8. Copyright 1997-2006 Omniture, Inc. -->
+
+
+	
+
+
+
+
+	
+
+
+<script type="text/javascript">
+/* RSID: */
+
+var s_account="appleglobal,applehome"
+
+</script>
+
+
+<script type="text/javascript" src="https://www.apple.com/metrics/scripts/s_code_h.js"></script>
+
+
+<script type="text/javascript">
+
+s.pageName=AC.Tracking.pageName()+" (us)";
+s.channel="www.us.homepage"
+
+
+Event.onDOMReady(function() {
+	function trackNav(link,loc) {
+		link.observe('mousedown',function(){
+			var propURL = null;
+			if(propURL = link.down('img')){
+				propURL = propURL.getAttribute('src');
+				propURL = propURL.substring(propURL.lastIndexOf('/')+1, propURL.length);
+			}
+			if(propURL == null){
+				propURL = link.getAttribute('href');
+			}
+			if (propURL != null) {
+				var prefix=(loc=='hero')?'h@':'p@';
+				AC.Tracking.trackClick({
+					prop3: prefix + propURL + ' - ' + AC.Tracking.pageName()
+				}, this, 'o', prefix + propURL + ' - ' + AC.Tracking.pageName());
+			}
+			
+			//navigation tracking
+			if(AC&&AC.Storage){
+				AC.Storage.setItem('s_nav',loc,'0');
+			}
+		});
+	}
+	$$('#billboard a').each(function(link){
+		trackNav(link,'hero');
+	});
+	$$('.promos a').each(function(link){
+		trackNav(link,'promos');
+	});
+});
+
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)</script>
+<!-- End SiteCatalyst code version: H.8. -->
+</div>
+	<div id="main">
+		
+		<div id="content">
+			<article id="billboard">
+				
+				<div id="counter-container" class="rounded">
+					<a class="block" href="/itunes/25-billion-app-countdown/">
+						<div id="counter-promo" style="display:none">
+							<h1><img src="http://images.apple.com/home/images/billboard_25b_app_headline.png" alt="The App Store is about to hit 25 billion downloads." width="620" height="97" /></h1>
+							<div id="downloadCounter"></div>
+							<h2><img src="http://images.apple.com/home/images/billboard_25b_app_subhead.png" alt="The countdown has started. And someone's going to win." width="710" height="30" /></h2>
+						</div>
+
+						<div id="counter-promo-alt" style="display:none">
+							
+								<h1><img src="http://images.apple.com/home/images/billboard_25b_thankyou_headline_Yr4p8DedLk7y.png" alt="A billion thanks. 25 times over. The App Store has reached 25 billion downloads. Thanks for getting us there." width="650" height="205" /></h1>
+							
+						</div>
+
+						<noscript>
+							<div id="counter-noscript">
+								<h1><img src="http://images.apple.com/home/images/billboard_25b_app_headline.png" alt="The App Store is about to hit 25 billion downloads." width="620" height="97" /></h1>
+								<img class="noscript-counter" src="http://images.apple.com/home/images/billboard_25b_counter_noscript.png" alt="24,953,789,209" width="887" height="138" />
+								<h2><img src="http://images.apple.com/home/images/billboard_25b_app_subhead.png" alt="The countdown has started. And someone's going to win." width="710" height="30" /></h2>
+							</div>
+						</noscript>
+					</a>
+				</div>
+				
+			</article><!--/billboard-->
+
+			<aside class="promos">
+				<ul>
+					<li><a href="/macosx/mountain-lion/"><img src="http://images.apple.com/home/images/promo_mountain_lion_sneak_peek.png" alt="OS X Mountain Lion. Coming this summer. Get a sneak peek." width="231" height="149" /></a></li>
+					<li><a href="/icloud/#tv-ad-harmony"><img src="http://images.apple.com/home/images/promo_icloud_tvspot.png" alt="Watch the new iCloud TV ad." width="231" height="149" /></a></li>
+					<li><a href="/supplierresponsibility/"><img src="http://images.apple.com/home/images/promo_supplier_responsibility.png" alt="Supplier Responsibility. Apple's Supplier Code of Conduct and our 2012 Progress Report" width="231" height="149" /></a></li>
+					<li><a href="/iphone/"><img src="http://images.apple.com/home/images/promo_iphone_4s.png" alt="iPhone 4S. It’s the most amazing iPhone yet." width="231" height="149" /></a></li>
+				</ul>
+			</aside>
+
+			<footer id="homefooter">
+				<div id="links">
+					<p class="left">Shop the <a href="http://store.apple.com/us/">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="/retail/">Apple Retail Store</a>, or find a <a href="/buy/">reseller</a>.</p>
+					<ul class="piped right">
+						<li><a href="/sitemap/" class="first">Site Map</a></li>
+						<li><a href="/hotnews/">Hot News</a></li>
+						<li><a href="/rss/">RSS Feeds</a></li>
+						<li><a href="/pr/">Media Info</a></li>
+						<li><a href="/environment/">Environment</a></li>
+						<li><a href="/jobs/">Job Opportunities</a></li>
+						<li><a href="/contact/">Contact Us</a></li>
+					</ul>
+				</div><!--/links-->
+
+				<div class="sosumi">
+					<p class="copyright">Copyright © 2012 Apple Inc. All rights reserved.</p>
+					<ul class="piped">
+						<li><a href="/legal/" class="first">Terms of Use</a></li>
+						<li><a href="/legal/privacy/">Privacy Policy</a></li>
+					</ul>
+					<div id="worldwide">
+						<a href="/choose-your-country/">
+							<img src="http://images.apple.com/global/elements/flags/22x22/usa.png" alt="United States of America" height="22" width="22" />
+							<span class="more">Choose your country or region</span>
+						</a>
+					</div>
+				</div><!--/sosumi-->
+			</footer><!--/homefooter-->
+		</div><!--/content-->
+	</div><!--/main-->
+
+	<!-- Start of DoubleClick Spotlight Tag: Please do not remove-->
+	<!-- Creation Date:11/19/07 -->
+	<script type="text/javascript">
+		var axel = Math.random()+"";
+		var a = axel * 10000000000000;
+		document.write('<iframe src="http://fls.doubleclick.net/activityi;src=1566767;type=apple663;cat=apple249;ord='+ a + '?" width=1 height=1 frameborder=0><\/iframe>');
+	</script>
+	<noscript>
+	<iframe src="http://fls.doubleclick.net/activityi;src=1566767;type=apple663;cat=apple249;ord=1?" width=1 height=1 frameborder=0></iframe>
+	</noscript>
+	<!-- End of DoubleClick Spotlight Tag: Please do not remove-->
+</body>
+</html>

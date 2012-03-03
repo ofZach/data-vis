@@ -1,0 +1,201 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="ROBOTS" content="NOODP">
+<meta name="Slurp" CONTENT="NOYDIR">
+<meta name="save" content="history"><link rel="shortcut icon" href="http://cdn.nflximg.com/us/icons/nficon.ico"/>
+<meta name="description" content="Watch TV Shows & Movies Online or Streaming to your TV with Xbox, Wii, PS3, iPad & many other devices. For only $7.99 a month. Start your Free Trial now.">
+<meta name="keywords" content="online movies dvds dvd rental rent movie rental, indian hindi hindu comedy foreign documentary gay dvd club total movie access films video chinese japanese russian netflicks net flix net-flicks net flicks netflex netflixs netfilx netflix wwwnetflix.com netflix netflix.com netflicks net flix netflicks www/netflix.com www.netflicks.com Net Flix net-flicks Net Flicks">
+<title>Netflix - Unlimited TV Shows & Movies Online</title>
+
+
+<style type="text/css">
+html {
+	color:#333333;
+	font-family:arial,helvetica,sans-serif;
+	font-size:12px;
+	background-color:#B9090B;
+	margin:0;
+	padding:0;
+}
+body {
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+#main-body, #header {
+	margin:auto;
+	width:950px;
+}
+#page-content {margin:0 20px;padding:20px 0; float:none;background-color:#FFFFFF;}
+.main-body {
+	background-color:#FFFFFF;
+	text-align:left;
+}
+.main-body .main-content {
+	padding:15px 0pt 0pt;
+	margin-left:0;
+}
+
+.subhead {
+	color:#565656;
+	font-size:18px;
+	font-weight:normal;
+	letter-spacing:1px;
+	margin-bottom:13px;
+	text-align:left;
+}
+
+h4 {
+	font-size:16px;
+}
+
+h4.sect_head {
+	margin-bottom:0;
+}
+p.copy {
+	margin-top:0;
+}
+ol {
+	padding:0;
+	list-style-position: inside;
+}
+ol li {
+	padding:2px 0;
+}
+
+.fivestep {margin-left:-20px;}
+
+</style>
+
+</head>
+<body>
+<div class="header" id="header">
+	<style>
+	#logo-area {background-color:#B9090B; background-image:url(http://cdn.nflximg.com/us/layout/signup/home/netflix-logo-big2.gif); background-repeat : no-repeat;}
+	</style>
+
+	<div class="logo-area" id="logo-area">
+		<div style="text-align:left;"><div style="height:70px;width:190px;"><a href="http://www.netflix.com/"><div style="height:70px; width: 190px;" title="Netflix"></div></a></div></div>
+	</div>
+</div>
+
+<div class="main-body" id="main-body">
+
+	<div class="main-content" id="main-content">
+		<div class="page-content" id="page-content">
+
+			<img src="http://cdn.nflximg.com/us/pages/entryTrap/whoops.gif" height="21" width="724"  vspace="2"/>
+
+			<h4 class="sect_head">What is a cookie?</h4>
+			<p class="copy">
+				A cookie is a block of text that a website sends to your Internet browser
+				(such as Internet Explorer, Safari or Firefox). To start your free trial and be
+				able to add movies to your Queue (movie list), you need to turn on cookies for
+				 your browser. To turn on the cookies for your internet browser, we suggest you
+				 follow the steps in your browser's help section, options or preferences selections now.
+				 Or you can just select a link below.
+			</p>
+			<p>
+                <a href="http://www.netflix.com/Default?lnkctr=entryTrap"><img src="http://cdn.nflximg.com/us/pages/entryTrap/enabled.gif" border="0" height="22" width="203" /></a>
+			</p>
+
+			<h4>Select a link below to find out how to turn on your cookies:</h4>
+			<p><a href="#IE">Internet Explorer</a></p>
+			<p><a href="#FF">Firefox (PC)</a></p>
+			<p><a href="#FFM">Firefox (Mac)</a></p>
+			<p><a href="#SF">Safari (PC)</a></p>
+			<p><a href="#SFM">Safari (Mac)</a></p>
+            <p><a href="#GC">Google Chrome (PC)</a></p>
+            <p><a href="#GCM">Google Chrome (Mac)</a></p>
+
+			<hr />
+
+			<a name="IE"></a>
+			<h4 class="sect_head">Turning on cookies in Internet Explorer:</h4>
+			<ol>
+				<li>Select "Internet Options"  from the "Tools" menu.</li>
+				<li>Click the "Privacy" tab.</li>
+				<li>Click the "Advanced" button.</li>
+				<li>Check the "Override automatic cookie handling" check box.</li>
+				<li>Check the "Accept" check box under "First-party Cookies".</li>
+				<li>Click "OK" on the "Advanced Privacy Settings" window.</li>
+				<li>Click "OK" on the "Internet Options" window.</li>
+			</ol>
+			<a href="#">Back to top</a>
+
+			<a name="FF"></a>
+			<h4 class="sect_head">Turning on cookies in Firefox (PC):</h4>
+			<ol>
+				<li>Select "Options" from the "Tools" menu.</li>
+				<li>Click the "Privacy" icon.</li>
+				<li>Check the "Accept cookies from sites" checkbox under "Cookies" section.</li>
+				<li>Click "OK" on the "Internet Options" window.</li>
+			</ol>
+			<a href="#">Back to top</a>
+
+			<a name="FFM"></a>
+			<h4 class="sect_head">Turning on cookies in Firefox (Mac):</h4>
+			<ol>
+				<li>Select "Preferences" from the "Firefox" menu.</li>
+				<li>Click the "Privacy" icon.</li>
+				<li>Check the "Accept cookies from sites" checkbox.</li>
+				<li>Close the "Preferences" window.</li>
+			</ol>
+			<a href="#">Back to top</a>
+
+			<a name="SF"></a>
+			<h4 class="sect_head">Turning on cookies in Safari (PC):</h4>
+			<ol>
+				<li>Select "Preferences" from the "Edit" menu.</li>
+				<li>Click the "Security" icon.</li>
+				<li>Click the "Always" or "Only from sites I visit" button next to "Accept Cookies".</li>
+				<li>Close the "Preferences" window.</li>
+			</ol>
+			<a href="#">Back to top</a>
+			
+			<a name="SFM"></a>
+			<h4 class="sect_head">Turning on cookies in Safari (Mac):</h4>
+			<ol>
+				<li>Select "Preferences" from the "Safari" menu.</li>
+				<li>Click the "Security" icon.</li>
+				<li>Click the "Always" or "Only from sites I visit" button next to "Accept Cookies".</li>
+				<li>Close the "Preferences" window.</li>
+			</ol>
+
+            <a name="GC"></a>
+            <h4 class="sect_head">Turning on cookies in Google Chrome (PC):</h4>
+            <ol>
+                <li>Select "Options" from the "Google Chrome" menu.</li>
+                <li>Click the "Under the Hood" tab.</li>
+                <li>Click the "Content settings..." button under "Privacy".</li>
+                <li>In "Cookie Settings:", click the "Allow local data to be set (recommended)".</li>
+                <li>Click the "Close" button to close the "Options" window.</li>
+            </ol>
+
+            <a name="GCM"></a>
+            <h4 class="sect_head">Turning on cookies in Google Chrome (Mac):</h4>
+            <ol>
+                <li>Select "Preferences" from the "Google Chrome" menu.</li>
+                <li>Click the "Under the Hood" icon.</li>
+                <li>Click the "Content settings..." button under "Privacy".</li>
+                <li>In "Cookie Settings:", click the "Allow local data to be set (recommended)".</li>
+                <li>Close the "Preferences" window.</li>
+            </ol>
+
+			<a href="#">Back to top</a>
+		</div>
+
+		<div class="clearb" id="clearb"></div>
+
+	</div>
+
+</div>
+
+
+</body></html>

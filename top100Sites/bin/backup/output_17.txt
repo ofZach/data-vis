@@ -1,0 +1,564 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en"><!--
+	generated 70 seconds ago
+	generated in 0.275 seconds
+	served from batcache in 0.003 seconds
+	expires in 230 seconds
+-->
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>WordPress.com &#8212; Get a Free Blog Here</title>
+
+
+	<link rel="alternate" type="application/rss+xml" title="WordPress.com News" href="http://en.blog.wordpress.com/feed/" />
+	<link rel="alternate" type="application/rss+xml" title="WordPress.com Freshly Pressed" href="http://freshlypressed.wordpress.com/feed/" />
+<link rel="alternate" type="text/html" hreflang="es" title="Espa&#241;ol" href="http://es.wordpress.com/" />
+<link rel="alternate" type="text/html" hreflang="de" title="Deutsch" href="http://de.wordpress.com/" />
+<link rel="alternate" type="text/html" hreflang="pt-br" title="Portugu&#234;s do Brasil" href="http://pt-br.wordpress.com/" />
+<link rel="alternate" type="text/html" hreflang="id" title="Bahasa Indonesia" href="http://id.wordpress.com/" />
+<link rel="alternate" type="text/html" hreflang="fr" title="Fran&#231;ais" href="http://fr.wordpress.com/" />
+<link rel="alternate" type="text/html" hreflang="it" title="Italiano" href="http://it.wordpress.com/" />
+<link rel="alternate" type="text/html" hreflang="tr" title="T&#252;rk&#231;e" href="http://tr.wordpress.com/" />
+<link rel="alternate" type="text/html" hreflang="pt" title="Portugu&#234;s" href="http://pt.wordpress.com/" />
+<link rel="alternate" type="text/html" hreflang="nl" title="Nederlands" href="http://nl.wordpress.com/" /><meta xmlns:fb="http://www.facebook.com/2008/fbml" property="fb:page_id" content="134098913979" />
+<meta xmlns:fb="http://www.facebook.com/2008/fbml" property="fb:app_id" content="249643311490" />
+<meta name="msApplication-ID" content="AutomatticInc.WordPress.com"/>
+<meta name="msApplication-PackageFamilyName" content="AutomatticInc.WordPress.com_9ejavqh8rasr8"/>
+<link rel="stylesheet" type="text/css" href="http://s2.wp.com/wp-content/themes/h4/style.css?m=1330041212g&amp;5" media="screen" />
+<!--[if lt IE 7]>
+<link href="http://s2.wp.com/wp-content/themes/h4/ie6.css?m=1347305183g" rel="stylesheet" type="text/css" media="screen" />
+<![endif]-->
+<!--[if lt IE 8]>
+	<style type="text/css" media="screen">#front-page ul#topnav,.loggedin ul#topnav{width:525px}ul#topnav li{display:inline}</style>
+<![endif]-->
+<link rel="search" type="application/opensearchdescription+xml" href="http://en.search.wordpress.com/opensearch.xml" title="WordPress.com" />
+<script type="text/javascript">
+/* <![CDATA[ */
+function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
+/* ]]> */
+</script>
+<link rel="stylesheet" href="http://s0.wp.com/wp-content/themes/h4/global.css?m=1352408494g" type="text/css" />
+<link rel='stylesheet' id='post-reactions-css'  href='http://s2.wp.com/wp-content/mu-plugins/post-flair/style.css?m=1354474399g&#038;ver=3' type='text/css' media='all' />
+<script type='text/javascript' src='http://s0.wp.com/wp-includes/js/jquery/jquery.js?m=1352653157g&#038;ver=1.7.1'></script>
+<script type='text/javascript' src='http://s2.wp.com/wp-content/themes/h4/js/scripts.js?m=1352675550g&#038;ver=3.4-alpha-19904'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var km_data = {"event_name":"viewed homepage"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://s2.wp.com/wp-content/themes/h4/js/kissmetrics.js?m=1354399439g&#038;ver=3.4-alpha-19904'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://wordpress.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/1' />
+<meta property="og:type" content="blog" />
+<meta property="og:title" content="WordPress.com" />
+<meta property="og:url" content="http://wordpress.com" />
+<meta property="og:description" content="Your Blogging Home" />
+<meta property="og:site_name" content="WordPress.com" />
+<meta property="og:image" content="http://0.gravatar.com/blavatar/653166773dc88127bd3afe0b6dfe5ea7?s=300" />
+<link rel='openid.server' href='http://wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='http://wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wordpress.com/osd.xml" title="WordPress.com" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wordpress.com/opensearch.xml" title="WordPress.com" />
+	<style type="text/css">
+	/* <![CDATA[ */
+			/* ]]> */
+	</style>
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://s1.wp.com/i/favicon-stacked.ico?m=1311976024g" sizes="16x16 32x32 48x48" />
+<link rel="shortcut icon" type="image/x-icon" href="http://s2.wp.com/i/favicon.ico?m=1311976024g" sizes="16x16" />
+<link rel="icon" type="image/x-icon" href="http://s2.wp.com/i/favicon.ico?m=1311976024g" sizes="16x16" />
+<link rel="apple-touch-icon-precomposed" type="image/png" href="http://0.gravatar.com/blavatar/653166773dc88127bd3afe0b6dfe5ea7?s=114&#038;d=http%3A%2F%2Fs0.wp.com%2Fi%2Fwebclip.png" sizes="114x114" />
+<style type="text/css">
+#getablog a span {
+	text-decoration: underline;
+}
+</style>
+	<style type="text/css" media="screen">
+		/* mobile */
+			</style>
+	<meta name="application-name" content="WordPress.com" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Your Blogging Home" /><meta name="msapplication-task" content="name=Subscribe;action-uri=http://wordpress.com/feed/;icon-uri=http://0.gravatar.com/blavatar/4e21d703d81809d215ceaabbf07efbc6?s=16" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><script type="text/javascript">
+<!--
+function gotoFunction() { window.location.href =  document.language.languagesel.options[document.language.languagesel.selectedIndex].value; }
+// -->
+</script>
+
+<link rel="fluid-icon" href="http://wordpress.com/wp-content/themes/h4/i/fluidicon.png?m=1326346426g" title="WordPress.com" />
+</head>
+
+<body id="h4home">
+
+
+	<script type="text/javascript" charset="utf-8">
+	var WPCOMDoLoginForm = function() {
+		jQuery( '.login-form' ).each( function() {
+			var lForm = this;
+
+			// init fields
+			if(jQuery('.user-login-input', lForm).val() !== '')
+				jQuery('.userlogin-label span', lForm).hide();
+
+			if(jQuery('.user-pass-input', lForm).val() !=  '')
+				jQuery('.password-label span', lForm).hide();
+
+			// on focus
+			jQuery('.userlogin-label input', lForm).focus(function() {
+				jQuery('.userlogin-label span', lForm).fadeTo(100, 0.5);
+
+				if(jQuery('.user-login-input', lForm).val() !== '')
+				jQuery('.userlogin-label span', lForm).hide();
+
+				if(jQuery('.user-pass-input', lForm).val() !=  '')
+				jQuery('.password-label span', lForm).hide();
+
+			});
+
+			jQuery('.password-label input', lForm).focus(function() {
+				jQuery('.password-label span', lForm).fadeTo(100, 0.5);
+
+				if(jQuery('.user-pass-input', lForm).val() !==  '')
+				jQuery('.password-label span', lForm).hide();
+			});
+
+			//on keydown
+			jQuery('.userlogin-label input', lForm).keydown(function() {
+    				if(jQuery('.userlogin-label span', lForm).is(':visible') )
+    				jQuery('.userlogin-label span', lForm).hide();
+   			});
+
+			jQuery('.password-label input', lForm).keydown(function() {
+				if(jQuery('.password-label span', lForm).is(':visible') )
+				jQuery('.password-label span', lForm).hide();
+			});
+
+			//on click
+			jQuery('.password-label', lForm).click(function() {
+				jQuery('.user-pass-input', lForm).trigger('focus');
+				jQuery('.password-label span', lForm).hide();
+			});
+			jQuery('.userlogin-label', lForm).click(function() {
+				jQuery('.user-login-input', lForm).trigger('focus');
+				jQuery('.userlogin-label span', lForm).hide();
+			});
+
+			//on blur
+			jQuery('.user-login-input', lForm).blur(function() {
+				if( jQuery('.user-login-input', lForm).val() ==  '') {
+					jQuery('.userlogin-label span', lForm).show();
+					jQuery('.userlogin-label span', lForm).fadeTo(100, 1);
+				}
+				if(jQuery('.user-login-input', lForm).val() !== '')
+				jQuery('.userlogin-label span', lForm).hide();
+			});
+			jQuery('.user-pass-input', lForm).blur(function() {
+				if( jQuery('.user-pass-input', lForm).val() ==  '') {
+					jQuery('.password-label span', lForm).show();
+					jQuery('.password-label span', lForm).fadeTo(100, 1);
+				}
+				if(jQuery('.user-pass-input', lForm).val() !==  '')
+				jQuery('.password-label span', lForm).hide();
+			});
+
+		});
+	};
+	jQuery(document).ready(function(){
+		if ( ! ( 'placeholder' in document.createElement( 'input' ) ) ) {
+			jQuery('.user-login-input').before("<span>" + jQuery('.user-login-input').attr('placeholder') + "</span>");
+			jQuery('.user-pass-input').before("<span>" + jQuery('.user-pass-input').attr('placeholder') + "</span>");
+			var loginInputs = jQuery('.user-login-input, .user-pass-input').bind( 'change.wpcomdologin', function() { WPCOMDoLoginForm(); } );
+			setTimeout( function() { loginInputs.unbind( '.wpcomdologin' ); WPCOMDoLoginForm(); }, 200 );
+		}
+	} );
+	</script>
+<!-- google_ad_section_start(weight=ignore) -->
+<div id="adminbar">
+	<form name="loginform" class="login-form" id="adminbarlogin" action="https://en.wordpress.com/wp-login.php" method="post">
+	<label class="login userlogin-label" id="userlogin_label"><input class="adminbar-input user-login-input" type="text" name="log" id="user_login" value="" tabindex="1" placeholder="Email or Username"/></label>
+	<label class="login password-label" id="password_label"><input class="adminbar-input user-pass-input" type="password" name="pwd" id="user_pass" value="" tabindex="2" placeholder="Password" /></label>
+	<input type="hidden" id="testcookie" class="testcookie" name="testcookie" value="0" />
+		<input type="hidden" id="redirect_to" name="redirect_to" value="http://wordpress.com/" />
+	<button class="adminbar-button" type="submit" name="submit" id="login-form" tabindex="4"><span>Log In</span></button>
+	<span class="adminbar-loginmeta"><input name="rememberme" type="checkbox" id="rememberme" value="forever" tabindex="3" checked="checked" />
+	<label for="rememberme">Remember me</label>
+	<a href="http://wordpress.com/wp-login.php?action=lostpassword">Forgot password?</a>
+	<a class="adminbarsignup" href="http://wordpress.com/signup/?ref=wpcomadminbar">Sign Up</a>
+	</span>
+	<script type="text/javascript">
+	<!--
+	document.cookie='TESTCOOKIE=home; expires=Mon, 12 Mar 2012 01:51:34 +0000; path=/';jQuery('.testcookie').val('1');
+	// -->
+	</script>
+	</form>
+	<span id='adminbarsearch-wrap'>
+		<form id="adminbarsearch" name="adminbarsearch" action="http://en.search.wordpress.com/" method="get">
+			<input class='adminbar-search-input' name='q' id='q' type='text' maxlength="150" placeholder="Search WordPress.com Blogs" />
+		</form>
+	</span>
+</div>
+<!-- google_ad_section_end -->
+<div id="wrapper" class="en-wrapper">
+
+
+	<div id="lang-guess-wrap"></div>
+
+<div onclick="hideLogos();" class="core_shade" id="core_shade" style="display: none;"></div>
+<div class="pagebody">
+	<div id="header">
+    	<div class="core_logo"><h1 class="logo" style="cursor: pointer;" onclick="location.href='http://wordpress.com/fresh'">WordPress.com</h1></div>
+        <div style="display: none;" id="logo-popup">
+            <a class="logo-popup-close" onclick="hideLogos(); return false;" href="#">&times;</a>
+            <div class="logo-popup-header">
+			<h3>Looking for the WordPress.com logo?</h3>
+			<p class="description">Here are a few to choose from:</p>
+            </div>
+            <ul class="logo-popup-column">
+                <li>
+                    <div class="sample vert"></div>
+                    <ul>
+						<li><a href="http://s.wp.com/wp-content/themes/h4/i/logo-v-cmyk.pdf" target="_blank">Vertical Logo PDF</a> <span>(print)</span></li>
+						<li><a href="http://s.wp.com/wp-content/themes/h4/i/logo-v-rgb.png?m=1308937830g" target="_blank">Vertical Logo PNG</a> <span>(web)</span></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="logo-popup-column">
+                <li>
+                    <div class="sample hoz"></div>
+                    <ul>
+					<li><a href="http://s.wp.com/wp-content/themes/h4/i/logo-h-cmyk.pdf" target="_blank">Horizontal Logo PDF</a> <span>(print)</span></li>
+					<li><a href="http://s.wp.com/wp-content/themes/h4/i/logo-h-rgb.png?m=1308937830g" target="_blank">Horizontal Logo PNG</a> <span>(web)</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- END logo-popup -->
+    <script>
+    	function hideLogos () {
+			jQuery("#core_shade").hide();
+			jQuery("#logo-popup").hide();
+		}
+		function showLogos () {
+			var totalHeight = jQuery(document).height();
+			jQuery("#logo-popup").slideDown("fast");
+			jQuery("#core_shade").css("height", totalHeight + "px").show();
+		}
+		// When the DOM is ready
+		jQuery(document).ready(function () {
+			// Hack to get IE to behave
+			jQuery(".core_logo").bind('contextmenu',function(e){
+				e.returnValue= false;
+				return false;
+			}).bind('mousedown contextmenu',function(e){ // Capture right click
+				// Add new right click functionality
+				if(e.button === 2){ // 2 = Right click
+					setTimeout(function () {
+						showLogos();
+					}, 300);
+					// Disable regular context menu on logo
+					e.preventDefault();
+				}
+			});
+		});
+    </script>
+			<form id="language" name="language" action="">
+		<label for="language-select">Language:</label>
+		<select id="language-select" name="languagesel" onchange="gotoFunction();">
+			<option value="http://wordpress.com/">English</option>
+			<option value='http://es.wordpress.com/' >Espa&#241;ol</option><option value='http://de.wordpress.com/' >Deutsch</option><option value='http://pt-br.wordpress.com/' >Portugu&#234;s do Brasil</option><option value='http://id.wordpress.com/' >Bahasa Indonesia</option><option value='http://fr.wordpress.com/' >Fran&#231;ais</option><option value='http://it.wordpress.com/' >Italiano</option><option value='http://tr.wordpress.com/' >T&#252;rk&#231;e</option><option value='http://pt.wordpress.com/' >Portugu&#234;s</option><option value='http://nl.wordpress.com/' >Nederlands</option>			<option value="/languages/">More Languages</option>
+		</select>
+	</form>
+	</div>
+	
+					<div class="signupsidebar">
+			<h2>A better way to&nbsp;blog.</h2>
+			<a class="bigassbutton" href="/signup/?ref=bigassorangeonleft"><span>Get started here</span></a>
+			<p class="call">
+				<a href="http://wordpress.com/features">Learn more</a> or <a class="signuptxt" href="/signup/?ref=bottomtext">sign up now.</a></p>
+		</div>
+			
+
+	<div id="home-tabs">
+
+		
+					<div id="editorpicks" class="homediv current loaded">
+					<div id="fp-1" class="fp-page">
+	<div class="editorrow first">
+		<div class="title"><span class="story"><span class="freshly">Freshly Pressed:</span>
+		<span class="thebestof">The best of <strong>473,134</strong> bloggers, <strong>1,001,900</strong> new posts, <strong>1,231,795</strong> comments, <span class="amp">&amp;</span> <strong>206,827,836</strong> words posted today on WordPress.com.</span></span></div>
+		<div class="pick"><div class="leftnum"></div><a href="http://alternate-takes.com/2012/03/01/black-radio-pianist-robert-glasper-turns-it-up/" class="story"><span class="picture" id="picture_13483225_2369" style="height: 82px; width: 222px; overflow: hidden; margin-bottom: 5px; display: block; background-image: url('http://s2.wp.com/imgpress?w=222&#038;url=http%3A%2F%2Falternatetakesblog.files.wordpress.com%2F2012%2F03%2Frobertglasper3bymikeschreiber.jpg'); background-repeat: no-repeat; background-position: 0 -30px;"></span><span class="posttitle">Black Radio: Pianist Robert Glasper Turns It Up </span><small>ALTERNATE TAKES</small></a></div><div class="pick"><div class="leftnum"></div><a href="http://georgejessielove.wordpress.com/2012/02/29/best-days-of-my-life/" class="story"><span class="picture" id="picture_32292553_277" style="height: 82px; width: 222px; overflow: hidden; margin-bottom: 5px; display: block; background-image: url('http://s1.wp.com/mshots/v1/http%3A%2F%2Fgeorgejessielove.wordpress.com%2F2012%2F02%2F29%2Fbest-days-of-my-life%2F?w=222'); background-repeat: no-repeat; background-position: 0 0px;"></span><span class="posttitle">Best days of my life? </span><small>George. Jessie. Love.</small></a><a href="http://en.wordpress.com/tag/parenting/" class="tagazine">Posts about Parenting →</a></div></div><div class="editorrow"><div class="pick"><div class="leftnum"></div><a href="http://jacobbmurphy.wordpress.com/2012/02/28/the-hustle-and-bustle-of-jaipur/" class="story"><span class="picture" id="picture_9849196_2084" style="height: 82px; width: 222px; overflow: hidden; margin-bottom: 5px; display: block; background-image: url('http://s2.wp.com/imgpress?w=222&#038;url=http%3A%2F%2Fjacobbmurphy.files.wordpress.com%2F2012%2F02%2Fjbm_0004.jpeg'); background-repeat: no-repeat; background-position: 0 -10px;"></span><span class="posttitle">The Hustle and Bustle of Jaipur </span><small>jacob murphy&#039;s photoblog</small></a><a href="http://en.wordpress.com/tag/pictures/" class="tagazine">Posts about Pictures →</a></div><div class="pick"><div class="leftnum"></div><a href="http://eggton.com/2012/02/25/even-journey-sings-journey-in-the-shower/" class="story"><span class="picture" id="picture_27621348_4182" style="height: 82px; width: 222px; overflow: hidden; margin-bottom: 5px; display: block; background-image: url('http://s2.wp.com/imgpress?w=222&#038;url=http%3A%2F%2Feggton.files.wordpress.com%2F2012%2F02%2Fstrawberry-cake.jpg'); background-repeat: no-repeat; background-position: 0 -20px;"></span><span class="posttitle">Even Journey Sings Journey In The Shower </span><small>eggton</small></a><a href="http://en.wordpress.com/tag/love/" class="tagazine">Posts about Love →</a></div><div class="pick"><div class="leftnum"></div><a href="http://shebicycles.com/2012/02/28/utilitaire-9-history-lesson/" class="story"><span class="picture" id="picture_7491000_3167" style="height: 82px; width: 222px; overflow: hidden; margin-bottom: 5px; display: block; background-image: url('http://s2.wp.com/imgpress?w=222&#038;url=http%3A%2F%2Fshebicycles.files.wordpress.com%2F2012%2F02%2Fmcheadrick.jpg'); background-repeat: no-repeat; background-position: 0 -20px;"></span><span class="posttitle">History Lesson </span><small>shebicycles</small></a></div></div><div class="editorrow"><div class="pick"><div class="leftnum"></div><a href="http://charliederry.com/2012/02/27/chronicle-film-review/" class="story"><span class="picture" id="picture_13232074_8485" style="height: 82px; width: 222px; overflow: hidden; margin-bottom: 5px; display: block; background-image: url('http://s1.wp.com/imgpress?w=222&#038;url=http%3A%2F%2Fcdn.mos.totalfilm.com%2Fimages%2Fc%2Fchronicle-gets-a-cool-new-poster-74965-01-470-75.jpg'); background-repeat: no-repeat; background-position: 0 -150px;"></span><span class="posttitle">Chronicle &#8211; Film Review </span><small>Charlie Derry</small></a></div><div class="pick"><div class="leftnum"></div><a href="http://randomthoughtsfrommidlife.wordpress.com/2012/03/01/welcome-march-oh-month-who-brings-sweet-spring/" class="story"><span class="picture" id="picture_19340001_5478" style="height: 82px; width: 222px; overflow: hidden; margin-bottom: 5px; display: block; background-image: url('http://s2.wp.com/imgpress?w=222&#038;url=http%3A%2F%2Frandomthoughtsfrommidlife.files.wordpress.com%2F2012%2F03%2F03-lenten_rose-2012-03-01.jpg'); background-repeat: no-repeat; background-position: 0 -50px;"></span><span class="posttitle">Welcome March, oh month who brings sweet spring! </span><small>Christine M Grote</small></a><a href="http://en.wordpress.com/tag/photos/" class="tagazine">Posts about Photos →</a></div><div class="pick"><div class="leftnum"></div><a href="http://dianefoug.com/2012/02/28/almost-threw-it-into-the-creek/" class="story"><span class="picture" id="picture_4151_489" style="height: 82px; width: 222px; overflow: hidden; margin-bottom: 5px; display: block; background-image: url('http://s1.wp.com/imgpress?w=222&#038;url=http%3A%2F%2Fdfoug.files.wordpress.com%2F2012%2F02%2Ftubes1.jpg'); background-repeat: no-repeat; background-position: 0 -50px;"></span><span class="posttitle">Almost Threw It into the Creek </span><small>Diane Foug</small></a><a href="http://en.wordpress.com/tag/art/" class="tagazine">Posts about Art →</a></div></div><div class="editorrow"><div class="pick"><div class="leftnum"></div><a href="http://ericaleestyle.wordpress.com/2012/01/07/bundle-up-with-style/" class="story"><span class="picture" id="picture_29013187_513" style="height: 82px; width: 222px; overflow: hidden; margin-bottom: 5px; display: block; background-image: url('http://s1.wp.com/imgpress?w=222&#038;url=http%3A%2F%2Fericaleestyle.files.wordpress.com%2F2012%2F01%2F2sm.jpg'); background-repeat: no-repeat; background-position: 0 -210px;"></span><span class="posttitle">Bundle Up with Style </span><small>Erica Lee Style</small></a><a href="http://en.wordpress.com/tag/fashion/" class="tagazine">Posts about Fashion →</a></div><div class="pick"><div class="leftnum"></div><a href="http://wildinthepryors.com/2012/02/16/lakota/" class="story"><span class="picture" id="picture_32531017_202" style="height: 82px; width: 222px; overflow: hidden; margin-bottom: 5px; display: block; background-image: url('http://s2.wp.com/imgpress?w=222&#038;url=http%3A%2F%2Fwildinthepryors.files.wordpress.com%2F2012%2F02%2Fkolh-7-11.jpg'); background-repeat: no-repeat; background-position: 0 -40px;"></span><span class="posttitle">Lakota </span><small>Wild in the Pryors</small></a></div><div class="pick"><div class="leftnum"></div><a href="http://trulybogus.com/2012/02/28/27th-annual-mt-baker-legendary-banked-slalom/" class="story"><span class="picture" id="picture_19686813_2234" style="height: 82px; width: 222px; overflow: hidden; margin-bottom: 5px; display: block; background-image: url('http://s2.wp.com/imgpress?w=222&#038;url=http%3A%2F%2Ftrulybogus.files.wordpress.com%2F2012%2F02%2Fp2116027-copy.jpg'); background-repeat: no-repeat; background-position: 0 -30px;"></span><span class="posttitle">27th Annual Mt. Baker Legendary Banked Slalom </span><small></small></a><a href="http://en.wordpress.com/tag/photography/" class="tagazine">Posts about Photography →</a></div></div>
+<script type="text/javascript">
+</script>
+<div style="clear:both;height:0px;width:717px"></div>
+</div>
+
+<div id="fpnav">
+	<a class="earlier" href="?fp=2" >Earlier</a>
+	<a class="later" href="?fp=0" style="display:none">Later</a>
+	<img id="fploading" src="http://s2.wp.com/wp-content/themes/h4/i/w-loader.gif?m=1310658834g" style="display:none" alt="Loading..." />
+</div>
+<script type="text/javascript">
+function setNavClicks(page, earlier_exist) {
+jQuery('div#fpnav a.earlier').unbind('click').click(function(){
+	jQuery("#fploading").fadeIn();
+	jQuery.get('/?load=editorpicks&fp='+(page+1)+'&rand='+Math.random(),
+		function(data) {
+			jQuery("#fploading").fadeOut();
+			jQuery("#fpnav a").unbind('click').click(function(){return false;});
+			var left='#fp-'+page;
+			var right='#fp-'+(page+1);
+			jQuery(data).hide().insertAfter(left);
+			var lheight=jQuery(left).outerHeight(true);
+			var rheight=jQuery(right).outerHeight(true);
+			var eheight1=jQuery('#editorpicks').height();
+			var eheight2=eheight1 - lheight + rheight;
+			jQuery("#editorpicks")
+				.css({'height':eheight1+'px'});
+			jQuery("#fpnav")
+				.css({'position':'absolute'});
+			jQuery("#editorpicks")
+				.animate({'height':eheight2});
+			jQuery(left)
+				.css({'position':'absolute'})
+				.animate({'left':'-717px','opacity':'hide'},
+					function(){jQuery(left).remove();});
+			jQuery(right)
+				.css({'position':'absolute','top':'0px','left':'717px'})
+				.show()
+				.animate({'left':'0px'});
+			if ( page == 1 )
+				jQuery("#fpnav .later").fadeIn();
+		});
+	return false;
+}).attr({'href':'#earlier'});
+jQuery('div#fpnav a.later').unbind('click').click(function(){
+	jQuery("#fploading").fadeIn();
+	jQuery.get('/?load=editorpicks&fp='+(page-1)+'&rand='+Math.random(),
+		function(data) {
+			jQuery("#fploading").fadeOut();
+			jQuery("#fpnav a").unbind('click').click(function(){return false;});
+			var left='#fp-'+(page-1);
+			var right='#fp-'+page;
+			jQuery(data).hide().insertBefore(right);
+			var lheight=jQuery(left).outerHeight(true);
+			var rheight=jQuery(right).outerHeight(true);
+			var eheight1=jQuery('#editorpicks').height();
+			var eheight2=eheight1 - rheight + lheight;
+			jQuery("#editorpicks")
+				.css({'height':eheight1+'px'});
+			jQuery("#fpnav")
+				.css({'position':'absolute'});
+			jQuery("#editorpicks")
+				.animate({'height':eheight2});
+			jQuery(right)
+				.css({'position':'absolute'})
+				.animate({'left':'717px','opacity':'hide'},
+					function(){jQuery(right).empty().remove();});
+			jQuery(left)
+				.css({'position':'absolute','top':'0px','left':'-717px'})
+				.show()
+				.animate({'left':'0px'});
+			if ( page - 1 == 1 )
+				jQuery("#fpnav .later").unbind('click').fadeOut();
+			if ( 'none' == jQuery("#fpnav .earlier").css('display') )
+				jQuery("#fpnav .earlier").fadeIn();
+		});
+	return false;
+}).attr({'href':'#later'});
+jQuery("#editorpicks").css({'border':'none'}); // Inexplicably required by IE.
+if ( 1 != earlier_exist )
+	jQuery("#fpnav .earlier").unbind('click').fadeOut();
+}
+setNavClicks(1, 1);
+</script>
+	</div>						
+		
+	</div> 
+<input type="hidden" id="newdash_nonce" name="newdash_nonce" value="b964153e93" /><input type="hidden" name="_wp_http_referer" value="/" />
+<!-- google_ad_section_start(weight=ignore) -->
+<div id="footer">
+	<div class="c1">
+		<h4>On WordPress.com</h4>
+		<ul>
+			<li><a href="http://en.support.wordpress.com/" title="We&#8217;re here for you">Support</a> &amp; <a href="http://en.forums.wordpress.com/" title="Communicate with your fellow WordPress.com bloggers">Forums</a></li>
+			<li><a href="http://en.wordpress.com/features/" title="A sampling of the many features WordPress.com offers" hreflang="en">Free Features</a></li>
+			<li><a href="http://en.wordpress.com/products/" title="Value-added upgrades available a la carte" hreflang="en">Premium Add-Ons</a></li>
+			<li><a href="http://theme.wordpress.com/" title="Find the perfect theme">Theme Showcase</a></li>
+			<li><a href="http://en.wordpress.com/tags/" title="Current topics and tags" hreflang="en">Popular Tags</a></li>
+			<li><a href="http://wordpress.com/advanced-services" title="Build apps for WordPress.com">Advanced Services</a></li>
+			<li><a href="http://develop.wordpress.com/" title="Build apps for WordPress.com">Developer Resources</a></li>
+		</ul>
+	</div>
+	<div class="c2">
+		<h4>Also cool</h4>
+		<ul>
+			<li><a href="http://support.wordpress.com/apps/" title="Apps for WordPress">WordPress Apps</a></li>
+			<li><a href="http://wordpress.org/" title="Self-hosted, non-profit version">WordPress.org</a></li>
+			<li><a href="http://wordpress.tv/" title="Your visual guide to WordPress">WordPress.tv</a></li>
+			<li><a href="http://vip.wordpress.com/" title="For the best sites in the world" hreflang="en">VIP Services: Support &amp; Hosting</a></li>
+			<li><a href="http://videopress.com/?ref=wpcom_footer" title="VideoPress">Embed Videos on WordPress</a></li>
+			<li><a href="http://surveydaddy.com?ad=wp.com" title="Surveydaddy online survey software">Online Surveys by Surveydaddy</a></li>
+			<li><a href="http://ma.tt/" title="Founder of Automattic, example of what WordPress can do" hreflang="en">Matt Mullenweg</a></li>
+		</ul>
+	</div>
+	<div class="c3">
+<a href="http://iphone.wordpress.org/"><img src="http://s0.wp.com/wp-content/themes/h4/i/footerpromo/ios.png?m=1307725248g&amp;1" alt="WordPress for iOS" width="226" height="181" /></a>	</div>
+	<div class="c4">
+		<h4>From our blog <a class="readmore" href="http://en.blog.wordpress.com/">Read more&#8230;</a></h4>
+				<ul>
+			<li><a href="http://en.blog.wordpress.com/2012/03/01/publish-faster/">A Faster Way to Publish Posts</a></li><li><a href="http://en.blog.wordpress.com/2012/03/01/new-theme-sundance/">New Theme: Sundance</a></li><li><a href="http://en.blog.wordpress.com/2012/02/27/wordpresser-faces-agoraphobia/">WordPresser Documents Her Mission to Overcome Agoraphobia</a></li><li><a href="http://en.blog.wordpress.com/2012/02/14/new-theme-retro-fitted/">New Theme: Retro-fitted</a></li><li><a href="http://en.blog.wordpress.com/2012/02/10/comment-notifications/">Comment Notifications!</a></li>		</ul>
+	</div>
+<p class="automattic">
+	<span class="footerlinks"><a href="http://en.wordpress.com/about/" title="A short introduction to your hosts" hreflang="en">About Us</a> &#8226; <a href="http://en.wordpress.com/tos/" title="Some legalese">Terms of Service</a> &#8226; <a href="http://automattic.com/privacy/" title="We are profoundly disinterested in your private details">Privacy</a> &#8226; <a href="http://www.facebook.com/WordPresscom">Follow us on Facebook</a> &#8226; <a href="http://twitter.com/wordpressdotcom">@wordpressdotcom on Twitter</a></li>
+</span> 
+
+	An <a href="http://automattic.com/"><img src="http://s0.wp.com/wp-content/themes/h4/i/automattic.png?m=1307725249g&amp;1" alt="Automattic" width="102" height="9" /></a> Thingamajig</p>
+</div>
+</div>
+<script type="text/javascript">
+<!--
+addLoadEvent(function(){jQuery('#user_login').focus();});
+// -->
+</script>
+<script type="text/javascript">
+// <![CDATA[
+if (typeof jah != 'function'){
+function jah(url,target) {
+	var rec = null;
+    // native XMLHttpRequest object
+    if (window.XMLHttpRequest) {
+        req = new XMLHttpRequest();
+        req.onreadystatechange = jahDoneFact(req, target);
+        req.open('GET', url, true);
+        req.send(null);
+    // IE/Windows ActiveX version
+    } else if (window.ActiveXObject) {
+        req = new ActiveXObject('Microsoft.XMLHTTP');
+        if (req) {
+            req.onreadystatechange = function() {jahDone(req, target);};
+            req.open('GET', url, true);
+            req.send();
+		}
+	}
+}
+}
+
+if (typeof jahDone != 'function') {
+function jahDone(r, target) {
+    // only if req is "loaded"
+    if (r.readyState == 4) {
+        // only if "OK"
+        if (r.status == 200) {
+            results = r.responseText;
+            document.getElementById(target).innerHTML = results;
+        }
+	}
+}
+}
+
+if (typeof jahDoneFact != 'function') {
+function jahDoneFact(r, t) {
+	return function() {jahDone(r, t);}
+}
+}	jah( '/lang-guess-ajax.php?uri=%2F&forums=0', 'lang-guess-wrap' );
+// ]]>	
+</script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?aa&#038;ver=3.4-alpha-19904'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1352576748g&#038;ver=3.4-alpha-19904'></script>
+
+<script type="text/javascript">
+var _qevents = _qevents || [], wpcomQuantcastData = {"qacct":"p-18-mFEk4J448M","labels":",language.en,type.wpcom,wp.homepage,wp.freshlypressed"};
+function wpcomQuantcastPixel( labels, options ) {
+	var i, defaults = wpcomQuantcastData, data = { event: 'ajax' };
+
+	labels  = labels  || '';
+	options = options || {};
+
+	if ( typeof labels != 'string' )
+		options = labels;
+
+	for ( i in defaults ) {
+		data[i] = defaults[i];
+	}
+
+	for ( i in options ) {
+		data[i] = options[i];
+	}
+
+	if ( data.labels ) {
+		data.labels += ',' + labels;
+	} else {
+		data.labels = labels;
+	}
+
+	_qevents.push( data );
+};
+(function() {var elem = document.createElement('script');elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";elem.async = true;elem.type = "text/javascript";var scpt = document.getElementsByTagName('script')[0];scpt.parentNode.insertBefore(elem, scpt);  })();
+_qevents.push( wpcomQuantcastData );
+</script>
+<noscript><div style="display: none;"><img src="//pixel.quantserve.com/pixel/p-18-mFEk4J448M.gif?labels=%2Clanguage.en%2Ctype.wpcom%2Cwp.homepage%2Cwp.freshlypressed" height="1" width="1" alt="" /></div></noscript>
+
+<script>jQuery(document).ready(function($){ Gravatar.profile_cb = function( h, d ) { WPGroHo.syncProfileData( h, d );	}; Gravatar.my_hash = WPGroHo.my_hash; Gravatar.init( 'body', '#wp-admin-bar-my-account' ); });</script>	<div style="display:none">
+	</div>
+		<style type="text/css">
+			
+				.reblog-from img                   { margin: 0 10px 0 0; vertical-align: middle; padding: 0; border: 0; }
+				.reblogger-note img.avatar         { float: left; padding: 0; border: 0; }
+				.reblogger-note-content            { margin: 0 0 20px 35px; }
+				.reblog-post                       { border-left: 3px solid #eee; padding-left: 15px; }
+				.reblog-post ul.thumb-list         { display: block; list-style: none; margin: 2px 0; padding: 0; clear: both; }
+				.reblog-post ul.thumb-list li      { display: inline; margin: 0; padding: 0 1px; border: 0; }
+				.reblog-post ul.thumb-list li a    { margin: 0; padding: 0; border: 0; }
+				.reblog-post ul.thumb-list li img  { margin: 0; padding: 0; border: 0; }
+				.reblog-post                       { border-left: 3px solid #eee; padding-left: 15px; }
+					</style><link rel='stylesheet' id='tabs_css-css'  href='http://s2.wp.com/wp-content/themes/h4/tabs/tab.css?m=1330433834g&#038;ver=20111219' type='text/css' media='all' />
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>		<script type="text/javascript">
+		jQuery(document).ready( function($) { 
+			if ( $("#homenav").length ) {
+				var qs = window.location.hash.split( '/' );
+
+				if ( 'my-blogs' == qs[1] || jq.query.get('my-blogs') ) wpcom_homedash.click_tab( $( 'li.my-blogs' ) );
+				else if ( 'fresh' == qs[1] || jq.query.get('fresh') ) wpcom_homedash.click_tab( $( 'li.fresh' ) );
+				else if ( 'topics' == qs[1] || jq.query.get('topics') || 'tags' == qs[1] || jq.query.get('tags') ) wpcom_homedash.click_tab( $( 'li.topics' ) );
+				else if ( 'post' == qs[1] || jq.query.get('post') || 'quickpress' == qs[1] || jq.query.get('quickpress') ) wpcom_homedash.click_tab( $( 'li.post' ) );
+				else if ( 'read' == qs[1] || jq.query.get('read') || 'following' == qs[1] || jq.query.get('following') ) wpcom_homedash.click_tab( $( 'li.read' ) );
+				else if ( 'me' == qs[1] || jq.query.get('me') ) wpcom_homedash.click_tab( $( 'li.me' ) );
+
+				else if ( undefined == qs[1] && null != $.cookie('wpcom_active_tab') && $( 'li.' + $.cookie('wpcom_active_tab').replace( ' current', '' ) ).length ) {
+					wpcom_homedash.click_tab( $( 'li.' + $.cookie('wpcom_active_tab') ) );
+				}
+				else {
+					wpcom_homedash.click_tab( $( 'li.fresh' ) );
+				}
+			}
+		});
+		</script><script src="http://s.stats.wordpress.com/w.js?21" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({'blog':'1','v':'wpcom','user_id':'0','subd':'wordpress.com'});
+ex_go({'crypt':'UE5VRnhUZ2VGQSYvTVglSnBOaVR1Jk9bYn5tNmJ+TXolcGJkQ1ouL3Zddko0NmdGQnYsc1JpYix+bUIyLGtOS3duTG1QP1p2ek9xMS0lUHNia3lXVld5b1ZLd3N8R0VGaVtDUSxRPXJ4X3owMmlPWk1GR0ZKJUlbK2N8XTBDR3FUeDM4Kytiek9CfE8yTyxsd11uWng5UXg5b3kzT0ZtYVA1XUt+LkV5Q0RLa0ZaVnw1d01KLStSJmFVcWxEWjQtb0UuN2ZIVzYuQVJjRXE9XV8zR3JjTy11R1hsL190YmppamJ6Wm5sUmUlMDVXfkRqalpQazlScTJ4'});
+addLoadEvent(function(){linktracker_init('1',0);});
+	</script>
+<noscript><img src="http://stats.wordpress.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<!-- google_ad_section_end -->
+</body>
+</html>

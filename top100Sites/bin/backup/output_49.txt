@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Babylon 9 Translation Software and Dictionary Tool</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="The Babylon 9 translation software offers instant full text, full Website and document translation in 75 languages. Trial version available to private and business customers." />
+	<meta name="keywords" content="Translation, Translation software, Translation tool,
+	Dictionary, Dictionary Software, Dictionaries, translate, define, full text translation, machine translation, Glossary, Glossaries, Encyclopedia, Online dictionary, online translation, website translation, languages, definitions, synonyms, synonym, thesaurus
+	" />
+	<meta name="language" content="English" />
+	<link rel="shortcut icon" href="http://img.babylon.com/site/images/babylon-8/common/images/favicon.ico" />
+<script type="text/javascript" src="http://img.babylon.com/site/images/babylon-8/common/Shared/Functions/meta.js"></script>
+<meta name="google-site-verification" content="QVw3rTgm5z82bMGAOvjUsYosei8sb01tvGvzMzJ9I24" />
+	<link rel="stylesheet" type="text/css" href="http://img.babylon.com/site/images/trial/new/trial.css" />
+	<link href="http://img.babylon.com/site/images/babylon9/header/new_header/black.css" type="text/css" rel="stylesheet" />
+	<!--[if IE 7]>
+	 <link href="http://img.babylon.com/site/images/babylon9/header/new_header/IE7.css" rel="stylesheet" type="text/css">
+	<![endif]-->
+</head>
+
+<body>
+	﻿<script type="text/javascript"> function menuHover(el,onout) {
+  if (onout=='on') {
+    el.style.color = '#96c627';el.style.backgroundColor = '#2e3133';
+  }
+  else {
+    el.style.color = '#fff';el.style.backgroundColor = '#393d3f';
+  }
+} </script>
+<div class="black_header">
+<div class="header_leftBlack"></div>
+  <div class="header_midBlack">
+
+    <div class="LogoBlack">
+     <a href="/">
+      <img src="http://img.babylon.com/site/images/babylon9/header/new_header/black_logo.jpg" width="114" height="30" title="Babylon - Simply translate" border="0" />
+     </a>
+    </div>
+    
+    <div class="lb_positionerBlack">
+      <div class="lb_wrap">
+        <div class="lb_currentBlack">
+          <div class="lb_flagCurrentBlack lb_flag eng"></div>
+          English
+        </div>
+      <div class="lb_container lb_2"><ul class="lb_first"><li><a href="http://www.babylon.com/"><div class="lb_flag eng"></div>English</a></li><li><a href="http://deutsch.babylon.com/"><div class="lb_flag ger"></div>German</a></li><li><a href="http://francais.babylon.com/"><div class="lb_flag fre"></div>French</a></li><li><a href="http://espanol.babylon.com/"><div class="lb_flag spa"></div>Spanish</a></li><li><a href="http://italiano.babylon.com/"><div class="lb_flag ita"></div>Italian</a></li><li><a href="http://nederlands.babylon.com/"><div class="lb_flag dut"></div>Dutch</a></li><li><a href="http://portugues.babylon.com/"><div class="lb_flag ptg"></div>Portuguese</a></li><li><a href="http://hebrew.babylon.com/"><div class="lb_flag heb"></div>Hebrew</a></li><li><a href="http://svenska.babylon.com/"><div class="lb_flag swe"></div>Swedish</a></li><li><a href="http://japanese.babylon.com/"><div class="lb_flag jpn"></div>Japanese</a></li></ul><ul class="lb_mid"><li><a href="http://chs.babylon.com/"><div class="lb_flag chs"></div>Chinese(S)</a></li><li><a href="http://chinese.babylon.com/"><div class="lb_flag cht"></div>Chinese(T)</a></li><li><a href="http://russian.babylon.com/"><div class="lb_flag rus"></div>Russian</a></li><li><a href="http://korean.babylon.com/"><div class="lb_flag kor"></div>Korean</a></li><li><a href="http://turkce.babylon.com/"><div class="lb_flag tur"></div>Turkish</a></li><li><a href="http://arabic.babylon.com/"><div class="lb_flag ara"></div>Arabic</a></li><li><a href="http://magyar.babylon.com/"><div class="lb_flag hun"></div>Hungarian</a></li><li><a href="http://norsk.babylon.com/"><div class="lb_flag nor"></div>Norwegian</a></li><li><a href="http://polski.babylon.com/"><div class="lb_flag pol"></div>Polish</a></li><li><a href="http://romana.babylon.com/"><div class="lb_flag rom"></div>Romanian</a></li></ul><ul class="lb_last"><li><a href="http://thai.babylon.com/"><div class="lb_flag tha"></div>Thai</a></li><li><a href="http://hindi.babylon.com/"><div class="lb_flag ind"></div>Hindi</a></li><li><a href="http://dansk.babylon.com/"><div class="lb_flag den"></div>Danish</a></li><li><a href="http://ukranian.babylon.com/"><div class="lb_flag ukr"></div>Ukranian</a></li><li><a href="http://greek.babylon.com/"><div class="lb_flag gre"></div>Greek</a></li><li><a href="http://persian.babylon.com/"><div class="lb_flag far"></div>Persian</a></li></ul></div>    
+      </div>
+    </div>
+    
+    <div class="TopMenuBlack">  
+      <div class="itemBlack">
+      <a href="/dictionaries-glossaries.html">Add Content</a>
+        <ul style="left:145px;" class="noborder">
+          <li class="innerBlack"></li>
+          <li><a href="/dictionary/" class="first middle" onMouseOver="menuHover(this,'on')" onMouseOut="menuHover(this,'out')">Premium Content</a></li>
+          <li><a href="/free-dictionaries/" class="last middle" onMouseOver="menuHover(this,'on')" onMouseOut="menuHover(this,'out')">Free Dictionary</a></li>
+          <li class="lastBlackli"></li>
+        </ul>
+      </div>
+      
+      <div class="itemBlack">
+      <a href="/products/">Products</a>
+       <ul style="left:247px;">
+        <li class="innerBlack"></li>
+        <li><a href="/products/babylon/" class="first middle" onMouseOver="menuHover(this,'on')" onMouseOut="menuHover(this,'out')">Babylon 9</a></li>
+        <li><a href="/products/mac" class="middle" onMouseOver="menuHover(this,'on')" onMouseOut="menuHover(this,'out')">Babylon Mac</a></li>
+        <li><a href="http://www.babylon.com/languageschool/" class=" middle" onMouseOver="menuHover(this,'on')" onMouseOut="menuHover(this,'out')">Language Learning</a></li>
+        <li><a href="http://translator.babylon.com/" class="middle" onMouseOver="menuHover(this,'on')" onMouseOut="menuHover(this,'out')">Live Translation</a></li>
+        <li><a href="http://www.babylon.com/writing.html" class="middle" onMouseOver="menuHover(this,'on')" onMouseOut="menuHover(this,'out')">Writing Solutions</a></li>
+        <li><a href="/white_label/" class="last middle" onMouseOver="menuHover(this,'on')" onMouseOut="menuHover(this,'out')">White Label Apps</a></li>
+        <li class="lastBlackliL"></li>
+       </ul>
+       <ul style="left:407px;" class="noborder">
+        <li class="innerBlack"></li>
+        <li><a href="http://enterprise.babylon.com/" class="first" onMouseOver="menuHover(this,'on')" onMouseOut="menuHover(this,'out')">Babylon Enterprise</a></li>
+        <li><a href="/products/electronic-dictionary/" onMouseOver="menuHover(this,'on')" onMouseOut="menuHover(this,'out')">Babylon Electronic Dictionary</a></li>
+        <li><a href="http://community.babylon.com/" class="middle" onMouseOver="menuHover(this,'on')" onMouseOut="menuHover(this,'out')">Community</a></li>
+        <li><a href="http://www.babylon.com/redirects/purchase.cgi?type=2721&trid=HPKIDSPRODMENU" onMouseOver="menuHover(this,'on')" onMouseOut="menuHover(this,'out')">Babylon Talk Vocabulary Builder</a></li>
+        <li><a href="http://www.babylon.com/redirects/purchase.cgi?type=2721&trid=HPKIDSPRODMENU" class="middle" onMouseOver="menuHover(this,'on')" onMouseOut="menuHover(this,'out')">StoryWorld English</a></li>
+        <li><a href="http://www.babylon.com/products/mobile/" class="last middle" onMouseOver="menuHover(this,'on')" onMouseOut="menuHover(this,'out')">Babylon Mobile</a></li>
+        <li class="lastBlackliR"></li>
+       </ul>
+      </div>
+      
+      <div class="itemBlack">
+       <a href="http://support.babylon.com">Support</a>
+      </div>
+      
+      <div class="item_storeBlack">
+      <a href="http://www.babylon.com/redirects/purchase.cgi?type=40&trid=HPHEADERBLACKEN&lang=1">
+       <img src="http://img.babylon.com/site/images/babylon9/header/new_header/store.png" alt="Store" border="0" style="margin:-3px 0 0 0;" />
+      </a>
+      </div>
+    </div>
+  </div>
+<div class="header_rightBlack"></div>  
+</div>
+<!-- Header end -->
+	<div class="trHeader">
+		<h1>Babylon 9</h1>
+		<h2>Simply Translate</h2>
+		<h3>Simple One-click Translation in any Application</h3>
+		<a class="button dl[1]"><img src="http://img.babylon.com/site/images/trial/new/dl2.gif" width="255" height="66" onclick="download('http://www.babylon.com/redirects/download.cgi?type=100&lang=1');" /></a>
+	</div>
+	
+	<div class="trContentWrap">
+		<div class="left"></div>
+		<div class="mid">
+			<div class="links" id="trLinks">
+				<a href="#" onclick="trTrSo();">Translation solutions</a>
+				<a href="#" onclick="trMoSo();">Mobile solutions</a>
+				<a href="http://www.babylon.com/welcome/corporate.html" target="newTab" class="dl[10]">Business</a>
+			</div>
+			<div class="trWhite">
+				<div class="left"></div>
+				<div class="mid" id="caro">
+					<div class="products" id="prod">
+					
+						<div class="product trP1 dl[2]"  onclick="download('http://www.babylon.com/redirects/download.cgi?type=100&lang=1');">
+							<div class="trText">
+								<b>Download Babylon 9</b><br />
+								Your simple one-click translation in any application.<br />Get instant spelling & proofreading of your text.
+							</div>
+						</div>
+						<div class="product trP2 dl[3]" onclick="window.location = 'http://translator.babylon.com/?trid=HPNEWUSEREN'">
+							<div class="trText">
+								<b>Human Translation</b><br />
+								<i>Let us do the work!</i><br />
+								Receive high quality, precision translations from professionals in less than 1 hour.
+							</div>
+						</div>
+						<div class="product trP3 dl[4]" onclick="window.location = 'http://www.babylon.com/redirects/purchase.cgi?type=2721&trid=HPNEWUSERKIDSEN'">
+							<div class="trText">
+								<b>English for Kids</b><br />
+								With entertaining programs, bright colored pictures and fun games - your child will want to come back for more!
+							</div>
+						</div>
+						<div class="product trP4 dl[5]" onclick="window.location = 'http://www.babylon.com/languageschool/?trid=HPNEWUSEREN'">
+							<div class="trText">
+								<b>Learn a Language</b><br />
+								Learning has never been so fun and easy! Learn from the comfort of your own home, at your own speed, and you'll see results in no time.
+							</div>
+						</div>
+						
+						<div class="product trP5 dl[6] trFirst" onclick="window.location = '/products/mobile/iphone/'">
+							<div class="trText moreMargin">
+								<b>Babylon Touch for iPhone</b><br />
+								Your one-touch translator<br />
+                allows you to easily capture any hardcopy text and get instant translations!
+							</div>
+						</div>
+						<div class="product trP6 dl[7]" onclick="window.location = '/products/mobile/android/'">
+							<div class="trText moreMargin">
+								<b>Babylon for Android</b><br />
+								Get full-text translations<br />between dozens of languages, absolutely free of charge!
+							</div>
+						</div>
+						<div class="product trP7 dl[8]" onclick="window.location = '/products/mobile/blackberry/'">
+							<div class="trText moreMargin">
+								<b>Babylon for Blackberry</b><br />
+								Effortless & Always Accessible!<br />
+								Translate words and expressions in 75 languages.
+							</div>
+						</div>
+						<div class="product trP8 dl[9]" onclick="window.location = '/products/mobile/windows_phone/'">
+							<div class="trText moreMargin">
+								<b>Babylon for Windows</b><br />
+								Translate terms and full text translation, in 75 languages, use it free!
+							</div>
+						</div>			
+					</div>
+				</div>
+				<div class="right"></div>
+			</div>
+		</div>
+		<div class="right"></div>
+		
+	</div>
+	<!-- Footer -->
+  <div class="footerBlack">
+    <a href="http://www.babylon.com/invest/"><b>Investor Relations</b></a>&nbsp;|&nbsp;
+    <a href="/about">About us</a>&nbsp;|&nbsp;
+    <a href="http://vip.babylon.com">Business Customers</a>&nbsp;|&nbsp;
+    <a href="http://affiliate.babylon.com/">Affiliates</a>&nbsp;|&nbsp;
+    <a href="http://www.babylon.com/info/site-map.html">Sitemap</a>&nbsp;|&nbsp;
+    <a href="http://www.babylon.com/info/web-master.html">Webmaster Zone</a>&nbsp;|&nbsp;
+    <a href="http://www.babylon.com/free-dictionaries/">Free Dictionaries</a>&nbsp;|&nbsp;
+    <a href="/contact/">Contact Us</a>
+  </div>
+  <div class="copyBlack">Copyright &copy; 1997-2012 Babylon Ltd. &nbsp; All Rights Reserved to Babylon Translation Software. | 
+    <a href="/info/privacy.html">Privacy Statement</a> | 
+    <a href="/info/terms.html">Terms of Use</a>
+  </div>
+  <br />
+<!-- Footer End -->
+<script type="text/javascript" src="http://img.babylon.com/site/images/babylon9/header/new_header/langsReplace.js"></script>
+<!-- webtracking -->
+<img style="display:none;width:1;height:1;" src="http://utils.babylon.com/dltrack/log.php?id=2001463753&lang=1&timestamp=1330653164&is_new_user=1&crc_lookup=" />
+
+<!--GA--> 
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6453026-1");
+pageTracker._setDomainName(".babylon.com");
+pageTracker._setAllowLinker(true);
+pageTracker._setAllowHash(false);
+pageTracker._trackPageview('/NEWUSER/ENG/');
+} catch(err) {}
+</script>
+<!---->
+
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/mootools/1.2.4/mootools.js"></script>
+	<script type="text/javascript" charset="utf-8" src="http://img.babylon.com/site/images/trial/new/js/Fx.Scroll.js"></script>
+	<script type="text/javascript" charset="utf-8" src="http://img.babylon.com/site/images/trial/new/js/Fx.Scroll.Carousel.js"></script>
+	<script type="text/javascript" charset="utf-8" src="http://img.babylon.com/site/images/trial/new/js/demo.js"></script>	
+
+	<script type="text/javascript">
+    var Babylon = Babylon || {};
+    Babylon.pageId = 2001463753;
+    Babylon.pageLang = 1;
+	Babylon.timestamp = 1330653164;
+	
+</script>
+<script type="text/javascript" src="http://img.babylon.com/site/images/js/dl/min.js"></script>
+	
+
+<!-- PIXEL FOR CD 55555 START -->
+<img src="http://leadback.advertising.com/adcedge/lb?site=695501&srvc=1&betr=babylon_cs=1&betq=12400=429822" width="1" height="1" border="0" />
+
+<img src="http://a.tribalfusion.com/i.cid?c=341013&d=30&page=landingPage" width="1" height="1" border="0" />
+
+<script type="text/javascript"> var CRITEO=function(){var b={Load:function(d){ var c=window.onload;window.onload=function(){d();if(c){c()}}}};function a(e){if(document.createElement){ var c=document.createElement("IFRAME");if(c){c.width="1px";c.height="1px";c.style.display="none";c.src=e; var d=document.getElementById("cto_mg_div");if(d!=null&&d.appendChild){d.appendChild(c)}}}}return{ Load:function(c){document.write("<div id='cto_mg_div' style='display:none;'></div>");b.Load(function(){a(c)})}}}(); CRITEO.Load(document.location.protocol+"//dis.us.criteo.com/dis/dis.aspx?p1="+escape("v=2&wi=7712603&pt1=0&pt2=1&si=0" )+"&t1=sendEvent&p=2528&c=2&cb="+Math.floor(Math.random()*99999999999)); </script>
+
+<!-- Advertiser 'Babylon',  Include user in segment 'Babylon - Homepage' - DO NOT MODIFY THIS PIXEL IN ANY WAY -->
+<script src="http://ad.advertise.com/pixel?id=840415&t=1" type="text/javascript"></script>
+<!-- End of segment tag -->
+<!-- PIXEL FOR CD 55555 END -->
+
+
+
+<!-- DL FOR CD 55555 START -->
+<img src="http://utils.babylon.com/dltrack/?id=2831351064&dl=99&affID=55555" width="1" height="1" />
+<!-- DL FOR CD 55555 END -->
+
+
+</body>
+</html>

@@ -1,0 +1,4064 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html id="nojs" lang="ru">
+<head>
+	<script type="text/javascript">
+	try { top.location.toString(); } catch (er) { top.location = location; }
+
+	var callbackQuery = new function(){
+		var _cb = [],
+			loaded = false;
+
+		this.run = function(cb){
+			var args = Array.prototype.slice.call(arguments, 1);
+			if (loaded){
+				cb(args);
+			} else {
+				_cb.push({
+					cb: cb,
+					args: args
+				});
+			}
+		};
+
+		this.loaded = function(){
+			loaded = true;
+			for (var i = 0, l = _cb.length; i < l; i++){
+				var cb = _cb[i];
+				cb.cb(cb.args);
+			}
+			_cb = null;
+		}
+	};
+</script>
+
+<script>
+	function createRadar(name, iZ, log){
+		var data	= {};
+		var radar	= function (s, x)
+		{
+			if( s == 'clear' ){ data = {}; }
+			else if( typeof s == 'string' ){
+				if( x == 1 && data[s] && !data[s][1] ){ data[s][1] = +new Date; }
+				else if( x != 1 && !data[s] ){ data[s] = [+new Date, 0]; }
+			} else {
+				var i = [], a, v, k, dt;
+				for( k in data ) if( data.hasOwnProperty(k) )
+				{
+					v = data[k];
+					dt = v[1] - v[0];
+					if( dt < 0 )
+					{
+						data = {};
+						return;
+					}
+					else if( iZ && !dt ) continue;
+					i.push(k +':'+ dt);
+					if( k == 'all' ) a = dt;
+				}
+				if( i.length && a ) setTimeout(function()
+				{
+					(new Image).src = 'http://mail.radar.imgsmail.ru/update?p=mail&t='+ name +'&v='+ a +'&i='+ i.join(',') +'&rnd='+ Math.random() + (document.referrer ? '&r='+ escape(document.referrer) : '');
+				}, 0);
+				data = {};
+			}
+			return	radar;
+		};
+		radar.clear	= function (){ data = {}; return radar; };
+		return	radar;
+	}
+	splashRadar = createRadar('mailru_UI_splash');
+	splashRadar('all')('preleftcol');
+</script>
+
+<script>
+	var splashRadar = createRadar('mailru_UI_splash');
+	splashRadar('all')('preleftcol');
+</script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="description" content="Национальная почтовая служба @Mail.ru — лучшая бесплатная почта. Доступ к почте через POP/SMTP, веб- и wap-интерфейс. Также на портале: поиск в интернете, авто, новости, спорт, музыка, работа, знакомства, анекдоты, открытки, погода" />
+<meta name="Keywords" content="почта, поиск в интернете, бесплатная электронная почта, авто, новости, спорт, музыка, работа, знакомства, анекдоты, открытки, погода" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name='yandex-verification' content='7671b20b04a5fa7f' />
+<meta name='yandex-verification' content='59b761e131434981' />
+<meta name="google-site-verification" content="00jqaPXNeGehoUgKhGukmuweLr8BVUsRR-Mi5hO9D0s" />
+<meta name="alexaVerifyID" content="ol2qqvmxeW0pRJDZ1-VCE3soVJU" />
+<title>
+	@MAIL.RU: почта, поиск в интернете, новости, работа, развлечения. Почта @Mail.Ru — бесплатная почта №1
+	</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="//limg.imgsmail.ru/r/ru/favicon.ico?1"/>
+
+<link rel="apple-touch-icon" href="//limg.imgsmail.ru/r/ru/ios/icon_114.png"/>
+<link rel="image_src" href="//limg.imgsmail.ru/r/speeddial.png"/>
+
+
+	<!-- Global Counter (ask Bazhin) --><script type="text/javascript">
+try {
+function timeInterval(bP) {
+	if (!rT[bP]) rT[bP] = new Date();
+	else {
+		rT.i[rT.i.length] = bP + '=' + ( (new Date()).getTime() - rT[bP].getTime() );
+		delete rT[bP];
+	}
+}
+
+var rT = {};
+rT.i = [];
+timeInterval('renderbrowser');
+rT.addHandler = function(object, event, handler, useCapture) {
+	if (object.addEventListener) object.addEventListener(event, handler, useCapture ? useCapture : false);
+	else if (object.attachEvent) object.attachEvent('on' + event, handler);
+}
+rT.radar_type = 'main';
+if (window.name.indexOf('srvt') != -1) {
+	rT.srvt = ( new Date() ).getTime() - parseInt( window.name.substr(5) );
+	window.name = '';
+}
+
+rT.addHandler(document, 'click', function() {
+	if (!window.name.length || window.name.indexOf('srvt') > -1)
+		window.name = 'srvt=' + (new Date()).getTime();
+});
+rT.addHandler(document, 'keypress', function() {
+	if (window.name.indexOf('srvt') > -1) window.name = '';
+});
+
+rT.img0 = new Image();
+rT.img0.src = '//mail.radar.imgsmail.ru/update?' +
+'p=mail0' +
+(rT.radar_type != '' ? ('&t=' + rT.radar_type) : '') +
+(rT.srvt ? ('&i=srvt:' + rT.srvt) : '') +
+'&v=0&rnd=470935159' +
+'';
+
+} catch(e) {}
+function timeInterval2(bP) {
+    if (!rT[bP]) {
+		rT[bP] = new Date();
+    } else {
+		var rT_cnt = rT.i.length;
+		var found  = false;
+		for (var j = 0; j < rT_cnt; j++) {
+			var rT_array = rT.i[j].split("=");
+			if (rT_array[0] == bP) {
+				rT.i[j] = bP + '=' + (parseInt(rT_array[1]) + (new Date()).getTime() - rT[bP].getTime() );
+				found = true;
+			}
+		}
+		if (!found) {
+			rT.i[rT.i.length] = bP + '=' + ( (new Date()).getTime() - rT[bP].getTime() );
+		}
+		delete rT[bP];
+    }
+}
+
+</script>
+
+
+
+</head>
+<body>
+<div style="position:absolute;visibility:hidden;">
+		<!-- Counter --><img class="tns-counter" src="http://www.tns-counter.ru/V13a****mail_ru/ru/CP1251/tmsec=mail_main/" width="1" height="1" alt="" />
+		<!-- Li,Ra,Top counters --><img src="http://r2.mail.ru/d227295.gif?rnd=204888755&ts=1330653164" width="1" height="1" border="0" alt="" style="position:absolute;"/>
+<script type="text/javascript">//<![CDATA[
+var a='';js=10;try{if('getHref' in location)a+=';u='+escape(location.getHref());}catch(e){}
+try{a+=';r='+escape(document.referrer);a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+try{(new Image()).src='//top-fwz1.mail.ru/counter?id=110605;'+a+';rand='+Math.random();}catch(e){}
+//]]></script><noscript><p><img src="//top-fwz1.mail.ru/counter?js=na;id=110605"
+height="1" width="1" style="border:0px;" alt="Top.Mail.ru" /></p></noscript>
+
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+document.write("<img src='http://counter.yadro.ru/hit;mail-splash?r"+ 
+escape(document.referrer)+((typeof(screen)=="undefined")?"": 
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth? 
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+ 
+";"+Math.random()+ 
+"' width=1 height=1 alt=''>")
+//]]>
+</script>
+<!--a href="http://top100.rambler.ru/top100/"><img src="http://counter.rambler.ru/top100.cnt?260606" alt="" width="1" height="1" border="0" /></a-->
+<img src="http://r3.mail.ru/k" width="0" height="0" border="0">
+	</div>
+<script>splashRadar('preleftcol', 1);</script>
+
+
+	
+		
+	
+
+
+<script>splashRadar('headline');</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+
+<!--noindex-->
+<script>
+	var portalHeadlineProject = 'home';
+</script>
+<style type="text/css">
+.portal-headline {
+  position: relative;
+  z-index: 1003;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font: 12px/1 Arial, sans-serif;
+  text-align: left;
+  background: #fff;
+  *zoom: 1; }
+
+.portal-headline__link,
+.portal-headline__link:link,
+.portal-headline__link:visited,
+.portal-headline__link:hover,
+.portal-headline__link:active,
+.portal-headline__link:focus {
+  display: inline;
+  margin-right: 18px;
+  color: #0857a6;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+  *zoom: 1; }
+
+.portal-headline__link:hover,
+.portal-headline__link:active {
+  color: #f26d00; }
+
+.portal-headline__link_first,
+.portal-headline__link_first:link,
+.portal-headline__link_first:visited,
+.portal-headline__link_first:hover,
+.portal-headline__link_first:active,
+.portal-headline__link_first:focus {
+  margin-left: 18px; }
+
+.portal-headline__link_ext,
+.portal-headline__link_ext:link,
+.portal-headline__link_ext:visited,
+.portal-headline__link_ext:hover,
+.portal-headline__link_ext:active,
+.portal-headline__link_ext:focus {
+  margin-right: 5px;
+  text-decoration: none; }
+
+.portal-headline__link_selected {
+  font-weight: bold; }
+
+.portal-headline__link__text {
+  font-style: normal;
+  text-decoration: none;
+  cursor: pointer; }
+
+.portal-headline__link:hover .portal-headline__link__text {
+  color: #f26d00;
+  text-decoration: none; }
+
+.portal-headline__link__balloon {
+  display: none;
+  min-width: 9px;
+  margin-right: 5px;
+  margin-left: 3px;
+  padding-right: 4px;
+  padding-left: 4px;
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 12px;
+  text-align: center;
+  background-color: #fa0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  cursor: pointer; }
+
+.portal-headline__link_ext .portal-headline__link__balloon {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+.portal-headline__projects {
+  position: relative;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  font-size: 12px;
+  line-height: 1; }
+
+.portal-headline__projects__link,
+.portal-headline__projects__link:link,
+.portal-headline__projects__link:visited,
+.portal-headline__projects__link:hover,
+.portal-headline__projects__link:active,
+.portal-headline__projects__link:focus {
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+  *zoom: 1; }
+
+.portal-headline__projects__link__text,
+.portal-headline__projects_open .portal-headline__projects__link:hover .portal-headline__projects__link__text {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  border-bottom: 1px dotted #fff;
+  color: #0857a6;
+  font-style: normal;
+  text-decoration: none;
+  *margin-bottom: 1px;
+  *padding-bottom: 1px;
+  *vertical-align: bottom; }
+
+.portal-headline__projects__link:hover .portal-headline__projects__link__text {
+  border-bottom: 1px dotted #fff;
+  color: #f26d00; }
+
+.portal-headline__projects__link__icon,
+.portal-headline__projects_open .portal-headline__projects__link:hover .portal-headline__projects__link__icon {
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 0;
+  height: 0;
+  font: 0/0 a;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #0857a6 #fff #fff; }
+
+.portal-headline__projects__link:hover .portal-headline__projects__link__icon {
+  border-color: #f26d00 #fff #fff; }
+
+.portal-headline__projects_open {
+  margin-top: -2px;
+  margin-right: -6px;
+  margin-bottom: -6px;
+  margin-left: -6px;
+  *margin-bottom: -7px; }
+
+.portal-headline__projects_open .portal-headline__projects__link {
+  position: relative;
+  z-index: 1005;
+  display: inline-block;
+  padding-top: 1px;
+  padding-right: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  *padding-bottom: 4px;
+  border: 1px solid #9fc1eb;
+  border-bottom: none;
+  -webkit-border-radius: 2px 2px 0 0;
+  -moz-border-radius: 2px 2px 0 0;
+  border-radius: 2px 2px 0 0;
+  background: #fff; }
+
+.portal-headline__projects__wrap {
+  position: absolute;
+  z-index: 1004;
+  top: 20px;
+  left: 0;
+  display: none;
+  width: 380px;
+  border: 1px solid #9fc1eb;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  box-shadow: 0 4px 4px #656972;
+  background: #fff; }
+
+.portal-headline__projects_open .portal-headline__projects__wrap {
+  display: block;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-name: slidein;
+  -moz-animation-name: slidein;
+  animation-name: slidein; }
+
+@-webkit-keyframes slidein {
+  0% {
+    opacity: 0;
+    box-shadow: none; }
+
+  100% {
+    opacity: 1;
+    box-shadow: 0 4px 4px #656972; } }
+
+@-moz-keyframes slidein {
+  0% {
+    opacity: 0;
+    box-shadow: none; }
+
+  100% {
+    opacity: 1;
+    box-shadow: 0 4px 4px #656972; } }
+
+@keyframes slidein {
+  0% {
+    opacity: 0;
+    box-shadow: none; }
+
+  100% {
+    opacity: 1;
+    box-shadow: 0 4px 4px #656972; } }
+
+.portal-headline__projects__column {
+  float: left;
+  width: 120px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px; }
+
+.portal-headline__projects__column_separator {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d9deed; }
+
+.portal-headline__project__link,
+.portal-headline__project__link:link,
+.portal-headline__project__link:visited,
+.portal-headline__project__link:hover,
+.portal-headline__project__link:active,
+.portal-headline__project__link:focus {
+  display: block;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  border-bottom: 1px solid #fff;
+  color: #0857a6;
+  text-align: left;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  *zoom: 1; }
+
+.portal-headline__project__link:hover,
+.portal-headline__project__link:active {
+  color: #0857a6;
+  background: #e7efff; }
+
+.portal-headline__project__link_icon,
+.portal-headline__project__link_icon:link,
+.portal-headline__project__link_icon:visited,
+.portal-headline__project__link_icon:hover,
+.portal-headline__project__link_icon:active,
+.portal-headline__project__link_icon:focus {
+  padding-left: 30px; }
+
+.portal-headline__project__link_icon__pic {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  margin-top: -2px;
+  margin-left: -22px;
+  background-image: url(//img.imgsmail.ru/r/portal/portal-headline/portal-headline__project__link_icon.png?v=2);
+  background-repeat: no-repeat; }
+
+.portal-headline__project__link_icon__pic_agent {
+  background-position: 0 2px; }
+
+.portal-headline__project__link_icon__pic_sputnik {
+  background-position: 0 -18px; }
+
+.portal-headline__project__link_icon__pic_icq {
+  background-position: 0 -40px; }
+
+.portal-headline__project__link_icon__pic_chrome {
+  background-position: 0 -61px; }
+
+.portal-headline__login {
+  position: absolute;
+  top: 7px;
+  *top: 8px;
+  right: 18px;
+  font-size: 12px;
+  line-height: 14px; }
+
+.portal-headline__login__link,
+.portal-headline__login__link:link,
+.portal-headline__login__link:visited,
+.portal-headline__login__link:hover,
+.portal-headline__login__link:active,
+.portal-headline__login__link:focus {
+  margin-left: 10px;
+  color: #0857a6;
+  text-decoration: none; }
+
+.portal-headline__login__link:hover,
+.portal-headline__login__link:active {
+  color: #f26d00;
+  text-decoration: none; }
+</style>
+
+
+
+<div class="portal-headline">
+	<a rel="nofollow" class="portal-headline__link portal-headline__link_first portal-headline__link_selected" href="http://r.mail.ru/n91554905?sz=25">Mail.Ru</a>
+	<a rel="nofollow" class="portal-headline__link" href="http://r.mail.ru/n82947461?sz=25"><span class="portal-headline__link__text">Почта</span><i class="portal-headline__link__balloon" id="g_mail_events"></i></a>
+	<a rel="nofollow" class="portal-headline__link" href="http://r.mail.ru/n91554906?sz=25"><span class="portal-headline__link__text">Мой Мир</span><i class="portal-headline__link__balloon" id="g_my_events"></i></a>
+	<a rel="nofollow" class="portal-headline__link" href="http://r.mail.ru/n82947463?sz=25"><span class="portal-headline__link__text">Одноклассники</span><i class="portal-headline__link__balloon" id="g_ok_events"></i></a>
+	<a rel="nofollow" class="portal-headline__link" href="http://r.mail.ru/n82947464?sz=25">Игры</a>
+	<a rel="nofollow" class="portal-headline__link" href="http://r.mail.ru/n82947465?sz=25">Знакомства</a>
+	<a rel="nofollow" class="portal-headline__link" href="http://r.mail.ru/n82947466?sz=25">Новости</a>
+	<a rel="nofollow" class="portal-headline__link" href="http://r.mail.ru/n82947467?sz=25">Поиск</a>
+	<div class="portal-headline__projects" id="portal-headline__box">
+		<a rel="nofollow" class="portal-headline__projects__link" id="portal-headline__menulink" href="#">
+			<i class="portal-headline__projects__link__text">Все проекты</i>&nbsp;<i class="portal-headline__projects__link__icon"></i>
+		</a>
+		<div class="portal-headline__projects__wrap" id="portal-headline__menu">
+			<div class="portal-headline__projects__column">
+				<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947468?sz=25">Авто</a>
+				<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947469?sz=25">Ответы</a>
+				<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947470?sz=25">Товары</a>
+				<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947471?sz=25">Работа</a>
+				<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947472?sz=25">Недвижимость</a>
+				<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947473?sz=25">HiTech</a>
+				<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947474?sz=25">Софт</a>
+				<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947475?sz=25">Файлы</a>
+			</div>
+			<div class="portal-headline__projects__column">
+				<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947476?sz=25">Леди</a>
+				<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947477?sz=25">Дети</a>
+				<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947478?sz=25">Здоровье</a>
+				<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947479?sz=25">Путешествия</a>
+				<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947480?sz=25">Открытки</a>
+				<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947481?sz=25">Гороскопы</a>
+				<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947482?sz=25">Погода</a>
+				<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947483?sz=25">Афиша</a>
+			</div>
+			<div class="portal-headline__projects__column">
+				<div class="portal-headline__projects__column_separator">
+					<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947484?sz=25">Видео</a>
+					<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947485?sz=25">Деньги</a>
+					<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947486?sz=25">Словари</a>
+					<a rel="nofollow" class="portal-headline__project__link" href="http://r.mail.ru/n82947487?sz=25">Карты</a>
+				</div>
+				<a rel="nofollow" class="portal-headline__project__link portal-headline__project__link_icon portal-headline__project__link_agent" href="http://r.mail.ru/n82947488?sz=25"><i class="portal-headline__project__link_icon__pic portal-headline__project__link_icon__pic_agent"></i>Mail.Ru Агент</a>
+				<a rel="nofollow" class="portal-headline__project__link portal-headline__project__link_icon portal-headline__project__link_sputnik" href="http://r.mail.ru/n91778734?sz=25"><i class="portal-headline__project__link_icon__pic portal-headline__project__link_icon__pic_sputnik"></i>Спутник</a>
+				<a rel="nofollow" class="portal-headline__project__link portal-headline__project__link_icon portal-headline__project__link_icq" href="http://r.mail.ru/n82947490?sz=25"><i class="portal-headline__project__link_icon__pic portal-headline__project__link_icon__pic_icq "></i>ICQ</a>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript">
+document.write('<span id="portal-headline_logout" style="display:none;" class="portal-headline__login"><span id="portal-menu__user-email"></span><a rel="nofollow" class="portal-headline__login__link" href="http://r.mail.ru/clb662700/swa.mail.ru/cgi-bin/logout?Page=' + encodeURIComponent('http://mail.ru') + '">выход</a> </span><span id="portal-headline_login"  class="portal-headline__login"><a rel="nofollow" class="portal-headline__login__link" href="http://r.mail.ru/clb662704/e.mail.ru/cgi-bin/login' + encodeURIComponent('') + '">Вход</a></span>');
+</script>
+</div>
+<!-- 2 -->
+
+<script type="text/javascript">
+
+_portalCb = function(o, _c, draw){
+	o._c = _c;
+	var _cb = o._cb;
+	
+	if (typeof _cb !== 'function'){
+		if (_cb.length === 0){
+			_cb = function(){};
+		} else {
+			_cb = _cb[0];
+		}
+	}
+	
+	if (_cb(_c, draw) !== false){
+		draw();
+	};
+}
+
+function PortalHeadlineOkJSONPCallback(_c){
+	var needDraw = false;
+	if (_c.status === "ok" || _c.status === "no auth" || _c.status === "error"){
+		var i = {};
+		if (_c.status === "no auth" || _c.status === "error"){
+			_c.data = _c.data || {};
+			_c.data.ok_cnt = 0;
+		}
+		if (_c.data.ok_cnt){
+			i['g_ok_events'] = _c.data.ok_cnt;
+		}
+		if (_c.data.time){
+			PortalHeadlineOkJSONPCallback.time = _c.data.time;
+		}
+		needDraw = true;
+	}
+	_portalCb(PortalHeadlineOkJSONPCallback, _c, draw);
+	
+	function draw(){
+		if (needDraw){
+			window._Counters.updateOne(i, 'g_ok_events');
+		}
+	}
+}
+
+PortalHeadlineOkJSONPCallback._cb = [];
+
+function PortalHeadlineJSONPCallback(_c){
+	var needDraw = false;
+	if (_c.status === "noauth" && portalHeadlineProject !="rabota"){
+		document.getElementById('portal-headline_logout').style.display = 'none';
+		document.getElementById('portal-headline_login').style.display = 'block';
+	}
+	if ((_c.status === "ok" || _c.status === "noauth") && portalHeadlineProject !="rabota"){
+		if (_c.status === "ok" && _c.data.email && window.portalHeadlineProject !== "mail"){
+			document.getElementById('portal-menu__user-email').innerHTML = _c.data.email;
+			document.getElementById('portal-headline_logout').style.display = 'block';
+			document.getElementById('portal-headline_login').style.display = 'none';
+		}
+		var i = {};
+		if (_c.status === "noauth"){
+			_c.data = _c.data || {};
+			_c.data.mail_cnt = _c.data.my_cnt = 0;
+		}
+		if (_c.data.mail_cnt && window.portalHeadlineProject !== "mail"){
+			i['g_mail_events'] = _c.data.mail_cnt;
+		}
+
+		if (_c.data.my_cnt){
+			i['g_my_events'] = _c.data.my_cnt;
+		}
+		needDraw = true;
+	}
+	_portalCb(PortalHeadlineJSONPCallback, _c, draw);
+	
+	function draw(){
+		if (needDraw){
+			window._Counters.update(i);
+		}
+	}
+}
+
+PortalHeadlineJSONPCallback._cb = [];
+
+(function(w, d) {
+	var l = d.getElementById('portal-headline__menulink'), m = d.getElementById('portal-headline__menu'), mb = d.getElementById('portal-headline__box'),
+		oclass = 'portal-headline__projects_open', ht,
+		_setTimeout = w.setTimeout;//(typeof w.nativeSetTimeout !== 'undefined') ? w.nativeSetTimeout : w.setTimeout;
+	function eventCancel(e){
+		e.stopPropagation ? e.stopPropagation() : e.cancelBubble = true;
+		e.preventDefault ? e.preventDefault() : e.returnValue = false;
+	}
+	function event(a, o, t, f){
+		if (o.addEventListener) o[a ? 'addEventListener' : 'removeEventListener'](t, f, false);
+		else if (o.attachEvent) o[a ? 'attachEvent' : 'detachEvent']('on' + t, f);
+	}
+	function isNode(ele){
+		return  ele && ele.nodeType == 1;
+	}
+	function hasClass(ele, cls) {
+		return isNode(ele) && !!ele.className.match(new RegExp('(\\s|^)' + cls + '(\\s|$)'));
+	}
+	function addClass(ele, cls) {
+		if (isNode(ele) && !hasClass(ele, cls)) ele.className += ' ' + cls;
+	}
+	function removeClass(ele, cls) {
+	if (isNode(ele) && hasClass(ele, cls)) {
+		var reg = new RegExp('(\\s|^)' + cls + '(\\s|$)');
+		ele.className = ele.className.replace(reg, ' ');
+	}
+	}
+	function menuToogle(e){
+		clearTimeout(ht);
+		eventCancel(e);
+		hasClass(mb, oclass) ? menuHide() : menuShow();
+	}
+	function menuShow(){
+		event(1, d, 'click', menuHide);
+		if ('582157'){
+			new Image().src = '//rs.mail.ru/d582157.gif?' + Math.random();
+		}
+		addClass(mb, oclass);
+	}
+	function menuHide(){
+		event(0, d, 'click', menuHide);
+		removeClass(mb, oclass);
+	}
+	function menuOver(){
+		clearTimeout(ht);
+	}
+	function menuOut(){
+		clearTimeout(ht);
+		ht = _setTimeout(menuHide, 4000);
+	}
+	event(1, l, 'click', menuToogle);
+	event(1, l, 'mouseout', menuOut);
+	event(1, l, 'mouseover', menuOver);
+	event(1, m, 'mouseout', menuOut);
+	event(1, m, 'mouseover', menuOver);
+	var _h = {}, _c = {}, _s, _sOk, head = d.getElementsByTagName('head')[0];
+	var _vars = {
+		'g_mail_events': ['MailUnreadMessages'],
+		'g_my_events': ['ActiveFriendsRequest','DialoguesUnread','CommunityInvitationCount','ActiveFriendsSuggest'],
+		'g_ok_events': ['OkEvents']
+	};
+	var _getDir = function(){
+		var logoutLink = d.getElementById('portal-menu__user-email');
+		var _dir = logoutLink.innerHTML.match(/^\s*([^\@]+)\@([^\.]+).*?\.ru\s*?/);
+		if(_dir && _dir.length && logoutLink.style.display !== 'none'){
+			return 'http://my.mail.ru/' + _dir[2] + '/' + _dir[1] + '/counters?' + Math.floor(Math.random() * 1000000);
+		}
+		return null;
+	};
+	w._Counters =  {
+		update: function(h){
+			if(!h) return;
+			for(var i in _h) {
+				if (w.portalHeadlineProject && (w.portalHeadlineProject === "mail" && i == 'g_mail_events') || i == 'g_ok_events'){
+					continue;
+				}
+				_Counters.updateOne(h, i);
+			}
+		},
+		updateOne: function(h, i){
+			if(h[i] && h[i] != '0' && _h[i].parentNode) {
+				_h[i].innerHTML = h[i];
+				_h[i].parentNode.className = _c[i] + ' portal-headline__link_ext';
+			} else _h[i].parentNode.className = _c[i];
+		},
+		sync: function(){
+			var _dir = _getDir();
+			if(!_dir) return;
+			_s = getHeadScript(_dir, _s);
+		},
+		init: function(a){
+			if(!a) return;
+			if(!a.length) return;
+			for(var i = 0;i < a.length;i++) {
+				var e = d.getElementById(a[i]);
+				if(e) {
+					_h[a[i]] = e;
+					_c[a[i]] = e.parentNode.className.replace(/portal-headline__link_ext/,'').replace(/\s+/,' ');
+				}
+			}
+		},
+		prepare: function(h){
+			var _h = {};
+			for(var i in _vars) {
+				_h[i] = 0;
+				for(var j = 0;j < _vars[i].length;j++) {
+					if(h[_vars[i][j]] >= 0) _h[i] += parseInt(h[_vars[i][j]] || 0);
+				}
+			}
+			return _h;
+		}
+	};
+
+	_Counters.init(['g_mail_events','g_my_events', 'g_ok_events']);
+
+	function getHeadScript(_dir, script, enc){
+		if(script && script.parentNode){
+			head.removeChild(script);
+		}
+		script = d.createElement('script');
+				script.defer = 'defer';
+				script.async = 'async';
+		script.type = 'text/javascript';
+		if (enc){
+			script.charset = enc;
+		}
+		script.src = _dir;
+		if (!/opera/i.test(navigator.userAgent) || d.readyState === 'complete'){
+			head.appendChild(script);
+		} else {
+			w.addEventListener('DOMContentLoaded', function(){
+				head.appendChild(script);
+			}, false);
+		}
+		return script;
+	}
+	var reqMulti = 1//w.portalHeadlineProject && w.portalHeadlineProject === "my" ? 3 : 1
+		, last = 0, limit = 60 * 1000 * reqMulti;
+
+	if (w.jQuery !== undefined) {
+		jQuery(w).bind('updatemessagescount', function(evt, c) {
+			_Counters.updateOne(_Counters.prepare({
+				'MailUnreadMessages': c
+			}), 'g_mail_events');
+		});
+		jQuery(d).ready(w.portalHeadlineProject === "mail" && w.location.protocol === "https:" ? checkSWA : _Counters.sync);
+	}
+	if (w.portalHeadlineProject && (w.portalHeadlineProject === "my" || w.portalHeadlineProject === "mail")){
+		checkByHash();
+	} else {
+		checkByJSONP();
+	}
+
+	function checkByJSONP(){
+		var timeout = 60000 * reqMulti;
+
+		checkByTimeout();
+
+		function checkByTimeout(){
+			checkSWA();
+
+			_setTimeout(
+				checkByTimeout,
+				timeout
+			);
+		}
+	}
+
+	function checkSWA(){
+		_s = getHeadScript('//swa.mail.ru/cgi-bin/counters?JSONP_call=PortalHeadlineJSONPCallback&' + (new Date()).getTime(), _s);
+	}
+
+	function checkByHash(){
+		var   hash = getHash()
+			, timeout = 50;
+
+		_setTimeout(
+			checkByTimeout,
+			timeout
+		);
+
+		function checkByTimeout(){
+			if (hash !== getHash()){
+				hash = getHash();
+				hashchange();
+			}
+			_setTimeout(
+				checkByTimeout,
+				timeout
+			);
+		}
+
+		function getHash(){
+			var hash = w.location.href;
+			return hash.indexOf('#') === -1 ? null : hash.substr(hash.indexOf('#') + 1);
+		}
+
+		function hashchange(evt){
+			var cts = +new Date;
+			if (last < cts - limit) {
+				if (w.portalHeadlineProject === "mail" && w.location.protocol === "https:"){
+					checkSWA();
+				} else {
+					_Counters.sync();
+				}
+				last = cts;
+			}
+		}
+	}
+
+	checkOkByJSONP();
+
+	function checkOkByJSONP(){
+		var   timeout = 5 * 60000 * reqMulti
+			//, url = '//www.odnoklassniki.ru/mapi/getCounters?query=';
+			, url = '//www.odnoklassniki.ru/mapi?query=';
+
+		function getCookie(){
+			var c = d.cookie.match(/(?:^|; )odklmapi=([^;]*)/);
+			if (c){
+				c = c[1];
+			}
+			
+				
+			
+			return c;
+		}
+
+		function getQuery(c){
+			//var q = ['{"jsonPrefix":"PortalHeadlineOkJSONPCallback","odklmapi":"', c, '"'];
+			var q = ['{"cmd":"getCounters","jsonPrefix":"PortalHeadlineOkJSONPCallback"'];
+			var time = PortalHeadlineOkJSONPCallback.time;
+
+			if (c){
+				q.push(',"odklmapi":"', c, '"');
+			}
+			
+			if (time){
+				q.push(',"time":"');
+				q.push(time.replace(/"/g, '\\"'));
+				q.push('"');
+			}
+
+			q.push('}');
+			return [url, encodeURIComponent(q.join(''))].join('');
+		}
+
+		checkByTimeout();
+
+		function checkByTimeout(){
+			var c = getCookie();
+			//if (c){
+			if (true){
+				_sOk = getHeadScript(getQuery(c) + "&" + (new Date).getTime(), _sOk, 'utf-8');
+			} else {
+				PortalHeadlineOkJSONPCallback({status: "no auth"});
+			}
+
+			_setTimeout(
+				checkByTimeout,
+				timeout
+			);
+		}
+	}
+})(window, document);
+
+</script>
+<!--/noindex-->
+
+
+<style type="text/css">
+	.portal-headline {
+  min-width: 980px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #d5d5d5; }
+
+	</style>
+<script>splashRadar('headline', 1)('leftcol');</script>
+
+<style type="text/css">
+		html, body, h1, h2, h3, h4, h5, h6, a, img,
+form, label, table, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+body {
+  font-family: 'Helvetica Neue', Arial, Tahoma, sans-serif;
+  line-height: 1;
+  background: #fff; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  -ms-interpolation-mode: bicubic; }
+
+a:link,
+a:visited {
+  color: #0857a6;
+  text-decoration: underline; }
+
+a:hover,
+a:active,
+a:focus {
+  color: #f26d00;
+  text-decoration: none; }
+
+#disclaimer {
+  padding: 5px 5%;
+  text-align: right;
+  font-family: Tahoma;
+  color: #7f7f7f;
+  font-size: 9px; }
+
+#disclaimer:empty {
+  display: none; }
+
+.page {
+  padding-top: 4px;
+  margin-bottom: 30px; }
+
+.page__leftcol {
+  float: left;
+  width: 260px; }
+
+.page__content {
+  margin-left: 260px;
+  *zoom: 1; }
+
+.page__content__wrap {
+  padding-top: 23px;
+  padding-left: 30px; }
+
+.page__centercol {
+  float: left;
+  width: 100%; }
+
+.page__centercol__wrap {
+  margin-right: 300px;
+  padding-right: 30px;
+  *zoom: 1; }
+
+.page__rightcol {
+  float: left;
+  width: 300px;
+  margin-left: -300px; }
+
+.banner__sputnik {
+  height: 33px; }
+
+.main-wrap {
+  width: 90%;
+  min-width: 960px;
+  max-width: 1420px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.clearfix:before,
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.clearfix:after {
+  clear: both; }
+
+.mailbox {
+  margin-top: 23px;
+  font-size: 13px;
+  line-height: 1; }
+
+.mailbox,
+.mailbox__link:link,
+.mailbox__link:visited,
+.mailbox__link:hover,
+.mailbox__link:active,
+.mailbox__link:focus {
+  color: #fff; }
+
+.mailbox__wrap {
+  padding-top: 10px;
+  background-color: #165696;
+  background-image: url(//limg.imgsmail.ru/r/default/splash/splash-bg-grad.png?v=1);
+  background-repeat: repeat-x;
+  background-position: 0 -15px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #0f457a;
+  -webkit-border-radius: 0 2px 2px;
+  -moz-border-radius: 0 2px 2px;
+  border-radius: 0 2px 2px; }
+
+.mailbox__tabs__item {
+  display: inline-block;
+  height: 15px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 15px;
+  vertical-align: top;
+  overflow: hidden; }
+
+.mailbox__tabs__item_mail {
+  height: 14px;
+  padding: 0 25px 0 33px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #366899;
+  -webkit-border-radius: 2px 0 0;
+  -moz-border-radius: 2px 0 0;
+  border-radius: 2px 0 0;
+  background-color: #165696;
+  background-image: url(//limg.imgsmail.ru/r/default/splash/splash-bg-grad.png?v=1); }
+
+.mailbox__tabs__item_agent {
+  background-image: url(//limg.imgsmail.ru/r/default/splash/splash-tab-agent.png?v=1);
+  background-repeat: no-repeat; }
+
+.mailbox__tabs__item__link,
+.mailbox__tabs__item__link:link,
+.mailbox__tabs__item__link:visited,
+.mailbox__tabs__item__link:hover,
+.mailbox__tabs__item__link:active,
+.mailbox__tabs__item__link:focus {
+  display: block;
+  width: 125px;
+  padding-left: 2px;
+  text-align: center;
+  text-decoration: none; }
+
+.mailbox__cont {
+  width: 100%; }
+
+.mailbox__register {
+  padding: 0 10px 10px 0; }
+
+.mailbox__help__link,
+.mailbox__help__link:link,
+.mailbox__help__link:visited,
+.mailbox__help__link:hover,
+.mailbox__help__link:active,
+.mailbox__help__link:focus {
+  float: right;
+  display: block;
+  width: 13px;
+  height: 13px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px; }
+
+.mailbox__login__label,
+.mailbox__password__label {
+  width: 5%;
+  padding: 0 5px 10px 10px;
+  vertical-align: top; }
+
+.mailbox__login,
+.mailbox__password {
+  width: 99%;
+  padding-bottom: 10px; }
+
+.mailbox__login__field {
+  width: 100%;
+  padding: 0 2px; }
+
+.mailbox__password__field {
+  width: 100%;
+  padding: 2px; }
+
+.mailbox__login__field,
+.mailbox__password__field,
+.mailbox__domain__field {
+  float: left;
+  height: 21px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 16px;
+  vertical-align: baseline; }
+
+.mailbox__domain,
+.mailbox__forget {
+  padding: 0 10px 10px 3px;
+  text-align: right;
+  vertical-align: top; }
+
+.mailbox__forget {
+  padding-left: 10px; }
+
+.mailbox__buttons {
+  padding: 0 10px 10px 0; }
+
+.mailbox__anothers__checkbox {
+  margin: 0;
+  padding: 0;
+  vertical-align: bottom; }
+
+.mailbox__submit {
+  float: right; }
+
+.mailbox__submit__button {
+  float: right;
+  height: 24px;
+  margin-top: -4px;
+  padding: 0 6px;
+  font-size: 13px;
+  line-height: 20px; }
+
+.mailbox__forget__link,
+.mailbox__anothers__label {
+  font-size: 11px; }
+
+.mailbox__userinfo {
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #fff; }
+
+.mailbox__userinfo:after {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  display: block;
+  width: 14px;
+  height: 100%;
+  content: "";
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAICAYAAADuv08kAAAAT0lEQVR42mL8//8/AxCwADEXEPMDsQgQSwCxJBBLI2GQmBgQCwIxLxAzgjT+/3uLA0iBMDcU8yFhkHkCaBgkxs/EMEBg1OJRi4efxQABBgCRZAegNiRvxQAAAABJRU5ErkJggg==);
+  background-repeat: repeat-y; }
+
+.mailbox__userinfo__email {
+  margin-bottom: 7px;
+  color: #000;
+  white-space: nowrap;
+  font-weight: bold;
+  line-height: 16px;
+  overflow-x: hidden; }
+
+.mailbox__userinfo__avatar {
+  float: left;
+  width: 45px;
+  height: 45px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #e6e8ed; }
+
+.mailbox__userinfo__menu {
+  min-height: 50px;
+  overflow-x: hidden; }
+
+.mailbox__userinfo__menu__item__link,
+.mailbox__userinfo__menu__item__link:link,
+.mailbox__userinfo__menu__item__link:visited,
+.mailbox__userinfo__menu__item__link:hover,
+.mailbox__userinfo__menu__item__link:active,
+.mailbox__userinfo__menu__item__link:focus {
+  display: inline-block;
+  margin-left: 10px;
+  line-height: 20px;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer; }
+
+.mailbox__userinfo__menu__item__link__text {
+  font: 12px/16px Tahoma;
+  text-decoration: underline;
+  vertical-align: middle; }
+
+.mailbox__userinfo__menu__item__link__text_unread {
+  color: #f25100; }
+
+.mailbox__userinfo__menu__item__link:hover .mailbox__userinfo__menu__item__link__text {
+  text-decoration: none; }
+
+.mailbox__userinfo-buttons {
+  clear: left;
+  height: 20px;
+  margin: 0 10px 5px; }
+
+.mailbox__logout,
+.mailbox__logout:link,
+.mailbox__logout:visited,
+.mailbox__logout:hover,
+.mailbox__logout:active,
+.mailbox__logout:focus {
+  float: left;
+  text-decoration: none;
+  cursor: pointer; }
+
+.mailbox__logout__text {
+  font: 11px/16px Tahoma;
+  text-decoration: underline;
+  vertical-align: middle; }
+
+.mailbox__logout:hover .mailbox__logout__text {
+  text-decoration: none; }
+
+.icon-wrap {
+  position: relative; }
+
+.icon-wrap_left {
+  padding-left: 27px; }
+
+.icon-wrap_right {
+  padding-right: 27px; }
+
+.icon {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  font: 0/0 a;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  overflow: hidden; }
+
+.icon_left {
+  left: -19px;
+  margin-right: -16px; }
+
+.icon_right {
+  position: absolute;
+  right: 6px;
+  margin-bottom: 0;
+  top: 50%; }
+
+.icon-label {
+  vertical-align: middle; }
+
+.icon_splash {
+  background-image: url(//limg.imgsmail.ru/r/default/splash/splash-icons.png?v=4); }
+
+.icon_mobile {
+  background-position: 0 0; }
+
+.icon_exit {
+  background-position: 0 -20px; }
+
+.icon_compose {
+  background-position: 0 -40px; }
+
+.icon_inbox {
+  background-position: 0 -60px; }
+
+.icon_inbox_selected {
+  background-position: 0 -80px; }
+
+.icon_hasphoto {
+  background-position: 0 -100px; }
+
+.icon_hasvideo {
+  background-position: 0 -120px; }
+
+.icon_hasinfographics {
+  background-position: 0 -220px; }
+
+.icon_lightning {
+  background-position: 0 -140px; }
+
+.icon_question {
+  background-position: 0 -160px; }
+
+.icon_sputnik {
+  background-position: 0 -180px; }
+
+.icon_event {
+  background-position: 0 -200px; }
+
+.icon_search {
+  background-position: 0 -240px; }
+
+.icon_chrome {
+  background-position: 0 -260px; }
+
+.icon_projects {
+  background-image: url(//limg.imgsmail.ru/r/default/splash/projectlist.v2.png?v=3); }
+
+.icon_apps {
+  background-position: 0 0; }
+
+.icon_horo {
+  background-position: 0 -20px; }
+
+.icon_news {
+  background-position: 0 -40px; }
+
+.icon_auto {
+  background-position: 0 -60px; }
+
+.icon_maps {
+  background-position: 0 -80px; }
+
+.icon_rabota {
+  background-position: 0 -100px; }
+
+.icon_travel {
+  background-position: 0 -120px; }
+
+.icon_lady {
+  background-position: 0 -140px; }
+
+.icon_deti {
+  background-position: 0 -160px; }
+
+.icon_realty {
+  background-position: 0 -180px; }
+
+.icon_cards {
+  height: 17px;
+  background-position: 0 -200px; }
+
+.icon_pogoda {
+  background-position: 0 -220px; }
+
+.icon_content {
+  background-position: 0 -240px; }
+
+.icon_afisha {
+  background-position: 0 -260px; }
+
+.icon_hitech {
+  background-position: 0 -280px; }
+
+.icon_otvet {
+  background-position: 0 -300px; }
+
+.icon_money {
+  background-position: 0 -320px; }
+
+.icon_health {
+  background-position: 0 -340px; }
+
+.icon_torg {
+  background-position: 0 -360px; }
+
+.icon_video {
+  background-position: 0 -380px; }
+
+.icon_love {
+  background-position: 0 -400px; }
+
+.icon_projects_big {
+  width: 24px;
+  height: 24px;
+  margin-top: -12px;
+  margin-bottom: -12px;
+  background-image: url(//limg.imgsmail.ru/r/default/splash/projectbar.png?v=3); }
+
+.icon_my {
+  background-position: 0 0; }
+
+.icon_agent {
+  background-position: 0 -50px; }
+
+.icon_ok {
+  background-position: 0 -100px; }
+
+.icon_love_big {
+  background-position: 0 -150px; }
+
+.icon_games {
+  background-position: 0 -200px; }
+
+.icon_mail {
+  background-position: 0 -250px; }
+
+.icon_icq {
+  background-position: 0 -300px; }
+
+.icon_gallery {
+  width: 14px;
+  height: 23px;
+  margin-top: -11px;
+  margin-bottom: -11px;
+  background-image: url(//limg.imgsmail.ru/r/default/splash/gallery-more.png?v=1); }
+
+.icon_more {
+  background-position: 0 0; }
+
+.icon_am {
+  background-image: url(//limg.imgsmail.ru/r/default/splash/flags/icon_flag_am.png?v=1); }
+
+.icon_az {
+  background-image: url(//limg.imgsmail.ru/r/default/splash/flags/icon_flag_az.png?v=1); }
+
+.icon_by {
+  background-image: url(//limg.imgsmail.ru/r/default/splash/flags/icon_flag_by.png?v=1); }
+
+.icon_de {
+  background-image: url(//limg.imgsmail.ru/r/default/splash/flags/icon_flag_de.png?v=1); }
+
+.icon_ee {
+  background-image: url(//limg.imgsmail.ru/r/default/splash/flags/icon_flag_ee.png?v=1); }
+
+.icon_ge {
+  background-image: url(//limg.imgsmail.ru/r/default/splash/flags/icon_flag_ge.png?v=1); }
+
+.icon_il {
+  background-image: url(//limg.imgsmail.ru/r/default/splash/flags/icon_flag_il.png?v=1); }
+
+.icon_kg {
+  background-image: url(//limg.imgsmail.ru/r/default/splash/flags/icon_flag_kg.png?v=1); }
+
+.icon_kz {
+  background-image: url(//limg.imgsmail.ru/r/default/splash/flags/icon_flag_kz.png?v=1); }
+
+.icon_lv {
+  background-image: url(//limg.imgsmail.ru/r/default/splash/flags/icon_flag_lv.png?v=1); }
+
+.icon_md {
+  background-image: url(//limg.imgsmail.ru/r/default/splash/flags/icon_flag_md.png?v=1); }
+
+.icon_tj {
+  background-image: url(//limg.imgsmail.ru/r/default/splash/flags/icon_flag_tj.png?v=1); }
+
+.icon_ua {
+  background-image: url(//limg.imgsmail.ru/r/default/splash/flags/icon_flag_ua.png?v=1); }
+
+.icon_us {
+  background-image: url(//limg.imgsmail.ru/r/default/splash/flags/icon_flag_us.png?v=1); }
+
+.icon_uz {
+  background-image: url(//limg.imgsmail.ru/r/default/splash/flags/icon_flag_uz.png?v=1); }
+
+.projectbar {
+  margin-top: 3px;
+  text-align: center; }
+
+.projectbar__item {
+  display: inline-block;
+  width: 25%;
+  padding-top: 6px;
+  padding-bottom: 1px;
+  text-align: center;
+  font-weight: bold; }
+
+.projectbar__item_wide {
+  width: 50%; }
+
+.projectbar__item__link,
+.projectbar__item__link:link,
+.projectbar__item__link:visited,
+.projectbar__item__link:hover,
+.projectbar__item__link:active,
+.projectbar__item__link:focus {
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer; }
+
+.projectbar__item__link__icon {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.projectbar__item__link__text {
+  font-size: 12px;
+  line-height: 22px;
+  text-decoration: underline;
+  vertical-align: middle; }
+
+.projectbar__item__link:hover .projectbar__item__link__text {
+  text-decoration: none; }
+
+.projectlist {
+  margin-top: 4px;
+  margin-bottom: 6px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-top: 1px solid #ced0d8;
+  border-bottom: 1px solid #ced0d8; }
+
+.w-projectlist__column {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top; }
+
+.w-projectlist__column_left {
+  width: 50%;
+  padding-left: 6%; }
+
+.w-projectlist__column_right {
+  width: 39%;
+  padding-left: 5%; }
+
+.projectlist__item {
+  display: block; }
+
+.projectlist__item__link,
+.projectlist__item__link:link,
+.projectlist__item__link:visited,
+.projectlist__item__link:hover,
+.projectlist__item__link:active,
+.projectlist__item__link:focus {
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer; }
+
+.projectlist__item__link__text {
+  font-size: 12px;
+  line-height: 21px;
+  text-decoration: underline;
+  vertical-align: middle; }
+
+.projectlist__item__link:hover .projectlist__item__link__text {
+  text-decoration: none; }
+
+div.prm-reg_btn {
+  margin: 12px 0; }
+
+	</style>
+<div class="page main-wrap clearfix">
+	<div class="page__leftcol">
+		<style type="text/css">
+	.logo {
+  height: 59px;
+  background-color: #165696;
+  background-image: url(//limg.imgsmail.ru/r/default/splash/splash-bg-grad.png?v=1);
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #366899;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #0f457a;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px; }
+
+.logo__link {
+  display: block;
+  width: 100%;
+  height: 54px;
+  padding-top: 5px; }
+
+.logo__link__img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto; }
+
+</style>
+
+<h1 class="logo">
+	<a href="http://mail.ru/" class="logo__link">
+	<img src="http://limg.imgsmail.ru/r/default/splash/splash-logo.png" width="214" height="48" alt="Mail.Ru" class="logo__link__img" />
+</a>
+</h1>
+
+
+		
+	<style type="text/css">
+		.sublogonav__item {
+  display: inline-block; }
+
+.sublogonav__item_left {
+  width: 120px; }
+
+.sublogonav__item_right {
+  width: 140px;
+  text-align: right; }
+
+.sublogonav__item__link,
+.sublogonav__item__link:link,
+.sublogonav__item__link:visited,
+.sublogonav__item__link:hover,
+.sublogonav__item__link:active,
+.sublogonav__item__link:focus {
+  color: #797a80;
+  text-decoration: none;
+  cursor: pointer; }
+
+.sublogonav__item__link:hover,
+.sublogonav__item__link:active {
+  color: #f26d00; }
+
+.sublogonav__item__link__text {
+  font: 11px/15px Tahoma;
+  text-decoration: underline;
+  vertical-align: middle; }
+
+.sublogonav__item__link:hover .sublogonav__item__link__text {
+  text-decoration: none; }
+
+	</style>
+
+
+
+
+
+
+
+
+<div class="sublogonav">
+	<div class="sublogonav__item sublogonav__item_left">
+		<a href="http://www.mail.ru/pages/help/11.html" class="sublogonav__item__link" name="cln2407"><span class="sublogonav__item__link__text">Сделать стартовой</span></a>
+	</div><div class="sublogonav__item sublogonav__item_right">
+		<a href="http://mobile.mail.ru/" class="sublogonav__item__link" name="cln2863" target="_blank"><i class="sublogonav__item__link__icon icon icon_splash icon_mobile"></i><span class="sublogonav__item__link__text">С телефона: m.mail.ru</span></a>
+	</div>
+</div>
+
+
+
+
+		<style type="text/css">
+.authorization_block{margin: 75px 0 0}
+.authorization_position{margin-bottom: -220px !important}
+.prm-reg_btn{background:#f08b10 url(http://img.mail.ru/mail/ru/images/ru/promo_reg/bg10.png) repeat-x 0 0; margin: 0 0 10px; position: relative}
+.prm-reg_btn:hover{background-position: 0 -72px}
+.prm-reg_btn_in{background: url(http://img.mail.ru/mail/ru/images/ru/promo_reg/sprite6.png) no-repeat 0 0; text-align: center}
+.prm-reg_btn:hover .prm-reg_btn_in{background-position: 0 -144px}
+.prm-reg_btn_in2{background: url(http://img.mail.ru/mail/ru/images/ru/promo_reg/sprite6.png) no-repeat 100% -72px; vertical-align: middle}
+.prm-reg_btn:hover .prm-reg_btn_in2{background-position: 100% -216px}
+.prm-reg_btn a{color:#fff !important; font: 11px Arial,sans-serif; display: block; text-decoration:none; height: 65px; padding: 7px 20px 0 60px}
+.prm-reg_big{font: 700 20px Arial, sans-serif; display: block; text-shadow: -1px -1px 0px #a25709}
+</style>
+<div class="prm-reg_btn"><div class="prm-reg_btn_in"><div class="prm-reg_btn_in2">
+        
+            <a name="clb409343" href="http://e.mail.ru/cgi-bin/signup"><span class="prm-reg_big">Создать почту</span> Неограниченный объем, защита от спама и вирусов</a>
+        
+</div></div></div>
+
+		
+
+
+<div class="mailbox">
+	<div class="mailbox__tabs">
+	<div class="mailbox__tabs__item mailbox__tabs__item_mail">
+		Почта
+	</div><div class="mailbox__tabs__item mailbox__tabs__item_agent">
+		<a href="http://agent.mail.ru?partnerid=splashtab" class="mailbox__tabs__item__link" name="clb598925">
+			Агент
+		</a>
+	</div>
+</div>
+
+	<div class="mailbox__wrap">
+		
+			<form name="Auth" id="Auth" method="post" action="http://e.mail.ru/cgi-bin/auth"
+	data-submit-counter="clb615189"
+	data-button-counter="clb615190">
+	
+	
+
+	<table class="mailbox__cont">
+		<tr>
+			<td>
+			</td>
+			<td colspan="2" class="mailbox__register">
+				<a href="http://www.mail.ru/pages/help/index.html" name="clb615194" tabindex="10" title="Помощь" class="mailbox__help__link mailbox__link">
+					?
+				</a>
+
+				<a href="http://e.mail.ru/cgi-bin/signup" name="clb615195" tabindex="9" class="mailbox__register__link mailbox__link">
+					Регистрация&nbsp;в&nbsp;почте
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="mailbox__login__label">
+				<label for="mailbox__login">Имя</label>
+			</td>
+			<td>
+				<table>
+					<tr>
+						<td class="mailbox__login">
+							<input id="mailbox__login" type="text" size="10" name="Login" tabindex="3" value="" class="mailbox__login__field" />
+						</td>
+						<td class="mailbox__domain">
+							<select size="1" name="Domain" tabindex="4" class="mailbox__domain__field">
+								
+									<option value="mail.ru">@mail.ru</option>
+								
+									<option value="inbox.ru">@inbox.ru</option>
+								
+									<option value="list.ru">@list.ru</option>
+								
+									<option value="bk.ru">@bk.ru</option>
+								
+							</select>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="mailbox__password__label">
+				<label for="mailbox__password">Пароль</label>
+			</td>
+			<td>
+				<table>
+					<tr>
+						<td class="mailbox__password">
+							<input id="mailbox__password" type="password" size="15" name="Password" tabindex="5" value="" class="mailbox__password__field"
+								data-notify-cyrillic="Пароль содержит русские буквы"
+								data-notify-cyrillicnow="Вы вводите русские буквы"
+								data-notify-caps="Включен Caps Lock" />
+						</td>
+						<td class="mailbox__forget">
+							<a href="http://e.mail.ru/cgi-bin/passremind" tabindex="8" name="clb615191" class="mailbox__forget__link mailbox__link">Забыли?</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			</td>
+			<td class="mailbox__buttons">
+				<input id="mailbox__submit__button" type="submit" value="Войти" tabindex="6" class="mailbox__submit__button" />
+				<input type="checkbox" id="mailbox__anothers" tabindex="7" name="level" value="1" class="mailbox__anothers__checkbox" />
+				<label for="mailbox__anothers" class="mailbox__anothers__label">Чужой компьютер</label>
+			</td>
+		</tr>
+	</table>
+
+</form>
+
+		
+	</div>
+</div>
+
+ 
+		<div class="projectbar">
+	<div class="projectbar__item">
+		<a class="projectbar__item__link" href="http://e.mail.ru/cgi-bin/login" name="clb598677" tabindex="11">
+			<i class="icon icon_projects_big icon_mail projectbar__item__link__icon"></i><br />
+			<span class="projectbar__item__link__text">Почта</span>
+		</a>
+	</div><div class="projectbar__item projectbar__item_wide">
+		<a class="projectbar__item__link" href="http://odnoklassniki.ru/?from=mail.ru" name="clb598678" tabindex="12">
+			<i class="icon icon_projects_big icon_ok projectbar__item__link__icon"></i><br />
+			<span class="projectbar__item__link__text">Одноклассники</span>
+		</a>
+	</div><div class="projectbar__item">
+		<a class="projectbar__item__link" href="http://my.mail.ru/" name="clb598679" tabindex="13">
+			<i class="icon icon_projects_big icon_my projectbar__item__link__icon"></i><br />
+			<span class="projectbar__item__link__text">Мой мир</span>
+		</a>
+	</div><div class="projectbar__item">
+		<a class="projectbar__item__link" href="http://agent.mail.ru?partnerid=splash" name="clb598680" tabindex="14">
+			<i class="icon icon_projects_big icon_agent projectbar__item__link__icon"></i><br />
+			<span class="projectbar__item__link__text">Агент</span>
+		</a>
+	</div><div class="projectbar__item projectbar__item_wide">
+		<a class="projectbar__item__link" href="http://games.mail.ru/" name="clb598682" tabindex="15">
+			<i class="icon icon_projects_big icon_games projectbar__item__link__icon"></i><br />
+			<span class="projectbar__item__link__text">Игры</span>
+		</a>
+	</div><div class="projectbar__item">
+		<a class="projectbar__item__link" href="http://icq.mail.ru" name="clb598683" tabindex="16">
+			<i class="icon icon_projects_big icon_icq projectbar__item__link__icon"></i><br />
+			<span class="projectbar__item__link__text">ICQ</span>
+		</a>
+	</div>
+</div>
+
+
+		<div class="projectlist">
+	<div class="w-projectlist__column w-projectlist__column_left">
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://love.mail.ru/partner/link.phtml?pid=475306&lid=6462" name="clb598681" tabindex="17">
+				<i class="projectlist__item__link__icon icon icon_projects icon_love"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Знакомства</span>
+			</a>
+		</div>
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://horo.mail.ru/" name="clb654948" tabindex="19">
+				<i class="projectlist__item__link__icon icon icon_projects icon_horo"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Гороскопы</span>
+			</a>
+		</div>
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://news.mail.ru/" name="cln2549" tabindex="21">
+				<i class="projectlist__item__link__icon icon icon_projects icon_news"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Новости</span>
+			</a>
+		</div>
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://auto.mail.ru/" name="clb654964" tabindex="23">
+				<i class="projectlist__item__link__icon icon icon_projects icon_auto"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Авто</span>
+			</a>
+		</div>
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://maps.mail.ru/" name="cln3304" tabindex="25">
+				<i class="projectlist__item__link__icon icon icon_projects icon_maps"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Карты</span>
+			</a>
+		</div>
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://rabota.mail.ru/" name="clb655069" tabindex="27">
+				<i class="projectlist__item__link__icon icon icon_projects icon_rabota"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Работа</span>
+			</a>
+		</div>
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://travel.mail.ru/" name="clb654970" tabindex="29">
+				<i class="projectlist__item__link__icon icon icon_projects icon_travel"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Путешествия</span>
+			</a>
+		</div>
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://lady.mail.ru/" name="clb654973" tabindex="31">
+				<i class="projectlist__item__link__icon icon icon_projects icon_lady"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Леди</span>
+			</a>
+		</div>
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://deti.mail.ru/" name="cln4028" tabindex="33">
+				<i class="projectlist__item__link__icon icon icon_projects icon_deti"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Дети</span>
+			</a>
+		</div>
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://realty.mail.ru/" name="clb654957" tabindex="35">
+				<i class="projectlist__item__link__icon icon icon_projects icon_realty"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Недвижимость</span>
+			</a>
+		</div>
+	</div><div class="w-projectlist__column w-projectlist__column_right">
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://video.mail.ru/" name="clb654960" tabindex="36">
+				<i class="projectlist__item__link__icon icon icon_projects icon_video"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Видео</span>
+			</a>
+		</div>
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://cards.mail.ru/" name="cln2554" tabindex="18">
+				<i class="projectlist__item__link__icon icon icon_projects icon_cards"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Открытки</span>
+			</a>
+		</div>
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://pogoda.mail.ru/" name="cln3847" tabindex="20">
+				<i class="projectlist__item__link__icon icon icon_projects icon_pogoda"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Погода</span>
+			</a>
+		</div>
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://content.mail.ru/" name="cln5835" tabindex="22">
+				<i class="projectlist__item__link__icon icon icon_projects icon_content"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Рассылки</span>
+			</a>
+		</div>
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://afisha.mail.ru/" name="clb654935" tabindex="24">
+				<i class="projectlist__item__link__icon icon icon_projects icon_afisha"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Афиша</span>
+			</a>
+		</div>
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://hitech.mail.ru/" name="cln2555" tabindex="26">
+				<i class="projectlist__item__link__icon icon icon_projects icon_hitech"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Hi-tech</span>
+			</a>
+		</div>
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://otvet.mail.ru/" name="cln2548" tabindex="28">
+				<i class="projectlist__item__link__icon icon icon_projects icon_otvet"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Ответы</span>
+			</a>
+		</div>
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://money.mail.ru/" name="clb654951" tabindex="30">
+				<i class="projectlist__item__link__icon icon icon_projects icon_money"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Деньги</span>
+			</a>
+		</div>
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://health.mail.ru/" name="clb654977" tabindex="32">
+				<i class="projectlist__item__link__icon icon icon_projects icon_health"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Здоровье</span>
+			</a>
+		</div>
+		<div class="projectlist__item">
+			<a class="projectlist__item__link" href="http://torg.mail.ru/" name="clb654955" tabindex="34">
+				<i class="projectlist__item__link__icon icon icon_projects icon_torg"></i>&nbsp;&nbsp;<span class="projectlist__item__link__text">Товары</span>
+			</a>
+		</div>
+	</div>
+</div>
+
+
+
+		<link href="//limg.imgsmail.ru/mail/ru/css/neo/pages/splash/splash.css?v=0.21" rel="stylesheet" type="text/css" />
+		<table width="100%" cellspacing="0"><tr><td id="placeholder_4466">
+		</td></tr>
+		<tr><td id="placeholder_4463">
+		</td></tr>
+		<tr><td id="placeholder_4468">
+		</td></tr></table>
+
+		<script>splashRadar('leftcol', 1)('search');</script>
+	</div>
+	<div class="page__content">
+		<div class="search">
+	<div class="search__tabs" id="search__projects">
+		<div class="search__tabs__item search__tabs__item_selected">
+			<a href="http://r.mail.ru/cln9535/go.mail.ru/" data-search-href="http://r.mail.ru/cln9547/go.mail.ru/search?mailru=1&amp;q=" class="search__tabs__item__link_selected" title="Удобная страница поиска">
+				Поиск в интернете
+			</a>
+		</div><div class="search__tabs__item">
+			<a href="http://r.mail.ru/cln3221/go.mail.ru/search_images?fr=mailru" data-search-href="http://r.mail.ru/cln9540/go.mail.ru/search_images?fr=mailru&amp;q=" class="search__tabs__item__link">Картинки</a>
+			<a href="http://r.mail.ru/cln3640/go.mail.ru/search_video?fr=mailru" data-search-href="http://r.mail.ru/cln9539/go.mail.ru/search_video?fr=mailru&amp;q=" class="search__tabs__item__link">Видео</a>
+			<a href="http://r.mail.ru/cln9537/go.mail.ru/realtime?fr=mailru" data-search-href="http://r.mail.ru/cln9541/go.mail.ru/realtime?fr=mailru&amp;q=" class="search__tabs__item__link">Обсуждения</a>
+            <a href="http://r.mail.ru/cln3862/otvet.mail.ru/?fr=mailru" data-search-href="http://r.mail.ru/cln9542/go.mail.ru/otvet?fr=mailru&amp;q=" class="search__tabs__item__link">Ответы</a>
+			<a href="http://r.mail.ru/cln3225/lingvo.mail.ru/?fr=mailru" data-search-href="http://r.mail.ru/cln9546/lingvo.mail.ru/?fr=mailru&amp;text=" class="search__tabs__item__link">Словари</a>
+		</div>
+	</div>
+	<div class="search__body">
+		<form action="http://go.mail.ru/search" method="get" accept-charset="UTF-8" class="search__form" id="search">
+			<input type="hidden" name="mailru" value="1">
+			<!--[if IE]>
+				<input type="hidden" name="iewtf" value="&#9760;">
+			<![endif]-->
+			
+				<input type="hidden" name="rch" value="e">
+				<!-- Not Russia -->
+					<input type="hidden" name="mg" value="1">
+				
+
+			<table class="search__container">
+				<tr>
+					<td class="search__words">
+						<div class="search__words__container">
+							<input type="text" autocomplete="off" autofocus="autofocus" tabindex="1" value="" class="search__words__field" name="q" id="q" />
+							<span id="search__words__placeholder" class="search__words__placeholder">Введите запрос</span>
+						</div>
+					</td>
+					<td class="search__submit">
+						<input type="submit" tabindex="2" value="Найти" class="search__submit__button" id="search__submit__button" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<div class="search__subnav">
+		<div class="search__subnav__now">
+			Сейчас ищут: 
+
+
+
+<a href="http://r.mail.ru/n85764557" class="search__subnav__now__link search__now-searching__link">борис акунин книги</a>
+		</div>
+		<div class="search__subnav__adv">
+			
+
+
+
+<a name="clb544108" href="http://go.mail.ru/help.html#start-page" class="search__subnav__adv__link"><i class="icon icon_splash icon_question search__subnav__adv__link__icon"></i>&nbsp;<span class="search__subnav__adv__link__text">Как искать в Интернете?</span></a>
+		</div>
+	</div>
+	<div class="go-form__sugg">
+	<div class="go-form__sugg__brd-overlay"></div>
+
+	<div class="go-form__sugg__wrap">
+		<div class="go-form__sugg__helpwrap">
+			<div class="go-form__sugg__items"></div>
+			<div class="go-form__sugg__loading"></div>
+		</div>
+	</div>
+</div>
+
+</div>
+
+
+
+		<script>splashRadar('search', 1)('content');</script>
+
+		<div class="page__content__wrap">
+			<div class="page__centercol">
+				<div class="page__centercol__wrap">
+					<div class="text-banner page__slot_centercol-banner-1st clearfix">
+							
+
+
+
+
+
+
+
+
+
+<a href="http://r.mail.ru/n78526693" class="text-banner__link" target="_blank">
+<img src="http://r2.mail.ru/b13715770.jpg" width="75" height="50" alt="" class="text-banner__link__image">
+<span class="text-banner__link__title">&laquo;Фрагория&raquo; &mdash; мир отважных воинов
+</span>
+</a>
+<div class="text-banner__text">
+В этой ролевой игре каждому мечу найдется применение!
+</div>
+							
+						</div>
+					<script>splashRadar('news');</script>
+					<!-- News second lane -->
+
+
+<!-- News third lane (sport) -->
+
+
+<!-- Auto -->
+
+
+<!-- Afisha -->
+
+
+<!-- Hi-tech -->
+
+
+<!-- Games -->
+
+
+<!-- Travel -->
+
+
+<!-- Regional news -->
+
+
+
+
+
+
+<!-- Mutating slot: Lady/Deti/Health -->
+
+
+
+
+
+
+<script>
+	function rotateSlots(id, slots, mode, callback) {
+  		function load(f) {
+			if (window.addEventListener) window.addEventListener('load', f, false);
+			else if (window.attachEvent) window.attachEvent('onload', f);
+		}
+		load(function() { rotateSlots(id, slots, mode, callback) });
+ 	}
+</script>
+
+<div class="news news_divider" id="news">
+	<div class="news__tabs">
+		<div class="news__tabs__item news__tabs__item_selected">
+			<a href="http://r.mail.ru/n66729402" class="news__tabs__item__link news__tabs__item__link_selected" data-slots="firstlane,4021,4047" data-counters="null,d226873,d440380">Новости</a>
+		</div>
+		<div class="news__tabs__item">
+			<a href="http://r.mail.ru/n66729403" class="news__tabs__item__link" data-slots="4537" data-counters="d226841">Авто</a>
+		</div>
+		<div class="news__tabs__item">
+			<a href="http://r.mail.ru/n66729404" class="news__tabs__item__link" data-slots="4533" data-counters="d226846">Афиша</a>
+		</div>
+		<div class="news__tabs__item">
+			<a href="http://r.mail.ru/n66729405" class="news__tabs__item__link" data-slots="4019" data-counters="d226848">Hi-Tech</a>
+		</div>
+		<div class="news__tabs__item">
+			<a href="http://deti.mail.ru" class="news__tabs__item__link" data-slots="2082" data-counters="d226850">Дети</a>
+		</div>
+		<div class="news__tabs__item">
+			<a href="http://r.mail.ru/n66729407" class="news__tabs__item__link" data-slots="4027" data-counters="d226852">Игры</a>
+		</div>
+		<div class="news__tabs__item">
+			<a href="http://r.mail.ru/n66729408" class="news__tabs__item__link" data-slots="2521" data-counters="d440356">Туризм</a>
+		</div>
+	</div>
+
+	<!-- Regional news tabs -->
+	
+
+	<div class="news__wrap">
+		<!-- Regional news -->
+		
+
+
+		<!-- Новости: первый слой -->
+		<div class="news__list hslice" id="slot_firstlane" >
+			<a rel="feedurl" href="http://inf.mail.ru/ie8/news/mailru_start_slice_new.html#news" style="display:none;"></a>
+			<span class="entry-title" style="display:none;">Новости@Mail.Ru</span>
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="news__list__item news__list__item_withpic" id="news_firstlane_1_changable">
+<a name="clb547210" href="http://news.mail.ru/politics/8244252/?frommail=1" target="_blank" class="news__list__item__link">
+<img src="http://r2.mail.ru/b14868425.jpg" width="70" height="50" alt="Путин пояснил суть договоренностей с&nbsp;Медведевым об&nbsp;участии в&nbsp;выборах" class="news__list__item__link__pic" />
+<span class="news__list__item__link__text">Путин пояснил суть договоренностей с&nbsp;Медведевым об&nbsp;участии в&nbsp;выборах</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb547210" href="http://news.mail.ru/politics/8244200/?frommail=1" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Путин намерен продолжить либерализацию политсистемы</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb547210" href="http://news.mail.ru/politics/8244172/?frommail=1" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Медведев обратился к избирателям накануне выборов</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb547210" href="http://news.mail.ru/politics/8244249/?frommail=1" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Ситуация в&nbsp;Сирии: силы оппозиции раздроблены</span>&nbsp;<i class="icon icon_splash icon_hasphoto news__list__item__icon"></i></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb547210" href="http://news.mail.ru/inregions/moscow/90/politics/8244169/?frommail=1" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Сергей Собянин рассказал о&nbsp;возможных нововведениях в&nbsp;Москве</span></a>
+</div>
+ <!-- Первые пять новостей (в том числе с картинкой) -->
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="news__list__item">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="http://r.mail.ru/n92428789" target="_blank" class="news__list__item__link"><span class="news__list__item__link__text">Питерские &laquo;армейцы&raquo; отгрузили московским 7 шайб</span></a>
+</div> <!-- 6-я новость -->
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="news__list__item" id="news_firstlane_7_changable"> 
+
+<a class="news__list__item__title" href="http://auto.mail.ru/" name="clb571760">Авто</a>:
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="http://auto.mail.ru/article.html?id=36546" name="clb561326" target="_blank" class="news__list__item__link"><span class="news__list__item__link__text">Россияне торопятся купить машину до выборов</span></a>
+</div>
+<script>rotateSlots('news_firstlane_7_changable', [2592]);</script> <!-- 7-я новость -->
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="news__list__item" id="news_firstlane_8_changable"> 
+
+
+
+<a class="news__list__item__title" href="http://deti.mail.ru/" name="clb571758">Дети</a>:
+
+
+
+
+
+
+
+
+
+
+<a href="http://deti.mail.ru/roditeljam/muzhchina_god_platil_alimenty_chuzhomu_rebenku/?informer_id=3" name="clb540445" target="_blank" class="news__list__item__link"><span class="news__list__item__link__text">Мужчина год платил алименты чужому ребенку</span></a>
+</div> <!-- 8-я новость -->
+
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+					<script>splashRadar('news',1);</script>
+					<script>splashRadar('informers');</script>
+					<script>
+function detectDate() {
+	var t = new Date();
+	return t.getDate() + ' ' +
+		['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'][t.getMonth()];
+}
+window.regionRBId='325';
+</script>
+	
+<div id="rb_wreselect_link" style="display:none">
+	<div class="rb_inner">
+		<table class="w100">
+			<tr>
+				<td class="w100 rb_nobr">
+					Вы сейчас в <span class="rb_city"></span>?
+				</td>
+				<td class="rb_nobr" style="padding-left:5px">
+					<input type="button" value="Да" class="w-ok"/><input type="button" value="Нет" class="w-cancel"/>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="rb_tile"></div>
+</div>
+	
+<div class="informers__header">
+	<div class="informers__header__city">
+		<span class="informers__header__city__link">
+<img src="http://r2.mail.ru/d338025.gif?rnd=202143039&ts=1330653164" width="1" height="1" border="0" alt="" style="position:absolute;"/>
+Олбани
+</span>
+		<a href="#" id="rb_city_change" class="informers__header__city__change" style="display:none">изменить</a>
+	</div>
+	<div class="informers__header__date">
+		<script>document.write(detectDate())</script>
+	</div>
+</div>
+
+<table class="info_today2">
+	<tr>
+		<td class="weather_review">
+			
+<img src="http://r2.mail.ru/d338024.gif?rnd=138831374&ts=1330653164" width="1" height="1" border="0" alt="" style="position:absolute;"/>
+
+<div class="hslice" id="forecast">
+	<div style="display: none;">
+		<a name="clb338024" rel="feedurl" href="http://inf.mail.ru/ie8/pogoda/hslice_main.html?city=4873#pogoda"></a>
+		<span class="entry-title">Погода@Mail.Ru</span>
+	</div>
+	<!-- prj_mailindex_forecast: worldregion=7; country=164; city=4873 -->
+	<div class="main"><a href="http://r.mail.ru/n62642541" target="_blank"><img src="http://limg.imgsmail.ru/r/weather_new/pict_weather_big_n2.gif" width="57" height="71" alt="слабый снег" title="слабый снег" /></a>
+		<div>
+			<h1><a href="http://r.mail.ru/n62642541" target="_blank">0&deg;</a></h1>
+			<a href="http://r.mail.ru/n62642541" target="_blank"><span class="first">ночью: +2&deg;</span><span class="second">завтра: +4&deg;</span></a><span class="third"><a href="http://r.mail.ru/n62642541" target="_blank">слабый снег</a></span>
+		</div>
+	</div>
+</div>
+
+
+
+		</td>
+		<th>
+		</th>
+		<td class="quotations_and_stoppers">
+			
+    <div class="hslice" id="rate">
+        <a name="clb181366" rel="feedurl" href="http://inf.mail.ru/ie8/rate/slice_RUR.html#rate" style="display: none;"></a>
+        <span class="entry-title" style="display: none;">Курсы валют от Mail.Ru</span>
+
+        <table class="quotations_t" id="quotationsId">            <tr>
+                <td class="q_course"><a name="clb181366" href="http://news.mail.ru/currency.html?charcode=USD" class="usd" title="Курс с 02.03" target="_blank">29.2889</a></td>
+            </tr>
+            <tr>
+                <td class="pb2 q_delta q_plus"><a name="clb181366" href="http://news.mail.ru/currency.html?charcode=USD" title="Курс с 02.03" target="_blank">+0.2636</a></td>
+            </tr>            <tr>
+                <td class="q_course"><a name="clb181366" href="http://news.mail.ru/currency.html?charcode=EUR" class="eur" title="Курс с 02.03" target="_blank">39.0714</a></td>
+            </tr>
+            <tr>
+                <td class="pb2 q_delta q_minus"><a name="clb181366" href="http://news.mail.ru/currency.html?charcode=EUR" title="Курс с 02.03" target="_blank">&minus;0.0315</a></td>
+            </tr>        </table>
+
+    </div>
+
+
+			
+		</td>
+		<th>
+		</th>
+		<td class="schedule">
+			<div class="informers__schedule hslice">
+	<a rel="feedurl" href="http://inf.mail.ru/ie8/tv/slice_main.html#tv" style="display:none;"></a>
+	<span class="entry-title" style="display:none;">Афиша@Mail.Ru: ТВ и кино</span>
+
+	<div class="simple-tabs simple-tabs_tiny" id="informers__schedule__tabs">
+		<div class="simple-tabs__item simple-tabs__item_tiny simple-tabs__item_selected">
+			<a href="http://r.mail.ru/cln4448/tv.mail.ru" data-page="schedule_tv" class="simple-tabs__item__link simple-tabs__item__link_selected">ТВ</a>
+		</div><div class="simple-tabs__item simple-tabs__item_tiny">
+			<a href="http://r.mail.ru/cln4449/afisha.mail.ru/events.html?placetype=1" data-page="schedule_cinema" class="simple-tabs__item__link">Кино</a>
+		</div><div class="simple-tabs__item simple-tabs__item_tiny">
+			<a href="http://news.mail.ru/sport/" data-page="schedule_sport" class="simple-tabs__item__link">Спорт</a>
+		</div>
+	</div>
+
+	<div class="informers__schedule__page" id="schedule_tv">
+				<table class="schedule_content schedule_tv2">
+					<tr>
+				<td class="channel">
+					<a href="http://r.mail.ru/n77678823" target="_new"><img src="http://r2.mail.ru/b14223472.gif" width="17" height="17" alt="" title="Первый" /></a>
+				</td>
+				<td nowrap="nowrap" class="transfer">
+					<span>05:05</span>
+					<div class="overflow_block">
+						<div class="gradient"></div>
+						<div class="tv_s">
+							<a href="http://r.mail.ru/n92435479" title="Телеканал Доброе утро">Телеканал &quot;Доброе утро&quot;</a>
+						</div>
+					</div>
+				</td>
+		  </tr>
+					<tr>
+				<td class="channel">
+					<a href="http://r.mail.ru/n77678825" target="_new"><img src="http://r2.mail.ru/b14223476.gif" width="17" height="17" alt="" title="Россия 1" /></a>
+				</td>
+				<td nowrap="nowrap" class="transfer">
+					<span>05:00</span>
+					<div class="overflow_block">
+						<div class="gradient"></div>
+						<div class="tv_s">
+							<a href="http://r.mail.ru/n92434296" title="Утро России">Утро России</a>
+						</div>
+					</div>
+				</td>
+		  </tr>
+					<tr>
+				<td class="channel">
+					<a href="http://r.mail.ru/n77678827" target="_new"><img src="http://r2.mail.ru/b14223477.gif" width="17" height="17" alt="" title="НТВ" /></a>
+				</td>
+				<td nowrap="nowrap" class="transfer">
+					<span>04:55</span>
+					<div class="overflow_block">
+						<div class="gradient"></div>
+						<div class="tv_s">
+							<a href="http://r.mail.ru/n92434545" title="Молодые и злые (47-я серия)">Молодые и злые (47-я серия)</a>
+						</div>
+					</div>
+				</td>
+		  </tr>
+			</table> 
+		
+	</div>
+	<div class="informers__schedule__page" id="schedule_cinema" style="display:none;">
+		    <div class="schedule_movie" id="randfilm_1" >
+        <a name="clb122094" href="http://afisha.mail.ru/cinema/movies/647663_samoubijcy_na_schet/">
+        <img src="http://r2.mail.ru/b14861141.jpg" width="100" height="55" alt="Самоубийцы" title="Самоубийцы" /></a>
+        <br /><a name="clb122094" href="http://afisha.mail.ru/cinema/movies/647663_samoubijcy_na_schet/">Самоубийцы</a>
+    </div>    <div class="schedule_movie" id="randfilm_2"  style="display: none;">
+        <a name="clb122094" href="http://afisha.mail.ru/cinema/movies/636499_mamy/">
+        <img src="http://r2.mail.ru/b14859714.jpg" width="100" height="55" alt="Мамы" title="Мамы" /></a>
+        <br /><a name="clb122094" href="http://afisha.mail.ru/cinema/movies/636499_mamy/">Мамы</a>
+    </div>    <div class="schedule_movie" id="randfilm_3"  style="display: none;">
+        <a name="clb122094" href="http://afisha.mail.ru/cinema/movies/636495_prizrachnyj_gonschik_2_3d/">
+        <img src="http://r2.mail.ru/b14814122.jpg" width="100" height="55" alt="Призрачный гонщик 2" title="Призрачный гонщик 2" /></a>
+        <br /><a name="clb122094" href="http://afisha.mail.ru/cinema/movies/636495_prizrachnyj_gonschik_2_3d/">Призрачный гонщик 2</a>
+    </div>    <div class="schedule_movie" id="randfilm_4"  style="display: none;">
+        <a name="clb122094" href="http://afisha.mail.ru/cinema/movies/640784_avgust_vosmogo/">
+        <img src="http://r2.mail.ru/b14801904.jpg" width="100" height="55" alt="Август. Восьмого" title="Август. Восьмого" /></a>
+        <br /><a name="clb122094" href="http://afisha.mail.ru/cinema/movies/640784_avgust_vosmogo/">Август. Восьмого</a>
+    </div>    <div class="schedule_movie" id="randfilm_5"  style="display: none;">
+        <a name="clb122094" href="http://afisha.mail.ru/cinema/movies/636367_znachit_vojna/">
+        <img src="http://r2.mail.ru/b14739670.jpg" width="100" height="55" alt="Значит, война" title="Значит, война" /></a>
+        <br /><a name="clb122094" href="http://afisha.mail.ru/cinema/movies/636367_znachit_vojna/">Значит, война</a>
+    </div>    <script type="text/javascript">
+        var range = 3;
+        var rand = range * Math.random()
+        rand = parseInt(rand) + 1;
+        document.getElementById("randfilm_1").style.display = "none";
+        document.getElementById("randfilm_" + rand).style.display = "block";
+    </script>
+
+
+
+	</div>
+	<div class="informers__schedule__page" id="schedule_sport" style="display:none;">
+		
+	
+	<style>
+		.schedule_sport .score {font-style: normal; color: #bd1a03;}
+		.schedule_sport .stage {color: #797a80;}
+		.schedule_sport .ico-sport {background: url(http://r2.mail.ru/b14799065.png); display: inline-block; height: 12px; margin-right: 4px; margin-top: 1px; vertical-align: top; width: 13px;}
+		.schedule_sport .ico-f {background: url(http://r2.mail.ru/b14799065.png) -34px -88px;}
+		.schedule_sport .ico-h {background: url(http://r2.mail.ru/b14799065.png) -60px -88px;}
+		.schedule_sport .ico-b {background: url(http://r2.mail.ru/b14799065.png) -86px -88px;}
+		.schedule_sport .online .ico-h {height: 15px; background: url(http://r2.mail.ru/b14799065.png) -47px -88px; margin-top: 0; margin-bottom: -2px; position: relative;}
+		.schedule_sport .online .ico-f {height: 15px; background: url(http://r2.mail.ru/b14799065.png) -73px -88px; margin-top: 0; margin-bottom: -2px; position: relative;}
+		.schedule_sport .online .ico-h {height: 15px; background: url(http://r2.mail.ru/b14799065.png) -99px -88px; margin-top: 0; margin-bottom: -2px; position: relative;}
+	</style>
+
+	<div class="schedule_content schedule_sport">
+
+
+
+	
+	
+
+		<ul>
+			
+				<li class="online">
+
+					
+						<a href="http://r.mail.ru/n92423342" target="_blank" class="ico-sport ico-h"></a><i class="score">2:3</i><a href="http://r.mail.ru/n92423342" target="_blank" class="arr"></a>
+							
+						<div class="teams"><i></i><div>
+							<a href="http://r.mail.ru/n92423342" target="_blank"><u>Бостон Брюинз</u>&nbsp;&ndash; <u>Нью-Джерси Дэвилз</u></a>
+						</div></div>
+
+
+					
+
+				</li>
+			
+				<li class="online">
+
+					
+						<a href="http://r.mail.ru/n92423343" target="_blank" class="ico-sport ico-h"></a><i class="score">3:1</i><a href="http://r.mail.ru/n92423343" target="_blank" class="arr"></a>
+							
+						<div class="teams"><i></i><div>
+							<a href="http://r.mail.ru/n92423343" target="_blank"><u>Монреаль Канадиенс</u>&nbsp;&ndash; <u>Миннесота Уайлд</u></a>
+						</div></div>
+
+
+					
+
+				</li>
+			
+				<li class="online">
+
+					
+						<a href="http://r.mail.ru/n92423344" target="_blank" class="ico-sport ico-h"></a><i class="score">4:2</i><a href="http://r.mail.ru/n92423344" target="_blank" class="arr"></a>
+							
+						<div class="teams"><i></i><div>
+							<a href="http://r.mail.ru/n92423344" target="_blank"><u>Филадельфия Флайерз</u>&nbsp;&ndash; <u>Нью-Йорк Айлендерс</u></a>
+						</div></div>
+
+
+					
+
+				</li>
+			
+		</ul>
+	</div>
+
+
+	</div>
+</div>
+
+		</td>
+	</tr>
+</table>
+
+
+					<script>splashRadar('informers',1)('Splashjs');</script>
+					<script src="//limg.imgsmail.ru/r/js/ru/build/Splash.js?0.21"></script>
+					<script>splashRadar('Splashjs',1);</script>
+					<div class="text-banner page__slot_centercol-banner-3rd clearfix">
+							
+
+
+
+
+
+
+
+
+
+<a href="http://r.mail.ru/n92402979" class="text-banner__link" target="_blank">
+<img src="http://r2.mail.ru/b14861720.jpg" width="75" height="50" alt="" class="text-banner__link__image">
+<span class="text-banner__link__title">&laquo;Пара Па: Город танцев&raquo;
+</span>
+</a>
+<div class="text-banner__text">
+Это десятки танцплощадок и клубов.<br />
+Это шанс начать новую танцевальную карьеру!</div>
+							
+						</div>
+					<div class="catalogue">
+	<h3 class="catalogue__title">
+		<a href="http://list.mail.ru/" class="catalogue__title__link">Каталог сайтов</a>
+	</h3>
+	<div class="catalogue__list">
+				<div class="w-catalogue__list__column">
+			<div class="catalogue__list__item">
+			<a name="clb638546" href="http://list.mail.ru/10903/1/0_1_0_1.html" class="catalogue__list__item__link">Непознанное</a>, <a name="clb638546" href="http://list.mail.ru/11109/1/0_1_0_1.html" class="catalogue__list__item__link">Гороскопы</a>
+		</div>
+			<div class="catalogue__list__item">
+				<a name="clb638546" href="http://list.mail.ru/10897/1/0_1_0_1.html" class="catalogue__list__item__link">Домашний очаг</a>,
+				<a name="clb638546" href="http://list.mail.ru/10993/1/0_1_0_1.html" class="catalogue__list__item__link">Медицина</a>
+			</div>
+			<div class="catalogue__list__item">
+				<a name="clb638546" href="http://list.mail.ru/10902/1/0_1_0_1.html" class="catalogue__list__item__link">Наука и образование</a>
+			</div>
+			<div class="catalogue__list__item">
+				<a name="clb638546" href="http://list.mail.ru/2/1/0_1_0_1.html" class="catalogue__list__item__link">Общество и политика</a>
+			</div>
+			<div class="catalogue__list__item">
+				<a name="clb638546" href="http://list.mail.ru/14251/1/0_1_0_1.html" class="catalogue__list__item__link">Недвижимость</a>,
+				<a name="clb638546" href="http://list.mail.ru/12113/1/0_1_0_1.html" class="catalogue__list__item__link">Ремонт</a>
+			</div>
+			<div class="catalogue__list__item">
+				<a name="clb638546" href="http://list.mail.ru/10907/1/0_1_0_1.html" class="catalogue__list__item__link">Спорт</a>,
+				<a name="clb638546" href="http://list.mail.ru/33727/1/0_1_0_1.html" class="catalogue__list__item__link">Биатлон</a>,
+				<a name="clb638546" href="http://list.mail.ru/10909/1/0_1_0_1.html" class="catalogue__list__item__link">Юмор</a>
+			</div>
+			<div class="catalogue__list__item">
+				<a name="clb638546" href="http://list.mail.ru/10901/1/0_1_0_1.html" class="catalogue__list__item__link">Культура и искусство</a>
+			</div>
+		</div><div class="w-catalogue__list__column">
+			<div class="catalogue__list__item">
+				<a name="clb638546" href="http://list.mail.ru/1001/1/0_1_0_1.html" class="catalogue__list__item__link">Авто</a>, <a name="clb638546" href="http://list.mail.ru/14263/1/0_1_0_1.html" class="catalogue__list__item__link">Товары и услуги</a>
+			</div>
+			<div class="catalogue__list__item">
+				<a name="clb638546" href="http://list.mail.ru/10896/1/0_1_0_1.html" class="catalogue__list__item__link">Бизнес и финансы</a>
+			</div>
+			<div class="catalogue__list__item">
+				<a name="clb638546" href="http://list.mail.ru/14249/1/0_1_0_1.html" class="catalogue__list__item__link">Производство</a> и
+				<a name="clb638546" href="http://list.mail.ru/10899/1/0_1_0_1.html" class="catalogue__list__item__link">Работа</a>
+			</div>
+			<div class="catalogue__list__item">
+				<a name="clb638546" href="http://list.mail.ru/10900/1/0_1_0_1.html" class="catalogue__list__item__link">Компьютеры</a> и
+				<a name="clb638546" href="http://list.mail.ru/10898/1/0_1_0_1.html" class="catalogue__list__item__link">Интернет</a>
+			</div>
+			<div class="catalogue__list__item">
+				<a name="clb638546" href="http://list.mail.ru/10904/1/0_1_0_1.html" class="catalogue__list__item__link">Отдых</a>,
+			<a name="clb638546" href="http://list.mail.ru/10291/1/0_1_0_1.html" class="catalogue__list__item__link">Игры</a>,
+			<a name="clb638546" href="http://list.mail.ru/10814/1/0_1_0_1.html" class="catalogue__list__item__link">Турфирмы</a>
+			</div>
+			<div class="catalogue__list__item">
+				<a name="clb638546" href="http://list.mail.ru/10906/1/0_1_0_1.html" class="catalogue__list__item__link">Новости</a> и
+				<a name="clb638546" href="http://list.mail.ru/10908/1/0_1_0_1.html" class="catalogue__list__item__link">Справки</a>
+			</div>
+			<div class="catalogue__list__item">
+				<a name="clb638546" href="http://list.mail.ru/index.html" class="catalogue__list__item__link">Главная</a>, 
+				<a name="clb638546" href="http://list.mail.ru/indgeo.html" class="catalogue__list__item__link">Регионы</a>,
+				<a name="clb638546" href="http://list.mail.ru/32964/1/0_1_0_1.html" class="catalogue__list__item__link">Wap</a> 
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+
+
+					</div>
+			</div>
+
+			<div class="page__rightcol">
+				<table width="100%">
+						<tr>
+							<td>
+								<div class="banner">
+									<!-- Flash banner --><img src="http://r2.mail.ru/d687349.gif?rnd=616820243&ts=1330653164" width="1" height="1" border="0" alt="" style="position:absolute;"/>
+
+
+
+
+<style type="text/css">
+.onair {
+	width: 300px;
+	font: normal 12px arial, sans-serif;
+	text-align: left;
+	}
+.onair__loading {
+	background: #fff url(//go.imgsmail.ru/img/ajax_loader_hor.gif) center center no-repeat;
+	zoom: 1;
+	}
+.onair__header,
+.onair__footer {
+	position: relative;
+	height: 24px;
+	overflow: hidden;
+	background: #165696 0 0 repeat-x;
+	background-image: url(data:image/gif;base64,R0lGODlhAgAdAMQAABZWljRspEV4qydjnj1ypx9cmk5+rzBpoitmoEp7rT90qDhvpRpZmCNfnFCAsC5noUd6rD50qUJ2qzpwphhYlylknyFemzJqo0t9rh1bmSVhnVKCsTZtpAAAAAAAAAAAACH5BAAHAP8ALAAAAAACAB0AAAUj4CZuRmkkaCKsrOIqUzxxNHfd16M/VV9pQI1laMkYM5QkJQQAOw==);
+	
+	-webkit-border-radius: 3px 3px 0 0;
+	   -moz-border-radius: 3px 3px 0 0;
+	        border-radius: 3px 3px 0 0;
+	
+	text-align: center;
+	}
+.onair__footer {
+	-webkit-border-radius: 0 0 3px 3px;
+	   -moz-border-radius: 0 0 3px 3px;
+	        border-radius: 0 0 3px 3px;
+	}
+	
+.onair__header__link,
+.onair__header__link:active,
+.onair__header__link:hover,
+.onair__header__link:visited {
+	display: block;
+	padding: 6px 0 0;
+	height: 18px;
+	text-decoration: none;
+	}
+.onair__header__text {
+	color: #fff;
+	font-size: 12px;
+	line-height: 12px;
+	white-space: nowrap;
+	}	
+.onair__logo {
+	}
+.onair__logo__link {
+	display: block;
+	padding: 4px 0 0;
+	height: 20px;
+	}
+.onair__logo__img {
+	border: 0;
+	width: 120px;
+	height: 18px;
+	vertical-align: middle;
+	}
+.onair__cut {
+	position: relative;
+	display: block;
+	height: 3px;
+	overflow: hidden;
+	background: 0 0 repeat-x;
+	background-image: url(data:image/gif;base64,R0lGODlhBgAGAJEAABZWllKBsVSDsgAAACH5BAEHAAMALAAAAAAGAAYAAAIMhD1zmcA/RGChTlsAADs=);
+	z-index: 1;
+	}
+.onair__cut_side_top {
+	margin-bottom: -3px;
+	}
+.onair__cut_side_bottom {
+	margin-top: -3px;
+	background-position: 0 -3px;
+	}
+.onair__body {
+	position: relative;
+	padding: 3px 0;
+	border-left: 1px solid #DAE4EF;
+	border-right: 1px solid #DAE4EF;
+	overflow: hidden;
+	}
+.onair__list__wrapper {
+	width: 100%;
+	background: #fff;
+	}
+.onair__list {
+	margin: 0;
+	padding: 0;
+	}
+.onair__item {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #F7F7F7;
+	height: 26px;
+	white-space: nowrap;
+	}
+.onair__item:last-child {
+	border-bottom-color: #FFF;
+	}
+.onair__item__link,
+.onair__item__link:active,
+.onair__item__link:hover,
+.onair__item__link:visited {
+	position: relative;
+	display: block;
+	padding: 0 10px;
+	height: 26px;
+	overflow: hidden;
+	background-color: #fff;
+	color: #0657A5;
+	line-height: 26px;
+	text-decoration: none;
+	text-overflow: ellipsis;
+	cursor: pointer;
+	}
+.onair__item__link:hover {
+	background-color: #ECF1F7;
+	}
+</style>
+<!--[if IE 6]>
+<style>
+.onair__header,
+.onair__footer {
+	background-image: url(//go.imgsmail.ru/img/slot/onair/header_grad.gif);
+	}
+.onair__cut {
+	background-image: url(//go.imgsmail.ru/img/slot/onair/cuts.gif);
+	}
+</style>
+<![endif]-->
+<div id="onair" class="onair" style="display: none;">
+	<div class="onair__header">
+		<a
+			class="onair__header__link"
+			href="http://r.mail.ru/n92358249">
+			<span class="onair__header__text">
+				
+				 Сейчас ищут 
+			</span>
+		</a>
+	</div>
+	
+	<i class="onair__cut onair__cut_side_top"></i>
+	<div id="onair__body" class="onair__body"><!-- items inserted here --></div>
+	<i class="onair__cut onair__cut_side_bottom"></i>
+	
+	<div class="onair__footer">
+		<div class="onair__logo">
+			<a
+				href="http://r.mail.ru/n92358249"
+				class="onair__logo__link"
+				><img
+					class="onair__logo__img"
+					src="//go.imgsmail.ru/img/mail/logoback120.png"
+					width="120"
+					height="18"
+					alt="Поиск@Mail.Ru"
+			></a>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="//go.imgsmail.ru/js/onair2.dev.js"></script>
+
+<script type="text/javascript">
+if( typeof onAir2 !== "undefined" ) {
+	onAir2.ready(function() {
+		var block = document.getElementById( "onair" );
+		if( block ) {
+			block.style.display = "";
+			onAir2.slotInstance = new onAir2({
+				container: "onair__body",
+				items: "http://go.mail.ru/onair_querylist-common.html",
+				linkPattern: "http://r.mail.ru/clb687349/go.mail.ru/search?q={searchTerms}&fr=lb",
+				charset: "windows-1251",
+				uniqueName: "onAirSlot",
+				visibleItems: 9,
+				scrollEnabled: false,
+				shuffle: true,
+				showLinkTitle: false,
+				blockClass: "onair__list__wrapper",
+				listClass: "onair__list",
+				itemClass: "onair__item",
+				linkClass: "onair__item__link",
+				loadingClass: "onair__loading"
+			});
+			onAir2.slotInstance.draw();
+		}
+	});
+}
+</script>
+								</div>
+							</td>
+						</tr>
+					</table>
+				<table width="100%">
+						<tr>
+							<td><!-- Foto --><div class="gallery">
+    <h3 class="gallery__title"><a href="http://r.mail.ru/n77807636" class="gallery__title__link">Фото</a></h3>
+    <div class="gallery__list">
+        
+            <a href="http://r.mail.ru/n92414293" class="gallery__list__item"><img height="60" width="60" src="http://r2.mail.ru/b14864141.jpg" alt="" class="gallery__list__item__pic" /></a>
+        
+            <a href="http://r.mail.ru/n92421913" class="gallery__list__item"><img height="60" width="60" src="http://r2.mail.ru/b14864574.jpg" alt="" class="gallery__list__item__pic" /></a>
+        
+            <a href="http://r.mail.ru/n92436189" class="gallery__list__item"><img height="60" width="60" src="http://r2.mail.ru/b14864578.jpg" alt="" class="gallery__list__item__pic" /></a>
+        
+            <a href="http://r.mail.ru/n92436190" class="gallery__list__item"><img height="60" width="60" src="http://r2.mail.ru/b14538699.jpg" alt="" class="gallery__list__item__pic" /></a>
+        
+        <a href="http://r.mail.ru/n77807636" class="gallery__list__item gallery__list__item__more"><i class="icon icon_gallery icon_more"></i></a>
+    </div>
+</div></td>
+						</tr>
+					</table>
+				<table width="100%">
+						<tr>
+							<td><!-- Video --><div class="gallery">
+    <h3 class="gallery__title"><a href="http://r.mail.ru/n78011072" class="gallery__title__link">Видео</a></h3>
+    <div class="gallery__list">
+        
+            <a href="http://r.mail.ru/n78012498" class="gallery__list__item gallery__list__item_video"><img height="68" width="90" src="http://r2.mail.ru/b14754602.jpg" alt="" class="gallery__list__item__pic" /></a>
+        
+            <a href="http://r.mail.ru/n81736316" class="gallery__list__item gallery__list__item_video"><img height="68" width="90" src="http://r2.mail.ru/b14754313.jpg" alt="" class="gallery__list__item__pic" /></a>
+        
+            <a href="http://r.mail.ru/n78032845" class="gallery__list__item gallery__list__item_video"><img height="68" width="90" src="http://r2.mail.ru/b12961189.jpg" alt="" class="gallery__list__item__pic" /></a>
+        
+        <a href="http://r.mail.ru/n78011072" class="gallery__list__item gallery__list__item__more"><i class="icon icon_gallery icon_more"></i></a>
+    </div>
+</div>
+</td>
+						</tr>
+					</table>
+				
+
+				<table width="100%">
+						<tr>
+							<td><!-- One from bottom banner --><div id="horo_inf">
+<h2 class="mb5"><a name="clb194337" href="http://horo.mail.ru/" target="_blank">Гороскопы</a></h2>
+<table><tr>
+	<td><a name="clb194337" href="http://horo.mail.ru/prediction/aries/" target="_blank"><img src="http://r2.mail.ru/b12558017.gif" width="25" height="25" border="0" alt="" title="Овен" /></a><br /><a name="clb194337" href="http://horo.mail.ru/prediction/aries/" target="_blank">Овен</a></td>
+	
+	<td><a name="clb194337" href="http://horo.mail.ru/prediction/taurus/" target="_blank"><img src="http://r2.mail.ru/b12558018.gif" width="25" height="25" border="0" alt="" title="Телец" /></a><br /><a name="clb194337" href="http://horo.mail.ru/prediction/taurus/" target="_blank">Телец</a></td>
+	
+	<td><a name="clb194337" href="http://horo.mail.ru/prediction/gemini/" target="_blank"><img src="http://r2.mail.ru/b12558019.gif" width="25" height="25" border="0" alt="" title="Близнецы" /></a><br /><a name="clb194337" href="http://horo.mail.ru/prediction/gemini/" target="_blank">Близнецы</a></td>
+	
+	<td><a name="clb194337" href="http://horo.mail.ru/prediction/cancer/" target="_blank"><img src="http://r2.mail.ru/b12558020.gif" width="25" height="25" border="0" alt="" title="Рак" /></a><br /><a name="clb194337" href="http://horo.mail.ru/prediction/cancer/" target="_blank">Рак</a></td>
+
+	
+	<td><a name="clb194337" href="http://horo.mail.ru/prediction/leo/" target="_blank"><img src="http://r2.mail.ru/b12558021.gif" width="25" height="25" border="0" alt="" title="Лев" /></a><br /><a name="clb194337" href="http://horo.mail.ru/prediction/leo/" target="_blank">Лев</a></td>
+	
+	<td><a name="clb194337" href="http://horo.mail.ru/prediction/virgo/" target="_blank"><img src="http://r2.mail.ru/b12558022.gif" width="25" height="25" border="0" alt="" title="Дева" /></a><br /><a name="clb194337" href="http://horo.mail.ru/prediction/virgo/" target="_blank">Дева</a></td>
+	</tr><tr>
+	<td><a name="clb194337" href="http://horo.mail.ru/prediction/libra/" target="_blank"><img src="http://r2.mail.ru/b12558023.gif" width="25" height="25" border="0" alt="" title="Весы" /></a><br /><a name="clb194337" href="http://horo.mail.ru/prediction/libra/" target="_blank">Весы</a></td>
+	
+	<td><a name="clb194337" href="http://horo.mail.ru/prediction/scorpio/" target="_blank"><img src="http://r2.mail.ru/b12558024.gif" width="25" height="25" border="0" alt="" title="Скорпион" /></a><br /><a name="clb194337" href="http://horo.mail.ru/prediction/scorpio/" target="_blank">Скорпион</a></td>
+	
+	<td><a name="clb194337" href="http://horo.mail.ru/prediction/sagittarius/" target="_blank"><img src="http://r2.mail.ru/b12558025.gif" width="25" height="25" border="0" alt="" title="Стрелец" /></a><br /><a name="clb194337" href="http://horo.mail.ru/prediction/sagittarius/" target="_blank">Стрелец</a></td>
+
+	
+	<td><a name="clb194337" href="http://horo.mail.ru/prediction/capricorn/" target="_blank"><img src="http://r2.mail.ru/b12558026.gif" width="25" height="25" border="0" alt="" title="Козерог" /></a><br /><a name="clb194337" href="http://horo.mail.ru/prediction/capricorn/" target="_blank">Козерог</a></td>
+	
+	<td><a name="clb194337" href="http://horo.mail.ru/prediction/aquarius/" target="_blank"><img src="http://r2.mail.ru/b12558027.gif" width="25" height="25" border="0" alt="" title="Водолей" /></a><br /><a name="clb194337" href="http://horo.mail.ru/prediction/aquarius/" target="_blank">Водолей</a></td>
+	
+	<td><a name="clb194337" href="http://horo.mail.ru/prediction/pisces/" target="_blank"><img src="http://r2.mail.ru/b12558028.gif" width="25" height="25" border="0" alt="" title="Рыбы" /></a><br /><a name="clb194337" href="http://horo.mail.ru/prediction/pisces/" target="_blank">Рыбы</a></td>
+	</tr></table>
+</div></td>
+						</tr>
+					</table>
+				<table width="100%">
+						<tr>
+							<td><!-- Bottom banner -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2><a href="http://r.mail.ru/n87724089" target="_blank">Мини-игры</a></h2>
+  <table style="margin-top:8px; width: 100%"><tr><td style="text-align:center; width:25%; padding:0px 2px" valign="top">
+            <a href="http://r.mail.ru/n92146646" target="_blank"><img src="http://r2.mail.ru/b14349806.jpg" width="60" height="60" alt=&laquo;Покер&raquo; title=&laquo;Покер&raquo; border="0" /></a><br />
+        <a href="http://r.mail.ru/n92146646" target="_blank"  class="t75">Покер</a>
+      </td><td style="text-align:center; width:25%; padding:0px 2px" valign="top">
+        <a href="http://r.mail.ru/n92146707" target="_blank"><img src="http://r2.mail.ru/b14455220.jpg" width="60" height="60" alt=&laquo;Судоку&raquo; title=&laquo;Судоку&raquo; border="0" /></a><br />
+       <a href="http://r.mail.ru/n92146707" target="_blank" class="t75">Судоку</a>
+      </td><td style="text-align:center; width:25%; padding:0px 2px" valign="top">
+        <a href="http://r.mail.ru/n92146708" target="_blank"><img src="http://r2.mail.ru/b14349808.jpg" width="60" height="60" alt=&laquo;Балда&raquo; title=&laquo;title3&raquo; border="0" /></a><br />
+        <a href="http://r.mail.ru/n92146708" target="_blank" class="t75">Балда</a>
+      </td><td style="text-align:center; width:25%; padding:0px 2px" valign="top">
+       <a href="http://r.mail.ru/n92146709" target="_blank"><img src="http://r2.mail.ru/b14576081.jpg" width="60" height="60" alt=&laquo;Тетрис&raquo; title=&laquo;Тетрис&raquo; border="0" /></a><br />
+        <a href="http://r.mail.ru/n92146709" target="_blank" class="t75">Тетрис</a>
+      </td></tr></table></td>
+						</tr>
+					</table>
+				</div>
+		</div>
+	</div>
+</div>
+
+<script>splashRadar('content', 1);</script>
+
+<div class="main-wrap clearfix">
+	<script src="https://limgs.mail.ru/r/js/https.js"></script>
+
+<script type="text/javascript">
+	splashRadar('all', 1)(true);
+	callbackQuery.loaded();
+
+	(function(){
+		function getViewport(){
+			var w=window,d=document,e=d.documentElement,g=d.body,x=w.innerWidth||e.clientWidth||g.clientWidth,y=w.innerHeight||e.clientHeight||g.clientHeight;
+			return {
+				x: x,
+				y: y
+			};
+		}
+
+		var cookie = 'spvpsz';
+		function saveViewport(){
+			var v = getViewport(),
+				sv = getSavedViewport();
+
+			if (!sv || v.y > sv.y){
+				mr.cookie(cookie, v.y, 'mail.ru');
+			}
+		}
+		function getSavedViewport(){
+			var c = mr.cookie(cookie);
+			if (!c){
+				return null;
+			}
+			return {
+				y: c
+			}
+		}
+
+		function log(){
+			var v = getSavedViewport();
+			if (v){
+				var i = new Image(),
+					ie = navigator.userAgent.indexOf('MSIE') !== -1 && navigator.userAgent.indexOf('MSIE 9') === -1 && navigator.userAgent.indexOf('MSIE 10') === -1;
+
+				i.src = 'http://mail.ru/gstat?logme=' + encodeURIComponent('splash viewport3=' + v.y + (ie ? '(oldie)' : '') + '|' + getViewport().y);
+			}
+
+		}
+		saveViewport();
+		log();
+
+		setTimeout(function(){
+				var t = true,
+					vp = getViewport();
+
+				mr.bind(window, 'resize', function(){
+					var v = getViewport();
+
+					saveViewport();
+
+					if (t && (vp.x !== v.x || vp.y !== v.y)){
+						vp = v;
+						mr.counter('clb672033');
+						t = false;
+						setTimeout(function(){
+							t = true;
+						}, 500);
+					}
+				});
+			},
+			100
+		)
+	})();
+
+	(function ($){
+		var
+			  $Info = $('#MailBox-UserInfo')
+			, _new = ['новых', 'новое', 'новых']
+			, _letters = ['писем', 'письмо', 'письма']
+		;
+
+		(function _(){
+			// check function
+			setTimeout(function (){
+				$.ajax({
+					  url: 'http://swa.mail.ru/cgi-bin/counters'
+					, jsonp: 'JSONP_call'
+					, dataType: 'jsonp'
+					, success: function (res){
+						if( res && (res.status == 'ok') && (res = res.data) ){
+							var u = res.mail_cnt>>0, hasReaded = !u;
+							$Info.find('.js-unread').toggle(!hasReaded).find('.js-txt').text(_p(u, _new, ' ')+' '+_p(u, _letters));
+							$Info.find('.js-readed').toggle(hasReaded);
+						} else if (res && res.status === "noauth"){
+							var hasReaded = false;
+							$Info.find('.js-unread').toggle(hasReaded);
+							$Info.find('.js-readed').toggle(!hasReaded);
+						}
+					}
+					, complete: _
+				})
+			}, 60000);
+		})();
+
+		function _p(n, L, i){
+			// plural
+			var x = ((n%100 <= 10) || (n%100 >= 20)) ? n % 10 : 0, l = L.length;
+			if( l == 2 && x == 1 )	x = 0;
+			else if( l == 3 && x > 1 ) x = x < 5 ? 2 : 0;
+			return (i ? n + (i && (i!=1) ? i : '') : '') + (typeof(L) != 'string' ? (L[x] ||  L[(x > 1 && x < 5) ? x : 0] || L[x > 1?1:0]) : L);
+		}
+	})(jQuery);
+</script>
+
+
+
+<div class="footer">
+	
+		<div class="footer__links">&copy; 1999&mdash;2012, <a name="clb616575" href="http://corp.mail.ru/" class="footer__links__link">Mail.Ru</a></div>
+	<div class="footer__links">
+		<a class="footer__links__link" href="http://corp.mail.ru/" name="cln5409">О компании</a>
+		&nbsp;<strong>&middot;</strong>&nbsp;
+		<a class="footer__links__link" href="http://corp.mail.ru/adv/" name="cln5408">Реклама на Mail.Ru</a>
+		&nbsp;<strong>&middot;</strong>&nbsp;
+		<a class="footer__links__link" href="http://corp.mail.ru/career/vacancies/" name="cln5410">Вакансии</a>
+	</div>
+	<div class="footer__links footer__links_right">
+		<a class="footer__links__link" href="http://top.mail.ru/" name="cln5404">Рейтинг</a>
+		&nbsp;<strong>&middot;</strong>&nbsp;
+		<a class="footer__links__link" href="http://www.mail.ru/pages/help/index.html" name="cln9887">Помощь</a>
+		&nbsp;<strong>&middot;</strong>&nbsp;
+		<a class="footer__links__link" href="http://m.mail.ru/" target="_blank" name="cln9885">Мобильная версия</a>
+	</div>
+</div>
+
+
+</div>
+
+<!-- News second lane -->
+
+	<div class="news__list" id="slot_4021" style="display:none;">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="news__list__item news__list__item_withpic">
+<a href="http://r.mail.ru/n92406487" target="_blank" class="news__list__item__link">
+<img src="http://r2.mail.ru/b14862589.jpg" width="70" height="50" alt="Продление ареста обвиняемому по&nbsp;делу Политковской рассмотрят 6 марта" class="news__list__item__link__pic" />
+<span class="news__list__item__link__text">Продление ареста обвиняемому по&nbsp;делу Политковской рассмотрят 6 марта</span></a>
+</div>
+
+<div class="news__list__item">
+<a href="http://r.mail.ru/n92435344" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Россия сделает все, чтобы не&nbsp;допустить войны в&nbsp;Иране</span></a>
+</div>
+
+<div class="news__list__item">
+<a href="http://r.mail.ru/n92433338" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Саммит ЕС рассмотрит сегодня ситуацию в&nbsp;Белоруссии</span></a>
+</div>
+
+<div class="news__list__item">
+<a href="http://r.mail.ru/n92434424" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Путин исключил возможность досрочных выборов в&nbsp;Госдуму</span></a>
+</div>
+
+<div class="news__list__item">
+<a href="http://r.mail.ru/n92429390" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Выборы в&nbsp;парламент состоятся в&nbsp;Иране</span></a>
+</div>
+
+<div class="news__list__item">
+<a href="http://r.mail.ru/n92429638" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">&laquo;Газпром&raquo; против ЕС</span></a>
+</div>
+
+<div class="news__list__item">
+<a href="http://r.mail.ru/n92434866" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Россияне &laquo;оставили&raquo; в&nbsp;Италии 189 млн евро</span></a>
+</div>
+
+<div class="news__list__item">
+<a href="http://r.mail.ru/n92424036" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Налог на&nbsp;роскошь не&nbsp;должен коснуться среднего класса</span></a>
+</div>
+	</div>
+
+
+<!-- News third lane (sport) -->
+
+	<div class="news__list" id="slot_4047" style="display:none;">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="news__list__item news__list__item_withpic">
+<a href="http://r.mail.ru/n92421897" target="_blank" class="news__list__item__link">
+<img src="http://r2.mail.ru/b14865945.jpg" width="70" height="50" alt="ЧМ по биатлону. Россия первую гонку провела неудачно" class="news__list__item__link__pic" />
+<span class="news__list__item__link__text">ЧМ по биатлону. Россия первую гонку провела неудачно</span>&nbsp;<i class="icon icon_splash icon_hasphoto news__list__item__icon"></i></a>
+</div>
+
+<div class="news__list__item">
+<a href="http://r.mail.ru/n92426731" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Женщинам-боксёрам разрешили выходить на ринг в юбках</span></a>
+</div>
+
+<div class="news__list__item">
+<a href="http://r.mail.ru/n92422888" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Ловчев: Погребняка ждет та же история, что и Павлюченко</span>&nbsp;<i class="icon icon_splash icon_hasphoto news__list__item__icon"></i></a>
+</div>
+
+<div class="news__list__item">
+<a href="http://r.mail.ru/n92424552" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">У России - малый хрустальный глобус в зачете смешанных эстафет</span></a>
+</div>
+
+<div class="news__list__item">
+<a href="http://r.mail.ru/n92418025" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Аршавин, Малафеев, Лазович и Кришито готовы сыграть с ЦСКА</span></a>
+</div>
+
+<div class="news__list__item">
+<a href="http://r.mail.ru/n92430502" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">&laquo;Анжи&raquo; опроверг информацию о возможном переходе Карвалью</span></a>
+</div>
+
+<div class="news__list__item">
+<a href="http://r.mail.ru/n92426087" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Евролига. ЦСКА крупно победил &laquo;Эфес Пилсен&raquo;</span>&nbsp;<i class="icon icon_splash icon_hasphoto news__list__item__icon"></i></a>
+</div>
+
+<div class="news__list__item">
+<a href="http://r.mail.ru/n92428036" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Нового тренера сборной Англии по футболу назначат через 2 месяца</span></a>
+</div>
+	</div>
+
+
+<!-- Auto -->
+
+	<div class="news__list" id="slot_4537" style="display:none;">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="news__list__item news__list__item_withpic">
+<a name="clb547383" href="http://auto.mail.ru/article.html?id=36549" target="_blank" class="news__list__item__link">
+<img src="http://r2.mail.ru/b14863296.jpg" width="50" height="50" alt="Преимущество на парковках получат местные" class="news__list__item__link__pic" />
+<span class="news__list__item__link__text">Преимущество на парковках получат местные</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb547383" href="http://auto.mail.ru/article.html?id=36550" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Алкоголь за рулем: готовится новый закон</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb547383" href="http://auto.mail.ru/article.html?id=36548" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Появился в продаже пятидверный Kia Rio</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb547383" href="http://auto.mail.ru/article.html?id=36546" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Россияне торопятся купить машину до выборов</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb547383" href="http://auto.mail.ru/article.html?id=36545" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">BMW хочет возродить марку Triumph</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb547383" href="http://auto.mail.ru/article.html?id=36544" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Рассекречен новый дизайн Hyundai</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb547383" href="http://auto.mail.ru/article.html?id=36543" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">GM объединяется с Peugeot и Citroen</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb547383" href="http://auto.mail.ru/article.html?id=36542" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Новая Ferrari F12 &ndash; самая быстрая в истории</span></a>
+</div>
+<script>rotateSlots('slot_4537', [2160]);</script>
+	</div>
+
+
+<!-- Afisha -->
+
+	<div class="news__list" id="slot_4533" style="display:none;">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="news__list__item news__list__item_withpic">
+<a name="clb626070" href="http://afisha.mail.ru/concert/news/33900/" target="_blank" class="news__list__item__link">
+<img src="http://r2.mail.ru/b14863023.jpg" width="50" height="50" alt="Скончался фронтмен легендарных The Monkees" class="news__list__item__link__pic" />
+<span class="news__list__item__link__text">Скончался фронтмен легендарных The Monkees</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb626070" href="http://afisha.mail.ru/cinema/news/33904/" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Шон Уильям Скотт из &laquo;Американского пирога&raquo;: &laquo;Это была роль мечты&raquo;</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb626070" href="http://afisha.mail.ru/theatre/news/33901/" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">В Россию приедут лучшие театры Европы</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb626070" href="http://afisha.mail.ru/cinema/news/33899/" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Жириновский хочет запретить фильм &laquo;Самоубийцы&raquo;</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb626070" href="http://afisha.mail.ru/theatre/news/33902/" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">В Белоруссии из-за протестов верующих отменили спектакль</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb626070" href="http://afisha.mail.ru/exhibition/news/33898/" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Кинотеатр &laquo;Ударник&raquo; превратится в музей</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb626070" href="http://afisha.mail.ru/concert/news/33897/" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Леди Гага открыла благотворительный фонд для ЛГБТ</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb626070" href="http://afisha.mail.ru/exhibition/news/33896/" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Музей Бородинской битвы откроется 6 марта</span></a>
+</div>
+<script>rotateSlots('slot_4533', [855]);</script>
+	</div>
+
+
+<!-- Hi-tech -->
+
+	<div class="news__list" id="slot_4019" style="display:none;">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="news__list__item news__list__item_withpic">
+<a name="clb535033" href="http://soft.mail.ru/pressrl_page.php?id=45723" target="_blank" class="news__list__item__link">
+<img src="http://r2.mail.ru/b14840959.jpg" width="50" height="50" alt="Церковь просит россиян отказаться от соцсетей" class="news__list__item__link__pic" />
+<span class="news__list__item__link__text">Церковь просит россиян отказаться от соцсетей</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb535033" href="http://soft.mail.ru/pressrl_page.php?id=45799" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Как влияет Интернет на молодежь?</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb535033" href="http://soft.mail.ru/pressrl_page.php?id=45795" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Windows Phone будет популярней iOS</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb535033" href="http://soft.mail.ru/pressrl_page.php?id=45792" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Крупнейший торрент-трекер отказался от torrent-файлов</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb535033" href="http://soft.mail.ru/pressrl_page.php?id=45791" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Пользователя соцсети арестовали за угрозу Президенту</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb535033" href="http://soft.mail.ru/pressrl_page.php?id=45790" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Приложения на iPhone могут &laquo;сливать&raquo; ваши фотографии</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb535033" href="http://soft.mail.ru/pressrl_page.php?id=45789" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Компьютер можно купить за 1000 рублей</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb535033" href="http://soft.mail.ru/pressrl_page.php?id=45788" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Windows 8 уже доступна для скачивания</span></a>
+</div>
+	</div>
+
+
+<!-- Mutating slot: Lady/Deti/Health -->
+
+	<div class="news__list" id="slot_2082" style="display:none;">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="news__list__item news__list__item_withpic">
+<a name="clb543645sz63" href="http://deti.mail.ru/beremennosty_i_rody/posle_rodov/poleznaja_informacija/dyuzhina_plyusov_ot_rozhdeniya_rebenka/?informer_id=1" target="_blank" class="news__list__item__link">
+<img src="http://r2.mail.ru/b14862111.jpg" width="50" height="50" alt="Дюжина плюсов от рождения ребенка" class="news__list__item__link__pic" />
+<span class="news__list__item__link__text">Дюжина плюсов от рождения ребенка</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb543645sz63" href="http://deti.mail.ru/roditeljam/papy_malo_chto_pomnyat_o_svoih_detyah/?informer_id=1" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Папы мало что помнят о своих детях</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb543645sz63" href="http://deti.mail.ru/beremennosty_i_rody/na_altae_rodilsya_rebenok_bogatyry_vesom_bolee_kilogrammov/?informer_id=1" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">На Алтае родился ребенок-богатырь</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb543645sz63" href="http://deti.mail.ru/roditeljam/muzhchina_god_platil_alimenty_chuzhomu_rebenku/?informer_id=1" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Мужчина год платил алименты чужому ребенку</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb543645sz63" href="http://deti.mail.ru/roditeljam/materyam_odinochkam_budut_doplachivaty_za_rozhdenie_detej/?informer_id=1" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Матерям-одиночкам будут доплачивать за рождение детей</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb543645sz63" href="http://deti.mail.ru/roditeljam/rossijskih_shkolynikov_odenut_v_novuyu_formu/?informer_id=1" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Российских школьников оденут в новую форму</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb543645sz63" href="http://deti.mail.ru/beremennosty_i_rody/anfisa_chehova_ne_znaet_kak_nazvaty_syna/?informer_id=1" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Анфиса Чехова не знает, как назвать сына</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb543645sz63" href="http://deti.mail.ru/roditeljam/docheri_vyzyvayut_u_mam_depressiyu/?informer_id=1" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Дочери вызывают у мам депрессию</span></a>
+</div>
+<script>rotateSlots('slot_2082', [1281]);</script>
+	</div>
+
+
+<!-- Games -->
+
+	<div class="news__list" id="slot_4027" style="display:none;">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="news__list__item news__list__item_withpic">
+<a name="clb544229" href="http://games.mail.ru/pc/video/videoobzor_portativnoj_konsoli_ps_vita/" target="_blank" class="news__list__item__link">
+<img src="http://r2.mail.ru/b14851572.jpg" width="50" height="50" alt="Наши впечатления от новейшей портативной консоли PlayStation Vita" class="news__list__item__link__pic" />
+<span class="news__list__item__link__text">Наши впечатления от новейшей портативной консоли PlayStation Vita</span>&nbsp;<i class="icon icon_splash icon_hasvideo news__list__item__icon"></i></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb544229" href="http://games.mail.ru/pc/articles/preview/max_pane_3/" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Первые впечатления от новой части сериала Max Payne</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb544229" href="http://games.mail.ru/pc/news/2012-03-01/#opublikovano_pervoe_izobrazhenie_geroja_assassins_creed_3" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Опубликовано первое изображение героя Assassin's Creed 3</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb544229" href="http://games.mail.ru/pc/news/2012-02-28/#dzhastin_biber_suditsja_s_razrabotchikami_igry_dlja_iphone" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Джастин Бибер судится с разработчиками игры для iPhone</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb544229" href="http://games.mail.ru/pc/news/2012-02-29/#ministra_finansov_germanii_zastukali_za_igroj_na_ipad_vo_vremja_vazhnogo_soveschanija" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Министра финансов Германии застукали за игрой на iPad во время важного совещания</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb544229" href="http://games.mail.ru/pc/news/2012-02-29/#policija_arestovala_25_hakerov_iz_gruppirovki_anonymous" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Полиция арестовала 25 хакеров из группировки Anonymous</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb544229" href="http://games.mail.ru/pc/news/2012-02-29/#aktivnye_igry_bespolezny_dlja_zdorovja_detej" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Американские ученые выяснили, что от фитнес-игр никто не худеет</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb544229" href="http://games.mail.ru/pc/video/the_amazing_spider_man_rhino_reveal_trailer/" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Человек-паук против человека-носорога</span>&nbsp;<i class="icon icon_splash icon_hasvideo news__list__item__icon"></i></a>
+</div>
+	</div>
+
+
+<!-- Travel -->
+
+	<div class="news__list" id="slot_2521" style="display:none;">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="news__list__item news__list__item_withpic">
+<a name="clb540399" href="http://travel.mail.ru/?mailru&nid=63011/" target="_blank" class="news__list__item__link">
+<img src="http://r2.mail.ru/b14865240.jpg" width="50" height="50" alt="Российская туристка погибла в Шарм-эш-Шейхе" class="news__list__item__link__pic" />
+<span class="news__list__item__link__text">Российская туристка погибла в Шарм-эш-Шейхе</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb540399" href="http://travel.mail.ru/?mailru&nid=63010/" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Первый в ОАЭ отель по системе &laquo;все включено&raquo;</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb540399" href="http://travel.mail.ru/?mailru&nid=63001/" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Египетская полиция спокойно позволяет грабить туристов</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb540399" href="http://travel.mail.ru/?mailru&nid=62919/" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">С пассажира потребовали $2 000 за место у прохода</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb540399" href="http://travel.mail.ru/?mailru&nid=63009/" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Турист вернул съеденное теленком обручальное кольцо</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb540399" href="http://travel.mail.ru/?mailru&nid=62991/" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Италия ограничила оборот наличных денег</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb540399" href="http://travel.mail.ru/?mailru&nid=62983/" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Автобус с туристами сорвался в ущелье: 15 погибших</span></a>
+</div>
+
+<div class="news__list__item">
+<a name="clb540399" href="http://travel.mail.ru/?mailru&nid=62968/" target="_blank" class="news__list__item__link">
+<span class="news__list__item__link__text">Ирландия хочет привлечь богатых русских туристов</span></a>
+</div>
+	</div>
+
+
+
+	<div id="mlr-overlay1" class="mlr-overlay mlr-overlay_off">
+		<form action="">
+			<div class="alertFade"></div>
+			<div class="alertDiv">
+				<div class="alertDivSpan">
+					<a class="pAbs top0 right0 spI iDelBig iOnes cp mr0 mt10 confirm-close"></a>
+					<b class="h1 black dB m15">Изменить город</b>
+					<div class="p15 pt0">
+						<label for="city">Город:&nbsp;&nbsp;<select id="city" disabled="disabled"></select></label>
+					</div>
+					<div class="alertButtons p15">
+						<input type="submit" class="bold confirm-ok btn" value="Выбрать"/>
+						<input type="button" class="ml10 confirm-cancel btn" value="Отмена"/>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+<div id="slot_4466" style="display:none;">
+		<h2 class="mb5">
+<a name="clb452815" href="http://torg.mail.ru/?utm_source=mail.ru&utm_medium=rb&utm_campaign=4466&utm_content=452815&utm_term=header-link" target="_blank">Товары: Хиты продаж</a></h2>
+
+<table width="100%" border="0" cellpadding="2" cellspacing="0">
+
+<tr>
+<td style="text-align: center" width="33%"><a name="clb452815" href="http://torg.mail.ru/digitalphoto/nikon-coolpix-l120-id497266/?utm_source=mail.ru&utm_medium=rb&utm_campaign=4466&utm_content=452815&utm_term=model-1-image" target="_blank"><img src="http://r2.mail.ru/b13215032.jpg" width="70" height="70" title="Nikon COOLPIX L120" border="0" /></a></td>
+<td style="text-align: center" width="33%"><a name="clb452815" href="http://torg.mail.ru/mobilephones/nokia-c7-00-id371698/?utm_source=mail.ru&utm_medium=rb&utm_campaign=4466&utm_content=452815&utm_term=model-2-image" target="_blank"><img src="http://r2.mail.ru/b13215031.jpg" width="70" height="70" title="Nokia C7-00" border="0" /></a></td>
+<td style="text-align: center" width="33%"><a name="clb452815" href="http://torg.mail.ru/tyres/all/gislaved-nord-frost-5-sid151216/?utm_source=mail.ru&utm_medium=rb&utm_campaign=4466&utm_content=452815&utm_term=model-3-image" target="_blank"><img src="http://r2.mail.ru/b13940780.jpg" width="70" height="70" title="Gislaved Nord Frost 5" border="0" /></a></td>
+</tr>
+
+<tr>
+<td style="text-align: center" width="33%"><a name="clb452815" href="http://torg.mail.ru/digitalphoto/nikon-coolpix-l120-id497266/?utm_source=mail.ru&utm_medium=rb&utm_campaign=4466&utm_content=452815&utm_term=model-1-link" target="_blank" class="t75">Nikon COOLPIX L120</a></td>
+<td style="text-align: center" width="33%"><a name="clb452815" href="http://torg.mail.ru/mobilephones/nokia-c7-00-id371698/?utm_source=mail.ru&utm_medium=rb&utm_campaign=4466&utm_content=452815&utm_term=model-2-link" target="_blank" class="t75">Nokia C7-00</a></td>
+<td style="text-align: center" width="33%"><a name="clb452815" href="http://torg.mail.ru/tyres/all/gislaved-nord-frost-5-sid151216/?utm_source=mail.ru&utm_medium=rb&utm_campaign=4466&utm_content=452815&utm_term=model-3-link" target="_blank" class="t75">Gislaved Nord Frost 5</a></td>
+</tr>
+
+</table>
+
+<div class="clear" style="height: 10px;"></div>
+	</div>
+<div id="slot_4463" style="display:none;">
+		<div class="clear" style="height: 10px;"></div>
+<script language="javascript" src="http://limg.imgsmail.ru/r/js/blogs/tooltiplib.js" type="text/javascript"></script>
+<script type="text/javascript">
+	ttl_color='#FFFFFF';
+	ttl_background='#F28300';
+	ttl_fontname='Verdana,Arial,sans-serif';
+	ttl_fontsize='11px';
+	ttl_opacity=0.88;
+	ttl_hpos=CENTER;
+	ttl_offsetx=0;
+	ttl_offsety=21;
+	ttl_width=150;
+</script>
+<style type="text/css">
+.l_media {height: 60px; margin-bottom: 10px;}
+.l_media div {width: 25%; float: left; text-align: center;}
+* html .l_media .last {margin-right: -3px;}
+*+html .l_media .last {margin-right: -3px;}
+.l_media img {margin: 0 auto;}
+
+</style>
+
+<h2 class="mb5"><a href="http://r.mail.ru/n84221682" target="_blank">Звездные блоги</a></h2>
+
+<div class="l_media">
+  <div><a onmouseout="return ttlOut()" onmousemove="return ttlOver(event,'<b>Дима Билан</b> - популярный певец, первый победитель конкурса &quot;Евровидение&quot; из России')" href="http://r.mail.ru/n84221683"><img height="60" width="60" alt="" src="http://r2.mail.ru/b14107869.jpg" id="preview_blogs_Id21"/></a>
+</div>
+
+  <div><a  onmouseout="return ttlOut()" onmousemove="return ttlOver(event,'<b>Наташа Королева</b> - эстрадная певица, актриса, Заслуженная артистка России, и просто красивая женщина')" href="http://r.mail.ru/n84221684"><img height="60" width="60" alt="" src="http://r2.mail.ru/b14107870.jpg" id="preview_blogs_Id22"/></a></div>
+
+  <div><a onmouseout="return ttlOut()" onmousemove="return ttlOver(event,'<b>Михаил Задорнов</b> - известный писатель-сатирик открыл свой первый видеоблог')" href="http://r.mail.ru/n84221685"><img height="60" width="60" alt="" src="http://r2.mail.ru/b14107871.jpg" id="preview_blogs_Id23"/></a></div>
+
+  <div class="last"><a onmouseout="return ttlOut()" onmousemove="return ttlOver(event,'<b>Настя Задорожная</b> - звезда культового молодежного сериала &quot;Клуб&quot;')" href="http://r.mail.ru/n84221686"><img height="60" width="60" alt="" src="http://r2.mail.ru/b14107872.jpg" id="preview_blogs_Id24"/></a></div>
+</div>
+
+</div>
+	</div>
+<script>mr.placeSlots(4466, 4463, 4468)</script>
+
+<div id="disclaimer"></div>
+
+<div style="position:absolute;visibility:hidden;">
+	<!-- Radar: bottom -->
+<script type="text/javascript">//<![CDATA[
+try {
+
+timeInterval('renderbrowser');
+rT.iGet = '';
+for (var i = 0; i < rT.i.length; i++) {
+        rT.comma = rT.iGet != '' ? ',' : '';
+        var bP = rT.i[i].split('=');
+        if (bP[0] != 'renderbrowser') {
+                rT.iGet += (rT.comma + bP[0] + ':' + bP[1]);
+        } else rT.renderbrowser = parseInt(bP[1]);
+}
+rT.comma = '';
+
+rT.img = new Image(); rT.img.src='http://mail.radar.imgsmail.ru/update?p=mail&t=main&v=' + rT.renderbrowser + '&i=' + rT.iGet + '&rnd=141983501' + (document.referrer ? '&r=' + escape(document.referrer) : '') + '';
+
+} catch(e) {}
+//]]></script>
+
+        
+	<!-- Targetings counter -->
+	<!-- Links click counter --><script type="text/javascript">
+//<![CDATA[
+(function() {
+        if (document.clickHandlerAttached) return;
+        document.clickHandlerAttached = true;
+	var addHandler = function(o, e, fn) {
+		if (o.addEventListener) o.addEventListener(e, fn, false);
+		else if (o.attachEvent) o.attachEvent('on' + e, fn);
+		else o['on' + e] = fn;
+	}
+	addHandler(document, 'mousedown', function(e) {
+		e = e || window.event;
+		e = e.target || e.srcElement;
+		var name;
+		while (e.parentNode) {
+			if ((name = e.getAttribute('name')) && (name = name.toString())) {
+				if ( name.match(new RegExp("^cl([bn]\\d+)sz(\\d+)")) )
+					document.createElement("IMG").src = "//rs.mail.ru/s"+RegExp.$1+".gif?sz="+RegExp.$2+"&rnd=" + Math.random()*1E9;
+				else if ( name.match(new RegExp("^cl([bn]\\d+)")) )
+					document.createElement("IMG").src = "//rs.mail.ru/s"+RegExp.$1+".gif?rnd=" + Math.random()*1E9;
+				if ( name.match(new RegExp("^n(\\d+)sz(\\d+)")) )
+					document.createElement("IMG").src = "//rs.mail.ru/nc"+RegExp.$1+".gif?sz="+RegExp.$2+"&rnd=" + Math.random()*1E9;
+				else if ( name.match(new RegExp("^n(\\d+)")) )
+					document.createElement("IMG").src = "//rs.mail.ru/nc"+RegExp.$1+".gif?rnd=" + Math.random()*1E9;
+				if ( name.match(new RegExp("^(g\\d+)")) )
+					document.createElement("IMG").src = "//rs.mail.ru/"+RegExp.$1+".gif?rnd=" + Math.random()*1E9;
+				if ( name.match(new RegExp("^(i\\d+)")) )
+					document.createElement("IMG").src = "//rs.mail.ru/"+RegExp.$1+".gif";
+			}
+			e = e.parentNode;
+		}
+		return true;
+	});
+})();
+//]]>
+</script>
+
+
+
+	<img src="http://rs.mail.ru/d523187.gif" alt="" />
+	</div>
+
+<!-- CDN: '' -->
+<!-- RB_REGION: [325] -->
+</body>
+</html>
+
+
+
+

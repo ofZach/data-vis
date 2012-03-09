@@ -1,0 +1,3179 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    
+    
+    <title>Stack Overflow</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/stackoverflow/img/favicon.ico">
+    <link rel="apple-touch-icon" href="http://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml">
+
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.sstatic.net/js/stub.js?v=c014461b9109"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.sstatic.net/stackoverflow/all.css?v=018f2a6605bc">
+    
+    <link rel="alternate" type="application/atom+xml" title="Feed of recent questions" href="/feeds">
+
+
+
+        <script type="text/javascript">
+        StackExchange.init({"stackAuthUrl":"https://stackauth.com","serverTime":1330704374,"styleCode":true,"enableUserHovercards":true,"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers"},"user":{"isAnonymous":true,"fkey":"0c8a5c65a8e128b978be781ca1dc080d","inboxUnviewedCount":-1}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.js":"4ed9aa4b8d0e","js/moderator.js":"f57f00dcb1ac","js/full-anon.js":"10196d1a84c9","js/full.js":"8a44459d14eb","js/wmd.js":"b8e2098f7d36","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/mobile.js":"9e820382dd06","js/help.js":"fc9fb0517db2","js/tageditor.js":"c1ba807b32aa","js/tageditornew.js":"ab523171ddc9","js/inline-tag-editing.js":"be882e188985","js/revisions.js":"8c6bcd93b7fe","js/suggested-edits.js":"92144b1c12be","js/probes.js":"beb933322ff0"});
+        
+    </script>
+
+</head>
+<body class="home-page">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+    <div class="container">
+        <div id="header">
+            <div id="portalLink">
+                <a class="genu" href="http://stackexchange.com" onclick="StackExchange.ready(function(){genuwine.click();});return false;">Stack Exchange</a>
+            </div>
+            <div id="topbar">
+                <div id="hlinks">
+                    <span id="hlinks-user">
+                  
+                  </span>
+                  <span id="hlinks-nav">
+                  <a href="/users/login">log in</a>
+ <span class="lsep">|</span>
+<a href="http://careers.stackoverflow.com">careers</a>
+ <span class="lsep">|</span>
+
+                  </span>
+                  <span id="hlinks-custom">
+                  <a href="http://chat.stackoverflow.com">chat</a>
+ <span class="lsep">|</span>
+<a href="http://meta.stackoverflow.com">meta</a>
+ <span class="lsep">|</span>
+<a href="/about">about</a>
+ <span class="lsep">|</span>
+<a href="/faq">faq</a>
+                  </span>
+                </div>
+                <div id="hsearch">
+                    <form id="search" action="/search" method="get" autocomplete="off">
+                    <div>
+                        <input autocomplete="off" name="q" class="textbox" placeholder="search" tabindex="1" type="text" maxlength="140" size="28" value="">
+                    </div>
+                    </form>
+                </div>
+            </div>
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="/" >Stack Overflow</a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li><a id="nav-questions" href="/questions">Questions</a></li>
+                        <li><a id="nav-tags" href="/tags">Tags</a></li>
+                        <li><a id="nav-users" href="/users">Users</a></li>
+                        <li><a id="nav-badges" href="/badges">Badges</a></li>
+                        <li><a id="nav-unanswered" href="/unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="/questions/ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div id="system-message-temp">
+                <script type="text/javascript">
+            var curSystemMessage = 'Reputation changed unexpectedly? Don\'t know where to turn? <a href="http:\/\/meta.stackoverflow.com\/questions\/123319\/upcoming-reputation-history-changes">We\'ve moved heaven and earth to ensure your score is always correct!<\/a>';
+            $('#system-message-temp').html(curSystemMessage).attr('id', 'system-message');
+        </script>
+        </div>
+
+        <div id="content">
+            
+            
+<div id="mainbar">
+<div class="subheader">
+    <h1 id="h-top-questions">
+        Top Questions    
+    </h1>
+    <div id="tabs">
+    <a class="youarehere" href="?tab=interesting" title="questions that may be of interest to you based on your history and tag preferences">interesting</a>
+<a href="?tab=featured" title="questions with an active bounty"><span class='bounty-indicator-tab'>306</span>featured</a>
+<a href="?tab=hot" title="questions with the most views, answers, and votes over the last few days">hot</a>
+<a href="?tab=week" title="questions with the most views, answers, and votes this week">week</a>
+<a href="?tab=month" title="questions with the most views, answers, and votes this month">month</a>
+            
+    </div>
+</div>
+<div id="question-mini-list">
+
+<div class="question-summary narrow" id="question-summary-9536257">
+    <div onclick="window.location.href='/questions/9536257/how-to-anti-alias-clip-edges-in-html5-canvas-under-chrome-windows'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">1</div>
+            <div>vote</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">5</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536257/how-to-anti-alias-clip-edges-in-html5-canvas-under-chrome-windows" class="question-hyperlink" title="I&#39;m using the clip() function on a canvas.
+
+Results:
+
+
+As you can see the chrome version has horrible jaggies / aliasing along the edges. How do I fix this?
+
+Code to reproduce:
+
+...">How to anti-alias clip() edges in html5 canvas under Chrome Windows?</a></h3>
+        <div class="tags t-html5 t-google-chrome t-html5-canvas t-clip">
+            <a href="/questions/tagged/html5" class="post-tag" title="show questions tagged 'html5'" rel="tag">html5</a> <a href="/questions/tagged/google-chrome" class="post-tag" title="show questions tagged 'google-chrome'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/dmHl0.png" height="16" width="18" alt="" class="sponsor-tag-img">google-chrome</a> <a href="/questions/tagged/html5-canvas" class="post-tag" title="show questions tagged 'html5-canvas'" rel="tag">html5-canvas</a> <a href="/questions/tagged/clip" class="post-tag" title="show questions tagged 'clip'" rel="tag">clip</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9536257/how-to-anti-alias-clip-edges-in-html5-canvas-under-chrome-windows/?lastactivity" class="started-link"><span title="2012-03-02 16:06:03Z" class="relativetime">11s ago</span></a>
+            <a href="/users/92602/scott-m">Scott M.</a> <span class="reputation-score" title="reputation score" dir="ltr">3,489</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536348">
+    <div onclick="window.location.href='/questions/9536348/git-move-branch-tag-to-other-commit'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">2</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">2</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">13</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536348/git-move-branch-tag-to-other-commit" class="question-hyperlink" title="Since a branch is more or less only a tag, that moves automatically to the new commit, I wonder if I can modify this &quot;tag&quot;.
+
+Example:
+
+             master  
+A -- B -- C -- D
+
+
+git checkout master ...">git - move branch &ldquo;tag&rdquo; to other commit?</a></h3>
+        <div class="tags t-git">
+            <a href="/questions/tagged/git" class="post-tag" title="show questions tagged 'git'" rel="tag">git</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9536348/git-move-branch-tag-to-other-commit/?lastactivity" class="started-link"><span title="2012-03-02 16:05:56Z" class="relativetime">18s ago</span></a>
+            <a href="/users/112968/knittl">knittl</a> <span class="reputation-score" title="reputation score 24578" dir="ltr">24.6k</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-51988">
+    <div onclick="window.location.href='/questions/51988/what-work-has-been-done-on-cross-platform-mobile-development'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">47</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">20</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts warm"><span title='9988 views'>10</span></div>
+            <div class='warm'>kviews</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/51988/what-work-has-been-done-on-cross-platform-mobile-development" class="question-hyperlink" title="Have any well-documented or open source projects targeted iPhone, Blackberry, and Android? Are there other platforms which are better-suited to such an endeavor? Note that I am particularly asking ...">What work has been done on cross-platform mobile development?</a></h3>
+        <div class="tags t-iphone t-android t-blackberry t-mobile t-webos">
+            <a href="/questions/tagged/iphone" class="post-tag" title="show questions tagged 'iphone'" rel="tag">iphone</a> <a href="/questions/tagged/android" class="post-tag" title="show questions tagged 'android'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="/questions/tagged/blackberry" class="post-tag" title="show questions tagged 'blackberry'" rel="tag">blackberry</a> <a href="/questions/tagged/mobile" class="post-tag" title="show questions tagged 'mobile'" rel="tag">mobile</a> <a href="/questions/tagged/webos" class="post-tag" title="show questions tagged 'webos'" rel="tag">webos</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/51988/what-work-has-been-done-on-cross-platform-mobile-development/?lastactivity" class="started-link"><span title="2012-03-02 16:05:51Z" class="relativetime">23s ago</span></a>
+            <a href="/users/270197/ber4444">ber4444</a> <span class="reputation-score" title="reputation score" dir="ltr">511</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536126">
+    <div onclick="window.location.href='/questions/9536126/count-number-of-rows-with-specific-value-of-array'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">2</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">2</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">11</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536126/count-number-of-rows-with-specific-value-of-array" class="question-hyperlink" title="So i have an array, it has 1000 rows, and a column contains the age of a user, im trying to determine how to count the amount of rows for people who are &lt;17, 17-25, 26-40 etc.
+
+I know this is ...">Count number of rows with specific value of array</a></h3>
+        <div class="tags t-php t-loops t-count t-total">
+            <a href="/questions/tagged/php" class="post-tag" title="show questions tagged 'php'" rel="tag">php</a> <a href="/questions/tagged/loops" class="post-tag" title="show questions tagged 'loops'" rel="tag">loops</a> <a href="/questions/tagged/count" class="post-tag" title="show questions tagged 'count'" rel="tag">count</a> <a href="/questions/tagged/total" class="post-tag" title="show questions tagged 'total'" rel="tag">total</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9536126/count-number-of-rows-with-specific-value-of-array/?lastactivity" class="started-link"><span title="2012-03-02 16:05:49Z" class="relativetime">25s ago</span></a>
+            <a href="/users/267490/eli">Eli</a> <span class="reputation-score" title="reputation score" dir="ltr">733</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536477">
+    <div onclick="window.location.href='/questions/9536477/forming-sql-linq-query-ordered-elements-across-different-rows-sharing-logical'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536477/forming-sql-linq-query-ordered-elements-across-different-rows-sharing-logical" class="question-hyperlink" title="This will be a bit abstract but I have a method like this:
+
+private int ReturnLogicalGroupingAForOrderedElements(List&lt;int> elements) {
+    //sql query or linq query
+}
+
+
+Let&#39;s say the List passed ...">Forming SQL/LINQ query - Ordered elements across different rows sharing logical grouping</a></h3>
+        <div class="tags t-cñ t-sql t-linq">
+            <a href="/questions/tagged/c%23" class="post-tag" title="show questions tagged 'c#'" rel="tag">c#</a> <a href="/questions/tagged/sql" class="post-tag" title="show questions tagged 'sql'" rel="tag">sql</a> <a href="/questions/tagged/linq" class="post-tag" title="show questions tagged 'linq'" rel="tag">linq</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:05:34Z" class="relativetime">39s ago</span>            <a href="/users/186595/wollan">Wollan</a> <span class="reputation-score" title="reputation score" dir="ltr">78</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536476">
+    <div onclick="window.location.href='/questions/9536476/how-to-get-a-list-of-all-recent-svn-commit-messages'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536476/how-to-get-a-list-of-all-recent-svn-commit-messages" class="question-hyperlink" title="At times I want to revisit a change I committed to SVN a short while back, but don&#39;t recall the specific files involved or the revision number.  So I would like to see a list of recent commit ...">How to get a list of all recent SVN commit messages?</a></h3>
+        <div class="tags t-svn t-history">
+            <a href="/questions/tagged/svn" class="post-tag" title="show questions tagged 'svn'" rel="tag">svn</a> <a href="/questions/tagged/history" class="post-tag" title="show questions tagged 'history'" rel="tag">history</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:05:31Z" class="relativetime">43s ago</span>            <a href="/users/1245432/grw">grw</a> <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9531846">
+    <div onclick="window.location.href='/questions/9531846/define-custom-serialization-with-casbah-salat-or-delegate-serialization-to-m'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">2</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">28</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9531846/define-custom-serialization-with-casbah-salat-or-delegate-serialization-to-m" class="question-hyperlink" title="I&#39;m in the process of learning Scala for a new project having come from Rails. I&#39;ve defined a type that is going to be used in a number of my models which can basically be thought of as collection of ...">Define custom serialization with Casbah / Salat - or delegate serialization to member?</a></h3>
+        <div class="tags t-scala t-mongodb t-casbah t-salat">
+            <a href="/questions/tagged/scala" class="post-tag" title="show questions tagged 'scala'" rel="tag">scala</a> <a href="/questions/tagged/mongodb" class="post-tag" title="show questions tagged 'mongodb'" rel="tag">mongodb</a> <a href="/questions/tagged/casbah" class="post-tag" title="show questions tagged 'casbah'" rel="tag">casbah</a> <a href="/questions/tagged/salat" class="post-tag" title="show questions tagged 'salat'" rel="tag">salat</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9531846/define-custom-serialization-with-casbah-salat-or-delegate-serialization-to-m/?lastactivity" class="started-link"><span title="2012-03-02 16:05:27Z" class="relativetime">47s ago</span></a>
+            <a href="/users/586748/russell">Russell</a> <span class="reputation-score" title="reputation score" dir="ltr">1,505</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536474">
+    <div onclick="window.location.href='/questions/9536474/cakephp-post-call-to-rest-api-returning-null'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536474/cakephp-post-call-to-rest-api-returning-null" class="question-hyperlink" title="I have set up REST for my CakePHP and I&#39;m having a slight problem. When calling a GET method, like view or index on my controller, or even a custom method that is GET I have no problem getting an ...">CakePHP - POST call to REST API returning null</a></h3>
+        <div class="tags t-json t-cakephp t-rest t-cakephp-1û3">
+            <a href="/questions/tagged/json" class="post-tag" title="show questions tagged 'json'" rel="tag">json</a> <a href="/questions/tagged/cakephp" class="post-tag" title="show questions tagged 'cakephp'" rel="tag">cakephp</a> <a href="/questions/tagged/rest" class="post-tag" title="show questions tagged 'rest'" rel="tag">rest</a> <a href="/questions/tagged/cakephp-1.3" class="post-tag" title="show questions tagged 'cakephp-1.3'" rel="tag">cakephp-1.3</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:05:19Z" class="relativetime">55s ago</span>            <a href="/users/478108/8vius">8vius</a> <span class="reputation-score" title="reputation score" dir="ltr">918</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536473">
+    <div onclick="window.location.href='/questions/9536473/access-contents-of-zip-file-in-androidndk'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536473/access-contents-of-zip-file-in-androidndk" class="question-hyperlink" title="i want to list contents of my archived file(zip format in this case) ! know how to unzip but my problem is how you can list items before unzipping them in android(NDK)?
+">access contents of zip file in android(NDK)</a></h3>
+        <div class="tags t-android-ndk">
+            <a href="/questions/tagged/android-ndk" class="post-tag" title="show questions tagged 'android-ndk'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android-ndk</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:05:17Z" class="relativetime">57s ago</span>            <a href="/users/1176927/ocelot">Ocelot</a> <span class="reputation-score" title="reputation score" dir="ltr">48</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535309">
+    <div onclick="window.location.href='/questions/9535309/commonjs-resource-path-of-titanium-mobile'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">7</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535309/commonjs-resource-path-of-titanium-mobile" class="question-hyperlink" title="I have a project which have following folder structure
+
+Resources/
+  android/
+    images/
+      res-hdpi/
+        main.png
+      res-mdpi/
+        main.png
+      res-ldpi/
+        main.png
+  iphone/
+  ...">Commonjs resource path of Titanium mobile</a></h3>
+        <div class="tags t-android t-titanium-mobile t-commonjs t-titanium-modules">
+            <a href="/questions/tagged/android" class="post-tag" title="show questions tagged 'android'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="/questions/tagged/titanium-mobile" class="post-tag" title="show questions tagged 'titanium-mobile'" rel="tag">titanium-mobile</a> <a href="/questions/tagged/commonjs" class="post-tag" title="show questions tagged 'commonjs'" rel="tag">commonjs</a> <a href="/questions/tagged/titanium-modules" class="post-tag" title="show questions tagged 'titanium-modules'" rel="tag">titanium-modules</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:05:11Z" class="relativetime">1m ago</span>            <a href="/users/151562/kuroro">Kuroro</a> <span class="reputation-score" title="reputation score" dir="ltr">308</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536472">
+    <div onclick="window.location.href='/questions/9536472/when-should-you-decide-to-use-a-xmpp-server-or-just-wcf-services'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536472/when-should-you-decide-to-use-a-xmpp-server-or-just-wcf-services" class="question-hyperlink" title="I have a project where we have decided to use a polling architecture through XMPP through to a WCF service.  The application is similar to a news feed system, where the logged-in client polls the ...">When should you decide to use a XMPP server or just WCF Services?</a></h3>
+        <div class="tags t-wcf t-ûnet-4û0 t-xmpp t-comet">
+            <a href="/questions/tagged/wcf" class="post-tag" title="show questions tagged 'wcf'" rel="tag">wcf</a> <a href="/questions/tagged/.net-4.0" class="post-tag" title="show questions tagged '.net-4.0'" rel="tag">.net-4.0</a> <a href="/questions/tagged/xmpp" class="post-tag" title="show questions tagged 'xmpp'" rel="tag">xmpp</a> <a href="/questions/tagged/comet" class="post-tag" title="show questions tagged 'comet'" rel="tag">comet</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:05:10Z" class="relativetime">1m ago</span>            <a href="/users/172359/elhaix">ElHaix</a> <span class="reputation-score" title="reputation score" dir="ltr">759</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536470">
+    <div onclick="window.location.href='/questions/9536470/mongoengine-select-related-does-not-work'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536470/mongoengine-select-related-does-not-work" class="question-hyperlink" title="I&#39;m a newbie for django and mongoengine..
+so I&#39;m not sure my code is correct on this issue..
+
+class Example(Document):
+    member = ReferenceField(Members)
+
+
+query = ...">Mongoengine.. select_related() does not work</a></h3>
+        <div class="tags t-python t-django t-mongoengine">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged 'python'" rel="tag">python</a> <a href="/questions/tagged/django" class="post-tag" title="show questions tagged 'django'" rel="tag">django</a> <a href="/questions/tagged/mongoengine" class="post-tag" title="show questions tagged 'mongoengine'" rel="tag">mongoengine</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:05:10Z" class="relativetime">1m ago</span>            <a href="/users/878520/web-engineer">Web Engineer</a> <span class="reputation-score" title="reputation score" dir="ltr">57</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536468">
+    <div onclick="window.location.href='/questions/9536468/mingw-and-codeblocks-for-c-and-c-which-works-on-windows-7-64bit'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">3</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536468/mingw-and-codeblocks-for-c-and-c-which-works-on-windows-7-64bit" class="question-hyperlink" title="I have a windows 7 64 bit (home premium).
+
+the problem is i am trying to learn C and when i complete in then go on to learn c++. The problem is i coudnt find a working compiler and IDE. I finally got ...">mingw and codeblocks for c and c++ which works on windows 7 64bit?</a></h3>
+        <div class="tags t-c t-windows-7 t-mingw t-codeblocks t-mingw64">
+            <a href="/questions/tagged/c" class="post-tag" title="show questions tagged 'c'" rel="tag">c</a> <a href="/questions/tagged/windows-7" class="post-tag" title="show questions tagged 'windows-7'" rel="tag">windows-7</a> <a href="/questions/tagged/mingw" class="post-tag" title="show questions tagged 'mingw'" rel="tag">mingw</a> <a href="/questions/tagged/codeblocks" class="post-tag" title="show questions tagged 'codeblocks'" rel="tag">codeblocks</a> <a href="/questions/tagged/mingw64" class="post-tag" title="show questions tagged 'mingw64'" rel="tag">mingw64</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:04:51Z" class="relativetime">1m ago</span>            <a href="/users/855763/danny">Danny</a> <span class="reputation-score" title="reputation score" dir="ltr">103</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536467">
+    <div onclick="window.location.href='/questions/9536467/tab-key-navigation-issue-in-swt-jface-table'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536467/tab-key-navigation-issue-in-swt-jface-table" class="question-hyperlink" title="What I&#39;d like to do is to be able to tab between cells in a table. I have been successful in implementing the functionality using TableViewerFocusCellManager and CellNavigationStrategy.
+
+The problem I ...">Tab key navigation issue in SWT/JFace table</a></h3>
+        <div class="tags t-jface t-tableviewer t-tabnavigator">
+            <a href="/questions/tagged/jface" class="post-tag" title="show questions tagged 'jface'" rel="tag">jface</a> <a href="/questions/tagged/tableviewer" class="post-tag" title="show questions tagged 'tableviewer'" rel="tag">tableviewer</a> <a href="/questions/tagged/tabnavigator" class="post-tag" title="show questions tagged 'tabnavigator'" rel="tag">tabnavigator</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:04:44Z" class="relativetime">1m ago</span>            <a href="/users/1245408/dinesh">Dinesh</a> <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536466">
+    <div onclick="window.location.href='/questions/9536466/finding-locations-of-a-set-of-elements-in-a-matrix-matalb'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">4</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536466/finding-locations-of-a-set-of-elements-in-a-matrix-matalb" class="question-hyperlink" title="I have a matrix A .
+I want to find all the unique elements is A so:
+b = unique(A);  will give array of all the unique elements in A.
+
+I want to find the locations of these elements in A. To be ...">finding locations of a set of elements in a matrix - Matalb</a></h3>
+        <div class="tags t-matlab">
+            <a href="/questions/tagged/matlab" class="post-tag" title="show questions tagged 'matlab'" rel="tag">matlab</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:04:32Z" class="relativetime">1m ago</span>            <a href="/users/1091340/user1091340">user1091340</a> <span class="reputation-score" title="reputation score" dir="ltr">7</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536464">
+    <div onclick="window.location.href='/questions/9536464/how-to-include-a-specific-php-file-when-a-div-is-shown-displayblock'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">4</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536464/how-to-include-a-specific-php-file-when-a-div-is-shown-displayblock" class="question-hyperlink" title="I have a webpage with 20 forms on it.
+
+They are all hidden until you select a form from the drop down box and then the form will appear.
+
+Each form has its own validation. The problem is I&#39;ve included ...">How to include a specific php file when a div is shown/display:&ldquo;block&rdquo;</a></h3>
+        <div class="tags t-php t-javascript t-html t-include t-show-hide">
+            <a href="/questions/tagged/php" class="post-tag" title="show questions tagged 'php'" rel="tag">php</a> <a href="/questions/tagged/javascript" class="post-tag" title="show questions tagged 'javascript'" rel="tag">javascript</a> <a href="/questions/tagged/html" class="post-tag" title="show questions tagged 'html'" rel="tag">html</a> <a href="/questions/tagged/include" class="post-tag" title="show questions tagged 'include'" rel="tag">include</a> <a href="/questions/tagged/show-hide" class="post-tag" title="show questions tagged 'show-hide'" rel="tag">show-hide</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:04:30Z" class="relativetime">1m ago</span>            <a href="/users/1065389/john-vasiliou">John Vasiliou</a> <span class="reputation-score" title="reputation score" dir="ltr">53</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536458">
+    <div onclick="window.location.href='/questions/9536458/asp-net-forms-authentication-go-to-login-page-on-timeout'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536458/asp-net-forms-authentication-go-to-login-page-on-timeout" class="question-hyperlink" title="is it possible to redirect to login page when timeout occurs without waiting for the user to click on anything first?
+Right now, when timeout occurs, the page user was on still displays but as soon as ...">ASP.Net forms authentication - go to login page on timeout</a></h3>
+        <div class="tags t-aspûnet t-timeout t-forms-authentication">
+            <a href="/questions/tagged/asp.net" class="post-tag" title="show questions tagged 'asp.net'" rel="tag">asp.net</a> <a href="/questions/tagged/timeout" class="post-tag" title="show questions tagged 'timeout'" rel="tag">timeout</a> <a href="/questions/tagged/forms-authentication" class="post-tag" title="show questions tagged 'forms-authentication'" rel="tag">forms-authentication</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:04:14Z" class="relativetime">1m ago</span>            <a href="/users/1210350/nobullman">NoBullMan</a> <span class="reputation-score" title="reputation score" dir="ltr">16</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536454">
+    <div onclick="window.location.href='/questions/9536454/emulate-tooltip-functionality-with-toolstripdropdown'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536454/emulate-tooltip-functionality-with-toolstripdropdown" class="question-hyperlink" title="I created a custom UserControl that displays itself in a ToolStripDropDown to emulate ToolTip functionality.  It mostly works fine for any Control when I subscribe to their MouseEnter and MouseLeave ...">Emulate Tooltip functionality with ToolStripDropDown</a></h3>
+        <div class="tags t-cñ t-winforms t-tooltip t-mouseleave">
+            <a href="/questions/tagged/c%23" class="post-tag" title="show questions tagged 'c#'" rel="tag">c#</a> <a href="/questions/tagged/winforms" class="post-tag" title="show questions tagged 'winforms'" rel="tag">winforms</a> <a href="/questions/tagged/tooltip" class="post-tag" title="show questions tagged 'tooltip'" rel="tag">tooltip</a> <a href="/questions/tagged/mouseleave" class="post-tag" title="show questions tagged 'mouseleave'" rel="tag">mouseleave</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:03:56Z" class="relativetime">2m ago</span>            <a href="/users/852555/moozhe">Moozhe</a> <span class="reputation-score" title="reputation score" dir="ltr">375</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536452">
+    <div onclick="window.location.href='/questions/9536452/loop-a-single-element-in-a-xspf-playlist-using-vlc'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536452/loop-a-single-element-in-a-xspf-playlist-using-vlc" class="question-hyperlink" title="Greetings from Mexico! =)
+I&#39;ve Googled a lot, but I haven&#39;t found a solution yet, I&#39;m out of luck so here I am asking this question. Please help me ;)
+Is it possible to loop a single track in the XSPF ...">Loop a single element in a XSPF playlist using VLC</a></h3>
+        <div class="tags t-loops t-vlc t-playlist t-xspf">
+            <a href="/questions/tagged/loops" class="post-tag" title="show questions tagged 'loops'" rel="tag">loops</a> <a href="/questions/tagged/vlc" class="post-tag" title="show questions tagged 'vlc'" rel="tag">vlc</a> <a href="/questions/tagged/playlist" class="post-tag" title="show questions tagged 'playlist'" rel="tag">playlist</a> <a href="/questions/tagged/xspf" class="post-tag" title="show questions tagged 'xspf'" rel="tag">xspf</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:03:49Z" class="relativetime">2m ago</span>            <a href="/users/1119621/metafaniel">Metafaniel</a> <span class="reputation-score" title="reputation score" dir="ltr">50</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536445">
+    <div onclick="window.location.href='/questions/9536445/role-of-indices-parameters-in-gldrawelements-with-gl-points'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536445/role-of-indices-parameters-in-gldrawelements-with-gl-points" class="question-hyperlink" title="What is the role of the indices parameter in the glDrawElements function when the mode is set to GL_POINTS? 
+I have the following piece of code:
+
+glEnableClientState(GL_VERTEX_ARRAY);
+...">Role of indices parameters in glDrawElements with GL_POINTS</a></h3>
+        <div class="tags t-opengl t-graphics">
+            <a href="/questions/tagged/opengl" class="post-tag" title="show questions tagged 'opengl'" rel="tag">opengl</a> <a href="/questions/tagged/graphics" class="post-tag" title="show questions tagged 'graphics'" rel="tag">graphics</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:03:36Z" class="relativetime">2m ago</span>            <a href="/users/920202/tamas-ionut">Tamas Ionut</a> <span class="reputation-score" title="reputation score" dir="ltr">86</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536437">
+    <div onclick="window.location.href='/questions/9536437/coredatatableviewcontroller-with-uitableviewcontroller-uiimagepickercontrollerd'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">3</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536437/coredatatableviewcontroller-with-uitableviewcontroller-uiimagepickercontrollerd" class="question-hyperlink" title="I&#39;m using Core Data to store data on an object that is within a controller class that is using a TableView and an ImagePickerController.
+
+The interface is as follows:
+
+@interface ...">CoreDataTableViewController with UITableViewController &lt;UIImagePickerControllerDelegate&gt;</a></h3>
+        <div class="tags t-objective-c t-ios t-uitableview t-core-data">
+            <a href="/questions/tagged/objective-c" class="post-tag" title="show questions tagged 'objective-c'" rel="tag">objective-c</a> <a href="/questions/tagged/ios" class="post-tag" title="show questions tagged 'ios'" rel="tag">ios</a> <a href="/questions/tagged/uitableview" class="post-tag" title="show questions tagged 'uitableview'" rel="tag">uitableview</a> <a href="/questions/tagged/core-data" class="post-tag" title="show questions tagged 'core-data'" rel="tag">core-data</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:03:08Z" class="relativetime">3m ago</span>            <a href="/users/296810/lordsnoutimus">LordSnoutimus</a> <span class="reputation-score" title="reputation score" dir="ltr">780</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536318">
+    <div onclick="window.location.href='/questions/9536318/drupal-block-visabilty-if-cck-field-check-box-is-ticked'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">5</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536318/drupal-block-visabilty-if-cck-field-check-box-is-ticked" class="question-hyperlink" title="I want to display a sidebar box only if a cck field I created is checked (single on/off check box)
+with the value: yes|Yes add a Latest Blog Sidebar box.
+
+I may be able to do this thru the Views ...">Drupal Block visabilty if cck field check box is ticked</a></h3>
+        <div class="tags t-php t-drupal">
+            <a href="/questions/tagged/php" class="post-tag" title="show questions tagged 'php'" rel="tag">php</a> <a href="/questions/tagged/drupal" class="post-tag" title="show questions tagged 'drupal'" rel="tag">drupal</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:03:06Z" class="relativetime">3m ago</span>            <a href="/users/1212920/paulcap1">paulcap1 </a> <span class="reputation-score" title="reputation score" dir="ltr">6</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535937">
+    <div onclick="window.location.href='/questions/9535937/is-there-a-way-to-show-a-user-defined-postgresql-type-definition'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">6</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535937/is-there-a-way-to-show-a-user-defined-postgresql-type-definition" class="question-hyperlink" title="Let&#39;s say we&#39;ve defined a postgresql type:
+
+CREATE TYPE my_type AS ENUM(&#39;foo&#39;, &#39;bar&#39;);
+
+
+Is there any way to show the type definition after creation ?
+
+I would expect &quot;\d my_type&quot; to show me ...">Is there a way to show a user-defined postgresql type definition?</a></h3>
+        <div class="tags t-postgresql">
+            <a href="/questions/tagged/postgresql" class="post-tag" title="show questions tagged 'postgresql'" rel="tag">postgresql</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9535937/is-there-a-way-to-show-a-user-defined-postgresql-type-definition/?lastactivity" class="started-link"><span title="2012-03-02 16:03:01Z" class="relativetime">3m ago</span></a>
+            <a href="/users/246260/dezso">dezso</a> <span class="reputation-score" title="reputation score" dir="ltr">113</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535064">
+    <div onclick="window.location.href='/questions/9535064/automatically-append-build-date-to-eclipse-plugin-version-number'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">5</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535064/automatically-append-build-date-to-eclipse-plugin-version-number" class="question-hyperlink" title="Many Eclipse plugins have a version number like 1.2.4-201202017, so the build date (or even the build time) is appended to it.  I wonder how it can be achieved automatically.  I have the version ...">Automatically append build date to Eclipse plugin version number</a></h3>
+        <div class="tags t-mercurial t-eclipse-plugin t-versioning">
+            <a href="/questions/tagged/mercurial" class="post-tag" title="show questions tagged 'mercurial'" rel="tag">mercurial</a> <a href="/questions/tagged/eclipse-plugin" class="post-tag" title="show questions tagged 'eclipse-plugin'" rel="tag">eclipse-plugin</a> <a href="/questions/tagged/versioning" class="post-tag" title="show questions tagged 'versioning'" rel="tag">versioning</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:03:00Z" class="relativetime">3m ago</span>            <a href="/users/960558/lazy-badger">Lazy Badger</a> <span class="reputation-score" title="reputation score" dir="ltr">3,533</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536342">
+    <div onclick="window.location.href='/questions/9536342/what-do-i-need-to-do-to-make-a-field-in-solr-sortable'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">3</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536342/what-do-i-need-to-do-to-make-a-field-in-solr-sortable" class="question-hyperlink" title="I have a field called &quot;title&quot;  
+
+&lt;field name=&quot;title&quot; type=&quot;text_general&quot; indexed=&quot;true&quot; stored=&quot;true&quot; required=&quot;true&quot; omitNorms=&quot;false&quot;/>
+
+
+Here is the file definition:
+
+&lt;fieldType ...">What do I need to do to make a field in SOLR sortable?</a></h3>
+        <div class="tags t-sorting t-solr t-lucene t-xml-schema t-solr-schema">
+            <a href="/questions/tagged/sorting" class="post-tag" title="show questions tagged 'sorting'" rel="tag">sorting</a> <a href="/questions/tagged/solr" class="post-tag" title="show questions tagged 'solr'" rel="tag">solr</a> <a href="/questions/tagged/lucene" class="post-tag" title="show questions tagged 'lucene'" rel="tag">lucene</a> <a href="/questions/tagged/xml-schema" class="post-tag" title="show questions tagged 'xml-schema'" rel="tag">xml-schema</a> <a href="/questions/tagged/solr-schema" class="post-tag" title="show questions tagged 'solr-schema'" rel="tag">solr-schema</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:02:58Z" class="relativetime">3m ago</span>            <a href="/users/67153/itay-moav">Itay Moav</a> <span class="reputation-score" title="reputation score 10717" dir="ltr">10.7k</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536431">
+    <div onclick="window.location.href='/questions/9536431/challenges-while-trying-to-club-in-icefaces-with-jboss-v6'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536431/challenges-while-trying-to-club-in-icefaces-with-jboss-v6" class="question-hyperlink" title="I am having issues trying to deploy icefaces application on jboss v6, from error it appears that com.icesoft.faces.webapp.CompatResourceServlet but i have that class present in icefaces-compat.jar and ...">Challenges while trying to club in IceFaces with JBoss v6</a></h3>
+        <div class="tags t-jboss t-icefaces">
+            <a href="/questions/tagged/jboss" class="post-tag" title="show questions tagged 'jboss'" rel="tag">jboss</a> <a href="/questions/tagged/icefaces" class="post-tag" title="show questions tagged 'icefaces'" rel="tag">icefaces</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:02:52Z" class="relativetime">3m ago</span>            <a href="/users/164299/rachel">Rachel</a> <span class="reputation-score" title="reputation score" dir="ltr">5,221</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536142">
+    <div onclick="window.location.href='/questions/9536142/textview-goes-singleline-when-setting-text-on-runonuithread'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">2</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">15</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536142/textview-goes-singleline-when-setting-text-on-runonuithread" class="question-hyperlink" title="I have a TextView that i inflate in my activity. When i set text to this TextView its content is spread in multiple lines as this is the default behaviour.
+e.g
+
+    public void onCreate(Bundle ...">TextView goes singleLine when setting text on runOnUiThread</a></h3>
+        <div class="tags t-android t-android-textview t-runnable">
+            <a href="/questions/tagged/android" class="post-tag" title="show questions tagged 'android'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="/questions/tagged/android-textview" class="post-tag" title="show questions tagged 'android-textview'" rel="tag">android-textview</a> <a href="/questions/tagged/runnable" class="post-tag" title="show questions tagged 'runnable'" rel="tag">runnable</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9536142/textview-goes-singleline-when-setting-text-on-runonuithread/?lastactivity" class="started-link"><span title="2012-03-02 16:02:19Z" class="relativetime">3m ago</span></a>
+            <a href="/users/315306/raffaele">Raffaele</a> <span class="reputation-score" title="reputation score" dir="ltr">554</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536424">
+    <div onclick="window.location.href='/questions/9536424/antlr-interpreter-running-error'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">3</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536424/antlr-interpreter-running-error" class="question-hyperlink" title="When i run the interpreter to create parse tree in ANTLR 3.4(in eclipse 3.7) it shows,
+
+
+  An internal error occurred during: &quot;ANTLR Event Listener&quot;. For input
+  string: &quot;false&quot;
+
+
+How this i can ...">ANTLR Interpreter running error</a></h3>
+        <div class="tags t-antlr t-antlrv3ide">
+            <a href="/questions/tagged/antlr" class="post-tag" title="show questions tagged 'antlr'" rel="tag">antlr</a> <a href="/questions/tagged/antlrv3ide" class="post-tag" title="show questions tagged 'antlrv3ide'" rel="tag">antlrv3ide</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:02:09Z" class="relativetime">4m ago</span>            <a href="/users/565835/darray">DarRay</a> <span class="reputation-score" title="reputation score" dir="ltr">52</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535712">
+    <div onclick="window.location.href='/questions/9535712/finding-duplicate-orders-by-time-proximity'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">5</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">3</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">23</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535712/finding-duplicate-orders-by-time-proximity" class="question-hyperlink" title="I have a table of orders that I know have duplicates
+
+    customer   order_number   order_date
+   ----------  ------------   -------------------
+          1             1     2012-03-01 01:58:00
+      ...">Finding Duplicate Orders (by time proximity)</a></h3>
+        <div class="tags t-sql t-sql-server">
+            <a href="/questions/tagged/sql" class="post-tag" title="show questions tagged 'sql'" rel="tag">sql</a> <a href="/questions/tagged/sql-server" class="post-tag" title="show questions tagged 'sql-server'" rel="tag">sql-server</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9535712/finding-duplicate-orders-by-time-proximity/?lastactivity" class="started-link"><span title="2012-03-02 16:01:58Z" class="relativetime">4m ago</span></a>
+            <a href="/users/1148496/coltech">coltech</a> <span class="reputation-score" title="reputation score" dir="ltr">113</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536421">
+    <div onclick="window.location.href='/questions/9536421/why-is-my-door-opening-in-unity'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">19</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536421/why-is-my-door-opening-in-unity" class="question-hyperlink" title="#pragma strict
+static var charge : int;
+var collectSound : AudioClip;
+
+function Start ()
+{
+    charge = 0;
+}
+
+function Update () {
+
+}
+
+function CellPickup()
+{
+    ...">why is my door opening in unity</a></h3>
+        <div class="tags t-javascript t-unity">
+            <a href="/questions/tagged/javascript" class="post-tag" title="show questions tagged 'javascript'" rel="tag">javascript</a> <a href="/questions/tagged/unity" class="post-tag" title="show questions tagged 'unity'" rel="tag">unity</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:01:58Z" class="relativetime">4m ago</span>            <a href="/users/508101/darren">Darren</a> <span class="reputation-score" title="reputation score" dir="ltr">17</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535260">
+    <div onclick="window.location.href='/questions/9535260/populate-a-jcombobox-in-netbeans-7-1'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">15</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535260/populate-a-jcombobox-in-netbeans-7-1" class="question-hyperlink" title="I want to add a combo box which populates from mysql database in netbeans 7.1.I did a simple implementation like follows, but this coding doesn&#39;t work.
+
+    private void ...">Populate a jcombobox in netbeans 7.1</a></h3>
+        <div class="tags t-java t-mysql t-gui t-netbeans">
+            <a href="/questions/tagged/java" class="post-tag" title="show questions tagged 'java'" rel="tag">java</a> <a href="/questions/tagged/mysql" class="post-tag" title="show questions tagged 'mysql'" rel="tag">mysql</a> <a href="/questions/tagged/gui" class="post-tag" title="show questions tagged 'gui'" rel="tag">gui</a> <a href="/questions/tagged/netbeans" class="post-tag" title="show questions tagged 'netbeans'" rel="tag">netbeans</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9535260/populate-a-jcombobox-in-netbeans-7-1/?lastactivity" class="started-link"><span title="2012-03-02 16:01:55Z" class="relativetime">4m ago</span></a>
+            <a href="/users/544983/deporter">deporter</a> <span class="reputation-score" title="reputation score" dir="ltr">1,503</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536415">
+    <div onclick="window.location.href='/questions/9536415/wcf-rest-kit-source-code'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536415/wcf-rest-kit-source-code" class="question-hyperlink" title="As of now, WCF REST Starter kit is no longer supported and I understand that the standard now is ASP.NET Web API.
+
+But, for learning WCF in-depth, I would like to have source code of WCF REST Kit ...">WCF REST Kit - source code</a></h3>
+        <div class="tags t-wcf-rest-starter-kit">
+            <a href="/questions/tagged/wcf-rest-starter-kit" class="post-tag" title="show questions tagged 'wcf-rest-starter-kit'" rel="tag">wcf-rest-starter-kit</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:01:45Z" class="relativetime">4m ago</span>            <a href="/users/203687/user203687">user203687</a> <span class="reputation-score" title="reputation score" dir="ltr">368</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535095">
+    <div onclick="window.location.href='/questions/9535095/transaction-between-controller-actions-in-play'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">1</div>
+            <div>vote</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">6</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535095/transaction-between-controller-actions-in-play" class="question-hyperlink" title="Is there a way to start &quot;transaction&quot; between several controller actions that would keep model changes, but not save them unless all actions are completed?
+
+Lets say I have a following user flow: ...">Transaction between controller actions in Play</a></h3>
+        <div class="tags t-java t-playframework">
+            <a href="/questions/tagged/java" class="post-tag" title="show questions tagged 'java'" rel="tag">java</a> <a href="/questions/tagged/playframework" class="post-tag" title="show questions tagged 'playframework'" rel="tag">playframework</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9535095/transaction-between-controller-actions-in-play/?lastactivity" class="started-link"><span title="2012-03-02 16:01:27Z" class="relativetime">4m ago</span></a>
+            <a href="/users/116791/pere-villega">Pere Villega</a> <span class="reputation-score" title="reputation score" dir="ltr">6,843</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536406">
+    <div onclick="window.location.href='/questions/9536406/cannot-login-to-sql-server-using-azura-platform'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">4</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536406/cannot-login-to-sql-server-using-azura-platform" class="question-hyperlink" title="I signed for Azure free trial and my dev team create database and it is running already but when i login to azure platform then database - connect to server it says fail to connect I reset password 2 ...">Cannot login to SQL server using Azura platform</a></h3>
+        <div class="tags t-sql t-azure">
+            <a href="/questions/tagged/sql" class="post-tag" title="show questions tagged 'sql'" rel="tag">sql</a> <a href="/questions/tagged/azure" class="post-tag" title="show questions tagged 'azure'" rel="tag">azure</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:01:27Z" class="relativetime">4m ago</span>            <a href="/users/1245459/samy-fransis">Samy Fransis</a> <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536403">
+    <div onclick="window.location.href='/questions/9536403/newlib-optimized-for-code-size'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536403/newlib-optimized-for-code-size" class="question-hyperlink" title="In my embedded application, which is very memory sensitive, I noticed some of the newlib functions using a lot of stack space. By looking at the source code of newlib, specifically memmem.c in this ...">Newlib optimized for code size</a></h3>
+        <div class="tags t-embedded t-arm t-cortex-m3 t-newlib">
+            <a href="/questions/tagged/embedded" class="post-tag" title="show questions tagged 'embedded'" rel="tag">embedded</a> <a href="/questions/tagged/arm" class="post-tag" title="show questions tagged 'arm'" rel="tag">arm</a> <a href="/questions/tagged/cortex-m3" class="post-tag" title="show questions tagged 'cortex-m3'" rel="tag">cortex-m3</a> <a href="/questions/tagged/newlib" class="post-tag" title="show questions tagged 'newlib'" rel="tag">newlib</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:01:18Z" class="relativetime">4m ago</span>            <a href="/users/1245413/merwe">Merwe</a> <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9534052">
+    <div onclick="window.location.href='/questions/9534052/there-is-a-ibm-db2-provider-that-works-with-entity-framework-4-0-in-visual-studi'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">5</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9534052/there-is-a-ibm-db2-provider-that-works-with-entity-framework-4-0-in-visual-studi" class="question-hyperlink" title="There is already a DB2 provider to Entity Framework 4.0? I&#39;m looking for one that shows up in the &quot;Change Data Source&quot; dialog window this way (in VS2010):
+
+Steps:
+
+Right-click on the edmx design ...">There is a IBM DB2 provider that works with Entity Framework 4.0 in Visual Studio 2010?</a></h3>
+        <div class="tags t-visual-studio-2010 t-entity-framework t-entity-framework-4 t-db2 t-provider">
+            <a href="/questions/tagged/visual-studio-2010" class="post-tag" title="show questions tagged 'visual-studio-2010'" rel="tag">visual-studio-2010</a> <a href="/questions/tagged/entity-framework" class="post-tag" title="show questions tagged 'entity-framework'" rel="tag">entity-framework</a> <a href="/questions/tagged/entity-framework-4" class="post-tag" title="show questions tagged 'entity-framework-4'" rel="tag">entity-framework-4</a> <a href="/questions/tagged/db2" class="post-tag" title="show questions tagged 'db2'" rel="tag">db2</a> <a href="/questions/tagged/provider" class="post-tag" title="show questions tagged 'provider'" rel="tag">provider</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9534052/there-is-a-ibm-db2-provider-that-works-with-entity-framework-4-0-in-visual-studi/?lastactivity" class="started-link"><span title="2012-03-02 16:01:13Z" class="relativetime">5m ago</span></a>
+            <a href="/users/300257/gilbert-le-blanc">Gilbert Le Blanc</a> <span class="reputation-score" title="reputation score" dir="ltr">7,024</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536396">
+    <div onclick="window.location.href='/questions/9536396/how-do-i-change-my-readline-path'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">5</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536396/how-do-i-change-my-readline-path" class="question-hyperlink" title="I&#39;m trying to install ipython, which appears to require the readline library.
+
+I did install readline via easy_install. But every test I run iptest (or any other file) it spits this back:
+
+
+  dyld: ...">How do I change my readline path?</a></h3>
+        <div class="tags t-python t-libreadline">
+            <a href="/questions/tagged/python" class="post-tag" title="show questions tagged 'python'" rel="tag">python</a> <a href="/questions/tagged/libreadline" class="post-tag" title="show questions tagged 'libreadline'" rel="tag">libreadline</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:00:51Z" class="relativetime">5m ago</span>            <a href="/users/1245404/bill-wareham">Bill Wareham</a> <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536393">
+    <div onclick="window.location.href='/questions/9536393/drupal-virtual-sites-module'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536393/drupal-virtual-sites-module" class="question-hyperlink" title="I&#39;m developing a website in Drupal, in which I need to have several multi-sites, each one in a different sub-domain! so far, so good, I&#39;m using the Virtual Sites module to get it. But the problem is, ...">Drupal Virtual Sites Module</a></h3>
+        <div class="tags t-drupal t-virtual t-sites">
+            <a href="/questions/tagged/drupal" class="post-tag" title="show questions tagged 'drupal'" rel="tag">drupal</a> <a href="/questions/tagged/virtual" class="post-tag" title="show questions tagged 'virtual'" rel="tag">virtual</a> <a href="/questions/tagged/sites" class="post-tag" title="show questions tagged 'sites'" rel="tag">sites</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:00:36Z" class="relativetime">5m ago</span>            <a href="/users/1245451/nuno-silva">Nuno Silva</a> <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536391">
+    <div onclick="window.location.href='/questions/9536391/sed-file-or-directory-not-found'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">5</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536391/sed-file-or-directory-not-found" class="question-hyperlink" title="I&#39;m trying to use the sed command to replace text in a config file with the line
+
+sed -e &#39;s/pass/Awmusic12635/2w&#39; -i config.yml
+
+
+I have already cd to the directory to where the file is, but every ...">Sed: file or directory not found</a></h3>
+        <div class="tags t-linux t-sed">
+            <a href="/questions/tagged/linux" class="post-tag" title="show questions tagged 'linux'" rel="tag">linux</a> <a href="/questions/tagged/sed" class="post-tag" title="show questions tagged 'sed'" rel="tag">sed</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:00:27Z" class="relativetime">5m ago</span>            <a href="/users/1236520/awmusic12635">awmusic12635</a> <span class="reputation-score" title="reputation score" dir="ltr">17</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536388">
+    <div onclick="window.location.href='/questions/9536388/capture-pid-of-terminated-background-process-using-trap-in-bash'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">5</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536388/capture-pid-of-terminated-background-process-using-trap-in-bash" class="question-hyperlink" title="I&#39;m writing a bash script that spawns a number of background processes. I&#39;d like to be notified whenever a process terminates; and I would like to know the pid of the terminated process. 
+
+I have ...">capture pid of terminated background process using trap in bash</a></h3>
+        <div class="tags t-bash t-shell t-unix t-signals t-trap">
+            <a href="/questions/tagged/bash" class="post-tag" title="show questions tagged 'bash'" rel="tag">bash</a> <a href="/questions/tagged/shell" class="post-tag" title="show questions tagged 'shell'" rel="tag">shell</a> <a href="/questions/tagged/unix" class="post-tag" title="show questions tagged 'unix'" rel="tag">unix</a> <a href="/questions/tagged/signals" class="post-tag" title="show questions tagged 'signals'" rel="tag">signals</a> <a href="/questions/tagged/trap" class="post-tag" title="show questions tagged 'trap'" rel="tag">trap</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:00:19Z" class="relativetime">5m ago</span>            <a href="/users/366856/echo-flow">echo-flow</a> <span class="reputation-score" title="reputation score" dir="ltr">2,487</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535524">
+    <div onclick="window.location.href='/questions/9535524/the-first-execution-of-app'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">3</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">25</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535524/the-first-execution-of-app" class="question-hyperlink" title="It&#39;s necessary to do something at the first execution of Windows Phone 7 app. How can I check up, is the execution first?
+">The first execution of app</a></h3>
+        <div class="tags t-cñ t-windows-phone-7">
+            <a href="/questions/tagged/c%23" class="post-tag" title="show questions tagged 'c#'" rel="tag">c#</a> <a href="/questions/tagged/windows-phone-7" class="post-tag" title="show questions tagged 'windows-phone-7'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/MEwvJ.png" height="16" width="18" alt="" class="sponsor-tag-img">windows-phone-7</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9535524/the-first-execution-of-app/?lastactivity" class="started-link"><span title="2012-03-02 16:00:09Z" class="relativetime">6m ago</span></a>
+            <a href="/users/626442/killercam">Killercam</a> <span class="reputation-score" title="reputation score" dir="ltr">545</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536385">
+    <div onclick="window.location.href='/questions/9536385/how-to-assign-parameter-to-variable'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">6</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536385/how-to-assign-parameter-to-variable" class="question-hyperlink" title="How to assign %%parameter to variable?  
+
+FOR /F &quot;tokens=1 delims= &quot; %%A IN (connections.txt) DO (
+   set USER=%%A
+
+   echo A=%%A
+   echo USER=%USER%
+)
+
+
+Output of this code:  
+
+A=user1
+USER=
+
+
+How to ...">How to assign %%parameter to variable?</a></h3>
+        <div class="tags t-batch t-batch-file t-batch-script">
+            <a href="/questions/tagged/batch" class="post-tag" title="show questions tagged 'batch'" rel="tag">batch</a> <a href="/questions/tagged/batch-file" class="post-tag" title="show questions tagged 'batch-file'" rel="tag">batch-file</a> <a href="/questions/tagged/batch-script" class="post-tag" title="show questions tagged 'batch-script'" rel="tag">batch-script</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 16:00:04Z" class="relativetime">6m ago</span>            <a href="/users/167739/vladimir-bezugliy">Vladimir Bezugliy</a> <span class="reputation-score" title="reputation score" dir="ltr">871</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536381">
+    <div onclick="window.location.href='/questions/9536381/hsqldb-trigger-statement-error-when-using-simplejdbctestutils-executesqlscript'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">3</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536381/hsqldb-trigger-statement-error-when-using-simplejdbctestutils-executesqlscript" class="question-hyperlink" title="I&#39;m currently trying to load a sql script to create a HSQL database. 
+This is done by using the following code: 
+
+Resource resource = new ClassPathResource(&quot;/create-table.sql&quot;);        
+...">HSQLDB Trigger Statement ERROR when using SimpleJdbcTestUtils.executeSqlScript()</a></h3>
+        <div class="tags t-spring t-triggers t-hsqldb t-spring-jdbc t-spring-test">
+            <a href="/questions/tagged/spring" class="post-tag" title="show questions tagged 'spring'" rel="tag">spring</a> <a href="/questions/tagged/triggers" class="post-tag" title="show questions tagged 'triggers'" rel="tag">triggers</a> <a href="/questions/tagged/hsqldb" class="post-tag" title="show questions tagged 'hsqldb'" rel="tag">hsqldb</a> <a href="/questions/tagged/spring-jdbc" class="post-tag" title="show questions tagged 'spring-jdbc'" rel="tag">spring-jdbc</a> <a href="/questions/tagged/spring-test" class="post-tag" title="show questions tagged 'spring-test'" rel="tag">spring-test</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:59:39Z" class="relativetime">6m ago</span>            <a href="/users/1245430/javalady">JavaLady</a> <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536376">
+    <div onclick="window.location.href='/questions/9536376/have-many-and-many-location-wrong-in-facebook-mapbing-map'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">1</div>
+            <div>view</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536376/have-many-and-many-location-wrong-in-facebook-mapbing-map" class="question-hyperlink" title="I&#39;m sorry because of my post. But i don&#39;t known where, who answer my question
+
+Why, have many location wrong in facebook location but facebook.com still using them
+Please show
+
+...">Have many and many location wrong in facebook map(bing map)</a></h3>
+        <div class="tags t-facebook t-google-maps t-facebook-apps t-facebook-page">
+            <a href="/questions/tagged/facebook" class="post-tag" title="show questions tagged 'facebook'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/L8rHf.png" height="16" width="18" alt="" class="sponsor-tag-img">facebook</a> <a href="/questions/tagged/google-maps" class="post-tag" title="show questions tagged 'google-maps'" rel="tag"><img src="http://i.stack.imgur.com/slNF6.png" height="16" width="18" alt="" class="sponsor-tag-img">google-maps</a> <a href="/questions/tagged/facebook-apps" class="post-tag" title="show questions tagged 'facebook-apps'" rel="tag">facebook-apps</a> <a href="/questions/tagged/facebook-page" class="post-tag" title="show questions tagged 'facebook-page'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/L8rHf.png" height="16" width="18" alt="" class="sponsor-tag-img">facebook-page</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:59:22Z" class="relativetime">6m ago</span>            <a href="/users/1245446/loi-pham">Loi Pham</a> <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536335">
+    <div onclick="window.location.href='/questions/9536335/how-to-reset-setcontentview-dynamically-within-a-program'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">7</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536335/how-to-reset-setcontentview-dynamically-within-a-program" class="question-hyperlink" title="I am trying to rotate an image on a loading page and so I have four images, each rotated 90 degrees to teh right from the next and I wish to sleep then reset contentview on each one to proceed to the ...">How to reset setcontentview() dynamically within a program?</a></h3>
+        <div class="tags t-android t-layout t-background">
+            <a href="/questions/tagged/android" class="post-tag" title="show questions tagged 'android'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="/questions/tagged/layout" class="post-tag" title="show questions tagged 'layout'" rel="tag">layout</a> <a href="/questions/tagged/background" class="post-tag" title="show questions tagged 'background'" rel="tag">background</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9536335/how-to-reset-setcontentview-dynamically-within-a-program/?lastactivity" class="started-link"><span title="2012-03-02 15:59:13Z" class="relativetime">7m ago</span></a>
+            <a href="/users/902172/c-d">C.d.</a> <span class="reputation-score" title="reputation score" dir="ltr">530</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536364">
+    <div onclick="window.location.href='/questions/9536364/jquery-gmap3-syntax-error'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">4</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536364/jquery-gmap3-syntax-error" class="question-hyperlink" title="Im working with the jQuery plugin gmap3. I can get multiple markers to be added to a map but ive got stuck trying to give one of them an info window. 
+
+If I remove the code under the comment &#39;//add a ...">jQuery gmap3 syntax error</a></h3>
+        <div class="tags t-jquery t-syntax t-gmap3">
+            <a href="/questions/tagged/jquery" class="post-tag" title="show questions tagged 'jquery'" rel="tag">jquery</a> <a href="/questions/tagged/syntax" class="post-tag" title="show questions tagged 'syntax'" rel="tag">syntax</a> <a href="/questions/tagged/gmap3" class="post-tag" title="show questions tagged 'gmap3'" rel="tag">gmap3</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:58:48Z" class="relativetime">7m ago</span>            <a href="/users/467875/jdln">jdln</a> <span class="reputation-score" title="reputation score" dir="ltr">393</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536360">
+    <div onclick="window.location.href='/questions/9536360/fluent-nhibernate-unable-to-change-a-lookup-record'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">3</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536360/fluent-nhibernate-unable-to-change-a-lookup-record" class="question-hyperlink" title="Ok, I&#39;m new to NHibernate so maybe someone here can explain this. I have 3 tables/entities:
+
+
+Applications
+Roles
+ApplicationRoles
+
+
+As it sounds, ApplicationRoles is a lookup table that has is ...">Fluent NHibernate unable to change a lookup record?</a></h3>
+        <div class="tags t-nhibernate t-fluent-nhibernate">
+            <a href="/questions/tagged/nhibernate" class="post-tag" title="show questions tagged 'nhibernate'" rel="tag">nhibernate</a> <a href="/questions/tagged/fluent-nhibernate" class="post-tag" title="show questions tagged 'fluent-nhibernate'" rel="tag">fluent-nhibernate</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:58:41Z" class="relativetime">7m ago</span>            <a href="/users/45139/lovemesomecode">LoveMeSomeCode</a> <span class="reputation-score" title="reputation score" dir="ltr">977</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536266">
+    <div onclick="window.location.href='/questions/9536266/mvc-dropdownlist-coming-back-empty'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">-2</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">11</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536266/mvc-dropdownlist-coming-back-empty" class="question-hyperlink" title="I have a dropdown list when the form is submitted it is submitted null...
+
+html:
+
+@Html.DropDownListFor(c => Model.HowOftenCar, Model.HowOftenCar, new { id = &quot;CompDrop&quot; })
+
+
+Model:
+
+ public ...">MVC dropdownlist coming back empty?</a></h3>
+        <div class="tags t-mvc t-razor t-dropdownlist">
+            <a href="/questions/tagged/mvc" class="post-tag" title="show questions tagged 'mvc'" rel="tag">mvc</a> <a href="/questions/tagged/razor" class="post-tag" title="show questions tagged 'razor'" rel="tag">razor</a> <a href="/questions/tagged/dropdownlist" class="post-tag" title="show questions tagged 'dropdownlist'" rel="tag">dropdownlist</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:58:20Z" class="relativetime">7m ago</span>            <a href="/users/13302/marc-s">marc_s</a> <span class="reputation-score" title="reputation score 168619" dir="ltr">169k</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536356">
+    <div onclick="window.location.href='/questions/9536356/error-1010-i-dont-know-why'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">4</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536356/error-1010-i-dont-know-why" class="question-hyperlink" title="well i create an array based in my data xml but when i want to use that data it trow 
+ Error #1010:..
+
+this is my code  
+
+Create array with xml data
+
+                arrTemp = new ...">Error #1010: i dont know why</a></h3>
+        <div class="tags t-actionscript-3">
+            <a href="/questions/tagged/actionscript-3" class="post-tag" title="show questions tagged 'actionscript-3'" rel="tag"><img src="http://cdn.sstatic.net/stackoverflow/img/tag-adobe.png" height="16" width="18" alt="" class="sponsor-tag-img">actionscript-3</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:58:03Z" class="relativetime">8m ago</span>            <a href="/users/1035840/carlos-alberto-blanco-vivas">Carlos Alberto Blanco Vivas</a> <span class="reputation-score" title="reputation score" dir="ltr">6</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9532911">
+    <div onclick="window.location.href='/questions/9532911/turbo-vision-ui-framework-clone-for-java'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">1</div>
+            <div>vote</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">13</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9532911/turbo-vision-ui-framework-clone-for-java" class="question-hyperlink" title="I&#39;m wondering if it&#39;s possible to create a Turbo Vision console UI framework clone with Java? I know about Charva and Javacurses. I guess the rework is only possible with Javacurses because Charva has ...">Turbo Vision UI framework clone for Java</a></h3>
+        <div class="tags t-java t-user-interface t-frameworks t-console t-curses">
+            <a href="/questions/tagged/java" class="post-tag" title="show questions tagged 'java'" rel="tag">java</a> <a href="/questions/tagged/user-interface" class="post-tag" title="show questions tagged 'user-interface'" rel="tag">user-interface</a> <a href="/questions/tagged/frameworks" class="post-tag" title="show questions tagged 'frameworks'" rel="tag">frameworks</a> <a href="/questions/tagged/console" class="post-tag" title="show questions tagged 'console'" rel="tag">console</a> <a href="/questions/tagged/curses" class="post-tag" title="show questions tagged 'curses'" rel="tag">curses</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:57:49Z" class="relativetime">8m ago</span>            <a href="/users/296959/nagyi">NagyI</a> <span class="reputation-score" title="reputation score" dir="ltr">342</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536345">
+    <div onclick="window.location.href='/questions/9536345/browser-version-specific-css-from-ucm'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">6</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536345/browser-version-specific-css-from-ucm" class="question-hyperlink" title="As far as I know, we can load CSS style sheets from oracle UCM based on browser type (IE, FF, Safari etc.). But is there any way to load css style sheet based on particular browser version?
+
+e.g. - I ...">Browser version specific css from UCM?</a></h3>
+        <div class="tags t-css t-browser-compatibility t-oracle-ucm">
+            <a href="/questions/tagged/css" class="post-tag" title="show questions tagged 'css'" rel="tag">css</a> <a href="/questions/tagged/browser-compatibility" class="post-tag" title="show questions tagged 'browser-compatibility'" rel="tag">browser-compatibility</a> <a href="/questions/tagged/oracle-ucm" class="post-tag" title="show questions tagged 'oracle-ucm'" rel="tag">oracle-ucm</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:57:32Z" class="relativetime">8m ago</span>            <a href="/users/1236019/abhijeet-pawar">Abhijeet Pawar</a> <span class="reputation-score" title="reputation score" dir="ltr">43</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536337">
+    <div onclick="window.location.href='/questions/9536337/example-named-pipes-ipc-with-read-write-timeout'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">4</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536337/example-named-pipes-ipc-with-read-write-timeout" class="question-hyperlink" title="I&#39;m struggling with finding the best way to implement named pipes IPC with a robust timeout management. I don&#39;t mean timeout on establishing a connection but timeout on read/write streams.
+
+All ...">Example named pipes IPC with read/write timeout</a></h3>
+        <div class="tags t-cñ t-vbûnet">
+            <a href="/questions/tagged/c%23" class="post-tag" title="show questions tagged 'c#'" rel="tag">c#</a> <a href="/questions/tagged/vb.net" class="post-tag" title="show questions tagged 'vb.net'" rel="tag">vb.net</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:57:09Z" class="relativetime">9m ago</span>            <a href="/users/564548/jan-vb">Jan vB</a> <span class="reputation-score" title="reputation score" dir="ltr">167</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536336">
+    <div onclick="window.location.href='/questions/9536336/goto-app-link-missing-from-new-app-profile-page'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536336/goto-app-link-missing-from-new-app-profile-page" class="question-hyperlink" title="Yes I can add the app to the tabs. But when clicked on it redirects to some part of the page (*am guessing the &quot;about&quot; page although I get mixed results each time) and not the canvas page I worked so ...">Goto App link missing from new app profile page</a></h3>
+        <div class="tags t-application t-canvas t-page t-profile t-timeline">
+            <a href="/questions/tagged/application" class="post-tag" title="show questions tagged 'application'" rel="tag">application</a> <a href="/questions/tagged/canvas" class="post-tag" title="show questions tagged 'canvas'" rel="tag">canvas</a> <a href="/questions/tagged/page" class="post-tag" title="show questions tagged 'page'" rel="tag">page</a> <a href="/questions/tagged/profile" class="post-tag" title="show questions tagged 'profile'" rel="tag">profile</a> <a href="/questions/tagged/timeline" class="post-tag" title="show questions tagged 'timeline'" rel="tag">timeline</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:57:03Z" class="relativetime">9m ago</span>            <a href="/users/1245431/george-fagan">George Fagan</a> <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536333">
+    <div onclick="window.location.href='/questions/9536333/set-status-in-ichat-by-ichatagent-programmatically'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536333/set-status-in-ichat-by-ichatagent-programmatically" class="question-hyperlink" title="Everybody!
+
+Here&#39;s my situation. My app changes statuses in iChart by customer&#39;s hotkeys using applescript. everything goes ok but in case when iChat isn&#39;t running I have a running iChatAgent with its ...">Set status in iChat by iChatAgent programmatically</a></h3>
+        <div class="tags t-objective-c t-applescript t-ichat">
+            <a href="/questions/tagged/objective-c" class="post-tag" title="show questions tagged 'objective-c'" rel="tag">objective-c</a> <a href="/questions/tagged/applescript" class="post-tag" title="show questions tagged 'applescript'" rel="tag">applescript</a> <a href="/questions/tagged/ichat" class="post-tag" title="show questions tagged 'ichat'" rel="tag">ichat</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:56:53Z" class="relativetime">9m ago</span>            <a href="/users/1153813/michael-gorbachev">Michael Gorbachev</a> <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9515371">
+    <div onclick="window.location.href='/questions/9515371/decoding-a-file-created-with-the-filesystem-api'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">3</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">44</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9515371/decoding-a-file-created-with-the-filesystem-api" class="question-hyperlink" title="I have images uploaded to the blobstore using filesystem API. The files have been uploaded successfully and I can see the blobs in the respective directory.
+
+But then, how do I decode these files such ...">Decoding a file created with the filesystem API</a></h3>
+        <div class="tags t-java t-google-app-engine">
+            <a href="/questions/tagged/java" class="post-tag" title="show questions tagged 'java'" rel="tag">java</a> <a href="/questions/tagged/google-app-engine" class="post-tag" title="show questions tagged 'google-app-engine'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/6QN0y.png" height="16" width="18" alt="" class="sponsor-tag-img">google-app-engine</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9515371/decoding-a-file-created-with-the-filesystem-api/?lastactivity" class="started-link"><span title="2012-03-02 15:56:32Z" class="relativetime">9m ago</span></a>
+            <a href="/users/417642/drecute">drecute</a> <span class="reputation-score" title="reputation score" dir="ltr">49</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9530712">
+    <div onclick="window.location.href='/questions/9530712/spring-http-cache-management'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">2</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">2</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">16</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9530712/spring-http-cache-management" class="question-hyperlink" title="I&#39;ve seen that you can control cache http headers with the AnnotationMethodHandlerAdapter bean.
+
+My problem is that I need to have a fine grane control on the cache (at method level).
+The best think ...">Spring HTTP cache management</a></h3>
+        <div class="tags t-spring t-spring-mvc t-browser-cache t-cache-control">
+            <a href="/questions/tagged/spring" class="post-tag" title="show questions tagged 'spring'" rel="tag">spring</a> <a href="/questions/tagged/spring-mvc" class="post-tag" title="show questions tagged 'spring-mvc'" rel="tag">spring-mvc</a> <a href="/questions/tagged/browser-cache" class="post-tag" title="show questions tagged 'browser-cache'" rel="tag">browser-cache</a> <a href="/questions/tagged/cache-control" class="post-tag" title="show questions tagged 'cache-control'" rel="tag">cache-control</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9530712/spring-http-cache-management/?lastactivity" class="started-link"><span title="2012-03-02 15:56:24Z" class="relativetime">9m ago</span></a>
+            <a href="/users/1090577/slayer-b">slayer_b</a> <span class="reputation-score" title="reputation score" dir="ltr">63</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535507">
+    <div onclick="window.location.href='/questions/9535507/regular-expression-language-generator'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">1</div>
+            <div>vote</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">32</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535507/regular-expression-language-generator" class="question-hyperlink" title="Given a regular expression in C#, is there a way to generate a word that is accepted by this regular expression? 
+
+For instance, let&#39;s consider:
+
+[ab]c*b*
+
+
+Is there a function that can automatically ...">Regular expression: language generator</a></h3>
+        <div class="tags t-cñ t-regex">
+            <a href="/questions/tagged/c%23" class="post-tag" title="show questions tagged 'c#'" rel="tag">c#</a> <a href="/questions/tagged/regex" class="post-tag" title="show questions tagged 'regex'" rel="tag">regex</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9535507/regular-expression-language-generator/?lastactivity" class="started-link"><span title="2012-03-02 15:55:57Z" class="relativetime">10m ago</span></a>
+            <a href="/users/865982/d-b">d--b</a> <span class="reputation-score" title="reputation score" dir="ltr">123</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536316">
+    <div onclick="window.location.href='/questions/9536316/stop-mapview-over-scroll'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">3</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536316/stop-mapview-over-scroll" class="question-hyperlink" title="I need my mapView to stop moving exactly when the user lifts the finger as i catch the current map state on the up event. By default if you swipe with your finger on the map, it will tend to keep it&#39;s ...">Stop mapView over-scroll</a></h3>
+        <div class="tags t-android">
+            <a href="/questions/tagged/android" class="post-tag" title="show questions tagged 'android'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:55:56Z" class="relativetime">10m ago</span>            <a href="/users/637001/misca">Misca</a> <span class="reputation-score" title="reputation score" dir="ltr">35</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536304">
+    <div onclick="window.location.href='/questions/9536304/controller-code-for-multimodel-form-in-rails-3-1-1'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">5</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536304/controller-code-for-multimodel-form-in-rails-3-1-1" class="question-hyperlink" title="I am an RoR newbie and having a lot of trouble building a form to update two models.  I have a very simple starting point: Products and Versions. Here is the product and version models respectively:
+
+...">Controller Code for multimodel form in Rails 3.1.1</a></h3>
+        <div class="tags t-ruby-on-rails t-forms t-controller">
+            <a href="/questions/tagged/ruby-on-rails" class="post-tag" title="show questions tagged 'ruby-on-rails'" rel="tag">ruby-on-rails</a> <a href="/questions/tagged/forms" class="post-tag" title="show questions tagged 'forms'" rel="tag">forms</a> <a href="/questions/tagged/controller" class="post-tag" title="show questions tagged 'controller'" rel="tag">controller</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:54:53Z" class="relativetime">11m ago</span>            <a href="/users/1219449/user1219449">user1219449</a> <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536301">
+    <div onclick="window.location.href='/questions/9536301/how-can-i-see-metadata-tables-and-the-rows-that-belongs-to-net-module'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">4</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536301/how-can-i-see-metadata-tables-and-the-rows-that-belongs-to-net-module" class="question-hyperlink" title="How can I see the metadadata tables of a .Net module after compiling (with csc.exe) the source code?
+
+I try to find with ILDASM but let&#39;s say after CTRL+M, I cannot see the MethodDef or ModuleDef of ...">How can I see Metadata tables and the rows that belongs to .Net module?</a></h3>
+        <div class="tags t-cñ t-ûnet t-assembly t-clr t-metadata">
+            <a href="/questions/tagged/c%23" class="post-tag" title="show questions tagged 'c#'" rel="tag">c#</a> <a href="/questions/tagged/.net" class="post-tag" title="show questions tagged '.net'" rel="tag">.net</a> <a href="/questions/tagged/assembly" class="post-tag" title="show questions tagged 'assembly'" rel="tag">assembly</a> <a href="/questions/tagged/clr" class="post-tag" title="show questions tagged 'clr'" rel="tag">clr</a> <a href="/questions/tagged/metadata" class="post-tag" title="show questions tagged 'metadata'" rel="tag">metadata</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:54:46Z" class="relativetime">11m ago</span>            <a href="/users/136141/pencilcake">pencilCake</a> <span class="reputation-score" title="reputation score" dir="ltr">4,356</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535856">
+    <div onclick="window.location.href='/questions/9535856/using-import-with-a-level-specification-isnt-supported-by-accesscontrol-warni'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">3</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535856/using-import-with-a-level-specification-isnt-supported-by-accesscontrol-warni" class="question-hyperlink" title="I&#39;m having problem with FS controller page template. I had this Plone2 base product which i have eggified while doing Plone 4.2 migration. I have pasted traceback below.
+
+Traceback (innermost last):
+  ...">Using import with a level specification isn&#39;t supported by AccessControl: _warnings</a></h3>
+        <div class="tags t-plone">
+            <a href="/questions/tagged/plone" class="post-tag" title="show questions tagged 'plone'" rel="tag">plone</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:54:44Z" class="relativetime">11m ago</span>            <a href="/users/694682/webbyfox">WEBBYFOX</a> <span class="reputation-score" title="reputation score" dir="ltr">69</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535803">
+    <div onclick="window.location.href='/questions/9535803/moving-firefox-addon-to-repository'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">1</div>
+            <div>vote</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">8</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535803/moving-firefox-addon-to-repository" class="question-hyperlink" title="I&#39;ve developed a Firefox addon. Let&#39;s say addon.xpi. I hosted it on my site, but now it also available in the Mozilla repo.
+
+So, I want to move all existing users (who installed addon.xpi from my ...">Moving Firefox addon to repository</a></h3>
+        <div class="tags t-firefox t-firefox-addon">
+            <a href="/questions/tagged/firefox" class="post-tag" title="show questions tagged 'firefox'" rel="tag">firefox</a> <a href="/questions/tagged/firefox-addon" class="post-tag" title="show questions tagged 'firefox-addon'" rel="tag">firefox-addon</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9535803/moving-firefox-addon-to-repository/?lastactivity" class="started-link"><span title="2012-03-02 15:53:58Z" class="relativetime">12m ago</span></a>
+            <a href="/users/785541/wladimir-palant">Wladimir Palant</a> <span class="reputation-score" title="reputation score 12795" dir="ltr">12.8k</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536151">
+    <div onclick="window.location.href='/questions/9536151/azure-get-notifiy-when-webrole-down'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">5</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536151/azure-get-notifiy-when-webrole-down" class="question-hyperlink" title="We have built our first azure web application. On february 29th the whole cloud went down (and can&#39;t be pinged) and it got us to think: is there a way for us to know when our web app is down and what ...">Azure: get notifiy when webrole down</a></h3>
+        <div class="tags t-azure t-notifications">
+            <a href="/questions/tagged/azure" class="post-tag" title="show questions tagged 'azure'" rel="tag">azure</a> <a href="/questions/tagged/notifications" class="post-tag" title="show questions tagged 'notifications'" rel="tag">notifications</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:53:58Z" class="relativetime">12m ago</span>            <a href="/users/815724/peter-o">Peter O.</a> <span class="reputation-score" title="reputation score" dir="ltr">4,133</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536280">
+    <div onclick="window.location.href='/questions/9536280/sublime-text-2-files-not-opening-a-new-tab'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536280/sublime-text-2-files-not-opening-a-new-tab" class="question-hyperlink" title="So, I was really liking Sublime Text 2 but for some reason I stopped getting a new tab when opening a file from the sidebar.  The file I select opens in the current tab, but the tab doesn&#39;t even ...">Sublime Text 2 - Files not opening a new tab?</a></h3>
+        <div class="tags t-sublimetext">
+            <a href="/questions/tagged/sublimetext" class="post-tag" title="show questions tagged 'sublimetext'" rel="tag">sublimetext</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:53:46Z" class="relativetime">12m ago</span>            <a href="/users/223910/vernon">Vernon</a> <span class="reputation-score" title="reputation score" dir="ltr">326</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536278">
+    <div onclick="window.location.href='/questions/9536278/google-cloud-storage-giving-permanent-access-to-a-cron-job'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">4</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536278/google-cloud-storage-giving-permanent-access-to-a-cron-job" class="question-hyperlink" title="I have a java cron job that needs permanent access to a google storage bucket. All of the documentation I&#39;ve seen require OAUTH user login for that. I&#39;ve read about the refresh tokens, are there any ...">google cloud storage - giving permanent access to a cron job</a></h3>
+        <div class="tags t-java t-authentication t-google-cloud-storage">
+            <a href="/questions/tagged/java" class="post-tag" title="show questions tagged 'java'" rel="tag">java</a> <a href="/questions/tagged/authentication" class="post-tag" title="show questions tagged 'authentication'" rel="tag">authentication</a> <a href="/questions/tagged/google-cloud-storage" class="post-tag" title="show questions tagged 'google-cloud-storage'" rel="tag"><img src="http://i.stack.imgur.com/kONmy.png" height="16" width="18" alt="" class="sponsor-tag-img">google-cloud-storage</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:53:33Z" class="relativetime">12m ago</span>            <a href="/users/257543/user257543">user257543</a> <span class="reputation-score" title="reputation score" dir="ltr">163</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9518130">
+    <div onclick="window.location.href='/questions/9518130/eofexception-when-executing-remoteant-task-from-ant-contrib'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">1</div>
+            <div>vote</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">8</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9518130/eofexception-when-executing-remoteant-task-from-ant-contrib" class="question-hyperlink" title="I am trying to be able to launch an ant task remotely using ant-contrib. For testing purposes I have defined a server and a caller with following files.
+
+&lt;?xml version=&quot;1.0&quot; ...">EOFException when executing remoteant task from ant-contrib</a></h3>
+        <div class="tags t-ant t-ant-contrib">
+            <a href="/questions/tagged/ant" class="post-tag" title="show questions tagged 'ant'" rel="tag">ant</a> <a href="/questions/tagged/ant-contrib" class="post-tag" title="show questions tagged 'ant-contrib'" rel="tag">ant-contrib</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:53:28Z" class="relativetime">12m ago</span>            <a href="/users/146408/pedromarce">pedromarce</a> <span class="reputation-score" title="reputation score" dir="ltr">1,225</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536154">
+    <div onclick="window.location.href='/questions/9536154/jquery-more-button-issue'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">3</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">26</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536154/jquery-more-button-issue" class="question-hyperlink" title="I&#39;m tryin to implement a jquery/ajax pagination system for my comments. I&#39;ve already implemented a jquery delete and insert comment feature. Now i&#39;m having trouble fully implementing the pagination ...">jquery more button issue</a></h3>
+        <div class="tags t-php t-jquery t-function t-comments">
+            <a href="/questions/tagged/php" class="post-tag" title="show questions tagged 'php'" rel="tag">php</a> <a href="/questions/tagged/jquery" class="post-tag" title="show questions tagged 'jquery'" rel="tag">jquery</a> <a href="/questions/tagged/function" class="post-tag" title="show questions tagged 'function'" rel="tag">function</a> <a href="/questions/tagged/comments" class="post-tag" title="show questions tagged 'comments'" rel="tag">comments</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9536154/jquery-more-button-issue/?lastactivity" class="started-link"><span title="2012-03-02 15:53:25Z" class="relativetime">12m ago</span></a>
+            <a href="/users/1169883/ryan-p">Ryan P</a> <span class="reputation-score" title="reputation score" dir="ltr">1,708</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536069">
+    <div onclick="window.location.href='/questions/9536069/ios-facebook-sdk-best-practices'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">4</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">17</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536069/ios-facebook-sdk-best-practices" class="question-hyperlink" title="I was wondering what the &quot;best practice&quot; guidelines are for using the Facebook iOS SDK.
+
+Specifically - I have several forms that use the Facebook SDK.
+My initial instinct as an OOP programmer was to ...">iOS Facebook SDK - Best Practices?</a></h3>
+        <div class="tags t-objective-c t-ios t-facebook">
+            <a href="/questions/tagged/objective-c" class="post-tag" title="show questions tagged 'objective-c'" rel="tag">objective-c</a> <a href="/questions/tagged/ios" class="post-tag" title="show questions tagged 'ios'" rel="tag">ios</a> <a href="/questions/tagged/facebook" class="post-tag" title="show questions tagged 'facebook'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/L8rHf.png" height="16" width="18" alt="" class="sponsor-tag-img">facebook</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:52:08Z" class="relativetime">14m ago</span>            <a href="/users/1158867/roey-lehman">Roey Lehman</a> <span class="reputation-score" title="reputation score" dir="ltr">23</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535759">
+    <div onclick="window.location.href='/questions/9535759/if-i-use-two-custom-annotations-in-jsr-303-how-to-stop-validation-for-second-ann'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">3</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">8</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535759/if-i-use-two-custom-annotations-in-jsr-303-how-to-stop-validation-for-second-ann" class="question-hyperlink" title="I have the next issue while working with jsr303:
+
+i have field annotated the next way:
+
+@NotEmpty(message = &quot;Please specify your post code&quot;)
+@PostCode(message = &quot;Your post code is incorrect&quot;)
+private ...">If I use two custom annotations in jsr 303 how to stop validation for second annotation if validation failed on first?</a></h3>
+        <div class="tags t-java t-bean-validation">
+            <a href="/questions/tagged/java" class="post-tag" title="show questions tagged 'java'" rel="tag">java</a> <a href="/questions/tagged/bean-validation" class="post-tag" title="show questions tagged 'bean-validation'" rel="tag">bean-validation</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9535759/if-i-use-two-custom-annotations-in-jsr-303-how-to-stop-validation-for-second-ann/?lastactivity" class="started-link"><span title="2012-03-02 15:51:19Z" class="relativetime">14m ago</span></a>
+            <a href="/users/44522/micsim">MicSim</a> <span class="reputation-score" title="reputation score" dir="ltr">6,936</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536250">
+    <div onclick="window.location.href='/questions/9536250/how-do-i-temporarily-prevent-nstablecolumn-from-establishing-bindings-to-an-ns'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">4</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536250/how-do-i-temporarily-prevent-nstablecolumn-from-establishing-bindings-to-an-ns" class="question-hyperlink" title="I have an NSOutlineView and my underlying structure is only two levels deep.  Objects at level one are of Parent class and level two are Child.  There is a property I would like to display in the ...">How do I (temporarily) prevent NSTableColumn from establishing bindings to an NSCell?</a></h3>
+        <div class="tags t-objective-c t-cocoa t-cocoa-bindings t-nscell">
+            <a href="/questions/tagged/objective-c" class="post-tag" title="show questions tagged 'objective-c'" rel="tag">objective-c</a> <a href="/questions/tagged/cocoa" class="post-tag" title="show questions tagged 'cocoa'" rel="tag">cocoa</a> <a href="/questions/tagged/cocoa-bindings" class="post-tag" title="show questions tagged 'cocoa-bindings'" rel="tag">cocoa-bindings</a> <a href="/questions/tagged/nscell" class="post-tag" title="show questions tagged 'nscell'" rel="tag">nscell</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:51:18Z" class="relativetime">14m ago</span>            <a href="/users/1040049/qwerty-bob">Qwerty Bob</a> <span class="reputation-score" title="reputation score" dir="ltr">843</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536104">
+    <div onclick="window.location.href='/questions/9536104/playing-video-on-avd-with-phonegap'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">4</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">10</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536104/playing-video-on-avd-with-phonegap" class="question-hyperlink" title="I&#39;m trying to place an embed video player on one of the pages of my PhoneGap application.
+
+I am currently using the html5 video tag:
+
+&lt;video id=&quot;video1&quot; height=&quot;240&quot; width=&quot;360&quot; controls=&quot;controls&quot; ...">Playing video on AVD with phonegap</a></h3>
+        <div class="tags t-javascript t-android t-html5 t-phonegap">
+            <a href="/questions/tagged/javascript" class="post-tag" title="show questions tagged 'javascript'" rel="tag">javascript</a> <a href="/questions/tagged/android" class="post-tag" title="show questions tagged 'android'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="/questions/tagged/html5" class="post-tag" title="show questions tagged 'html5'" rel="tag">html5</a> <a href="/questions/tagged/phonegap" class="post-tag" title="show questions tagged 'phonegap'" rel="tag">phonegap</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9536104/playing-video-on-avd-with-phonegap/?lastactivity" class="started-link"><span title="2012-03-02 15:50:16Z" class="relativetime">15m ago</span></a>
+            <a href="/users/41679/simon-macdonald">Simon MacDonald</a> <span class="reputation-score" title="reputation score" dir="ltr">2,584</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535903">
+    <div onclick="window.location.href='/questions/9535903/facebook-cover-api-expected-launch-date'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">3</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535903/facebook-cover-api-expected-launch-date" class="question-hyperlink" title="Does anyone know when Facebook is releasing Cover Api? Because Facebook already announced Fan-pages Timeline layout and Facebook Groups Timeline layout
+">Facebook Cover API expected launch date</a></h3>
+        <div class="tags t-facebook t-facebook-timeline">
+            <a href="/questions/tagged/facebook" class="post-tag" title="show questions tagged 'facebook'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/L8rHf.png" height="16" width="18" alt="" class="sponsor-tag-img">facebook</a> <a href="/questions/tagged/facebook-timeline" class="post-tag" title="show questions tagged 'facebook-timeline'" rel="tag">facebook-timeline</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:49:12Z" class="relativetime">17m ago</span>            <a href="/users/815724/peter-o">Peter O.</a> <span class="reputation-score" title="reputation score" dir="ltr">4,133</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536201">
+    <div onclick="window.location.href='/questions/9536201/wymeditor-set-value'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">3</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536201/wymeditor-set-value" class="question-hyperlink" title="I am trying to set the value of wymeditor textarea,
+in API documentation, to set or get the value, the code below is given;
+
+wym.html(&quot;&lt;p>Hello, World.&lt;/p>&quot;);
+
+
+but this code is not ...">wymeditor set value?</a></h3>
+        <div class="tags t-jquery t-ajax t-textarea t-value t-wymeditor">
+            <a href="/questions/tagged/jquery" class="post-tag" title="show questions tagged 'jquery'" rel="tag">jquery</a> <a href="/questions/tagged/ajax" class="post-tag" title="show questions tagged 'ajax'" rel="tag">ajax</a> <a href="/questions/tagged/textarea" class="post-tag" title="show questions tagged 'textarea'" rel="tag">textarea</a> <a href="/questions/tagged/value" class="post-tag" title="show questions tagged 'value'" rel="tag">value</a> <a href="/questions/tagged/wymeditor" class="post-tag" title="show questions tagged 'wymeditor'" rel="tag">wymeditor</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:48:03Z" class="relativetime">18m ago</span>            <a href="/users/1104038/tewoos">tewoos</a> <span class="reputation-score" title="reputation score" dir="ltr">19</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535874">
+    <div onclick="window.location.href='/questions/9535874/functionality-of-like-button-not-working-properly'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">3</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535874/functionality-of-like-button-not-working-properly" class="question-hyperlink" title="When people click on my website&#39;s (www.casadoschivos.com) &quot;Like&quot; button the tally of Likes isn&#39;t always added to the total on the website&#39;s FB admin page. Also, sometimes the message is posted on the ...">Functionality of &ldquo;Like&rdquo; Button Not Working Properly</a></h3>
+        <div class="tags t-facebook t-facebook-like">
+            <a href="/questions/tagged/facebook" class="post-tag" title="show questions tagged 'facebook'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/L8rHf.png" height="16" width="18" alt="" class="sponsor-tag-img">facebook</a> <a href="/questions/tagged/facebook-like" class="post-tag" title="show questions tagged 'facebook-like'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/L8rHf.png" height="16" width="18" alt="" class="sponsor-tag-img">facebook-like</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:46:46Z" class="relativetime">19m ago</span>            <a href="/users/815724/peter-o">Peter O.</a> <span class="reputation-score" title="reputation score" dir="ltr">4,133</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536177">
+    <div onclick="window.location.href='/questions/9536177/how-to-input-plot-data-into-highcharts-with-rails'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536177/how-to-input-plot-data-into-highcharts-with-rails" class="question-hyperlink" title="i am trying to figure out how to input data values into highcharts. Firstly i have a home object(@home) that has many energies(energy table consists of three columns, namely, consumption, home_id and ...">How to input plot data into highcharts with rails</a></h3>
+        <div class="tags t-ruby-on-rails-3 t-highcharts">
+            <a href="/questions/tagged/ruby-on-rails-3" class="post-tag" title="show questions tagged 'ruby-on-rails-3'" rel="tag">ruby-on-rails-3</a> <a href="/questions/tagged/highcharts" class="post-tag" title="show questions tagged 'highcharts'" rel="tag">highcharts</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:46:40Z" class="relativetime">19m ago</span>            <a href="/users/668150/hishalv">Hishalv</a> <span class="reputation-score" title="reputation score" dir="ltr">783</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536176">
+    <div onclick="window.location.href='/questions/9536176/implementing-a-gae-java-counter-using-concurrency-threads-static-variables'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">1</div>
+            <div>vote</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">12</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536176/implementing-a-gae-java-counter-using-concurrency-threads-static-variables" class="question-hyperlink" title="I&#39;ve read a lot of the GAE articles on counters and this pesky write limit in GAE. I&#39;ve seen solutions with sharding, cron tasks, memcache, etc. Then I learned enough about java threads to be able to ...">Implementing A GAE/Java Counter using Concurrency, Threads, Static variables</a></h3>
+        <div class="tags t-java t-multithreading t-google-app-engine t-concurrency t-thread-safety">
+            <a href="/questions/tagged/java" class="post-tag" title="show questions tagged 'java'" rel="tag">java</a> <a href="/questions/tagged/multithreading" class="post-tag" title="show questions tagged 'multithreading'" rel="tag">multithreading</a> <a href="/questions/tagged/google-app-engine" class="post-tag" title="show questions tagged 'google-app-engine'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/6QN0y.png" height="16" width="18" alt="" class="sponsor-tag-img">google-app-engine</a> <a href="/questions/tagged/concurrency" class="post-tag" title="show questions tagged 'concurrency'" rel="tag">concurrency</a> <a href="/questions/tagged/thread-safety" class="post-tag" title="show questions tagged 'thread-safety'" rel="tag">thread-safety</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:46:38Z" class="relativetime">19m ago</span>            <a href="/users/1108879/user1108879">user1108879</a> <span class="reputation-score" title="reputation score" dir="ltr">66</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536174">
+    <div onclick="window.location.href='/questions/9536174/client-disconnects-immediately-chrome-extension-websocket-client-nodejs-serve'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">1</div>
+            <div>view</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536174/client-disconnects-immediately-chrome-extension-websocket-client-nodejs-serve" class="question-hyperlink" title="I am trying to connect with websocket from a chrome 17 extension to a local nodejs server. After creation 
+
+var websocket = new WebSocket(&quot;ws://localhost:7055&quot;);
+
+After succcessful creation of the ...">Client disconnects immediately (Chrome Extension Websocket Client + NodeJS Server)</a></h3>
+        <div class="tags t-nodeûjs t-google-chrome-extension t-websocket">
+            <a href="/questions/tagged/node.js" class="post-tag" title="show questions tagged 'node.js'" rel="tag">node.js</a> <a href="/questions/tagged/google-chrome-extension" class="post-tag" title="show questions tagged 'google-chrome-extension'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/dmHl0.png" height="16" width="18" alt="" class="sponsor-tag-img">google-chrome-extension</a> <a href="/questions/tagged/websocket" class="post-tag" title="show questions tagged 'websocket'" rel="tag">websocket</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:46:29Z" class="relativetime">19m ago</span>            <a href="/users/1233745/anton-berger">Anton Berger</a> <span class="reputation-score" title="reputation score" dir="ltr">4</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9536170">
+    <div onclick="window.location.href='/questions/9536170/spring-test-cant-insert-a-hexadecimal-value-into-a-hsqldb-from-import-sql-fil'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">2</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9536170/spring-test-cant-insert-a-hexadecimal-value-into-a-hsqldb-from-import-sql-fil" class="question-hyperlink" title="I&#39;m performing JUnit tests with spring and hibernate. It works fine when I use a MySql database on my PC.
+In order to launch this tests on any environment I&#39;ve set a virtual database: hsqldb. And I ...">Spring Test : can&#39;t insert a hexadecimal value into a hsqldb from import.sql file</a></h3>
+        <div class="tags t-hsqldb t-spring-test">
+            <a href="/questions/tagged/hsqldb" class="post-tag" title="show questions tagged 'hsqldb'" rel="tag">hsqldb</a> <a href="/questions/tagged/spring-test" class="post-tag" title="show questions tagged 'spring-test'" rel="tag">spring-test</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:46:23Z" class="relativetime">19m ago</span>            <a href="/users/1245375/aurea">Aurea</a> <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9534651">
+    <div onclick="window.location.href='/questions/9534651/bug-in-nhibernate-aliasing'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">4</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">33</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9534651/bug-in-nhibernate-aliasing" class="question-hyperlink" title="I am using NHibernate for my database management.
+In one class I am calculating a property using this formula:
+
+(SELECT MIN(x.timestamp) FROM (SELECT MAX(r.Timestamp) AS timestamp, r.Meter_Id FROM ...">Bug in NHibernate Aliasing</a></h3>
+        <div class="tags t-cñ t-sql t-nhibernate t-formula">
+            <a href="/questions/tagged/c%23" class="post-tag" title="show questions tagged 'c#'" rel="tag">c#</a> <a href="/questions/tagged/sql" class="post-tag" title="show questions tagged 'sql'" rel="tag">sql</a> <a href="/questions/tagged/nhibernate" class="post-tag" title="show questions tagged 'nhibernate'" rel="tag">nhibernate</a> <a href="/questions/tagged/formula" class="post-tag" title="show questions tagged 'formula'" rel="tag">formula</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9534651/bug-in-nhibernate-aliasing/?lastactivity" class="started-link"><span title="2012-03-02 15:37:47Z" class="relativetime">28m ago</span></a>
+            <a href="/users/27232/adrianokf">AdrianoKF</a> <span class="reputation-score" title="reputation score" dir="ltr">529</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535061">
+    <div onclick="window.location.href='/questions/9535061/sqldatasource-disabled-viewstate-double-databind'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">1</div>
+            <div>vote</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">8</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535061/sqldatasource-disabled-viewstate-double-databind" class="question-hyperlink" title="Here&#39;s a test page (.NET 4) I built to show the symptom I&#39;m experiencing:
+
+&lt;%@ Page Language=&quot;C#&quot; AutoEventWireup=&quot;true&quot; ViewStateMode=&quot;Disabled&quot; %>
+
+&lt;script runat=&quot;server&quot;>
+    protected ...">SqlDataSource + Disabled Viewstate = Double DataBind</a></h3>
+        <div class="tags t-aspûnet t-viewstate t-sqldatasource">
+            <a href="/questions/tagged/asp.net" class="post-tag" title="show questions tagged 'asp.net'" rel="tag">asp.net</a> <a href="/questions/tagged/viewstate" class="post-tag" title="show questions tagged 'viewstate'" rel="tag">viewstate</a> <a href="/questions/tagged/sqldatasource" class="post-tag" title="show questions tagged 'sqldatasource'" rel="tag">sqldatasource</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:34:45Z" class="relativetime">31m ago</span>            <a href="/users/815724/peter-o">Peter O.</a> <span class="reputation-score" title="reputation score" dir="ltr">4,133</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535800">
+    <div onclick="window.location.href='/questions/9535800/solving-for-a-race-condition-in-rails-limited-number-of-x-in-y'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">1</div>
+            <div>vote</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">11</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535800/solving-for-a-race-condition-in-rails-limited-number-of-x-in-y" class="question-hyperlink" title="Edit: Using MySQL...
+
+Say you have an app that adds students to a class, and that class has limited space... so you do something like this:
+
+def add
+  if some_classroom.size &lt; MAX_SIZE
+    ...">solving for a race condition in rails ( limited number of X in Y )</a></h3>
+        <div class="tags t-mysql t-ruby-on-rails t-locking t-race-condition">
+            <a href="/questions/tagged/mysql" class="post-tag" title="show questions tagged 'mysql'" rel="tag">mysql</a> <a href="/questions/tagged/ruby-on-rails" class="post-tag" title="show questions tagged 'ruby-on-rails'" rel="tag">ruby-on-rails</a> <a href="/questions/tagged/locking" class="post-tag" title="show questions tagged 'locking'" rel="tag">locking</a> <a href="/questions/tagged/race-condition" class="post-tag" title="show questions tagged 'race-condition'" rel="tag">race-condition</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:34:04Z" class="relativetime">32m ago</span>            <a href="/users/115462/crankharder">crankharder</a> <span class="reputation-score" title="reputation score" dir="ltr">397</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535783">
+    <div onclick="window.location.href='/questions/9535783/emacs-gdb-jump-to-cursor'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">1</div>
+            <div>vote</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">9</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535783/emacs-gdb-jump-to-cursor" class="question-hyperlink" title="I have just discovered C-x C-a C-j (jump to cursor) when running gdb in emacs. I initially assumed that it was the equivalent of setting a break wherever the cursor is and continuing (c) to that ...">emacs gdb jump to cursor</a></h3>
+        <div class="tags t-c t-emacs t-gdb">
+            <a href="/questions/tagged/c" class="post-tag" title="show questions tagged 'c'" rel="tag">c</a> <a href="/questions/tagged/emacs" class="post-tag" title="show questions tagged 'emacs'" rel="tag">emacs</a> <a href="/questions/tagged/gdb" class="post-tag" title="show questions tagged 'gdb'" rel="tag">gdb</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:32:54Z" class="relativetime">33m ago</span>            <a href="/users/1041868/hiett">Hiett</a> <span class="reputation-score" title="reputation score" dir="ltr">441</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535925">
+    <div onclick="window.location.href='/questions/9535925/filename-encoding'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">2</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">20</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535925/filename-encoding" class="question-hyperlink" title="I have to upload a file to an FTP server. The filename contains special letters, say äöü. On the FTP server, I need the filename to be UTF-8 encoded.
+
+My code is like this:
+
+import ...">Filename encoding</a></h3>
+        <div class="tags t-java t-utf-8 t-ftp">
+            <a href="/questions/tagged/java" class="post-tag" title="show questions tagged 'java'" rel="tag">java</a> <a href="/questions/tagged/utf-8" class="post-tag" title="show questions tagged 'utf-8'" rel="tag">utf-8</a> <a href="/questions/tagged/ftp" class="post-tag" title="show questions tagged 'ftp'" rel="tag">ftp</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:31:18Z" class="relativetime">34m ago</span>            <a href="/users/1180720/user1180720">user1180720</a> <span class="reputation-score" title="reputation score" dir="ltr">184</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535913">
+    <div onclick="window.location.href='/questions/9535913/optimization-reduction-variables-and-matlab-parfor'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">1</div>
+            <div>vote</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">12</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535913/optimization-reduction-variables-and-matlab-parfor" class="question-hyperlink" title="I&#39;m trying to write a simple generic parallel code for minimizing a function in MATLAB. The idea is very simple, essentially:
+
+parfor k = 1:N
+    (...find a good solution xcurrent with cost fcurrent ...">optimization, reduction variables, and MATLAB parfor</a></h3>
+        <div class="tags t-matlab t-optimization">
+            <a href="/questions/tagged/matlab" class="post-tag" title="show questions tagged 'matlab'" rel="tag">matlab</a> <a href="/questions/tagged/optimization" class="post-tag" title="show questions tagged 'optimization'" rel="tag">optimization</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:30:48Z" class="relativetime">35m ago</span>            <a href="/users/1245359/user1245359">user1245359</a> <span class="reputation-score" title="reputation score" dir="ltr">6</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9533638">
+    <div onclick="window.location.href='/questions/9533638/multi-windowing-on-a-java-web-project'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">3</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">21</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9533638/multi-windowing-on-a-java-web-project" class="question-hyperlink" title="I have an EJB 2.1 Project (Actually, it must be migrated into EJB 3.1 :-)) Currently it supports only one window. it means the user should work on a window. It is because of the variables, used as ...">Multi Windowing on a Java Web project</a></h3>
+        <div class="tags t-java t-web-development t-java-ee t-ejb t-multi-window">
+            <a href="/questions/tagged/java" class="post-tag" title="show questions tagged 'java'" rel="tag">java</a> <a href="/questions/tagged/web-development" class="post-tag" title="show questions tagged 'web-development'" rel="tag">web-development</a> <a href="/questions/tagged/java-ee" class="post-tag" title="show questions tagged 'java-ee'" rel="tag">java-ee</a> <a href="/questions/tagged/ejb" class="post-tag" title="show questions tagged 'ejb'" rel="tag">ejb</a> <a href="/questions/tagged/multi-window" class="post-tag" title="show questions tagged 'multi-window'" rel="tag">multi-window</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9533638/multi-windowing-on-a-java-web-project/?lastactivity" class="started-link"><span title="2012-03-02 15:28:55Z" class="relativetime">37m ago</span></a>
+            <a href="/users/20770/cdeszaq">cdeszaq</a> <span class="reputation-score" title="reputation score" dir="ltr">9,056</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9532041">
+    <div onclick="window.location.href='/questions/9532041/viewport3d-performance-on-a-simple-mesh'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">2</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">12</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9532041/viewport3d-performance-on-a-simple-mesh" class="question-hyperlink" title="I created a full-screen WPF Canvas, representing a time line. Only the visible part of the time line is composed, so (practically) no UI elements lie outside of the visible range.
+
+
+
+I&#39;m trying to add ...">Viewport3D performance on a simple mesh</a></h3>
+        <div class="tags t-wpf t-xaml t-viewport3d">
+            <a href="/questions/tagged/wpf" class="post-tag" title="show questions tagged 'wpf'" rel="tag">wpf</a> <a href="/questions/tagged/xaml" class="post-tag" title="show questions tagged 'xaml'" rel="tag">xaml</a> <a href="/questions/tagged/viewport3d" class="post-tag" title="show questions tagged 'viewport3d'" rel="tag">viewport3d</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/9532041/viewport3d-performance-on-a-simple-mesh/?lastactivity" class="started-link"><span title="2012-03-02 15:26:17Z" class="relativetime">39m ago</span></a>
+            <a href="/users/590790/steven-jeuris">Steven Jeuris</a> <span class="reputation-score" title="reputation score" dir="ltr">2,569</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535666">
+    <div onclick="window.location.href='/questions/9535666/apache-process-level-stickiness'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">1</div>
+            <div>vote</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">3</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535666/apache-process-level-stickiness" class="question-hyperlink" title="In apache server can we have the process level stickiness. 
+With mod_balancer module we can have stickiness at server level , i want all my request to go to the exactly same process on that server. Is ...">Apache process level stickiness</a></h3>
+        <div class="tags t-apache t-process t-load-balancing t-sticky">
+            <a href="/questions/tagged/apache" class="post-tag" title="show questions tagged 'apache'" rel="tag">apache</a> <a href="/questions/tagged/process" class="post-tag" title="show questions tagged 'process'" rel="tag">process</a> <a href="/questions/tagged/load-balancing" class="post-tag" title="show questions tagged 'load-balancing'" rel="tag">load-balancing</a> <a href="/questions/tagged/sticky" class="post-tag" title="show questions tagged 'sticky'" rel="tag">sticky</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:16:27Z" class="relativetime">49m ago</span>            <a href="/users/1134982/ashish">Ashish</a> <span class="reputation-score" title="reputation score" dir="ltr">39</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535653">
+    <div onclick="window.location.href='/questions/9535653/file-rename-on-ext3-appears-to-break-posix-spec'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">1</div>
+            <div>vote</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">5</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535653/file-rename-on-ext3-appears-to-break-posix-spec" class="question-hyperlink" title="I am struggling to understand what is going on in a test I am running. Test is two shell scripts running on the same machine.
+
+A:
+
+    #!/bin/bash
+    touch target;
+    for ((i=0; i &lt; 1000; ...">file rename on ext3 appears to break POSIX spec</a></h3>
+        <div class="tags t-posix t-rename t-ext3">
+            <a href="/questions/tagged/posix" class="post-tag" title="show questions tagged 'posix'" rel="tag">posix</a> <a href="/questions/tagged/rename" class="post-tag" title="show questions tagged 'rename'" rel="tag">rename</a> <a href="/questions/tagged/ext3" class="post-tag" title="show questions tagged 'ext3'" rel="tag">ext3</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:15:50Z" class="relativetime">50m ago</span>            <a href="/users/1245344/vladimir-e">vladimir e.</a> <span class="reputation-score" title="reputation score" dir="ltr">6</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9535408">
+    <div onclick="window.location.href='/questions/9535408/how-to-convert-a-pinyin-string-to-chinese-in-c-sharp'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">3</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">21</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9535408/how-to-convert-a-pinyin-string-to-chinese-in-c-sharp" class="question-hyperlink" title="I have a touch screen keyboard in my WPF application and I would like to allow the users to write in chinese. 
+
+I saw that there is an IME in Windows that allows to write in chinese with Pinyin. It ...">How to convert a pinyin string to chinese in C#</a></h3>
+        <div class="tags t-cñ t-wpf t-pinyin">
+            <a href="/questions/tagged/c%23" class="post-tag" title="show questions tagged 'c#'" rel="tag">c#</a> <a href="/questions/tagged/wpf" class="post-tag" title="show questions tagged 'wpf'" rel="tag">wpf</a> <a href="/questions/tagged/pinyin" class="post-tag" title="show questions tagged 'pinyin'" rel="tag">pinyin</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 15:00:51Z" class="relativetime">1h ago</span>            <a href="/users/1245308/rodrigo">Rodrigo</a> <span class="reputation-score" title="reputation score" dir="ltr">16</span>
+        </div>
+    </div>
+</div>
+
+<div class="question-summary narrow" id="question-summary-9534864">
+    <div onclick="window.location.href='/questions/9534864/jqueryui-autocomplete-textbox-value-disappears-in-ie-only-when-selected'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">2</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">6</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/9534864/jqueryui-autocomplete-textbox-value-disappears-in-ie-only-when-selected" class="question-hyperlink" title="I have an issue where I am using Jqueryui autocomplete. The auto-suggest feature works fine, however, when you click to select one of the items in the list the textbox value is deleted and the list ...">Jqueryui autocomplete, textbox value disappears in IE only when selected</a></h3>
+        <div class="tags t-jquery-ui-autocomplete">
+            <a href="/questions/tagged/jquery-ui-autocomplete" class="post-tag" title="show questions tagged 'jquery-ui-autocomplete'" rel="tag">jquery-ui-autocomplete</a> 
+        </div>
+        <div class="started">
+<span title="2012-03-02 14:25:03Z" class="relativetime">1h ago</span>            <a href="/users/1245257/giles-hunt">Giles Hunt</a> <span class="reputation-score" title="reputation score" dir="ltr">11</span>
+        </div>
+    </div>
+</div>
+</div>
+<h2 class="bottom-notice">Looking for more? Browse the <a href="/questions">complete list of questions</a>, or <a href="/tags">popular tags</a>. Help us answer <a href="/unanswered">unanswered questions</a>.</h2>
+</div>
+<div id="sidebar">    
+
+
+
+    <style type="text/css">
+        .hide-newsletter-loading
+        {
+            visibility: hidden;
+        }
+    </style>
+    <div class="module newuser newuser-greeting hide-newsletter-loading" style="display:none">
+        <h4>Hello World!</h4>
+        <div>
+            <p><p>This is a collaboratively edited question and answer site for <b>professional and enthusiast programmers</b>. It's 100% free, no registration required.</p></p>
+            <p class="ar"><a href="/about?mnu=1">about &raquo;</a>&nbsp;&nbsp;&nbsp;<a href="/faq?mnu=1">faq &raquo;</a>
+            </p>
+        </div>
+
+
+            <script type="text/javascript">
+                StackExchange.ready(function () {
+                    var newUser = $('.newuser-greeting');
+                    if(!StackExchange.options.user.isAnonymous) {
+                        newUser.removeClass('hide-newsletter-loading');
+                        return;
+                    }
+
+                    var continuingSession = window.sessionStorage && window.sessionStorage['targettedNewsletter'];
+
+                    var matches = /:\/\/([^\/]*)/.exec(document.referrer);
+
+                    if (!continuingSession && (!matches || matches.length != 2)) {
+                        newUser.removeClass('hide-newsletter-loading');
+                    } else {
+                        var domain = continuingSession || matches[1];
+
+                        if (continuingSession || $.inArray(domain, ['www.reddit.com','news.ycombinator.com']) > -1) {
+                            $.ajax({
+                                url: '/newsletter/targetted/ajax',
+                                data: { domain: domain },
+                                success: function (data, status, xhr) {
+                                    $('#newsletter-ad').remove();
+                                    newUser.empty().append($(data));
+                                },
+                                complete: function () {
+                                    newUser.attr('class', '').attr('style', '');
+                                }
+                            });
+
+                            if(!continuingSession && window.sessionStorage) {
+                                window.sessionStorage['targettedNewsletter'] = domain + '-continued';
+                            }
+                        } else {
+                            newUser.removeClass('hide-newsletter-loading');
+                        }
+                    }
+                });
+            </script>
+    </div>
+    
+        <script type="text/javascript">
+            var scriptSrc = "http://engine2.adzerk.net/z/8277/adzerk2_2_17_45";
+            if (document.referrer) {
+                if (/\?/.test(scriptSrc))
+                    scriptSrc += "&";
+                else
+                    scriptSrc += "?";
+                scriptSrc += "xReferrer=" + document.referrer;
+            }
+            StackExchange.ready(function(){var z = document.createElement("script"); z.type = "text/javascript"; z.async = "true"; z.src = scriptSrc; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);});
+        </script>
+    
+    <div class="everyonelovesstackoverflow" id="adzerk2">
+    </div>
+
+    
+    <div id="hireme">
+        <script type="text/javascript">
+            var careers_adurl="http://careers.stackoverflow.com/ad/js",careers_cssurl="http://cdn.sstatic.net/careers/ads/sidebar.min.css?35c38b",careers_leaderboardcssurl="http://cdn.sstatic.net/careers/ads/ninja.min.css?35c38b",careers_companycssurl="http://cdn.sstatic.net/careers/ads/company",careers_adselector="div.hireme, div#hireme";if($(careers_adselector).length==0){var style="min-height:220px;margin:12px 0",div=$("<div>").attr("id","hireme").addClass("hireme").attr("style",style),dummy=$("<div>").html(div);document.write(dummy.html())}StackExchange.ready(function(){$.ajax({url:"http://cdn.sstatic.net/careers/ads/adloader.min.js?35c38b",dataType:"script",cache:true})});
+        </script>
+    </div>
+
+    
+<div class="module" id="recent-tags">
+    <h4 id="h-recent-tags">Recent Tags</h4>
+    <div id="recent-tags-list">
+<a href="/questions/tagged/java" class="post-tag" title="show questions tagged 'java'" rel="tag">java</a><span class="item-multiplier">&times;&nbsp;66</span>                <br>
+<a href="/questions/tagged/c%23" class="post-tag" title="show questions tagged 'c#'" rel="tag">c#</a><span class="item-multiplier">&times;&nbsp;62</span>                <br>
+<a href="/questions/tagged/javascript" class="post-tag" title="show questions tagged 'javascript'" rel="tag">javascript</a><span class="item-multiplier">&times;&nbsp;47</span>                <br>
+<a href="/questions/tagged/php" class="post-tag" title="show questions tagged 'php'" rel="tag">php</a><span class="item-multiplier">&times;&nbsp;44</span>                <br>
+<a href="/questions/tagged/jquery" class="post-tag" title="show questions tagged 'jquery'" rel="tag">jquery</a><span class="item-multiplier">&times;&nbsp;39</span>                <br>
+<a href="/questions/tagged/python" class="post-tag" title="show questions tagged 'python'" rel="tag">python</a><span class="item-multiplier">&times;&nbsp;32</span>                <br>
+<a href="/questions/tagged/c%2b%2b" class="post-tag" title="show questions tagged 'c++'" rel="tag">c++</a><span class="item-multiplier">&times;&nbsp;30</span>                <br>
+<a href="/questions/tagged/android" class="post-tag" title="show questions tagged 'android'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a><span class="item-multiplier">&times;&nbsp;27</span>                <br>
+<a href="/questions/tagged/mysql" class="post-tag" title="show questions tagged 'mysql'" rel="tag">mysql</a><span class="item-multiplier">&times;&nbsp;20</span>                <br>
+<a href="/questions/tagged/ios" class="post-tag" title="show questions tagged 'ios'" rel="tag">ios</a><span class="item-multiplier">&times;&nbsp;19</span>                <br>
+<a href="/questions/tagged/c" class="post-tag" title="show questions tagged 'c'" rel="tag">c</a><span class="item-multiplier">&times;&nbsp;18</span>                <br>
+<a href="/questions/tagged/ruby-on-rails" class="post-tag" title="show questions tagged 'ruby-on-rails'" rel="tag">ruby-on-rails</a><span class="item-multiplier">&times;&nbsp;18</span>                <br>
+<a href="/questions/tagged/.net" class="post-tag" title="show questions tagged '.net'" rel="tag">.net</a><span class="item-multiplier">&times;&nbsp;17</span>                <br>
+<a href="/questions/tagged/objective-c" class="post-tag" title="show questions tagged 'objective-c'" rel="tag">objective-c</a><span class="item-multiplier">&times;&nbsp;17</span>                <br>
+<a href="/questions/tagged/sql" class="post-tag" title="show questions tagged 'sql'" rel="tag">sql</a><span class="item-multiplier">&times;&nbsp;17</span>                <br>
+<a href="/questions/tagged/css" class="post-tag" title="show questions tagged 'css'" rel="tag">css</a><span class="item-multiplier">&times;&nbsp;15</span>                <br>
+<a href="/questions/tagged/html" class="post-tag" title="show questions tagged 'html'" rel="tag">html</a><span class="item-multiplier">&times;&nbsp;15</span>                <br>
+<a href="/questions/tagged/asp.net" class="post-tag" title="show questions tagged 'asp.net'" rel="tag">asp.net</a><span class="item-multiplier">&times;&nbsp;13</span>                <br>
+<a href="/questions/tagged/linux" class="post-tag" title="show questions tagged 'linux'" rel="tag">linux</a><span class="item-multiplier">&times;&nbsp;13</span>                <br>
+<a href="/questions/tagged/ruby" class="post-tag" title="show questions tagged 'ruby'" rel="tag">ruby</a><span class="item-multiplier">&times;&nbsp;13</span>                <br>
+<a href="/questions/tagged/iphone" class="post-tag" title="show questions tagged 'iphone'" rel="tag">iphone</a><span class="item-multiplier">&times;&nbsp;13</span>                <br>
+<a href="/questions/tagged/django" class="post-tag" title="show questions tagged 'django'" rel="tag">django</a><span class="item-multiplier">&times;&nbsp;11</span>                <br>
+<a href="/questions/tagged/html5" class="post-tag" title="show questions tagged 'html5'" rel="tag">html5</a><span class="item-multiplier">&times;&nbsp;10</span>                <br>
+<a href="/questions/tagged/string" class="post-tag" title="show questions tagged 'string'" rel="tag">string</a><span class="item-multiplier">&times;&nbsp;10</span>                <br>
+<a href="/questions/tagged/wpf" class="post-tag" title="show questions tagged 'wpf'" rel="tag">wpf</a><span class="item-multiplier">&times;&nbsp;10</span>                <br>
+<a href="/questions/tagged/oracle" class="post-tag" title="show questions tagged 'oracle'" rel="tag">oracle</a><span class="item-multiplier">&times;&nbsp;9</span>                <br>
+<a href="/questions/tagged/asp.net-mvc-3" class="post-tag" title="show questions tagged 'asp.net-mvc-3'" rel="tag">asp.net-mvc-3</a><span class="item-multiplier">&times;&nbsp;9</span>                <br>
+<a href="/questions/tagged/delphi" class="post-tag" title="show questions tagged 'delphi'" rel="tag">delphi</a><span class="item-multiplier">&times;&nbsp;8</span>                <br>
+<a href="/questions/tagged/xml" class="post-tag" title="show questions tagged 'xml'" rel="tag">xml</a><span class="item-multiplier">&times;&nbsp;8</span>                <br>
+<a href="/questions/tagged/ajax" class="post-tag" title="show questions tagged 'ajax'" rel="tag">ajax</a><span class="item-multiplier">&times;&nbsp;7</span>                <br>
+<a href="/questions/tagged/r" class="post-tag" title="show questions tagged 'r'" rel="tag">r</a><span class="item-multiplier">&times;&nbsp;7</span>                <br>
+<a href="/questions/tagged/database" class="post-tag" title="show questions tagged 'database'" rel="tag">database</a><span class="item-multiplier">&times;&nbsp;7</span>                <br>
+<a href="/questions/tagged/regex" class="post-tag" title="show questions tagged 'regex'" rel="tag">regex</a><span class="item-multiplier">&times;&nbsp;7</span>                <br>
+<a href="/questions/tagged/eclipse" class="post-tag" title="show questions tagged 'eclipse'" rel="tag">eclipse</a><span class="item-multiplier">&times;&nbsp;7</span>                <br>
+<a href="/questions/tagged/multithreading" class="post-tag" title="show questions tagged 'multithreading'" rel="tag">multithreading</a><span class="item-multiplier">&times;&nbsp;6</span>                <br>
+<a href="/questions/tagged/facebook" class="post-tag" title="show questions tagged 'facebook'" rel="tag"><img src="http://cdn.sstatic.net/img/hosted/L8rHf.png" height="16" width="18" alt="" class="sponsor-tag-img">facebook</a><span class="item-multiplier">&times;&nbsp;6</span>                <br>
+<a href="/questions/tagged/algorithm" class="post-tag" title="show questions tagged 'algorithm'" rel="tag">algorithm</a><span class="item-multiplier">&times;&nbsp;6</span>                <br>
+<a href="/questions/tagged/swing" class="post-tag" title="show questions tagged 'swing'" rel="tag">swing</a><span class="item-multiplier">&times;&nbsp;6</span>                <br>
+<a href="/questions/tagged/linq" class="post-tag" title="show questions tagged 'linq'" rel="tag">linq</a><span class="item-multiplier">&times;&nbsp;6</span>                <br>
+<a href="/questions/tagged/sqlite" class="post-tag" title="show questions tagged 'sqlite'" rel="tag">sqlite</a><span class="item-multiplier">&times;&nbsp;6</span>                <br>
+<a href="/questions/tagged/vb.net" class="post-tag" title="show questions tagged 'vb.net'" rel="tag">vb.net</a><span class="item-multiplier">&times;&nbsp;6</span>                <br>
+<a href="/questions/tagged/unit-testing" class="post-tag" title="show questions tagged 'unit-testing'" rel="tag">unit-testing</a><span class="item-multiplier">&times;&nbsp;6</span>                <br>
+<a href="/questions/tagged/json" class="post-tag" title="show questions tagged 'json'" rel="tag">json</a><span class="item-multiplier">&times;&nbsp;6</span>                <br>
+<a href="/questions/tagged/memory" class="post-tag" title="show questions tagged 'memory'" rel="tag">memory</a><span class="item-multiplier">&times;&nbsp;5</span>                <br>
+<a href="/questions/tagged/sql-server" class="post-tag" title="show questions tagged 'sql-server'" rel="tag">sql-server</a><span class="item-multiplier">&times;&nbsp;5</span>                <br>
+<a href="/questions/tagged/perl" class="post-tag" title="show questions tagged 'perl'" rel="tag">perl</a><span class="item-multiplier">&times;&nbsp;5</span>                <br>
+<a href="/questions/tagged/spring" class="post-tag" title="show questions tagged 'spring'" rel="tag">spring</a><span class="item-multiplier">&times;&nbsp;5</span>                <br>
+<a href="/questions/tagged/winforms" class="post-tag" title="show questions tagged 'winforms'" rel="tag">winforms</a><span class="item-multiplier">&times;&nbsp;5</span>                <br>
+<a href="/questions/tagged/arrays" class="post-tag" title="show questions tagged 'arrays'" rel="tag">arrays</a><span class="item-multiplier">&times;&nbsp;5</span>                <br>
+<a href="/questions/tagged/playframework" class="post-tag" title="show questions tagged 'playframework'" rel="tag">playframework</a><span class="item-multiplier">&times;&nbsp;5</span>                <br>
+<a href="/questions/tagged/vim" class="post-tag" title="show questions tagged 'vim'" rel="tag">vim</a><span class="item-multiplier">&times;&nbsp;5</span>                <br>
+<a href="/questions/tagged/debugging" class="post-tag" title="show questions tagged 'debugging'" rel="tag">debugging</a><span class="item-multiplier">&times;&nbsp;5</span>                <br>
+<a href="/questions/tagged/ruby-on-rails-3" class="post-tag" title="show questions tagged 'ruby-on-rails-3'" rel="tag">ruby-on-rails-3</a><span class="item-multiplier">&times;&nbsp;5</span>                <br>
+<a href="/questions/tagged/xcode" class="post-tag" title="show questions tagged 'xcode'" rel="tag">xcode</a><span class="item-multiplier">&times;&nbsp;5</span>                <br>
+<a href="/questions/tagged/mongodb" class="post-tag" title="show questions tagged 'mongodb'" rel="tag">mongodb</a><span class="item-multiplier">&times;&nbsp;5</span>                <br>
+<a href="/questions/tagged/git" class="post-tag" title="show questions tagged 'git'" rel="tag">git</a><span class="item-multiplier">&times;&nbsp;4</span>                <br>
+<a href="/questions/tagged/memory-management" class="post-tag" title="show questions tagged 'memory-management'" rel="tag">memory-management</a><span class="item-multiplier">&times;&nbsp;4</span>                <br>
+<a href="/questions/tagged/c%2b%2b11" class="post-tag" title="show questions tagged 'c++11'" rel="tag">c++11</a><span class="item-multiplier">&times;&nbsp;4</span>                <br>
+<a href="/questions/tagged/function" class="post-tag" title="show questions tagged 'function'" rel="tag">function</a><span class="item-multiplier">&times;&nbsp;4</span>                <br>
+<a href="/questions/tagged/jquery-ajax" class="post-tag" title="show questions tagged 'jquery-ajax'" rel="tag">jquery-ajax</a><span class="item-multiplier">&times;&nbsp;4</span>                <br>
+    </div>
+    <p class="ar"><a href="/tags">all tags &raquo;</a></p>
+</div>  <div class="module" id="recent-badges">
+    <h4 id="h-recent-badges">Recent Badges</h4>
+    <table>
+    <tr><td><a href="/badges/17/necromancer?userid=623569" title="silver badge: Answered a question more than 60 days later with score of 5 or more" class="badge"><span class="badge2"></span>&nbsp;Necromancer</a>
+ <a href="/users/623569/bharath-booshan">Bharath Booshan</a></td></tr>
+    <tr><td><a href="/badges/25/great-answer?userid=74314" title="gold badge: Answer score of 100 or more" class="badge"><span class="badge1"></span>&nbsp;Great Answer</a>
+ <a href="/users/74314/haim-evgi">Haim Evgi</a></td></tr>
+    <tr><td><a href="/badges/27/notable-question?userid=203262" title="silver badge: Asked a question with 2,500 views" class="badge"><span class="badge2"></span>&nbsp;Notable Question</a>
+ <a href="/users/203262/shantanu-gupta">Shantanu Gupta</a></td></tr>
+    <tr><td><a href="/badges/27/notable-question?userid=503776" title="silver badge: Asked a question with 2,500 views" class="badge"><span class="badge2"></span>&nbsp;Notable Question</a>
+ <a href="/users/503776/geneotech">Geneotech</a></td></tr>
+    <tr><td><a href="/badges/27/notable-question?userid=224883" title="silver badge: Asked a question with 2,500 views" class="badge"><span class="badge2"></span>&nbsp;Notable Question</a>
+ <a href="/users/224883/keith">Keith</a></td></tr>
+    <tr><td><a href="/badges/27/notable-question?userid=131564" title="silver badge: Asked a question with 2,500 views" class="badge"><span class="badge2"></span>&nbsp;Notable Question</a>
+ <a href="/users/131564/nagu">Nagu</a></td></tr>
+    <tr><td><a href="/badges/24/good-answer?userid=22656" title="silver badge: Answer score of 25 or more" class="badge"><span class="badge2"></span>&nbsp;Good Answer</a>
+ <a href="/users/22656/jon-skeet">Jon Skeet</a></td></tr>
+    <tr><td><a href="/badges/24/good-answer?userid=400464" title="silver badge: Answer score of 25 or more" class="badge"><span class="badge2"></span>&nbsp;Good Answer</a>
+ <a href="/users/400464/derek-lawless">Derek Lawless</a></td></tr>
+    <tr><td><a href="/badges/13/yearling?userid=284538" title="silver badge: Active member for a year, earning at least 200 reputation" class="badge"><span class="badge2"></span>&nbsp;Yearling</a>
+ <a href="/users/284538/mike-thomsen">Mike Thomsen</a></td></tr>
+    <tr><td><a href="/badges/27/notable-question?userid=198088" title="silver badge: Asked a question with 2,500 views" class="badge"><span class="badge2"></span>&nbsp;Notable Question</a>
+ <a href="/users/198088/cristian">cristian</a></td></tr>
+    <tr><td><a href="/badges/27/notable-question?userid=4376" title="silver badge: Asked a question with 2,500 views" class="badge"><span class="badge2"></span>&nbsp;Notable Question</a>
+ <a href="/users/4376/nathan-long">Nathan Long</a></td></tr>
+    <tr><td><a href="/badges/17/necromancer?userid=761695" title="silver badge: Answered a question more than 60 days later with score of 5 or more" class="badge"><span class="badge2"></span>&nbsp;Necromancer</a>
+ <a href="/users/761695/dave">Dave</a></td></tr>
+    <tr><td><a href="/badges/28/famous-question?userid=13100" title="gold badge: Asked a question with 10,000 views" class="badge"><span class="badge1"></span>&nbsp;Famous Question</a>
+ <a href="/users/13100/jeff-martin">Jeff Martin</a></td></tr>
+    <tr><td><a href="/badges/28/famous-question?userid=106402" title="gold badge: Asked a question with 10,000 views" class="badge"><span class="badge1"></span>&nbsp;Famous Question</a>
+ <a href="/users/106402/kai-wang">Kai Wang</a></td></tr>
+    <tr><td><a href="/badges/19/enlightened?userid=163640" title="silver badge: First to answer and accepted with at least 10 upvotes" class="badge"><span class="badge2"></span>&nbsp;Enlightened</a>
+ <a href="/users/163640/eugen">eugen</a></td></tr>
+    <tr><td><a href="/badges/13/yearling?userid=241184" title="silver badge: Active member for a year, earning at least 200 reputation" class="badge"><span class="badge2"></span>&nbsp;Yearling</a>
+ <a href="/users/241184/vince">vince</a></td></tr>
+    <tr><td><a href="/badges/13/yearling?userid=284529" title="silver badge: Active member for a year, earning at least 200 reputation" class="badge"><span class="badge2"></span>&nbsp;Yearling</a>
+ <a href="/users/284529/david-doria">David Doria</a></td></tr>
+    <tr><td><a href="/badges/13/yearling?userid=641455" title="silver badge: Active member for a year, earning at least 200 reputation" class="badge"><span class="badge2"></span>&nbsp;Yearling</a>
+ <a href="/users/641455/david">David</a></td></tr>
+    <tr><td><a href="/badges/13/yearling?userid=641484" title="silver badge: Active member for a year, earning at least 200 reputation" class="badge"><span class="badge2"></span>&nbsp;Yearling</a>
+ <a href="/users/641484/ahgood">ahgood</a></td></tr>
+    <tr><td><a href="/badges/13/yearling?userid=29451" title="silver badge: Active member for a year, earning at least 200 reputation" class="badge"><span class="badge2"></span>&nbsp;Yearling</a>
+ <a href="/users/29451/idan-gazit">Idan Gazit</a></td></tr>
+    <tr><td><a href="/badges/13/yearling?userid=310291" title="silver badge: Active member for a year, earning at least 200 reputation" class="badge"><span class="badge2"></span>&nbsp;Yearling</a>
+ <a href="/users/310291/user310291">user310291</a></td></tr>
+    <tr><td><a href="/badges/17/necromancer?userid=130929" title="silver badge: Answered a question more than 60 days later with score of 5 or more" class="badge"><span class="badge2"></span>&nbsp;Necromancer</a>
+ <a href="/users/130929/systempuntoout">systempuntoout</a></td></tr>
+    <tr><td><a href="/badges/226/unsung-hero?userid=528481" title="gold badge: Zero score accepted answers: more than 10 and 25% of total" class="badge"><span class="badge1"></span>&nbsp;Unsung Hero</a>
+ <a href="/users/528481/ipdfdev">iPDFdev</a></td></tr>
+    <tr><td><a href="/badges/27/notable-question?userid=112023" title="silver badge: Asked a question with 2,500 views" class="badge"><span class="badge2"></span>&nbsp;Notable Question</a>
+ <a href="/users/112023/waheed">Waheed</a></td></tr>
+    <tr><td><a href="/badges/33/favorite-question?userid=469935" title="silver badge: Question favorited by 25 users" class="badge"><span class="badge2"></span>&nbsp;Favorite Question</a>
+ <a href="/users/469935/armen-tsirunyan">Armen Tsirunyan</a></td></tr>
+    <tr><td><a href="/badges/21/good-question?userid=125407" title="silver badge: Question score of 25 or more" class="badge"><span class="badge2"></span>&nbsp;Good Question</a>
+ <a href="/users/125407/johannes-rudolph">Johannes Rudolph</a></td></tr>
+    <tr><td><a href="/badges/27/notable-question?userid=341879" title="silver badge: Asked a question with 2,500 views" class="badge"><span class="badge2"></span>&nbsp;Notable Question</a>
+ <a href="/users/341879/user341879">user341879</a></td></tr>
+    <tr><td><a href="/badges/27/notable-question?userid=187103" title="silver badge: Asked a question with 2,500 views" class="badge"><span class="badge2"></span>&nbsp;Notable Question</a>
+ <a href="/users/187103/andrey-vlasovskikh">Andrey Vlasovskikh</a></td></tr>
+    <tr><td><a href="/badges/27/notable-question?userid=286575" title="silver badge: Asked a question with 2,500 views" class="badge"><span class="badge2"></span>&nbsp;Notable Question</a>
+ <a href="/users/286575/halo">Halo</a></td></tr>
+    <tr><td><a href="/badges/27/notable-question?userid=327952" title="silver badge: Asked a question with 2,500 views" class="badge"><span class="badge2"></span>&nbsp;Notable Question</a>
+ <a href="/users/327952/craig">Craig</a></td></tr>
+    <tr><td><a href="/badges/27/notable-question?userid=323787" title="silver badge: Asked a question with 2,500 views" class="badge"><span class="badge2"></span>&nbsp;Notable Question</a>
+ <a href="/users/323787/joey">Joey</a></td></tr>
+    <tr><td><a href="/badges/17/necromancer?userid=177859" title="silver badge: Answered a question more than 60 days later with score of 5 or more" class="badge"><span class="badge2"></span>&nbsp;Necromancer</a>
+ <a href="/users/177859/gerard">Gerard</a></td></tr>
+    </table>
+    <p class="ar"><a href="/badges">all badges &raquo;</a></p>
+</div>      
+</div>
+
+<div id="feed-link">
+    <div id="feed-link-text"><a href="/feeds" title="the 30 most recent questions"><span class="feed-icon"></span>recent questions feed</a></div>
+</div>
+
+        </div>
+    </div>
+    <div id="footer">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <a href="/about">about</a> |
+                <a href="/faq">faq</a> |
+                <a href="http://blog.stackexchange.com?blb=1">blog</a> |
+                    <a href="http://chat.stackoverflow.com">chat</a> |
+                <a href="http://data.stackexchange.com">data</a> |
+                <a href="http://blog.stackoverflow.com/category/podcasts/">podcast</a> |
+                <a href="http://shop.stackexchange.com/">shop</a> |
+                <a href="http://stackexchange.com/legal">legal</a> |
+                <a href="http://engine.adzerk.net/redirect/0/2776/2751/0/4de3c60f719c4dfcb1a57531c7050090/0">advertising info</a> |
+
+                <a onclick="StackExchange.switchMobile('on', '/')">mobile</a> |
+
+                <b><a href="mailto:team@stackoverflow.com">contact us</a></b>
+                  | <b><a href="http://meta.stackoverflow.com">feedback</a></b>
+                <div id="footer-sites">
+                    
+                        <span style="color:#FE7A15;font-size:140%">&#9632;</span>&nbsp;<a href="http://stackoverflow.com">stackoverflow.com</a>&nbsp; 
+                        <span style="color:#FE7A15;font-size:140%">&#9632;</span>&nbsp;<a href="http://stackapps.com">api/apps</a>&nbsp; 
+                        <span style="color:#FE7A15;font-size:140%">&#9632;</span>&nbsp;<a href="http://careers.stackoverflow.com">careers</a>&nbsp; 
+                        <span style="color:#E8272C;font-size:140%">&#9632;</span>&nbsp;<a href="http://serverfault.com">serverfault.com</a>&nbsp; 
+                        <span style="color:#00AFEF;font-size:140%">&#9632;</span>&nbsp;<a href="http://superuser.com">superuser.com</a>&nbsp; 
+                        <span style="color:#969696;font-size:140%">&#9632;</span>&nbsp;<a href="http://meta.stackoverflow.com">meta</a>&nbsp; 
+                        <span style="color:#46937D;font-size:140%">&#9632;</span>&nbsp;<a href="http://area51.stackexchange.com">area&nbsp;51</a>&nbsp; 
+                        <span style="color:#C0D0DC;font-size:140%">&#9632;</span>&nbsp;<a href="http://webapps.stackexchange.com">webapps</a>&nbsp; 
+                        <span style="color:#000000;font-size:140%">&#9632;</span>&nbsp;<a href="http://gaming.stackexchange.com">gaming</a>&nbsp; 
+                        <span style="color:#dd4814;font-size:140%">&#9632;</span>&nbsp;<a href="http://askubuntu.com">ubuntu</a>&nbsp; 
+                        <span style="color:#9ce4fe;font-size:140%">&#9632;</span>&nbsp;<a href="http://webmasters.stackexchange.com">webmasters</a>&nbsp; 
+                        <span style="color:#cf4d3f;font-size:140%">&#9632;</span>&nbsp;<a href="http://cooking.stackexchange.com">cooking</a>&nbsp; 
+                        <span style="color:#f4f28d;font-size:140%">&#9632;</span>&nbsp;<a href="http://gamedev.stackexchange.com">game development</a>&nbsp; 
+                        <span style="color:#0f3559;font-size:140%">&#9632;</span>&nbsp;<a href="http://math.stackexchange.com">math</a>&nbsp; 
+                        <span style="color:#f2f2f2;font-size:140%">&#9632;</span>&nbsp;<a href="http://photo.stackexchange.com">photography</a>&nbsp; 
+                        <span style="color:#037187;font-size:140%">&#9632;</span>&nbsp;<a href="http://stats.stackexchange.com">stats</a>&nbsp; 
+                        <span style="color:#f1e7cc;font-size:140%">&#9632;</span>&nbsp;<a href="http://tex.stackexchange.com">tex</a>&nbsp; 
+                        <span style="color:#e1cdae;font-size:140%">&#9632;</span>&nbsp;<a href="http://english.stackexchange.com">english</a>&nbsp; 
+                        <span style="color:#a2d9f6;font-size:140%">&#9632;</span>&nbsp;<a href="http://cstheory.stackexchange.com">theoretical cs</a>&nbsp; 
+                        <span style="color:#1b3e6c;font-size:140%">&#9632;</span>&nbsp;<a href="http://programmers.stackexchange.com">programmers</a>&nbsp; 
+                        <span style="color:#293a5d;font-size:140%">&#9632;</span>&nbsp;<a href="http://unix.stackexchange.com">unix</a>&nbsp;
+                        <span style="color:#bec0cb;font-size:140%">&#9632;</span>&nbsp;<a href="http://apple.stackexchange.com">apple</a>&nbsp;
+                        <span style="color:#939185;font-size:140%">&#9632;</span>&nbsp;<a href="http://wordpress.stackexchange.com">wordpress</a>&nbsp;
+                        <span style="color:#ebf5f5;font-size:140%">&#9632;</span>&nbsp;<a href="http://physics.stackexchange.com">physics</a>&nbsp;
+                        <span style="color:#4176ab;font-size:140%">&#9632;</span>&nbsp;<a href="http://diy.stackexchange.com">home&nbsp;improvement</a>&nbsp;
+                        <span style="color:#d1d8d7;font-size:140%">&#9632;</span>&nbsp;<a href="http://gis.stackexchange.com">gis</a>&nbsp;
+                        <span style="color:#e5e2d3;font-size:140%">&#9632;</span>&nbsp;<a href="http://electronics.stackexchange.com">electronics</a>&nbsp;
+                        <span style="color:#a4c639;font-size:140%">&#9632;</span>&nbsp;<a href="http://android.stackexchange.com">android</a>&nbsp;
+                        <span style="color:#2e4e60;font-size:140%">&#9632;</span>&nbsp;<a href="http://security.stackexchange.com">security</a>&nbsp;
+                        <span style="color:#45bcb5;font-size:140%">&#9632;</span>&nbsp;<a href="http://bicycles.stackexchange.com">bicycles</a>&nbsp;
+                        <span style="color:#00adee;font-size:140%">&#9632;</span>&nbsp;<a href="http://dba.stackexchange.com">dba</a>&nbsp;
+                        <span style="color:#2edaf0;font-size:140%">&#9632;</span>&nbsp;<a href="http://drupal.stackexchange.com">drupal</a>&nbsp;
+                        <span style="color:#213951;font-size:140%">&#9632;</span>&nbsp;<a href="http://sharepoint.stackexchange.com">sharepoint</a>&nbsp;
+                        <span style="color:#73abb3;font-size:140%">&#9632;</span>&nbsp;<a href="http://scifi.stackexchange.com">scifi &amp; fantasy</a>&nbsp;
+                        <span style="color:#23629F;font-size:140%">&#9632;</span>&nbsp;<a href="http://ux.stackexchange.com">user experience</a>&nbsp;
+                </div>
+            </div>
+            <div id="footer-flair">
+                <a class="peer1" href="http://www.peer1.com/stackoverflow"></a>  
+	            <a href="http://creativecommons.org/licenses/by-sa/3.0/" class="cc-wiki-link"></a>
+                <div id="svnrev">rev 2012.3.2.1400</div>
+            </div>
+            <div id="copyright">
+                site design / logo &copy; 2012 stack exchange inc; 
+                user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc-wiki</a> with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            
+
+        </div>
+    </div>
+    
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+    <script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-5620270-1']);
+_gaq.push(['_trackPageview']);
+    var _qevents = _qevents || [];
+    (function(){
+        var s=document.getElementsByTagName('script')[0];
+        var ga=document.createElement('script');
+        ga.type='text/javascript';
+        ga.async=true;
+        ga.src='http://www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(ga,s);
+        var sc=document.createElement('script');
+        sc.type='text/javascript';
+        sc.async=true;
+        sc.src='http://edge.quantserve.com/quant.js'; 
+        s.parentNode.insertBefore(sc,s);
+    })();
+    </script>
+    <script type="text/javascript">
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>    
+    
+    
+    
+</body>
+</html>

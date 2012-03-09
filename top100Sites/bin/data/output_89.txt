@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>站长之家 - 中国站长站 - 站长资讯 | 我们致力于为中文网站提供动力！</title>
+<meta name="keywords" content="站长,站长之家,站长资讯,创业者,产品经理,网站运营,网络赚钱,电子商务,站长网,站长工具,中国站长站">
+<meta name="description" content="站长之家(中国站长站)为个人站长与企业网络提供全面的站长资讯、最新最全的源代码程序下载、海量建站素材、强大的搜索优化辅助工具、网络产品设计与运营理念以及一站式网络解决方案，十年来我们一直致力为中文网站提供动力。">
+<meta name="verify-v1" content="hoYWa1g8lNB1GDGlt6DAjZwoptmXNyB9ut22xUUQuN8=">
+<meta property="wb:webmaster" content="6797b81cd4d21d20" />
+<link rel="stylesheet" href="http://img.chinaz.com/templates/chinaz/css/style.css?v=20110901">
+<link rel="stylesheet" href="http://img.chinaz.com/max-templates/passport/styles/topbar.css">
+<link rel="shortcut icon" type="image/ico" href="http://img.chinaz.com/templates/chinaz/favicon.ico">
+<script src="http://img.chinaz.com/templates/chinaz/js/script.js"></script>
+<script src="http://img.chinaz.com/js/lib/jquery.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="toolbar">
+    <div class="clearfix toolbar-inner">
+        <div class="quicklink">
+            <ul id="chinaz_website_links" class="accesslink">
+                <li><a href="http://www.chinaz.com"><span>站长之家</span></a></li>
+                <li onmouseover="chinazTopBarMenu.create(this,'chinaz_website_menu_1');" onmouseout="chinazTopBarMenu.clear(this);">
+                    <a class="item-expand" href="http://bbs.chinaz.com" target="_blank"><span>站长论坛</span></a>
+                </li>
+                <li onmouseover="chinazTopBarMenu.create(this,'chinaz_website_menu_2');" onmouseout="chinazTopBarMenu.clear(this);">
+                    <a class="item-expand" href="http://tool.chinaz.com" target="_blank"><span>站长工具</span></a>
+                </li>
+                <li><a href="http://jy.chinaz.com" target="_blank"><span>站长交易</span></a></li>
+                <li><a href="http://down.chinaz.com" target="_blank"><span>源码下载</span></a></li>
+                <li onmouseover="chinazTopBarMenu.create(this,'chinaz_website_menu_3');" onmouseout="chinazTopBarMenu.clear(this);">
+                    <a class="item-expand" href="http://sc.chinaz.com" target="_blank"><span>站长素材</span></a>
+                </li>
+                <li><a href="http://www.cnzz.com" target="_blank"><span>免费统计</span></a></li>
+                <li><a href="http://www.313.com" target="_blank"><span>建站大师</span></a></li>
+                <li><a href="http://www.idc123.com" target="_blank"><span>主机之家</span></a></li>
+                <li style="display:none;"><a href="http://www.bbsmax.com" target="_blank"><span>BBSMAX</span></a></li>
+            </ul>
+            <div id="chinaz_website_menu_1" class="topbar-hiddencontents">
+                <a href="http://bbs.chinaz.com/Club/list-1.html" target="_blank">站长俱乐部</a>
+                <a href="http://bbs.chinaz.com/Res/list-1.html" target="_blank">网站建设资源</a>
+                <a href="http://bbs.chinaz.com/Shuiba/list-1.html" target="_blank">站长水吧</a>
+            </div>
+            <div id="chinaz_website_menu_2" class="topbar-hiddencontents">
+                <a href="http://alexa.chinaz.com" target="_blank">ALEXA排名查询</a>
+				<a href="http://mytool.chinaz.com/baidusort.aspx" target="_blank">百度权重查询</a>
+                <a href="http://seo.chinaz.com" target="_blank">SEO概况查询</a>
+                <a href="http://link.chinaz.com" target="_blank">友情链接查询</a>
+                <a href="http://pr.chinaz.com" target="_blank">Google PR查询</a>
+                <a href="http://whois.chinaz.com" target="_blank">Whois信息查询</a>
+                <a href="http://tool.chinaz.com/beian.aspx" target="_blank">域名备案查询</a>
+            </div>
+            <div id="chinaz_website_menu_3" class="topbar-hiddencontents">
+                <a href="http://font.chinaz.com/" target="_blank">字体下载</a>
+                <a href="http://desk.chinaz.com/" target="_blank">站长壁纸</a>
+                <a href="http://sc.chinaz.com/tupian/" target="_blank">高清图片</a>
+                <a href="http://sc.chinaz.com/shiliang/" target="_blank">矢量素材</a>
+                <a href="http://sc.chinaz.com/ppt/" target="_blank">PPT模板</a>
+                <a href="http://sc.chinaz.com/psd/" target="_blank">PSD素材</a>
+            </div>
+        </div>
+        <div id="chinaz_topbar"></div>
+    </div>
+</div>
+
+<div class="header">
+    <h1 class="logo"><a href="http://www.chinaz.com/" rel="home"><img src="http://img.chinaz.com/templates/chinaz/img/logo.png" alt="站长之家"></a></h1>
+    <div class="ad ad-b-head">
+        <iframe src="http://images.chinaz.com/index_images/A1.htm" frameborder="0" scrolling="no" width="468" height="60"></iframe>
+    </div>
+    <div class="ad ad-t-head">
+        <script src="http://images.chinaz.com/index_images/text_link.js" charset="gb2312"></script>
+    </div>
+</div>
+<div id="nav" class="nav">
+    <ul>
+        <li><a href="http://www.chinaz.com">首页</a></li>
+        <li><a href="http://www.chinaz.com/news">业界</a></li>
+        <li><a href="http://www.chinaz.com/web">建站</a></li>
+        <li><a href="http://www.chinaz.com/manage">运营</a></li>
+        <li><a href="http://www.chinaz.com/free">资源</a></li>
+        <li><a href="http://www.chinaz.com/website">好站</a></li>
+        <li><a href="http://www.chinaz.com/meet">聚会</a></li>
+        <li><a href="http://www.chinaz.com/visit">访谈</a></li>
+        <li><a href="http://www.chinaz.com/biz">电商</a></li>
+        <li><a href="http://www.chinaz.com/game">网游</a></li>
+        <li><a href="http://www.chinaz.com/mobile">移动互联</a></li>
+        <li><a href="http://www.chinaz.com/design">设计</a></li>
+        <li><a href="http://www.chinaz.com/program">编程</a></li>
+        <li><a href="http://www.chinaz.com/server">服务器</a></li>
+    </ul>
+</div>
+
+
+
+			
+
+<div class="ad ad-b-leaderboard">
+<iframe src="http://images.chinaz.com/index_images/A2.htm" frameborder="0" scrolling="no" width="960" height="50"></iframe>
+</div>
+
+<div class="clearfix assetport">
+    <div class="notice"><strong>站长之家通告:</strong> <script type="text/javascript">
+document.write('<a href="http://www.chinaz.com/about/job.php" target="_blank">站长之家2012年急聘编辑记者、网页设计师、php工程师</a>');   
+</script>
+</div>
+    <div class="quicksearch">
+        <a class="contribute" href="http://app.chinaz.com/?app=contribution&controller=panel&action=contribute" target="_blank">投稿</a>
+        <a class="rss" href="http://app.chinaz.com/?app=rss&controller=index&action=index">订阅</a>
+        <form name="search" method="GET" action="http://app.chinaz.com/?app=search&controller=index&action=search">
+            <input type="hidden" name="app" value="search">
+            <input type="hidden" name="controller" value="index">
+            <input type="hidden" name="action" value="search">
+            <input type="hidden" name="type" value="all">
+            <input type="input" onfocus="this.value=(this.value=='全文搜索')?'':this.value" onblur="this.value=(this.value=='')?'全文搜索':this.value" name="wd" value="全文搜索" class="text">
+            <input type="submit" class="button" value="搜索">
+        </form>
+    </div>
+</div>
+
+<div class="ad ad-t-leaderboard">
+<iframe src="http://images.chinaz.com/index_images/wz.htm" frameborder="0" scrolling="no" width="980" height="120" allowtransparency="true"></iframe>
+</div>
+
+
+<div class="box box-cols3 home-area1">
+    <div class="c-1">
+        <div class="slideshow" id="slideshow">
+    <div class="image">
+        <ul>
+                        <li>
+                <a href="http://www.chinaz.com/visit/2012/0302/237820.shtml" target="_blank">
+                    <img src="http://upload.chinaz.com/2012/0302/1330670975239.jpg" width="279" height="200" alt="">
+                </a>
+                <div class="caption">常州社区门户“地头蛇”的故事</div>
+            </li>
+                        <li>
+                <a href="http://www.chinaz.com/visit/2012/0301/237569.shtml" target="_blank">
+                    <img src="http://upload.chinaz.com/2012/0301/1330564863488.jpg" width="279" height="200" alt="">
+                </a>
+                <div class="caption">VeryCD 黄一孟：骑着电驴找金矿</div>
+            </li>
+                        <li>
+                <a href="http://www.chinaz.com/visit/2012/0229/237435.shtml" target="_blank">
+                    <img src="http://upload.chinaz.com/2012/0229/1330495229708.jpg" width="279" height="200" alt="">
+                </a>
+                <div class="caption">恺英网络掌舵者王悦：草根站长的</div>
+            </li>
+                    </ul>
+    </div>
+    <ul class="trigger" id="trigger">
+                <li onclick="slideshow.pos(0)">1</li>
+                <li onclick="slideshow.pos(1)">2</li>
+                <li onclick="slideshow.pos(2)">3</li>
+            </ul>
+    <script src="http://img.chinaz.com/templates/chinaz/js/tinyslider.js"></script>
+    <script>
+    var slideshow=new TINY.slider.slide('slideshow',{
+        id:'slideshow',
+        auto:4,
+        resume:false,
+        vertical:false,
+        navid:'trigger',
+        activeclass:'current',
+        position:0,
+        rewind:false,
+        elastic:true
+    });
+    </script>
+</div>
+        <div class="panel columnist">
+            <div class="phead">
+                <h3 class="ptitle">专栏推荐</h3>
+                <p class="pextra"><a href="http://space.chinaz.com/" target="_blank">更多&raquo;</a></p>
+            </div>
+            <div class="pbody">
+                <ul class="columnistrecom">
+        <li>
+        <span class="author">
+            <img src="http://upload.chinaz.com/2012/0301/thumb_60_60_1330569965540.jpg" width="60" height="60" alt="">    
+        </span>
+        <a class="summary" href="http://www.chinaz.com/news/2012/0301/237635.shtml" target="_blank">
+            <h4>未来中国智能手机市场极其混乱</h4>
+            <p>后诺基亚时代的中国智能手机市场看似格局清晰，苹果与众An...</p>
+        </a>
+    </li>
+        <li>
+        <span class="author">
+            <img src="http://upload.chinaz.com/2012/0228/thumb_60_60_1330393730439.jpg" width="60" height="60" alt="">    
+        </span>
+        <a class="summary" href="http://www.chinaz.com/news/2012/0228/237158.shtml" target="_blank">
+            <h4>再“站”十字路口迷茫的黑莓</h4>
+            <p>黑莓（RIM）创始人麦克·拉扎里迪斯在掌控公司28年后，不...</p>
+        </a>
+    </li>
+    </ul>
+                <ul class="articlelist">
+    <li><a href="http://www.chinaz.com/news/2012/0302/237785.shtml" target="_blank">黄利民：如何成为明星开发人员？</a></li>
+    <li><a href="http://www.chinaz.com/biz/2012/0302/237745.shtml" target="_blank">王利阳：被绑架的天猫医药馆 纯属是花瓶</a></li>
+    <li><a href="http://www.chinaz.com/biz/2012/0228/237122.shtml" target="_blank">徐得红：对当下电商行业的三点真实看法</a></li>
+    <li><a href="http://www.chinaz.com/news/2012/0228/237072.shtml" target="_blank">王佳伦：给移动互联网创业者的一些建议</a></li>
+    <li><a href="http://www.chinaz.com/news/2012/0228/237099.shtml" target="_blank">张书乐：没有终点的俄罗斯方块</a></li>
+</ul>
+            </div>
+        </div>
+        <div class="ad ad-b-button">
+            <iframe src="http://images.chinaz.com/index_images/A4.htm" frameborder="0" scrolling="no" width="280" height="60"></iframe>
+
+        </div>
+        <div class="ad ad-b-button">
+            <iframe src="http://images.chinaz.com/index_images/A5.htm" frameborder="0" scrolling="no" width="280" height="60"></iframe>
+
+        </div>
+    </div>
+    <div class="c-2">
+        <div class="panel headlines">
+            <div class="pbody">
+                <div class="headlinetop">
+    <a href="http://www.chinaz.com/news/2012/0302/237789.shtml" target="_blank">
+        <h3>下一个投资高点 : 身体上的应用市场</h3>
+        <p>每天我们都是通过什么来与这个世界打交道的？答案不是微博，更不是QQ， 而是计算机， 智能设备，还有显示屏...</p>
+    </a>
+    </div>
+                <div class="headlinerecom">
+<a class="link0" href="http://www.chinaz.com/news/2012/0302/237771.shtml" target="_blank">[Windows 8将带来什么]</a>
+<a class="link1" href="http://weibo.com/chinaz?c=spr_h_chinaz_000001_ab00_a" target="_blank">[关注站长之家微博]</a>
+</div>
+                <ul class="headlinelist">
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237935.shtml" target="_blank">站长之家一周新闻盘点：王者归来 谁与争锋</a></li>
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237936.shtml" target="_blank">开发者须知：开发移动应用前需规划的十件事</a></li>
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237897.shtml" target="_blank">豌豆荚窃取隐私？回应称仅统计非隐私数据</a></li>
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/visit/2012/0302/237886.shtml" target="_blank">猛犸浏览器创始人季逸超：互联网新人类</a></li>
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237888.shtml" target="_blank">App时代营销概念：应用商店排序优化ASO</a></li>
+</ul>
+<ul class="headlinelist">
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237829.shtml" target="_blank">创业不成如何退场：售团队技术 保个人声誉</a></li>
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237869.shtml" target="_blank">新主编年代：编辑自己的《乔布斯故事集》</a></li>
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/website/2012/0302/237867.shtml" target="_blank">DogVacay：安全可信的宠物寄养版Airbnb</a></li>
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/visit/2012/0302/237863.shtml" target="_blank">小米CEO雷军：这是我最后一次创业 输则退休</a></li>
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237852.shtml" target="_blank">新浪微博从汽车业开始掘金 推垂直业货币化</a></li>
+</ul>
+<ul class="headlinelist">
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237847.shtml" target="_blank">大学生在微博上开店卖花 订单已排到下个月</a></li>
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237845.shtml" target="_blank">南方周末：阿里私有化 马云要破的是什么局</a></li>
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237838.shtml" target="_blank">2012年2月份全球主流浏览器市场份额榜单</a></li>
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/visit/2012/0302/237830.shtml" target="_blank">曾玉：命运靠自己争取 投资女侠的炼成记</a></li>
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237827.shtml" target="_blank">后电商时代：从价格敏感度看市场竞争格局</a></li>
+</ul>
+<ul class="headlinelist">
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/visit/2012/0302/237820.shtml" target="_blank">化龙巷钱钰：五年时间巩固“地头蛇”的地位</a></li>
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237803.shtml" target="_blank">IT技术女的风采：“枪炮与玫瑰”的另一个我</a></li>
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237753.shtml" target="_blank">百度整合新浪微博内容的实时搜索服务上线</a></li>
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237764.shtml" target="_blank">李国庆称亏在价格战值了 只为解气得不偿失</a></li>
+    
+    <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237756.shtml" target="_blank">Gramfeed奇迹：从2小时速成到200万用户</a></li>
+</ul>
+            </div>
+        </div>
+    </div>
+    <div class="c-3">
+        <div class="panel events">
+            <div class="phead">
+                <h3 class="ptitle">精彩专题</h3>
+                <p class="pextra"><a href="http://www.chinaz.com/special" target="_blank">更多&raquo;</a></p>
+            </div>
+            <div class="pbody">
+                <div class="eventrecom">
+    <a href="http://www.chinaz.com/special/pinterest/index.shtml" target="_blank">
+        <h3>网站分析：Pinterest</h3>           
+        <img src="http://upload.chinaz.com/2011/1221/1324444214951.jpg" width="110" height="90" alt="">
+        <p class="summary">Pinterest是一个号称"个人版猎酷工具"的美国视觉社交网站，网站创办于2011年，目前 网站用户增长...</p>
+    </a>
+</div>
+                <ul class="eventlist">
+                                    <li><a href="http://www.chinaz.com/special/2011pandian/" target="_blank">专题：2011新闻盘点及趋势</a></li>
+                                    <li><a href="http://www.chinaz.com/special/pinterest/index.shtml" target="_blank">专题：pinterest视觉社交网站模式分析</a></li>
+                                    <li><a href="http://www.chinaz.com/zt/fyx4th/" target="_blank">专题：富营销四周年聚会</a></li>
+                                    <li><a href="http://www.chinaz.com/special/aliyun/index.shtml" target="_blank">专题：中国互联网无线化峰会</a></li>
+                                </ul>
+            </div>
+        </div>
+        <div class="ad ad-b-button">
+            <a href="http://www.313.com/special/tuiguang/?s=news" target="_blank"><img src="http://www.chinaz.com/images/gg/280x30.gif" width="280" height="30"></a>
+
+        </div>
+        <div class="panel polls">
+            <div class="phead">
+                <h3 class="ptitle">在线调查</h3>
+            </div>
+            <div class="pbody">
+                <div class="pollstop">
+<form id="vote_form" name="vote_form" method="POST" action="http://app.chinaz.com/?app=vote&controller=vote&action=vote">
+<input name="contentid" id="contentid" type="hidden" value="237266" />
+<input name="optionid" id="optionid" type="hidden" value="" />
+<h3><a href="http://www.chinaz.com/news/2012/0228/237266.shtml">欧美电商模式“月订购制”复制到国内可行？</a></h3>
+<div class="summary">月订购制可以说是欧美新一轮的热门电商模式。每月支付...</div>
+<div class="pollbuttons">
+  
+    <a href="javascript:;" onclick="voteSubmit('vote_form','99');return false;"><span class="poll-percent" id="">33.4%</span><span class="poll-count">110行</span></a>
+  
+    <a href="javascript:;" onclick="voteSubmit('vote_form','100');return false;"><span class="poll-percent" id="">66.6%</span><span class="poll-count">219不行</span></a>
+ 
+</div>
+ 
+</form>
+</div>
+<script type="text/javascript">
+function voteSubmit(formId, optionIdValue) {
+	if (readCookie("indexvote237266")) {
+		alert("您已经投过票了。");
+		return false;
+	}
+	if (document.getElementById(formId) && document.getElementById("optionid")) {
+		$.getScript("http://app.chinaz.com/?app=vote&controller=vote&action=ajaxvote&contentid=" + $("#contentid").val() + "&optionid=" + optionIdValue, function(){
+			var json=eval("("+result+")");
+			if(json.state){
+				//更新投票
+				$("#pollpercent-yes").html(json.data[0].percent + "%");
+				$("#pollcount-yes").html(json.data[0].votes);
+				$("#pollpercent-no").html(json.data[1].percent + "%");
+				$("#pollcount-no").html(json.data[1].votes);
+				alert("投票成功！");
+			}else{
+				//输出错误
+				alert(json.error);
+			}
+		});
+		writeCookie("indexvote237266", 1);
+		return false;
+	}
+}
+</script>
+            </div>
+        </div>
+        <div class="ad ad-t-button">
+            <script src="http://images.chinaz.com/index_images/a3wz.js"></script> 
+        </div>
+        <div class="ad ad-b-button">
+            <iframe src="http://images.chinaz.com/index_images/A3.htm" frameborder="0" scrolling="no" width="280" height="150"></iframe>
+
+        </div>
+    </div>
+</div>
+
+<div class="box box-cols3 home-area2">
+    <div class="c-1">
+        <div class="panel weibolive">
+            <div class="phead">
+                <h3 class="ptitle">站长微博</h3>
+                <p class="pextra"><a href="http://weibo.com/chinaz" target="_blank">站长之家微博 &raquo;</a></p>
+            </div>
+            <div class="pbody" id="weibobody">
+                <ul>
+        <li><a href="http://weibo.com/1197161814/y80qsuYXv" target="_blank">“安卓Siri”创业计划须知：1.智能手机主界面是手触，语音助手解决了什么真正用户需求和痛处？2.如何克服后台海量数据学习技术门槛？3.应用谁开发？4.语音服务器和带宽成本较大，如何克服？ <span class="people">--<strong>李开复</strong></span></a></li>
+        <li><a href="http://weibo.com/1641983193/y82oNcg1Y" target="_blank">我们该如何高效阅读？ <span class="people">--<strong>申音</strong></span></a></li>
+        <li><a href="http://weibo.com/1004524612/y80eI6JSh" target="_blank">一个人如果总是挑剔别人，他是否还有精力提高自己？！ <span class="people">--<strong>侯小强</strong></span></a></li>
+        <li><a href="http://weibo.com/charlesxue?page=2&pre_page=1&end_id=3419194182274485" target="_blank">创业者失败了一两次之后还能有机会，但真正完成一件大事需要10年以上的时间，光有一腔热情并不够。 <span class="people">--<strong>薛蛮子</strong></span></a></li>
+        <li><a href="http://weibo.com/2268916473/y808xq8MK" target="_blank">腾讯励志哥的故事能复制吗？ <span class="people">--<strong>正和岛标准</strong></span></a></li>
+    </ul>
+            </div>
+        </div>
+        <div class="ad ad-b-button">
+            <iframe src="http://images.chinaz.com/index_images/A6.htm" frameborder="0" scrolling="no" width="280" height="60"></iframe>
+
+        </div>
+        <div class="panel forumrecom">
+            <div class="phead">
+                <h3 class="ptitle">论坛推荐</h3>
+                <p class="pextra"><a href="http://bbs.chinaz.com" target="_blank">逛逛论坛 &raquo;</a></p>
+            </div>
+            <div class="pbody">
+                <div class="forumrecomtop">
+<a href="http://www.chinaz.com/about/job.php" target="_blank">[站长之家2012年度招聘 记者/开发/网页设计]</a>
+</div>         
+                <ul class="forumrecomlist">
+<li><a href="http://bbs.chinaz.com/Club/thread-3286995-1-1.html" target="_blank">小米手机买得起修不起，伤了</a></li>
+
+<li><a href="http://bbs.chinaz.com/Club/thread-3288292-1-1.html" target="_blank">用了别人曾经用过的域名建站，多久才会收录...</a></li>
+
+<li><a href="http://bbs.chinaz.com/Club/thread-3249144-1-1.html" target="_blank">网站被idc取消接入导致备案取消</a></li>
+
+<li><a href="http://bbs.chinaz.com/Club/thread-3249037-1-1.html" target="_blank">你怎么看待淘宝天猫商城让用户学猫叫</a></li>
+
+<li><a href="http://bbs.chinaz.com/Club/thread-3173819-1-1.html" target="_blank">2012年PR大更新，为什么我的没变化？</a></li>
+
+<li><a href="http://bbs.chinaz.com/Club/thread-3176333-1-1.html" target="_blank">首页有2个地方放置了H1标签，这样可以吗</a></li>
+
+<li><a href="http://bbs.chinaz.com/Club/thread-3176314-1-1.html" target="_blank">昨天接到网警电话 要求网上备案！</a></li>
+
+<li><a href="http://bbs.chinaz.com/Club/thread-3166149-1-1.html" target="_blank">求助，哪有英文网站关键词排名查询</a></li>
+
+<li><a href="http://bbs.chinaz.com/Club/thread-3165304-1-1.html" target="_blank">貌似昨天又被百度K了个站...泪奔中........</a></li>
+
+<li><a href="http://bbs.chinaz.com/Club/thread-3152208-1-1.html" target="_blank">3000就这样没了……北漂的站长伤不起</a></li>
+</ul>
+            </div>
+        </div>
+        <div class="ad ad-b-button">
+            <iframe src="http://images.chinaz.com/index_images/A8.htm" frameborder="0" scrolling="no" width="280" height="60"></iframe>
+
+        </div>
+    </div>
+    <div class="c-2">
+        <div class="panel catearticles">
+            <div class="phead">
+                <h3 class="ptitle">业界</h3>
+                <p class="pextra"><a href="/news" target="_blank">更多 &raquo;</a></p>
+            </div>
+            <div class="pbody">
+                <div class="headlinetop">
+                                    <a href="http://www.chinaz.com/news/2012/0302/237769.shtml" target="_blank">
+                        <h3>Windows 8消费者预览版下载量突破100万</h3>
+                        <p>据国外媒体报道，微软周四通过官方Twitter账户宣布，Windows 8消费者预览版上线一天的下载量已经突破100万...</p>
+                    </a>
+                                </div>
+                <ul class="headlinelist">
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237932.shtml" target="_blank">点点网指责盛大“张冠李戴”呼吁扫除不正当</a></li>
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237917.shtml" target="_blank">快递新政藏安全隐患 业务员素质成质疑焦点</a></li>
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237913.shtml" target="_blank">乐视网回应停牌：因获361度1亿元广告投放</a></li>
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237894.shtml" target="_blank">移动支付LevelUp推API 月交易量达百万美元</a></li>
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237884.shtml" target="_blank">Twitter IPO遥遥无期 应先提高公司广告收入</a></li>
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237881.shtml" target="_blank">RelayRides创始人：通过汽车共享实现交通变</a></li>
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237843.shtml" target="_blank">Yelp IPO公布发行价15美元 融资1.07亿美元</a></li>
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237825.shtml" target="_blank">Zaker的创业故事：为传统杂志搭建赚钱通道</a></li>
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237811.shtml" target="_blank">微信招来“猫女”一觉醒来iPhone4丢了</a></li>
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237802.shtml" target="_blank">经验分享：什么样的创业导师让你事半功倍</a></li>
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237792.shtml" target="_blank">财富最受赞赏公司排行榜揭晓：苹果谷歌居首</a></li>
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237790.shtml" target="_blank">土豆网去年净亏5亿 视频业盈利现两极分化</a></li>
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/news/2012/0302/237782.shtml" target="_blank">敏思博客因缺钱关张：用户担心数据不能转出</a></li>
+                                </ul>
+            </div>
+        </div>
+        <div class="panel catearticles catearticles-second">
+            <div class="phead">
+                <h3 class="ptitle">运营</h3>
+                <p class="pextra"><a href="/manage" target="_blank">更多 &raquo;</a></p>
+            </div>
+            <div class="pbody">
+                <div class="headlinetop">
+                                    <a href="http://www.chinaz.com/manage/2012/0228/237276.shtml" target="_blank">
+                        <h3>浅析产品新手引导设计</h3>
+                        <p>引导设计，现在也是大家比较热衷讨论的话题，各类的web产品也都纷纷效仿起移动端的引导方式，那么我先问一...</p>
+                    </a>
+                                </div>
+                <ul class="headlinelist">
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/manage/2012/0302/237877.shtml" target="_blank">5类你需要知道的社会化媒体上的关键参与者</a></li>
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/manage/2012/0302/237874.shtml" target="_blank">从事产品设计工作应该订阅的13个团队博客</a></li>
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/manage/2012/0302/237870.shtml" target="_blank">如何让产品更好用：减少视觉压力等5大要点</a></li>
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/manage/2012/0302/237864.shtml" target="_blank">邮件营销策划精准投递：找卖点 增加可信度</a></li>
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/manage/2012/0302/237798.shtml" target="_blank">延伸“无意识”的设计理念 让产品基业长青</a></li>
+                                <li><span class="date">02日</span> <a href="http://www.chinaz.com/manage/2012/0302/237788.shtml" target="_blank">为什么是极地雪来寓意QQ2012的设计理念？</a></li>
+                                <li><span class="date">01日</span> <a href="http://www.chinaz.com/manage/2012/0301/237641.shtml" target="_blank">什么是Metro风格应用：针对用户需求的程序</a></li>
+                                <li><span class="date">01日</span> <a href="http://www.chinaz.com/manage/2012/0301/237622.shtml" target="_blank">5个初创公司有必要避免的社会化媒体营销误</a></li>
+                                <li><span class="date">01日</span> <a href="http://www.chinaz.com/manage/2012/0301/237563.shtml" target="_blank">电子邮件营销六步法：对比测试先助人后销售</a></li>
+                                <li><span class="date">29日</span> <a href="http://www.chinaz.com/manage/2012/0229/237535.shtml" target="_blank">产品经理转行：弄清付出成本及能带来什么？</a></li>
+                                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="c-3">
+        <div class="panel siterecom">
+            <div class="phead">
+                <h3 class="ptitle">好站推荐</h3>
+                <p class="pextra"><a href="http://bbs.chinaz.com/goodsite/list-1.html" target="_blank">申请推荐 &#x02191;</a></p>
+            </div>
+            <div class="pbody">
+                <ul class="siterecomtop">
+                                        <li>
+                        <a href="http://www.chinaz.com/website/2012/0221/236308.shtml" target="_blank">
+                            <h3>印象码 </h3>           
+                            <img src="http://upload.chinaz.com/2012/0221/1329809508890.jpg" width="120" height="100" alt="">
+                            <p class="summary">印象码是中国第一家验证码广告平台。</p>
+                        </a>
+                    </li>
+                                        <li>
+                        <a href="http://www.chinaz.com/website/2012/0215/235493.shtml" target="_blank">
+                            <h3>小恩爱</h3>           
+                            <img src="http://upload.chinaz.com/2012/0215/1329300131925.jpg" width="120" height="100" alt="">
+                            <p class="summary">专门为情侣和夫妻设计的网站，网站专注于情侣夫妻的幸福快乐。</p>
+                        </a>
+                    </li>
+                                    </ul>
+            </div>
+        </div>
+        <div class="ad ad-b-button">
+            <iframe src="http://images.chinaz.com/index_images/A7.htm" frameborder="0" scrolling="no" width="280" height="60"></iframe>
+
+        </div>
+        <div class="topicranking" id="click_top">
+            <div class="tabber">
+                <ul>
+                    <li><a href="#" class="current">点击排行榜</a></li>
+                    <li><a href="#">评论排行榜</a></li>
+                </ul>
+            </div>
+            <ul class="toplist">
+                                <li><a href="http://www.chinaz.com/mobile/2012/0227/237143.shtml" target="_blank"><em class="no1">1</em> MWC 2012:诺基亚发布4100万像素手机808</a></li>
+                                <li><a href="http://www.chinaz.com/news/2012/0229/237543.shtml" target="_blank"><em class="no2">2</em> 微软发布Windows 8消费者预览版</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0228/237217.shtml" target="_blank"><em class="no3">3</em> 4100万像素1080P摄录 诺基亚拍照机皇80</a></li>
+                                <li><a href="http://www.chinaz.com/news/2012/0301/237566.shtml" target="_blank"><em class="no4">4</em> 64位WIN8消费者预览版双系统安装教程及</a></li>
+                                <li><a href="http://www.chinaz.com/news/2012/0301/237633.shtml" target="_blank"><em class="no5">5</em> 微软发布Win8消费者预览版 QQ率先登陆</a></li>
+                                <li><a href="http://www.chinaz.com/visit/2012/0229/237488.shtml" target="_blank"><em class="no6">6</em> 专访Discuz!总监sup：Discuz! X2.5特点</a></li>
+                                <li><a href="http://www.chinaz.com/visit/2012/0227/237078.shtml" target="_blank"><em class="no7">7</em> 《创业家》杂志：黑客自述揭秘暴利产业</a></li>
+                                <li><a href="http://www.chinaz.com/news/2012/0225/236996.shtml" target="_blank"><em class="no8">8</em> 谁说开源不能赚钱？</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0229/237531.shtml" target="_blank"><em class="no9">9</em> 升至800MHz 千元级安卓机华为C8650增强</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0301/237717.shtml" target="_blank"><em class="no10">10</em> 如何鉴别iPhone4S是否翻新？iPhone4S翻</a></li>
+                            </ul>
+            <ul class="toplist" style="display:none;">
+                                <li><a href="http://www.chinaz.com/news/2012/0228/237175.shtml" target="_blank"><em class="no1">1</em> 九部门深入启动整治网络色情和低俗信息</a></li>
+                                <li><a href="http://www.chinaz.com/visit/2012/0227/237078.shtml" target="_blank"><em class="no2">2</em> 《创业家》杂志：黑客自述揭秘暴利产业</a></li>
+                                <li><a href="http://www.chinaz.com/news/2012/0301/237597.shtml" target="_blank"><em class="no3">3</em> 芳草集吕长城：从19岁破产到24岁拒绝宝</a></li>
+                                <li><a href="http://www.chinaz.com/visit/2012/0229/237488.shtml" target="_blank"><em class="no4">4</em> 专访Discuz!总监sup：Discuz! X2.5特点</a></li>
+                                <li><a href="http://www.chinaz.com/visit/2012/0229/237435.shtml" target="_blank"><em class="no5">5</em> 王悦：草根站长的游戏帝国</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0228/237343.shtml" target="_blank"><em class="no6">6</em> 小米的冰火两重天：销售很火爆 售后被</a></li>
+                                <li><a href="http://www.chinaz.com/news/2012/0301/237635.shtml" target="_blank"><em class="no7">7</em> 中国智能手机市场未来会极其混乱</a></li>
+                                <li><a href="http://www.chinaz.com/news/2012/0301/237683.shtml" target="_blank"><em class="no8">8</em> 工信部：新通用顶级域名申请之前需备案</a></li>
+                                <li><a href="http://www.chinaz.com/biz/2012/0301/237567.shtml" target="_blank"><em class="no9">9</em> 自相残杀整死电商：当当网麦考林双双巨</a></li>
+                                <li><a href="http://www.chinaz.com/news/2012/0227/237115.shtml" target="_blank"><em class="no10">10</em> “保定出现非典”造谣者被依法劳动教养</a></li>
+                            </ul>
+        </div>
+        <script type="text/javascript">new max_tab("click_top");</script>
+        <div class="toolslink">
+            <a target="_blank" class="label" href="http://tool.chinaz.com">工具</a>
+<a target="_blank" href="http://alexa.chinaz.com">Alexa排名</a>
+<a target="_blank" href="http://whois.chinaz.com">WhoIs查询</a>
+<a target="_blank" href="http://ip.chinaz.com">IP查询</a>
+<a target="_blank" href="http://tool.chinaz.com/speedtest.aspx">网速测试</a></li>
+<a target="_blank" href="http://bm.chinaz.com">网站保姆</a>
+<a target="_blank" href="http://jy.chinaz.com">站长交易</a>
+<a target="_blank" href="http://www.chinaz.com/z">站长Z周刊</a>
+<a target="_blank" href="http://www.idc123.com">虚拟主机评测</a>
+<a target="_blank" href="http://link.chinaz.com">友情链接检测</a>
+<a target="_blank" href="http://tool.chinaz.com/beian.aspx">网站备案查询</a>
+<a target="_blank" href="http://pr.chinaz.com">谷歌PR查询</a>
+        </div>
+    </div>
+    </div>
+
+<div class="ad ad-b-leaderboard">
+<iframe src="http://images.chinaz.com/index_images/index_buttom1.htm" frameborder="0" scrolling="no" width="960" height="50"></iframe>
+
+</div>
+
+<div class="box box-cols3 home-area3">
+    <div class="c-1">
+        <div class="panel articlerecom">
+            <div class="phead">
+                <h3 class="ptitle">原创文章</h3>
+            </div>
+            <div class="pbody">
+                <ul class="articletop">
+    <li>
+        <a href="http://www.chinaz.com/news/2012/0301/237657.shtml" target="_blank">
+            <img src="http://upload.chinaz.com/2012/0302/1330680545802.jpg" width="120" height="90" alt="">
+            <span class="caption">Win8团队主管公开信</span>
+        </a>
+    </li>
+    <li>
+        <a href="http://www.chinaz.com/mobile/2012/0229/237431.shtml" target="_blank">
+            <img src="http://upload.chinaz.com/2012/0229/1330509216409.jpg" width="120" height="90" alt="">
+            <span class="caption">盘点iPad3六大亮点</span>
+        </a>
+    </li>
+</ul>
+                <ul class="articlelist">
+                                    <li><a href="http://www.chinaz.com/news/2012/0302/237936.shtml" target="_blank">开发者须知：开发移动应用前需规划的十件事</a></li>
+                                    <li><a href="http://www.chinaz.com/news/2012/0302/237935.shtml" target="_blank">站长之家一周新闻盘点：王者归来 谁与争锋？</a></li>
+                                    <li><a href="http://www.chinaz.com/news/2012/0302/237917.shtml" target="_blank">快递新政藏安全隐患 业务员素质成质疑焦点</a></li>
+                                    <li><a href="http://www.chinaz.com/mobile/2012/0302/237905.shtml" target="_blank">2011Q4百度移动互联网发展趋势报告解读</a></li>
+                                    <li><a href="http://www.chinaz.com/mobile/2012/0302/237893.shtml" target="_blank">“桌面头条”客户端查询厦门PM2.5信息</a></li>
+                                    <li><a href="http://www.chinaz.com/design/2012/0302/237891.shtml" target="_blank">30个时尚的网页联系表单设计优秀示例</a></li>
+                                    <li><a href="http://www.chinaz.com/website/2012/0302/237867.shtml" target="_blank">DogVacay：安全可信的宠物寄养版Airbnb</a></li>
+                                </ul>
+            </div>
+        </div>
+        <div class="panel reviews">
+            <div class="phead">
+                <h3 class="ptitle">人物&访谈</h3>
+            </div>
+            <div class="pbody">
+                <ul class="reviewtop">
+<li>
+    <a href="http://www.chinaz.com/visit/2012/0229/237488.shtml" target="_blank">
+        <h3>站长之家专访Discuz!技术总监</h3>
+        <img src="http://upload.chinaz.com/2012/0229/1330508113722.jpg" width="64" height="74" alt="">
+        <p class="summary">“如同大家在电影里面看到的方舟所起到的作用一样，Discuz! X2.5的显著特性，就是全面...</p>
+    </a>
+</li>  
+</ul>
+                <ul class="articlelist">
+                                    <li><a href="http://www.chinaz.com/visit/2012/0302/237887.shtml" target="_blank">雷军：小米是我的梦想 我不是一个符号</a></li>
+                                    <li><a href="http://www.chinaz.com/visit/2012/0302/237886.shtml" target="_blank">猛犸创始人季逸超：互联网新人类</a></li>
+                                    <li><a href="http://www.chinaz.com/visit/2012/0302/237863.shtml" target="_blank">商业人生：风口上的雷军</a></li>
+                                    <li><a href="http://www.chinaz.com/visit/2012/0302/237830.shtml" target="_blank">曾玉：“投资女侠”是如何炼成的</a></li>
+                                    <li><a href="http://www.chinaz.com/visit/2012/0302/237820.shtml" target="_blank">钱钰：“地头蛇”的故事</a></li>
+                                    <li><a href="http://www.chinaz.com/visit/2012/0302/237797.shtml" target="_blank">数据分析创业公司QuBit创始人访谈实录</a></li>
+                                    <li><a href="http://www.chinaz.com/visit/2012/0302/237787.shtml" target="_blank">暴风影音：享受电影的另一种境界</a></li>
+                                    <li><a href="http://www.chinaz.com/visit/2012/0302/237751.shtml" target="_blank">李善友：带上创业者再出发</a></li>
+                                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="c-2">
+         <div class="panel catearticles">
+            <div class="phead">
+                <h3 class="ptitle">电商</h3>
+                <p class="pextra"><a href="/biz" target="_blank">更多 &raquo;</a></p>
+            </div>
+            <div class="pbody">
+                <div class="headlinetop">
+                                    <a href="http://www.chinaz.com/biz/2012/0302/237831.shtml" target="_blank">
+                        <h3>蘑菇街推出反向团购产品“蘑菇自由团” </h3>
+                        <p>3月2日消息，蘑菇街推出反向团购产品“自由团”，用户可以针对想购买的产品自发组织成团，然后激励商家发起...</p>
+                    </a>
+                                </div>
+                <ul class="headlinelist">
+                                <li><a href="http://www.chinaz.com/biz/2012/0302/237934.shtml" target="_blank">消息称支付宝进军线下支付 本月将推解决方案</a></li>
+                                <li><a href="http://www.chinaz.com/biz/2012/0302/237896.shtml" target="_blank">京东网购退货一个月拉锯战 106元只收到33元</a></li>
+                                <li><a href="http://www.chinaz.com/biz/2012/0302/237868.shtml" target="_blank">阿里私有化迷雾：是大棋局还是大谜局？</a></li>
+                                <li><a href="http://www.chinaz.com/biz/2012/0302/237824.shtml" target="_blank">申通快递跨界做电商 会是下一个1号店？</a></li>
+                                <li><a href="http://www.chinaz.com/biz/2012/0302/237779.shtml" target="_blank">国美全部接手当当3C订单 京东遭遇劲敌</a></li>
+                                <li><a href="http://www.chinaz.com/biz/2012/0302/237772.shtml" target="_blank">新政首日三成快递不面检 盖章制度形同虚设</a></li>
+                                <li><a href="http://www.chinaz.com/biz/2012/0301/237687.shtml" target="_blank">电商第二波倒闭潮：网上超市后玛特关张(图)</a></li>
+                                <li><a href="http://www.chinaz.com/biz/2012/0301/237669.shtml" target="_blank">当当提高免运费门槛：非重点城市满99元免运费</a></li>
+                                <li><a href="http://www.chinaz.com/biz/2012/0301/237614.shtml" target="_blank">高朋完善管理团队：任命新任CTO和CFO</a></li>
+                                </ul>
+            </div>
+        </div>
+        <div class="panel catearticles catearticles-second">
+            <div class="phead">
+                <h3 class="ptitle">建站</h3>
+                <p class="pextra"><a href="/web" target="_blank">更多 &raquo;</a></p>
+            </div>
+            <div class="pbody">
+                <div class="headlinetop">
+                                    <a href="http://www.chinaz.com/web/2012/0302/237793.shtml" target="_blank">
+                        <h3>细数站长的6大天敌</h3>
+                        <p>站长是一个比较特殊的群体，而每每说到站长这个词就会很自然的联想到草根站长，因为这个称呼或许更贴近我们...</p>
+                    </a>
+                                </div>
+                <ul class="headlinelist">
+                                <li><a href="http://www.chinaz.com/web/2012/0302/237933.shtml" target="_blank">WP插件Watermark Reloaded上传出错原因</a></li>
+                                <li><a href="http://www.chinaz.com/web/2012/0302/237903.shtml" target="_blank">百度统计3.0新增功能给站长带来哪些帮助？</a></li>
+                                <li><a href="http://www.chinaz.com/web/2012/0302/237895.shtml" target="_blank">如何最大化在不同旧网页上新链接的权重？</a></li>
+                                <li><a href="http://www.chinaz.com/web/2012/0301/237655.shtml" target="_blank">卢松松: 适合个人网站第三方社会化插件推荐</a></li>
+                                <li><a href="http://www.chinaz.com/web/2012/0301/237630.shtml" target="_blank">让你的网站在Google搜索列表中显示作者信息</a></li>
+                                <li><a href="http://www.chinaz.com/web/2012/0229/237521.shtml" target="_blank">SEO实践（2）：如何让网站对搜索引擎友好 </a></li>
+                                <li><a href="http://www.chinaz.com/web/2012/0229/237519.shtml" target="_blank">站长总结：浅谈行业网站的运营与投资技巧</a></li>
+                                <li><a href="http://www.chinaz.com/web/2012/0229/237497.shtml" target="_blank">新手教程: Dedecms系统优化技巧的详细步骤</a></li>
+                                </ul>
+            </div>
+        </div>     
+    </div>
+    <div class="c-3">
+        <div class="panel articlerecom">
+            <div class="phead">
+                <h3 class="ptitle">编辑推荐</h3>
+            </div>
+            <div class="pbody">
+                <ul class="articletop">
+        <li>
+        <a href="http://www.chinaz.com/news/2012/0301/237676.shtml" target="_blank">
+            <img src="http://upload.chinaz.com/2012/0301/1330583407822.jpg" width="120" height="90" alt="">
+            <span class="caption">企业探营：神雕网络</span>
+        </a>
+    </li>
+        <li>
+        <a href="http://www.chinaz.com/visit/2012/0224/236950.shtml" target="_blank">
+            <img src="http://upload.chinaz.com/2012/0224/1330070900116.jpg" width="120" height="90" alt="">
+            <span class="caption">80后的创业哲学 </span>
+        </a>
+    </li>
+    </ul>
+                <ul class="articlelist">
+    <li><a href="http://www.chinaz.com/visit/2012/0301/237569.shtml" target="_blank">VeryCD创始人黄一孟：骑着电驴找金矿</a></li>
+    <li><a href="http://www.chinaz.com/website/2012/0301/237638.shtml" target="_blank">Etsy：低价材料创造倍数价值的手工艺品网站</a></li>
+    <li><a href="http://www.chinaz.com/news/2012/0301/237658.shtml" target="_blank">ClassPager：教师在课堂用短信系统提问学生</a></li>
+    <li><a href="http://www.chinaz.com/news/2012/0301/237683.shtml" target="_blank">工信部：新通用顶级域名申请之前需备案</a></li>
+    <li><a href="http://www.chinaz.com/manage/2012/0228/237200.shtml" target="_blank">网页前端开发：新浪微博CSS3适用细节初探</a></li>
+    <li><a href="http://www.chinaz.com/news/2012/0228/237211.shtml" target="_blank">曹宇：兴趣图谱让图片分享Pinterest爆发？</a></li>
+</ul>
+            </div>
+        </div>
+        <div class="panel contributes">
+            <div class="phead">
+                <h3 class="ptitle">会员投稿</h3>
+                <p class="pextra"><a href="http://app.chinaz.com/?app=contribution&controller=panel&action=contribute" target="_blank">我要投稿</a></p>
+            </div>
+            <div class="pbody">
+                <ul class="articlelist">
+                                    <li><a href="http://www.chinaz.com/news/2012/0302/237951.shtml" target="_blank">微软windows8发布：收购并启用2个W8域名</a></li>
+                                    <li><a href="http://www.chinaz.com/web/2012/0302/237950.shtml" target="_blank">seo观察：2月份百度SE的那些事儿</a></li>
+                                    <li><a href="http://www.chinaz.com/web/2012/0302/237948.shtml" target="_blank">解密为何同页面的关键词快照不一样</a></li>
+                                    <li><a href="http://www.chinaz.com/web/2012/0302/237945.shtml" target="_blank">借助热点新闻事件 提升网站流量和知名度</a></li>
+                                    <li><a href="http://www.chinaz.com/web/2012/0302/237942.shtml" target="_blank">如何让你的读者快乐 实现自身的博客价值</a></li>
+                                    <li><a href="http://www.chinaz.com/web/2012/0302/237940.shtml" target="_blank">浅谈企业站点构建中值得你注意的四个问题</a></li>
+                                    <li><a href="http://www.chinaz.com/web/2012/0302/237939.shtml" target="_blank">5种手段提升谷歌对网站的信任度</a></li>
+                                    <li><a href="http://www.chinaz.com/web/2012/0302/237938.shtml" target="_blank">影响PHP+MySQL网站打开速度的几个因素</a></li>
+                                    <li><a href="http://www.chinaz.com/web/2012/0302/237937.shtml" target="_blank">提高独立博客阅读体验的六大技巧</a></li>
+                                    <li><a href="http://www.chinaz.com/web/2012/0302/237933.shtml" target="_blank">插件Watermark Reloaded上传非图片文件出错</a></li>
+                                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ad ad-b-leaderboard">
+<iframe src="http://images.chinaz.com/index_images/index_buttom2.htm" frameborder="0" scrolling="no" width="960" height="50"></iframe>
+
+</div>
+
+<div class="box box-cols3 home-area4">
+    <div class="c-1">
+        <div class="panel articlerecom appreview">
+            <div class="phead">
+                <h3 class="ptitle">应用</h3>
+            </div>
+            <div class="pbody">
+                <ul class="articletop">
+    <li>
+        <a href="http://www.chinaz.com/mobile/2012/0302/237893.shtml" target="_blank">
+            <img src="http://upload.chinaz.com/2012/0302/1330672728971.jpg" width="120" height="90" alt="">
+            <span class="caption">厦门PM2.5信息查询</span>
+        </a>
+    </li>
+    <li>
+        <a href="http://www.chinaz.com/mobile/2012/0228/237315.shtml" target="_blank">
+            <img src="http://upload.chinaz.com/2012/0228/1330413372534.jpg" width="120" height="90" alt="">
+            <span class="caption">GSMA 2012最佳应用</span>
+        </a>
+    </li>
+</ul>
+
+                <ul class="articlelist">
+                                <li><a href="http://www.chinaz.com/mobile/2012/0302/237893.shtml" target="_blank">“桌面头条”客户端查询厦门PM2.5信息</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0302/237875.shtml" target="_blank">无Flash无网银 Win8系统Metro界面IE10.0体验</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0301/237743.shtml" target="_blank">iPhone街拍应用Thre.ad：让全球街拍尽收眼底</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0301/237668.shtml" target="_blank">Windows8版QQ正式发布：需要win8应用商店下载</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0301/237661.shtml" target="_blank">Win7下安装Win8系统 共享windows7与windows8双</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0301/237660.shtml" target="_blank">芒果到底熟不熟 WP7内置软件试用点评</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0301/237656.shtml" target="_blank">ipad体验SkyDrive云存储 共享云端乐趣</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0301/237653.shtml" target="_blank">iPhone和iPad四大同步工具 比iTunes好用</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0229/237522.shtml" target="_blank">Rexsee推出图片应用工具 基于安卓原生UI布局</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0229/237467.shtml" target="_blank">那些年 我们一起追的安卓手机桌面</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0228/237315.shtml" target="_blank">怒鸟再次上榜 GSMA 2012最佳应用名单出炉</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0228/237292.shtml" target="_blank">潮流前线《怒海争锋》iOS独特海战玩法</a></li>
+                                </ul>
+            </div>
+        </div>
+        <div class="panel activities">
+            <div class="phead">
+                <h3 class="ptitle">精彩活动</h3>
+            </div>
+            <div class="pbody">
+                <ul class="activitylist">
+                                        <li><a href="http://www.chinaz.com/meet/2012/0302/237890.shtml" target="_blank">机锋网互动沙龙</a></li>
+                                        <li><a href="http://www.chinaz.com/meet/2012/0210/234803.shtml" target="_blank">重庆互联网站长大会报</a></li>
+                                        <li><a href="http://www.chinaz.com/meet/2011/1221/227516.shtml" target="_blank">第二届昌平互联网大会</a></li>
+                                        <li><a href="http://www.chinaz.com/meet/2011/1213/226072.shtml" target="_blank">CNZZ全国巡演广州站</a></li>
+                                        <li><a href="http://www.chinaz.com/meet/2011/1201/223923.shtml" target="_blank">CNZZ全国巡演上海站 </a></li>
+                                        <li><a href="http://www.chinaz.com/meet/2011/1121/221602.shtml" target="_blank">周口站长交流会12月10</a></li>
+                                        <li><a href="http://www.chinaz.com/meet/2011/1117/220890.shtml" target="_blank">搜索引擎营销大会上海</a></li>
+                                        <li><a href="http://www.chinaz.com/meet/2011/1116/220774.shtml" target="_blank">CNZZ全国巡演南京站</a></li>
+                                        <li><a href="http://www.chinaz.com/meet/2011/1115/220508.shtml" target="_blank">Discuz!站长新春联谊</a></li>
+                                        <li><a href="http://www.chinaz.com/meet/2011/1115/220265.shtml" target="_blank">Chinaz上海站沙龙会报</a></li>
+                                        <li><a href="http://www.chinaz.com/meet/2011/1109/219290.shtml" target="_blank">北京精英站长沙龙会正</a></li>
+                                        <li><a href="http://www.chinaz.com/meet/2011/1105/218373.shtml" target="_blank">南方首届微博达人、QQ</a></li>
+                                    </ul>
+            </div>
+        </div>
+    </div>
+    <div class="c-2">
+        <div class="panel catearticles">
+            <div class="phead">
+                <h3 class="ptitle">移动互联</h3>
+                <p class="pextra"><a href="/mobile" target="_blank">更多 &raquo;</a></p>
+            </div>
+            <div class="pbody">
+                <div class="headlinetop">
+                                    <a href="http://www.chinaz.com/mobile/2012/0302/237873.shtml" target="_blank">
+                        <h3>电信版iPhone 4S今天开始接受预订</h3>
+                        <p>中国电信昨日公布iPhone 4S合约计划后，从今天起开始接受消费者预订，其中中国电信实体店9点开始接受预订，...</p>
+                    </a>
+                                </div>
+                <ul class="headlinelist">
+                                <li><a href="http://www.chinaz.com/mobile/2012/0302/237909.shtml" target="_blank">电信iPhone4S插卡无需烧号 但暂不提供裸机</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0302/237906.shtml" target="_blank">电信版iPhone4S预订首日 官方网站热而门店冷</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0302/237905.shtml" target="_blank">2011 Q4百度移动互联网发展趋势报告解读</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0302/237885.shtml" target="_blank">北京联通宽带提速升级 2M升10M需签协议</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0302/237880.shtml" target="_blank">电信版iPhone 4S网上预约及选购套餐体验（组图</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0302/237783.shtml" target="_blank">运营商遭免费短信逼宫：去年损失140亿美元</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0302/237780.shtml" target="_blank">电信iPhone4S预约49元入门 联通打阻击战</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0302/237768.shtml" target="_blank">微软WP部门主管：四核手机“军备竞赛”很可笑</a></li>
+                                </ul>
+            </div>
+        </div>
+        <div class="panel catearticles catearticles-second">
+            <div class="phead">
+                <h3 class="ptitle">技术</h3>
+                <p class="pextra"><a href="/design" target="_blank">设计</a> <a href="/program" target="_blank">编程</a> </p>
+            </div>
+            <div class="pbody">
+                <div class="headlinetop">
+                                    <a href="http://www.chinaz.com/design/2011/1130/223665.shtml" target="_blank">
+                        <h3>浅谈网页设计中的色彩理论</h3>
+                        <p>设计师在决定了一个网站风格的同时，也决定了网站的情感，而情感的表达很大程度上取决于颜色的选择。颜色是...</p>
+                    </a>
+                                </div>
+                <ul class="headlinelist">
+                                <li><a href="http://www.chinaz.com/design/2012/0302/237891.shtml" target="_blank">30个时尚的网页联系表单设计优秀示例 </a></li>
+                                <li><a href="http://www.chinaz.com/design/2012/0301/237734.shtml" target="_blank">有关房地产网站设计的25个优秀范例</a></li>
+                                <li><a href="http://www.chinaz.com/design/2012/0229/237472.shtml" target="_blank">18个简单优雅的黑白色调网页作品</a></li>
+                                <li><a href="http://www.chinaz.com/design/2012/0228/237299.shtml" target="_blank">20个颇具创意的移动网站设计案例</a></li>
+                                <li><a href="http://www.chinaz.com/design/2012/0227/237116.shtml" target="_blank">国外15个设计精美的酒店网站</a></li>
+                                <li><a href="http://www.chinaz.com/design/2012/0224/236944.shtml" target="_blank">25个实用的Photoshop菜单和导航教程</a></li>
+                                <li><a href="http://www.chinaz.com/design/2012/0223/236728.shtml" target="_blank">手绘元素在网页设计中应用的24个例子</a></li>
+                                <li><a href="http://www.chinaz.com/design/2012/0222/236483.shtml" target="_blank">30个非常有吸引力的餐饮类网站设计</a></li>
+                                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="c-3">
+        <div class="panel appreview">
+            <div class="phead">
+                <h3 class="ptitle">评测</h3>
+            </div>
+            <div class="pbody">
+                <ul class="evaluatingtop">
+    <li>
+        <a href="http://www.chinaz.com/mobile/2012/0301/237688.shtml" target="_blank">
+            <h3>Win8/Win7界面对比评测</h3>
+            <img src="http://upload.chinaz.com/2012/0301/1330581993237.jpg" width="120" height="100" alt="">
+            <span class="summary">微软2009年10月22日于美国发布Windows 7产品，2012年2月29日，微软在MWC2012大会上展示和发布Win8消费者预...</span>
+        </a>
+    </li>
+</ul>
+                <ul class="articlelist">
+                                <li><a href="http://www.chinaz.com/mobile/2012/0302/237921.shtml" target="_blank">1.2GHz双核 电信高端定制三星i929评测</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0302/237842.shtml" target="_blank">相信微软还是官方？Win8 USB 3.0性能测试</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0302/237805.shtml" target="_blank">Win8深度体验！win8与Win7区别对比评测</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0302/237794.shtml" target="_blank">全球首款双屏PAD智能机京瓷KSP8000网易评测</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0302/237791.shtml" target="_blank">Windows8系统来啦！U盘制作/安装WIN8全过程</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0302/237784.shtml" target="_blank">全新的体验 诺基亚升级贝拉系统详解</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0301/237740.shtml" target="_blank">三防热度不减 摩托罗拉XT535详细评测</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0301/237728.shtml" target="_blank">双核双3G网络 1999元电信版小米手机评测</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0301/237717.shtml" target="_blank">如何鉴别iPhone4S是否翻新？iPhone4S翻新机鉴定</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0301/237688.shtml" target="_blank">超炫Metro来袭 Win8/Win7界面对比评测</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0301/237593.shtml" target="_blank">HTC One X不看Tegra3 Sense4.0深入体验</a></li>
+                                <li><a href="http://www.chinaz.com/mobile/2012/0229/237531.shtml" target="_blank">升至800MHz 千元级安卓机华为C8650增强版评测</a></li>
+                                </ul>         
+            </div>
+        </div>
+        <div class="panel popularauthor">
+            <div class="phead">
+                <h3 class="ptitle">热点专栏</h3>    
+            </div>
+            <div class="pbody">
+                <a href="http://space.chinaz.com/williamlong" target="_blank">月光博客</a>
+<a href="http://space.chinaz.com/lusongsong" target="_blank">卢松松</a>
+<a href="http://space.chinaz.com/jobbole" target="_blank">黄利民</a>
+<a href="http://space.chinaz.com/xjp" target="_blank">杨涛</a>
+<a href="http://space.chinaz.com/dingdaoshi" target="_blank">丁道师</a>
+<a href="http://space.chinaz.com/yexi" target="_blank">陈汝一</a>
+<a href="http://space.chinaz.com/ibaidu" target="_blank">庄帅</a>
+<a href="http://space.chinaz.com/baoko" target="_blank">李麟杰</a>
+<a href="http://space.chinaz.com/zhouning" target="_blank">周宁</a>
+<a href="http://space.chinaz.com/moonswamp" target="_blank">月光沼泽</a>
+<a href="http://space.chinaz.com/xiewen" target="_blank">谢文</a>
+<a href="http://space.chinaz.com/banly" target="_blank">张震阳</a>
+<a href="http://space.chinaz.com/danshui" target="_blank">郜永华</a>
+<a href="http://space.chinaz.com/citydog" target="_blank">郭军</a>
+<a href="http://space.chinaz.com/weiwuhui" target="_blank">魏武挥</a>
+<a href="http://space.chinaz.com/sfw" target="_blank">康斯坦丁</a>
+<a href="http://space.chinaz.com/conis" target="_blank">涂雅</a>
+<a href="http://space.chinaz.com/centos" target="_blank">朱茂海</a>
+<a href="http://space.chinaz.com/baoko" target="_blank">李麟杰</a>
+<a href="http://space.chinaz.com/cowin" target="_blank">董业民</a>
+<a href="http://space.chinaz.com/liuzijun" target="_blank">刘子骏</a>
+<a href="http://space.chinaz.com/xudehong" target="_blank">徐得红</a>
+
+            </div>    
+        </div>
+        <div class="ad ad-b-button">
+            <iframe src="http://images.chinaz.com/index_images/A12.htm" frameborder="0" scrolling="no" width="280" height="60"></iframe>    
+        </div>
+    </div>
+</div>
+
+<div class="panel videonews">
+    <div class="phead">
+        <h3 class="ptitle">视频</h3>
+    </div>
+    <div class="pbody">
+        <ul>
+                        <li>
+                <a href="http://www.chinaz.com/mobile/2012/0301/237698.shtml" target="_blank">
+                    <img src="http://upload.chinaz.com/2012/0301/thumb_120_90_1330583992654.jpg" alt="视频：苹果iOS 5.0.1 vs. 微软Windows 8对比评测">
+                    <span class="caption">视频：苹果iOS 5.0.1 vs. 微软Wi</span>
+                </a>
+            </li>
+                        <li>
+                <a href="http://www.chinaz.com/news/2012/0229/237474.shtml" target="_blank">
+                    <img src="http://upload.chinaz.com/2012/0229/thumb_120_90_1330494424412.jpg" alt="超科幻的iPad概念视频">
+                    <span class="caption">超科幻的iPad概念视频</span>
+                </a>
+            </li>
+                        <li>
+                <a href="http://www.chinaz.com/news/2012/0223/236674.shtml" target="_blank">
+                    <img src="http://upload.chinaz.com/2012/0223/thumb_120_90_1329966045870.jpg" alt="社会化营销时代理解">
+                    <span class="caption">社会化营销时代理解</span>
+                </a>
+            </li>
+                        <li>
+                <a href="http://www.chinaz.com/news/2012/0221/236225.shtml" target="_blank">
+                    <img src="http://upload.chinaz.com/2012/0221/thumb_120_90_1329789908660.jpg" alt="iPad2生产基地成都富士康工厂探秘">
+                    <span class="caption">iPad2生产基地成都富士康工厂探</span>
+                </a>
+            </li>
+                        <li>
+                <a href="http://www.chinaz.com/news/2012/0217/235835.shtml" target="_blank">
+                    <img src="http://upload.chinaz.com/2012/0217/thumb_120_90_1329464350139.jpg" alt="谷歌创始人09年在密西根大学的演讲">
+                    <span class="caption">谷歌创始人09年在密西根大学的演</span>
+                </a>
+            </li>
+                        <li>
+                <a href="http://www.chinaz.com/news/2012/0209/234558.shtml" target="_blank">
+                    <img src="http://upload.chinaz.com/2012/0209/thumb_120_90_1328755211722.jpg" alt="元首的愤怒--360下架事件">
+                    <span class="caption">元首的愤怒--360下架事件</span>
+                </a>
+            </li>
+                    </ul>
+    </div>
+</div>
+<div id="downloads" class="box box-cols3 downloads">
+    <div class="c-1" id="down_tab">
+        <div class="tabber tabber-4">
+            <h4>最新下载</h4>
+            <ul>
+                <li><a target="_blank" href="http://down.chinaz.com/class/3_1.htm" class="current">ASP源码</a></li>
+                <li><a target="_blank" href="http://down.chinaz.com/class/4_1.htm">.NET源码</a></li>
+                <li><a target="_blank" href="http://down.chinaz.com/class/5_1.htm">PHP源码</a></li>
+                <li><a target="_blank" href="http://down.chinaz.com/class/10_1.htm">软件</a></li>
+            </ul>
+        </div>
+        <div class="downloadlist">
+            <ul>
+			    
+                        
+                <li><a href="http://down.chinaz.com/class/201_1.htm" target="_blank">[企业政府]</a> <a href="http://down.chinaz.com/soft/31769.htm" title="千博企业网站管理系统全功能专业版 v2012 集成环境版" target="_blank">千博企业网站管理系统全功能专业版 v2012 集成环境版</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/201_1.htm" target="_blank">[企业政府]</a> <a href="http://down.chinaz.com/soft/26881.htm" title="千博企业网站管理系统全功能专业版 v2012 build0301" target="_blank">千博企业网站管理系统全功能专业版 v2012 build0301</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/201_1.htm" target="_blank">[企业政府]</a> <a href="http://down.chinaz.com/soft/26003.htm" title="凡诺企业网站管理系统 v3.9" target="_blank">凡诺企业网站管理系统 v3.9</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/201_1.htm" target="_blank">[企业政府]</a> <a href="http://down.chinaz.com/soft/26816.htm" title="智睿政府网站管理系统 v4.5.0" target="_blank">智睿政府网站管理系统 v4.5.0</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/21_1.htm" target="_blank">[电子商务]</a> <a href="http://down.chinaz.com/soft/30295.htm" title="智有道专业旅游系统 v2.0.1" target="_blank">智有道专业旅游系统 v2.0.1</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/198_1.htm" target="_blank">[整站栏目]</a> <a href="http://down.chinaz.com/soft/30463.htm" title="大河生活网(带手机版) v7.1" target="_blank">大河生活网(带手机版) v7.1</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/201_1.htm" target="_blank">[企业政府]</a> <a href="http://down.chinaz.com/soft/30650.htm" title="康成公司注册类网站系统 v9.5" target="_blank">康成公司注册类网站系统 v9.5</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/31_1.htm" target="_blank">[影音娱乐]</a> <a href="http://down.chinaz.com/soft/30076.htm" title="马克斯CMS(maxcms)资源采集插件 v5.0.2" target="_blank">马克斯CMS(maxcms)资源采集插件 v5.0.2</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/21_1.htm" target="_blank">[电子商务]</a> <a href="http://down.chinaz.com/soft/31762.htm" title="ASP多城市分类信息网(仿百姓网) v1.4" target="_blank">ASP多城市分类信息网(仿百姓网) v1.4</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/193_1.htm" target="_blank">[办公信息]</a> <a href="http://down.chinaz.com/soft/31761.htm" title="汇成美容美发会员卡收银管理软件 v6.5" target="_blank">汇成美容美发会员卡收银管理软件 v6.5</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/25_1.htm" target="_blank">[新闻文章]</a> <a href="http://down.chinaz.com/soft/29311.htm" title="捷扬文章系统 v3.3.1" target="_blank">捷扬文章系统 v3.3.1</a></li>
+                        
+                 
+            </ul>
+
+            <ul style="display:none">
+			    
+                        
+                <li><a href="http://down.chinaz.com/class/216_1.htm" target="_blank">[企业政府]</a> <a href="http://down.chinaz.com/soft/29270.htm" title="懒人工作通OA (SqlServer版) v5.5.0.1" target="_blank">懒人工作通OA (SqlServer版) v5.5.0.1</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/213_1.htm" target="_blank">[CMS建站]</a> <a href="http://down.chinaz.com/soft/27543.htm" title="红鹦鹉网站管理系统 v2.6.4.1" target="_blank">红鹦鹉网站管理系统 v2.6.4.1</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/41_1.htm" target="_blank">[新闻文章]</a> <a href="http://down.chinaz.com/soft/17395.htm" title="iwms网站管理系统 v5.3.1 正式版" target="_blank">iwms网站管理系统 v5.3.1 正式版</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/213_1.htm" target="_blank">[CMS建站]</a> <a href="http://down.chinaz.com/soft/30387.htm" title="Orchard(开源.net CMS) v1.4.0 源码包" target="_blank">Orchard(开源.net CMS) v1.4.0 源码包</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/213_1.htm" target="_blank">[CMS建站]</a> <a href="http://down.chinaz.com/soft/30074.htm" title="Orchard(开源.NET CMS) v1.4.0 安装包" target="_blank">Orchard(开源.NET CMS) v1.4.0 安装包</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/216_1.htm" target="_blank">[企业政府]</a> <a href="http://down.chinaz.com/soft/31754.htm" title="董事长ERP v1.0.1" target="_blank">董事长ERP v1.0.1</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/50_1.htm" target="_blank">[其它类别]</a> <a href="http://down.chinaz.com/soft/31750.htm" title="JumbotOA v1.0.1 源码版" target="_blank">JumbotOA v1.0.1 源码版</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/216_1.htm" target="_blank">[企业政府]</a> <a href="http://down.chinaz.com/soft/28059.htm" title="启明星Helpdesk帮助台系统 v5.1.1 正式版" target="_blank">启明星Helpdesk帮助台系统 v5.1.1 正式版</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/213_1.htm" target="_blank">[CMS建站]</a> <a href="http://down.chinaz.com/soft/31581.htm" title="七色虎WAP2.0建站系统 v1.2.6 beta2" target="_blank">七色虎WAP2.0建站系统 v1.2.6 beta2</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/216_1.htm" target="_blank">[企业政府]</a> <a href="http://down.chinaz.com/soft/31746.htm" title="懒人工作通OA (WebOffice支持版) v5.5.0" target="_blank">懒人工作通OA (WebOffice支持版) v5.5.0</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/216_1.htm" target="_blank">[企业政府]</a> <a href="http://down.chinaz.com/soft/31744.htm" title="艾零三企业网站系统 v1.7 Build 120226" target="_blank">艾零三企业网站系统 v1.7 Build 120226</a></li>
+                        
+                 
+            </ul>
+            <ul style="display:none">
+			    
+                        
+                <li><a href="http://down.chinaz.com/class/55_1.htm" target="_blank">[电子商务]</a> <a href="http://down.chinaz.com/soft/30742.htm" title="ECShop v2.7.3 beta2 UTF-8 " target="_blank">ECShop v2.7.3 beta2 UTF-8 </a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/55_1.htm" target="_blank">[电子商务]</a> <a href="http://down.chinaz.com/soft/30741.htm" title="ECShop v2.7.3 beta2 GBK" target="_blank">ECShop v2.7.3 beta2 GBK</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/53_1.htm" target="_blank">[社区论坛]</a> <a href="http://down.chinaz.com/soft/31771.htm" title="Discuz! X2.5 RC 繁体中文UTF-8" target="_blank">Discuz! X2.5 RC 繁体中文UTF-8</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/53_1.htm" target="_blank">[社区论坛]</a> <a href="http://down.chinaz.com/soft/31772.htm" title="Discuz! X2.5 RC 繁体中文BIG5" target="_blank">Discuz! X2.5 RC 繁体中文BIG5</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/53_1.htm" target="_blank">[社区论坛]</a> <a href="http://down.chinaz.com/soft/31505.htm" title="Discuz! X2.5 RC 简体中文GBK" target="_blank">Discuz! X2.5 RC 简体中文GBK</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/53_1.htm" target="_blank">[社区论坛]</a> <a href="http://down.chinaz.com/soft/31773.htm" title="Discuz! X2.5 RC 简体中文UTF-8" target="_blank">Discuz! X2.5 RC 简体中文UTF-8</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/231_1.htm" target="_blank">[协同办公]</a> <a href="http://down.chinaz.com/soft/31770.htm" title="八度志愿活动管理系统 bAduVEMS for php v1.0" target="_blank">八度志愿活动管理系统 bAduVEMS for php v1.0</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/206_1.htm" target="_blank">[小偷采集]</a> <a href="http://down.chinaz.com/soft/27853.htm" title="搜搜问问小偷程序天宇版 v3.2" target="_blank">搜搜问问小偷程序天宇版 v3.2</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/63_1.htm" target="_blank">[交友会员]</a> <a href="http://down.chinaz.com/soft/31465.htm" title="婚恋交友系统OELOVE v2.2 R0301" target="_blank">婚恋交友系统OELOVE v2.2 R0301</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/231_1.htm" target="_blank">[协同办公]</a> <a href="http://down.chinaz.com/soft/29920.htm" title="webERP v4.07.1" target="_blank">webERP v4.07.1</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/61_1.htm" target="_blank">[贺卡图片]</a> <a href="http://down.chinaz.com/soft/30471.htm" title="UberGallery v2.1.1" target="_blank">UberGallery v2.1.1</a></li>
+                        
+                 
+            </ul>
+            <ul style="display:none">
+			    
+                        
+                <li><a href="http://down.chinaz.com/class/134_1.htm" target="_blank">[扫描打印]</a> <a href="http://down.chinaz.com/soft/20321.htm" title="VueScan v9.0.84" target="_blank">VueScan v9.0.84</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/120_1.htm" target="_blank">[聊天联络]</a> <a href="http://down.chinaz.com/soft/20770.htm" title="Xfire v1.148 多国语言版" target="_blank">Xfire v1.148 多国语言版</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/125_1.htm" target="_blank">[数据备份]</a> <a href="http://down.chinaz.com/soft/20303.htm" title="DriverMax v6.21" target="_blank">DriverMax v6.21</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/139_1.htm" target="_blank">[系统辅助]</a> <a href="http://down.chinaz.com/soft/21812.htm" title="Fresh UI v8.81" target="_blank">Fresh UI v8.81</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/182_1.htm" target="_blank">[其它分类]</a> <a href="http://down.chinaz.com/soft/20269.htm" title="盛名列车时刻表 2012.03.05" target="_blank">盛名列车时刻表 2012.03.05</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/127_1.htm" target="_blank">[汉字输入]</a> <a href="http://down.chinaz.com/soft/30070.htm" title="搜狗拼音输入法 v6.1e" target="_blank">搜狗拼音输入法 v6.1e</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/138_1.htm" target="_blank">[优化设置]</a> <a href="http://down.chinaz.com/soft/16741.htm" title="Windows优化大师 v7.99 Build 12.301" target="_blank">Windows优化大师 v7.99 Build 12.301</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/149_1.htm" target="_blank">[图像捕捉]</a> <a href="http://down.chinaz.com/soft/30352.htm" title="HyperSnap v7.13.04" target="_blank">HyperSnap v7.13.04</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/157_1.htm" target="_blank">[视频播放]</a> <a href="http://down.chinaz.com/soft/31476.htm" title="搜狐影音 v2.6.0.0" target="_blank">搜狐影音 v2.6.0.0</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/111_1.htm" target="_blank">[邮件处理]</a> <a href="http://down.chinaz.com/soft/31768.htm" title="子弹头邮件群发软件 v2.0" target="_blank">子弹头邮件群发软件 v2.0</a></li>
+                        
+                <li><a href="http://down.chinaz.com/class/135_1.htm" target="_blank">[办公软件]</a> <a href="http://down.chinaz.com/soft/28784.htm" title="自动广播打铃系统 v5.2" target="_blank">自动广播打铃系统 v5.2</a></li>
+                        
+                 
+            </ul>    
+        </div>
+    </div>
+    <script type="text/javascript">var downtab = new max_tab("down_tab");</script>
+
+    <div class="c-2">
+        <div class="downloadgroups">
+            <div>
+                <h4>论坛下载</h4>
+				<a target="_blank" href="http://discuz.appcan.cn/download.html">DZ!手机应用</a>
+                <a target="_blank" href="http://down.chinaz.com/query.asp?search_code=0&q=phpwind">PHPWind</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/19206.htm">动网</a><a target="_blank" href="/zhuanti/dvbbs/index.htm">(专题)</a>
+                <a target="_blank" href="http://down.chinaz.com/query.asp?search_code=0&q=discuz">Discuz!</a><a target="_blank" href="http://down.chinaz.com/soft/27938.htm">(微博插件)</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/15815.htm">vBB</a>
+<a target="_blank" href="http://down.chinaz.com/soft/27550.htm">BbsMax</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/6205.htm">LeadBBS</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/19442.htm">phpbb</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/24764.htm">ipb</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/20736.htm">OSPod.Forum</a>
+            </div>
+            <div>
+                <h4>CMS下载</h4>
+                <a target="_blank" href="http://down.chinaz.com/soft/25842.htm">DEDECMS</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/24190.htm">PHPCMS</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/13047.htm">风讯</a>
+                <a target="_blank" href="http://down.chinaz.com/query.asp?search_code=0&q=php168">PHP168</a>
+                <a target="_blank" href="http://down.chinaz.com/query.asp?q=JEECMS">Jeecms</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/21664.htm">SiteServer</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/27344.htm">帝国</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/27889.htm">CMSTOP</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/12826.htm">Joomla</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/31137.htm">网奇</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/25026.htm">动易</a>
+            </div>
+            <div>
+                <h4>博客下载 </h4>
+                <a target="_blank" href="http://down.chinaz.com/soft/19433.htm">PJBLOG</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/14482.htm">Z-BLOG</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/18194.htm">OBLOG</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/17611.htm">WP</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/25008.htm">emlog</a>
+                </div>
+            <div>
+                <h4>工具下载</h4>
+                <a target="_blank" href="http://down.chinaz.com/soft/19099.htm">BitComet</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/8236.htm">LeapFTP</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/28419.htm">FlashFXP</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/24866.htm">快车</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/10167.htm">Serv-U</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/7322.htm">3389远程桌面</a>
+                <a target="_blank" href="http://down.chinaz.com/soft/1449.htm">Dreamweaver</a>
+            </div>
+        </div>
+    </div>
+    <div class="c-3">
+        <div class="websitetop">
+            <h4>上升最快的排行榜</h4>
+            <ul class="toplist">
+                <li><a target="_blank" href="http://top.chinaz.com/list.aspx?order=1"><em>1</em> 中文网站综合500强</a></li>
+                <li><a target="_blank" href="http://top.chinaz.com/list.aspx?order=2"><em>2</em> 中文网站Alexa排名榜</a></li>
+                <li><a target="_blank" href="http://top.chinaz.com/list.aspx?order=3"><em>3</em> 中文网站PR排行榜</a></li>
+                <li><a target="_blank" href="http://top.chinaz.com/list.aspx?id=68"><em>4</em> 中文视频网站排行榜</a></li>
+                <li><a target="_blank" href="http://top.chinaz.com/list.aspx?id=2"><em>5</em> 中文音乐网站排行榜</a></li>
+                <li><a target="_blank" href="http://top.chinaz.com/list.aspx?id=5"><em>6</em> 社交网站排行榜</a></li>
+                <li><a target="_blank" href="http://top.chinaz.com/list.aspx?id=3"><em>7</em> 游戏网站排行榜</a></li>
+                <li><a target="_blank" href="http://top.chinaz.com/list.aspx?id=24"><em>8</em> 电子商务网站排行榜</a></li>
+                <li><a target="_blank" href="http://top.chinaz.com/list.aspx?id=29"><em>9</em> 新闻媒体网站排行榜</a></li>
+                <li><a target="_blank" href="http://top.chinaz.com/list.aspx?id=12"><em>10</em> 软件下载网站排行榜</a></li>
+                <li><a target="_blank" href="http://top.chinaz.com/list.aspx?id=25"><em>11</em> 金融财经网站排行榜</a></li>
+                <li><a target="_blank" href="http://top.chinaz.com/list.aspx?id=10"><em>12</em> 博客论坛网站排行榜</a></li>
+            </ul>
+        </div>
+        <div class="ad ad-b-button">
+            <iframe src="http://images.chinaz.com/index_images/A13.htm" frameborder="0" scrolling="no" width="280" height="60"></iframe>
+        </div>
+    </div>
+</div>
+<div id="resources" class="panel resources">
+    <div class="phead">
+         <h3 class="ptitle">素材下载</h3>
+         <p class="pextra">
+<a href="http://sc.chinaz.com/html/new/index_1.html" target="_blank">最新更新</a> |
+<a href="http://sc.chinaz.com/moban/" target="_blank">模板</a> |
+<a href="http://sc.chinaz.com/tupian/" target="_blank">高清图片</a> |
+<a href="http://sc.chinaz.com/PSD" target="_blank">PSD素材</a> |
+<a href="http://sc.chinaz.com/ppt/" target="_blank">PPT模板</a> |
+<a href="http://font.chinaz.com" target="_blank">字体下载</a> |
+<a href="http://sc.chinaz.com/tubiao/" target="_blank">图标</a> |
+<a href="http://sc.chinaz.com/kuzhan/" target="_blank">酷站</a> |
+<a href="http://sc.chinaz.com/biaoqing/" target="_blank">表情</a> |
+<a href="http://sc.chinaz.com/shiliang/" target="_blank">矢量</a> |
+<a href="http://sc.chinaz.com/yinxiao/" target="_blank">音效</a> |
+<a href="http://desk.chinaz.com" target="_blank">壁纸</a> |
+<a href="http://sc.chinaz.com/donghua/" target="_blank">flash动画</a> |
+<a href="http://myjs.chinaz.com/" target="_blank">脚本</a> |
+<a href="http://sc.chinaz.com/zhuanti/" target="_blank">专题</a>
+         </p>
+    </div>    
+    <div class="pbody">
+<div class="resourcethumb">
+<a href="http://font.chinaz.com/" target="_blank">
+ <img src="http://sc.chinaz.com/Files/pic/indexpic/sc1.gif" height="100" width="120" alt="">
+</a>
+</div>
+<ul class="resourcelist">
+<li><a href="http://font.chinaz.com/" target="_blank" style="color:#cc0000;">精美设计字体免费下载</a></li>
+<li><a href="http://sc.chinaz.com/zt/2012nianli/" target="_blank" style="color:#cc0000;">2012年日历下载</a></li>
+<li><a href="http://sc.chinaz.com/tubiao/941486901.htm" target="_blank">卡通电脑桌面图标下载</a></li>
+<li><a href="http://sc.chinaz.com/tag_psd/FuNvJie.html" target="_blank">妇女节psd素材下载</a></li>
+<li><a href="http://sc.chinaz.com/moban/120113196560.htm" target="_blank">绿色清爽设计网页模板</a></li>
+<li><a href="http://desk.chinaz.com/jingpin/12575.html" target="_blank">2012年3月日历壁纸</a></li>
+<li><a href="http://sc.chinaz.com/zt/2012funvjie/" target="_blank" style="color:#cc0000;">2012年妇女节素材下载</a></li>
+<li><a href="http://font.chinaz.com/1009314510.htm" target="_blank" >微软雅黑字体下载</a></li>
+<li><a href="http://sc.chinaz.com/ppt/120227225360.htm" target="_blank">手机市场营销ppt模板</a></li>
+<li><a href="http://desk.chinaz.com/jingpin/12574.html" target="_blank" style="color:#cc0000;">2012年3月月历壁纸</a></li>
+</ul>
+<div class="resourcethumb">
+<a href="http://desk.chinaz.com/jingpin/12575.html" target="_blank">
+    <img src="http://sc.chinaz.com/Files/pic/indexpic/sc2.jpg" height="100" width="120" alt="">
+</a>
+</div>
+<div class="resourcekeywords">
+<a href="http://sc.chinaz.com/ppt/" target="_blank">PPT模板下载</a>
+<a href="http://sc.chinaz.com/shiliang/" target="_blank">矢量图</a>
+<a href="http://sc.chinaz.com/moban/" target="_blank">网页模板</a>
+<a href="http://sc.chinaz.com/tupian/beijingtupian.html" target="_blank">背景图片</a>
+<a href="http://desk.chinaz.com/shoujibizhi/" target="_blank">手机壁纸</a>
+<a href="http://font.chinaz.com" target="_blank">字体</a>
+<a href="http://sc.chinaz.com/psd/" target="_blank">PSD素材</a>
+<a href="http://sc.chinaz.com/tupian/feizhuliutupian.html" target="_blank">非主流图片</a>
+<a href="http://sc.chinaz.com/html/Sounds/index_1.html" target="_blank">音效素材</a>
+<a href="http://sc.chinaz.com/moban/" target="_blank">网站模板</a>
+<a href="http://sc.chinaz.com/ppt/" target="_blank">PPT模板</a>
+<a href="http://sc.chinaz.com/html/tubiao/" target="_blank">图标</a>
+<a href="http://sc.chinaz.com/tubiao/WenJianJiaTuBiao.html" target="_blank">文件夹图标</a>
+<a href="http://desk.chinaz.com/" target="_blank">高清壁纸</a>
+<a href="http://font.chinaz.com" target="_blank">字体下载</a>
+<a href="http://sc.chinaz.com/tupian/" target="_blank">高清图片</a>
+<a href="http://sc.chinaz.com/html/Sounds/index_1.html" target="_blank">音效</a>
+<a href="http://sc.chinaz.com/tupian/" target="_blank">图片下载</a>
+<a href="http://sc.chinaz.com/donghua/" target="_blank">flash动画素材</a>
+<a href="http://font.chinaz.com" target="_blank">PS字体下载</a>
+<a href="http://sc.chinaz.com/tubiao/" target="_blank">桌面图标</a>
+<a href="http://sc.chinaz.com/" target="_blank">素材网</a>
+<a href="http://font.chinaz.com" target="_blank">数字字体</a>
+<a href="http://sc.chinaz.com/ppt/" target="_blank">PPT</a>
+<a href="http://sc.chinaz.com/tag_moban/htmlMoBan.html" target="_blank">HTML模板</a>
+<a href="http://sc.chinaz.com/moban/HunShaMoBan.html" target="_blank">婚纱模板</a>
+</div>
+    </div>
+</div>
+
+  <div id="links" class="links">
+    <div class="partners">
+        <strong>合作伙伴:</strong>
+        <a href="http://www.crsky.com"  target="_blank">非凡软件站</a>
+<a href="http://www.bbsmax.com"  target="_blank">BBSMAX</a>
+<a href="http://www.blueidea.com"  target="_blank">蓝色理想</a>
+<a href="http://www.iidns.com"  target="_blank">IIDNS</a>
+<a href="http://www.bokecc.com"  target="_blank">CC视频</a>
+<a href="http://x.weibo.com"  target="_blank">Xweibo</a>
+<a href="http://www.dnspod.cn"  target="_blank">DNSPod</a>
+<a href="http://www.313.com"  target="_blank">建站大师</a>
+<a href="http://adm.cnzz.com/"  target="_blank">CNZZ广告管家</a>
+
+    </div>
+    <div class="">
+        <strong>合作媒体:</strong>
+        <a href="http://tech.sina.com.cn"  target="_blank">新浪科技</a>
+<a href="http://tech.163.com"  target="_blank">网易科技</a>
+<a href="http://it.sohu.com"  target="_blank">搜狐IT</a>
+<a href="http://tech.qq.com"  target="_blank">腾讯科技</a>
+<a href="http://www.techweb.com.cn"  target="_blank">TechWeb</a>
+<a href="http://www.bianews.com"  target="_blank">鞭牛士</a>
+<a href="http://tech.ifeng.com"  target="_blank">凤凰科技</a>
+<a href="http://www.ithome.com"  target="_blank">IT之家</a>
+<a href="http://www.it168.com"  target="_blank">IT168</a>
+<a href="http://www.it.com.cn"  target="_blank">IT世界</a>
+<a href="http://news.ccidnet.com/index.htm"  target="_blank">赛迪网</a>
+<a href="http://www.socialbeta.cn/"  target="_blank">SocialBeta</a>
+<a href="http://www.enet.com.cn/enews"  target="_blank">硅谷动力</a>
+<a href="http://www.chinabyte.com"  target="_blank">比特网</a>
+<a href="http://www.leiphone.com"  target="_blank">雷锋网</a>
+
+    </div>
+	<div>
+        <a href="http://www.ename.cn"  target="_blank">易名中国</a>
+<a href="http://www.123cha.com"  target="_blank">123查</a>
+<a href="http://www.365rili.com"  target="_blank">365日历</a>
+<a href="http://www.loveliao.com"  target="_blank">爱聊</a>
+<a href="http://www.zcool.com.cn"  target="_blank">站酷</a>
+<a href="http://www.7176.com"  target="_blank">电影资料库</a>
+<a href="http://www.52design.com"  target="_blank">创意在线</a>
+<a href="http://www.cnblogs.com"  target="_blank">博客园</a>
+<a href="http://www.ebrun.com"  target="_blank">亿邦动力</a>
+<a href="http://www.52hxw.com/"  target="_blank">火星文</a>
+<a href="http://www.8684.cn"  target="_blank">公交查询</a>
+<a href="http://www.qidian.com"  target="_blank">起点中文网</a>
+<a href="http://www.vqq.com"  target="_blank">VQQ</a>
+<a href="http://www.xinnong.com"  target="_blank">新农网</a>
+<a href="http://www.iresearch.cn"  target="_blank">艾瑞网</a>
+<a href="http://www.downg.com/default.html"  target="_blank">绿软家园</a>
+<a href="http://www.35.com"  target="_blank">35互联</a>
+<a href="http://www.czxiu.com"  target="_blank">彩字秀</a>
+<a href="http://www.fmx.cn"  target="_blank">凤鸣轩</a>
+<a href="http://www.mydrivers.com"  target="_blank">驱动之家</a>
+<a href="http://www.paojiao.cn/"  target="_blank">泡椒网</a>
+<a href="http://www.imobile.com.cn"  target="_blank">手机之家</a>
+<a href="http://www.jz123.cn"  target="_blank">站长家园</a>
+<a href="http://app.tongbu.com"  target="_blank">同步推</a>
+<a href="http://web.4399.com"  target="_blank">网页游戏</a>
+<a href="http://xiuxiu.meitu.com"  target="_blank">美图秀秀</a>
+<a href="http://www.vista123.com"  target="_blank">Vista之家</a>
+<a href="http://www.51cto.com"  target="_blank">51CTO</a>
+<a href="http://www.wangxing.com"  target="_blank">网星商城</a>
+<a href="http://www.3533.com/"  target="_blank">手机世界</a>
+<a href="http://www.cnmo.com"  target="_blank">手机中国</a>
+<a href="http://www.hiapk.com/"  target="_blank">安卓网</a>
+<a href="http://www.pedaily.cn/"  target="_blank">投资界</a>
+
+    </div>  
+</div>
+<div id="sitemap" class="sitemap">
+    <a target="_blank" href="http://www.chinaz.com/about/index.php">关于站长之家</a> - 
+    <a target="_blank" href="http://www.chinaz.com/about/contact.php">联系我们</a> - 
+    <a target="_blank" href="http://www.chinaz.com/about/a.php">广告服务</a> - 
+    <a target="_blank" href="http://www.chinaz.com/about/link.php">友情链接</a> - 
+    <a target="_blank" href="http://www.chinaz.com/about/sitemap.php">网站地图</a> - 
+    <a target="_blank" href="http://www.chinaz.com/about/announce.php">版权声明</a> - 
+    <a target="_blank" href="http://www.chinaz.com/about/job.php">人才招聘</a> - 
+    <a target="_blank" href="http://www.chinaz.com/about/faq.php">帮助</a>
+</div>
+<div class="footer">
+    <p>CopyRight &copy; 2002-2012 <a href="http://www.chinaz.com">站长之家</a> CHINAZ.Com, All Rights Reserved. 电话: 010-58695261 0592-2965133</p>
+    <p><a target="_blank" href="http://www.miitbeian.gov.cn">闽ICP备08105208号</a>, 增值电信业务经营许可证闽B2-20070004号 <a class="poweredby" href="http://www.cmstop.com" target="_blank"><img src="http://img.chinaz.com/templates/chinaz/img/cmstop-logo.png" alt="思拓合众"></a>
+	<!--可信网站图片LOGO安装开始-->
+<script src="https://ss.cnnic.cn/seallogo.dll?sn=e12020335020010628301467&size=2"></script>
+<!--可信网站图片LOGO安装结束--></p>
+</div>
+
+</div>
+<script src="http://my.chinaz.com/_topbar.aspx?proxy=/ajax.php" charset="utf-8"></script>
+<div style="display:none;"><script src="http://v1.cnzz.com/stat.php?id=33217&web_id=33217" charset="gb2312"></script><script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fa83382b0fdbd4bbe51f4dd4cd3d62818' type='text/javascript'%3E%3C/script%3E"));
+</script></div>
+
+</body>
+</html>
